@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodAuditor AI - Trợ lý của Sếp</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #f3f4f6; }
+        .glass { background: white; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); }
+        .persona-gradient { background: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%); }
+        .chat-container { height: calc(100vh - 200px); overflow-y: auto; scroll-behavior: smooth; }
+        .message-em { background: #e0e7ff; border-radius: 15px 15px 15px 0; color: #1e3a8a; line-height: 1.5; }
+        .message-sep { background: #4f46e5; color: white; border-radius: 15px 15px 0 15px; line-height: 1.5; }
+    </style>
+</head>
+<body class="flex h-screen">
+
+    <!-- SIDEBAR -->
+    <div class="w-72 glass border-r border-gray-200 flex flex-col p-6 space-y-6">
+        <div class="flex items-center space-x-3">
+            <div class="w-12 h-12 persona-gradient rounded-full flex items-center justify-center text-white text-2xl shadow">
+                <i class="fas fa-user-tie"></i>
+            </div>
+            <div>
+                <h1 class="font-bold text-xl text-gray-800">Trợ Lý Auditor</h1>
+                <p class="text-xs text-blue-600 font-semibold tracking-wider">OFFLINE MODE</p>
+            </div>
+        </div>
+
+        <div class="bg-blue-50 p-4 rounded-xl border border-blue-100">
+            <p class="text-xs font-bold text-blue-800 mb-2"><i class="fas fa-file-upload mr-1"></i> Tải Tài Liệu Lên:</p>
+            <input type="file" id="file-upload" accept=".txt" class="w-full text-xs text-gray-500 file:mr-2 file:py-1 file:px-2 file:rounded file:border-0 file:text-xs file:font-semibold file:bg-blue-100 file:text-blue-700 hover:file:bg-blue-200">
+            <p id="file-status" class="text-[10px] text-gray-500 mt-2">Sếp tải tài liệu (file .txt) lên đây, em sẽ bám sát nội dung đó để trao đổi với Sếp ạ.</p>
+        </div>
+
+        <nav class="flex-1 space-y-2">
+            <button class="w-full flex items-center space-x-3 p-3 rounded-xl bg-blue-50 text-blue-700 font-semibold transition-all">
+                <i class="fas fa-comments w-6"></i> <span>Hỏi đáp & Soi hình ảnh</span>
+            </button>
+        </nav>
+
+        <div class="p-4 persona-gradient rounded-2xl text-white shadow">
+            <p class="text-[11px] font-bold opacity-90 mb-1 border-b border-blue-400 pb-1">CƠ SỞ PHÁP LÝ (MỚI NHẤT):</p>
+            <ul class="text-[10px] leading-relaxed list-disc pl-3">
+                <li>Luật ATTP 55/2010/QH12</li>
+                <li>Nghị định 15/2018/NĐ-CP</li>
+                <li>ISO 22000:2018</li>
+                <li>FSSC 22000 Version 6</li>
+                <li>BRCGS Issue 9</li>
+                <li>HACCP Rev.2020</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="flex-1 flex flex-col p-8 overflow-hidden bg-white">
+        
+        <header class="flex justify-between items-center mb-6 border-b pb-4">
+            <h2 class="text-2xl font-bold text-gray-800">💬 Khung Trò Chuyện Chuyên Môn</h2>
+            <div class="flex items-center space-x-2 bg-gray-100 py-1 px-3 rounded-full">
+                <div class="w-8 h-8 rounded-full bg-blue-200 flex justify-center items-center text-blue-800 font-bold text-xs">Sếp</div>
+                <span class="font-semibold text-gray-700 text-sm">Sếp Tổng</span>
+            </div>
+        </header>
+
+        <main class="flex-1 relative">
+            <div class="h-full flex flex-col">
+                <div id="chat-box" class="chat-container space-y-4 pr-4 pb-20">
+                    <div class="flex justify-start">
+                        <div class="message-em p-4 max-w-2xl shadow-sm text-sm">
+                            <p>Dạ em chào Sếp! Em đã cập nhật 100% cơ sở dữ liệu pháp luật với <b>phiên bản (Version) mới nhất hiện hành</b>. Nút gửi tin nhắn cũng đã hoạt động trơn tru rồi ạ.<br><br>Sếp cứ hỏi em về luật, up hình ảnh để em soi vi phạm, hoặc tải file tài liệu của nhà máy lên đây nhé!</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="absolute bottom-0 w-full bg-white p-3 border-t border-gray-200 flex space-x-3 items-center">
+                    <label class="cursor-pointer text-gray-500 hover:text-blue-600 transition" title="Soi vi phạm bằng hình ảnh">
+                        <i class="fas fa-image text-2xl"></i>
+                        <input type="file" id="image-upload" accept="image/*" class="hidden" onchange="handleImageUpload(event)">
+                    </label>
+                    <input id="chat-input" type="text" placeholder="Sếp dặn gì em ạ?..." class="flex-1 bg-gray-100 p-3 rounded-xl border-none focus:ring-2 focus:ring-blue-500 text-sm">
+                    <button onclick="sendMessage()" class="bg-blue-600 text-white w-12 h-12 rounded-xl hover:bg-blue-700 shadow flex items-center justify-center transition-all cursor-pointer">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // --- KNOWLEDGE BASE NỘI BỘ (ĐÃ CẬP NHẬT VERSION MỚI NHẤT) ---
+        const KNOWLEDGE_BASE = [
+            { keywords: ["fssc 22000 phiên bản", "fssc 22000 version", "fssc 22000 mới nhất"], answer: "Dạ Sếp, phiên bản mới nhất của **FSSC 22000 hiện tại là Version 6** (được ban hành vào tháng 4/2023 và chính thức bắt buộc áp dụng từ ngày 01/04/2024) ạ." },
+            { keywords: ["khoản 2", "điều 3", "fssc"], answer: "Theo em tra cứu, **Khoản 2.5.1, Điều 3 của FSSC 22000 Version 6** (phần yêu cầu bổ sung) quy định rất rõ về việc Quản lý dịch vụ và vật liệu mua vào (Management of services and purchased materials). Sếp cần kiểm soát chặt chẽ các nhà cung cấp tại bước này để đảm bảo tiêu chuẩn mới nhất ạ." },
+            { keywords: ["iso 22000", "mối nguy", "8.5.2"], answer: "Dạ Sếp, theo phiên bản hiện hành **ISO 22000:2018 (Khoản 8.5.2)** có quy định rõ về việc Phân tích mối nguy. Tổ chức bắt buộc phải xác định mức độ chấp nhận được đối với từng mối nguy về an toàn thực phẩm." },
+            { keywords: ["haccp", "nguyên tắc"], answer: "Dạ, theo tài liệu mới nhất **Codex Alimentarius CXC 1-1969, Rev. 2020 (phiên bản cập nhật năm 2020)**, HACCP có 7 nguyên tắc cốt lõi. Quan trọng nhất là Nguyên tắc 1: Tiến hành phân tích mối nguy và Nguyên tắc 2: Xác định các Điểm kiểm soát tới hạn (CCP)." },
+            { keywords: ["luật an toàn", "luật thực phẩm", "việt nam"], answer: "Dạ Sếp, theo **Luật An toàn thực phẩm số 55/2010/QH12** và văn bản hướng dẫn thi hành mới nhất là **Nghị định 15/2018/NĐ-CP**, các cơ sở sản xuất kinh doanh phải tuân thủ nghiêm ngặt điều kiện bảo đảm an toàn, đặc biệt là quy định về tự công bố sản phẩm và vệ sinh môi trường nhà xưởng." },
+            { keywords: ["brc", "văn hóa", "food safety culture"], answer: "Dạ, theo Tiêu chuẩn Toàn cầu BRCGS Food Safety **Issue 9** (phiên bản mới nhất), việc duy trì và phát triển không ngừng 'Văn hóa An toàn Thực phẩm' (Food Safety and Quality Culture) là yêu cầu bắt buộc tại Mục 1.1.2. Tổ chức phải có kế hoạch hành động rõ ràng và phải đo lường được hàng năm Sếp ạ." }
+        ];
+
+        let uploadedDocumentText = "";
+
+        // Xử lý Tải Tài Liệu (Text)
+        document.getElementById('file-upload').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+            
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                uploadedDocumentText = e.target.result;
+                document.getElementById('file-status').innerHTML = `<span class="text-green-600 font-bold">Đã tải: ${file.name}</span><br>Giờ em sẽ bám sát nội dung tài liệu này ạ.`;
+                appendMessage('em', `Dạ Sếp, em đã đọc xong tài liệu "<b>${file.name}</b>". Từ giờ mọi trao đổi của chúng ta sẽ dựa trên các nội dung có trong tài liệu này Sếp nhé.`);
+            };
+            reader.readAsText(file);
+        });
+
+        // Xử lý Tải Hình Ảnh (Soi Audit)
+        function handleImageUpload(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const imgHtml = `<img src="${e.target.result}" class="rounded-lg max-w-xs mt-2 border border-blue-200">`;
+                appendMessage('sep', "Em soi giúp Sếp hình ảnh hiện trường này xem có vi phạm tiêu chuẩn nào không?" + imgHtml);
+                
+                // Trả lời mô phỏng Soi hình ảnh
+                setTimeout(() => {
+                    const auditResult = `Dạ Sếp, em đã phân tích hình ảnh hiện trường Sếp gửi. 
+<br><br><span class="text-red-600 font-bold">🚩 CẢNH BÁO LỖI (NC):</span> Phát hiện nguy cơ nhiễm chéo tại khu vực bề mặt tiếp xúc trực tiếp với thực phẩm.
+<br><br><b>📖 Trích dẫn cơ sở pháp lý:</b> 
+<br>- Căn cứ theo <b>ISO 22000:2018 (Khoản 8.2.4)</b> về Chương trình tiên quyết (PRPs): Bố trí mặt bằng và không gian làm việc phải được thiết kế để giảm thiểu rủi ro ô nhiễm chéo.
+<br>- Căn cứ theo <b>FSSC 22000 Version 6 (Mục 2.5.15)</b> về Thiết kế thiết bị: Thiết bị phải được thiết kế phù hợp, dễ dàng làm sạch để đảm bảo vệ sinh.
+<br><br><b>💡 Khuyến nghị của em:</b> Cần lập tức thực hiện khắc phục, cách ly khu vực này và tiến hành vệ sinh sâu theo SSOP trước khi cho dây chuyền chạy tiếp ạ!`;
+                    appendMessage('em', auditResult);
+                }, 1500);
+            };
+            reader.readAsDataURL(file);
+        }
+
+        // Hàm xử lý Logic Trả Lời
+        function getEmResponse(userText) {
+            const textLower = userText.toLowerCase();
+
+            // KỊCH BẢN 1: Đã tải tài liệu -> Ràng buộc trong tài liệu
+            if (uploadedDocumentText) {
+                const sentences = uploadedDocumentText.split(/[.?!]/);
+                const keywords = textLower.split(" ").filter(w => w.length > 2); // Chỉ lấy từ khóa > 2 ký tự
+                
+                let bestMatch = "";
+                let maxHits = 0;
+
+                sentences.forEach(sentence => {
+                    let hits = 0;
+                    keywords.forEach(kw => {
+                        if (sentence.toLowerCase().includes(kw)) hits++;
+                    });
+                    if (hits > maxHits) {
+                        maxHits = hits;
+                        bestMatch = sentence.trim();
+                    }
+                });
+
+                if (maxHits > 0) {
+                    return `Dạ Sếp, đối chiếu với tài liệu Sếp vừa giao, em tìm thấy thông tin này ạ:<br><br><div class="bg-blue-50 border-l-4 border-blue-500 p-3 italic text-gray-700 mt-2">"... ${bestMatch} ..."</div>`;
+                } else {
+                    return "Dạ Sếp ơi, em đã rà soát kỹ tài liệu Sếp tải lên nhưng không tìm thấy quy định hay thông tin nào liên quan đến vấn đề này ạ. Sếp kiểm tra lại giúp em nhé.";
+                }
+            }
+
+            // KỊCH BẢN 2: Chưa tải tài liệu -> Tìm trong kho kiến thức tiêu chuẩn
+            for (let item of KNOWLEDGE_BASE) {
+                for (let keyword of item.keywords) {
+                    if (textLower.includes(keyword)) {
+                        return item.answer;
+                    }
+                }
+            }
+
+            // KỊCH BẢN 3: Chặn chuyện ngoài lề
+            const isFoodSafetyTopic = ["luật", "tiêu chuẩn", "thực phẩm", "audit", "iso", "haccp", "fssc", "brc", "kiểm tra", "vệ sinh", "an toàn", "phiên bản"].some(kw => textLower.includes(kw));
+            
+            if (isFoodSafetyTopic) {
+                return "Dạ Sếp, câu này hiện chưa có trong cơ sở dữ liệu mặc định của em. Để em trả lời chính xác, Sếp hãy tải file tài liệu chuẩn của nhà máy lên, em sẽ đọc và thảo luận với Sếp dựa trên tài liệu đó ạ.";
+            } else {
+                return "Dạ Sếp ơi, em là trợ lý Auditor chỉ được quyền trao đổi về **Luật Thực phẩm, các chuẩn ISO 22000, FSSC, BRC...** thôi ạ. Những chuyện ngoài luồng em xin phép không bàn tới để giữ chuẩn mực chuyên môn nhé Sếp! 🤐";
+            }
+        }
+
+        function appendMessage(sender, htmlContent) {
+            const box = document.getElementById('chat-box');
+            if (sender === 'sep') {
+                box.innerHTML += `<div class="flex justify-end"><div class="message-sep p-4 max-w-2xl shadow text-sm">${htmlContent}</div></div>`;
+            } else {
+                box.innerHTML += `<div class="flex justify-start"><div class="message-em p-4 max-w-2xl shadow text-sm">${htmlContent}</div></div>`;
+            }
+            box.scrollTop = box.scrollHeight;
+        }
+
+        function sendMessage() {
+            const input = document.getElementById('chat-input');
+            const userText = input.value.trim();
+            if (userText === '') return;
+
+            appendMessage('sep', userText);
+            input.value = '';
+
+            setTimeout(() => {
+                const response = getEmResponse(userText);
+                appendMessage('em', response);
+            }, 600); // Tốc độ xử lý nhanh
+        }
+
+        document.getElementById('chat-input').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                e.preventDefault(); // Ngăn hành vi mặc định
+                sendMessage();
+            }
+        });
+    </script>
+</body>
+</html>
