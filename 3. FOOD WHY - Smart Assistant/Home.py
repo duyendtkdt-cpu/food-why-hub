@@ -1,4 +1,11 @@
 import streamlit as st
+import firebase_utils
+
+# Đồng bộ dữ liệu từ Cloud khi khởi chạy (chỉ chạy 1 lần mỗi session)
+if "firebase_synced" not in st.session_state:
+    with st.spinner("🔄 Đang kết nối và đồng bộ dữ liệu từ Firebase..."):
+        firebase_utils.init_sync_from_firebase()
+        st.session_state.firebase_synced = True
 
 st.set_page_config(
     page_title="FOOD WHY - Hub",
@@ -63,8 +70,8 @@ st.markdown("""
 
 st.write("### 🚀 Khám Phá Công Cụ")
 
-# Danh sách ứng dụng
-col1, col2, col3, col4 = st.columns(4)
+# Hàng 1: 3 ứng dụng chính
+col1, col2, col3 = st.columns(3)
 
 with col1:
     st.markdown("""
@@ -78,6 +85,16 @@ with col1:
 
 with col2:
     st.markdown("""
+    <div class="card" style="border-color: #f97316; box-shadow: 0 6px 20px -4px rgba(249,115,22,0.3);">
+        <div class="card-icon">🎓</div>
+        <div class="card-title">QA AI Academy</div>
+        <p style="font-size: 14px; color: #666;">10 chuyên đề đào tạo thực chiến ngành thịt. AI Mentor hỏi đáp, bài tập tình huống có chấm điểm.</p>
+        <span style="background: #f97316; color: white; padding: 3px 10px; border-radius: 10px; font-size: 12px; font-weight: bold;">🔥 MỚI</span>
+    </div>
+    """, unsafe_allow_html=True)
+
+with col3:
+    st.markdown("""
     <div class="card">
         <div class="card-icon">👅</div>
         <div class="card-title">Sensory Panel</div>
@@ -86,7 +103,10 @@ with col2:
     </div>
     """, unsafe_allow_html=True)
 
-with col3:
+# Hàng 2: 2 ứng dụng còn lại
+col4, col5, _ = st.columns(3)
+
+with col4:
     st.markdown("""
     <div class="card">
         <div class="card-icon">🏷️</div>
@@ -96,7 +116,7 @@ with col3:
     </div>
     """, unsafe_allow_html=True)
 
-with col4:
+with col5:
     st.markdown("""
     <div class="card">
         <div class="card-icon">🧪</div>

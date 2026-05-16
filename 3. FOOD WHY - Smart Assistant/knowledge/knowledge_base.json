@@ -1,0 +1,124 @@
+{
+  "unit_1": {
+    "title": "Chất lượng nguyên liệu (Thịt Heo & Gà)",
+    "references": [
+      "FAO (Food and Agriculture Organization): Guidelines for slaughtering, meat cutting and further processing.",
+      "Khoa học về Thịt (Meat Science): Hiện tượng PSE (Pale, Soft, Exudative) ở thịt heo và DFD (Dark, Firm, Dry).",
+      "USDA FSIS: Tầm quan trọng của Phúc lợi động vật (Animal Welfare)."
+    ],
+    "core_knowledge": [
+      "Thịt PSE: Nguyên nhân do stress trước giết mổ, pH giảm nhanh khi nhiệt độ thân thịt còn cao, gây biến tính protein, giảm khả năng giữ nước (WHC). Thường gặp ở heo.",
+      "Thịt DFD: Do lợn bị đói hoặc kiệt sức kéo dài, cạn kiệt glycogen, lượng acid lactic tạo ra ít, pH cuối cùng cao (>6.0). Thịt sẫm màu, dễ hư hỏng do vi sinh vật phát triển.",
+      "Ở Gà: Hiện tượng thịt gà trắng (White striping) và cơ ức gỗ (Wooden breast) do sinh trưởng quá nhanh."
+    ]
+  },
+  "unit_2": {
+    "title": "Kiểm soát Vi sinh vật đặc thù ngành thịt",
+    "references": [
+      "Codex Alimentarius (CAC/GL 61-2007): Hướng dẫn quản lý rủi ro vi sinh đối với thực phẩm.",
+      "FDA Bad Bug Book: Thông tin chi tiết về các tác nhân gây bệnh."
+    ],
+    "core_knowledge": [
+      "Salmonella: Vi khuẩn đường ruột phổ biến ở heo và gà. Kiểm soát bằng cách tránh làm vỡ lòng mổ (Evisceration) và kiểm soát nhiệt độ chần/làm lạnh nhanh.",
+      "Listeria monocytogenes: Chịu được nhiệt độ lạnh (sinh trưởng ở 0-4°C). Là mối đe dọa lớn nhất đối với thịt chế biến sẵn (RTE - Ready-to-eat).",
+      "Màng sinh học (Biofilm): Môi trường trú ngụ của vi khuẩn trên bề mặt inox, cần hóa chất gốc kiềm mạnh và enzyme để phá vỡ."
+    ]
+  },
+  "unit_3": {
+    "title": "Quản lý Nước & Nước đá trong giết mổ",
+    "references": [
+      "WHO Guidelines for Drinking-water Quality.",
+      "FAO: Cẩm nang quản lý nước trong nhà máy chế biến thực phẩm."
+    ],
+    "core_knowledge": [
+      "Tiêu chuẩn nước: Bắt buộc đạt chuẩn QCVN 01-1:2024/BYT (ban hành kèm theo Thông tư 52/2024/TT-BYT đối với nước ăn uống).",
+      "Xử lý nước làm mát (Chiller water): Trong giết mổ gia cầm, nước chiller phải duy trì nồng độ Clo hoạt tính (thường 20-50 ppm) để tránh lây nhiễm chéo.",
+      "Nước đá vảy: Phải được làm từ nước sạch sinh hoạt, máy làm đá phải được vệ sinh SSOP định kỳ."
+    ]
+  },
+  "unit_4": {
+    "title": "Chuỗi lạnh (Cold Chain) & Kỹ thuật bảo quản",
+    "references": [
+      "IIR (International Institute of Refrigeration): Hướng dẫn cơ bản về chuỗi lạnh thực phẩm.",
+      "USDA FSIS: Tiêu chuẩn thời gian/nhiệt độ làm mát thân thịt (Carcass chilling)."
+    ],
+    "core_knowledge": [
+      "Làm mát thân thịt (Chilling): Giảm nhiệt độ tâm thịt heo/bò xuống < 7°C, thịt gia cầm < 4°C càng nhanh càng tốt để kìm hãm vi khuẩn.",
+      "Đứt gãy chuỗi lạnh: Sự dao động nhiệt độ làm tinh thể đá tan ra và kết tinh lại thành đá to, đâm thủng tế bào thịt, gây rỉ dịch (drip loss).",
+      "Rã đông an toàn: Quy định rã đông trong kho mát (< 4°C) hoặc lò vi sóng công nghiệp."
+    ]
+  },
+  "unit_5": {
+    "title": "Phụ gia & Gia vị chế biến thịt",
+    "references": [
+      "JECFA (Joint FAO/WHO Expert Committee on Food Additives): Đánh giá an toàn phụ gia.",
+      "Thông tư 24/2019/TT-BYT: Quy định về quản lý và sử dụng phụ gia thực phẩm."
+    ],
+    "core_knowledge": [
+      "Nitrite/Nitrate (E250/E251): Giữ màu hồng đặc trưng của thịt muối/xúc xích, ngăn chặn C. botulinum. Rủi ro: Hình thành Nitrosamine gây ung thư nếu vượt quá giới hạn.",
+      "Phosphate (E450, E451): Tăng độ pH, giãn màng protein giúp thịt giữ nước tốt hơn, tạo độ giòn dai.",
+      "Axit Ascorbic (Vitamin C): Dùng làm chất xúc tác giúp Nitrite phản ứng nhanh hơn và giảm lượng Nitrosamine dư thừa."
+    ]
+  },
+  "unit_6": {
+    "title": "Vật liệu & Công nghệ Đóng gói thịt",
+    "references": [
+      "Packaging Technology and Science Journal.",
+      "FDA: Quy định an toàn vật liệu tiếp xúc thực phẩm (FCM)."
+    ],
+    "core_knowledge": [
+      "MAP (Modified Atmosphere Packaging): Thay đổi tỷ lệ khí trong bao bì. Ở thịt tươi, tăng O2 (để thịt có màu đỏ tươi) và CO2 (kìm hãm vi khuẩn).",
+      "Đóng gói chân không (Vacuum): Rút sạch không khí. Ức chế vi khuẩn hiếu khí nhưng cần cẩn trọng với vi khuẩn yếm khí (C. botulinum).",
+      "Màng co (Shrink film): Màng nhiều lớp (PA/PE) cản oxy cực tốt, dùng cho xúc xích tiệt trùng."
+    ]
+  },
+  "unit_7": {
+    "title": "Kiểm soát lây nhiễm chéo (Cross-contamination)",
+    "references": [
+      "BRCGS Food Safety Issue 9: Yêu cầu về High Risk, High Care và Ambient High Care.",
+      "ISO/TS 22002-1: Yêu cầu tiên quyết cho nhà máy thực phẩm."
+    ],
+    "core_knowledge": [
+      "Phân vùng nhà máy: Tuyệt đối tách biệt khu Raw (sơ chế, thịt sống) và khu Cooked/RTE (chế biến chín). Áp suất phòng Cooked phải cao hơn phòng Raw.",
+      "Lây nhiễm qua con người: Công nhân phải thay đồ, rửa tay, đi qua bồn lội ủng khi chuyển từ khu thấp sang khu cao.",
+      "Quản lý Dị ứng (Allergen): Các nguyên liệu phụ chứa dị ứng phải được lưu trữ riêng."
+    ]
+  },
+  "unit_8": {
+    "title": "Quản lý Dị vật & Thiết bị dò",
+    "references": [
+      "FSMA (Food Safety Modernization Act): Preventative Controls for Human Food.",
+      "Hướng dẫn thực hành GMP trong vận hành thiết bị dò kim loại."
+    ],
+    "core_knowledge": [
+      "Rủi ro ngành thịt: Mảnh xương (dị vật nội sinh), lưỡi dao gãy, dăm kim loại từ máy xay, ghim bấm.",
+      "Máy dò kim loại: Chịu ảnh hưởng bởi 'Hiệu ứng sản phẩm' (Product effect) - thịt chứa nhiều muối và độ ẩm cao sẽ dẫn điện, dễ gây báo động giả.",
+      "Máy X-ray: Dò được mảnh xương cứng, đá, thủy tinh, nhựa cứng bất chấp nhiệt độ hay độ ẩm."
+    ]
+  },
+  "unit_9": {
+    "title": "Quy trình Làm sạch & Khử trùng (SSOP)",
+    "references": [
+      "Ecolab/Diversey Sanitation Manuals.",
+      "Hướng dẫn xây dựng tiêu chuẩn SSOP (Sanitation Standard Operating Procedures)."
+    ],
+    "core_knowledge": [
+      "Quy trình 7 bước (7-Step Sanitation): 1. Dọn rác khô -> 2. Xả nước sơ bộ -> 3. Phủ bọt hóa chất -> 4. Chà xát vật lý -> 5. Xả sạch -> 6. Kiểm tra bằng mắt -> 7. Phun thuốc sát trùng.",
+      "Hóa chất: Gốc kiềm dùng để đánh tan mỡ và protein. Gốc axit dùng để tẩy cáu cặn khoáng. Sát trùng thường dùng Quat hoặc PAA.",
+      "Lấy mẫu Swab: Kiểm tra ATP hoặc vi sinh bề mặt sau vệ sinh để đánh giá mức độ sạch."
+    ]
+  },
+  "unit_10": {
+    "title": "Pháp chế, Thú y & Xuất xứ",
+    "references": [
+      "Luật An toàn thực phẩm 55/2010/QH12 (Việt Nam).",
+      "OIE (World Organisation for Animal Health): Terrestrial Animal Health Code.",
+      "ISO 22005:2007: Truy xuất nguồn gốc trong chuỗi thức ăn."
+    ],
+    "core_knowledge": [
+      "Kiểm soát trước và sau giết mổ (Ante/Post-mortem): Loại bỏ những con có biểu hiện bệnh lở mồm long móng, tai xanh, dịch tả.",
+      "Truy xuất nguồn gốc: Bắt buộc thực hiện mô hình 'Một bước trước - Một bước sau'. Áp dụng công nghệ Blockchain hoặc mã vạch QR code.",
+      "Thu hồi sản phẩm (Recall procedure): Phân loại mức độ nghiêm trọng (Class I, II, III) và diễn tập thu hồi (Mock Recall) định kỳ hàng năm."
+    ]
+  }
+}

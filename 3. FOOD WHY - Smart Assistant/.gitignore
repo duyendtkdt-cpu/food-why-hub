@@ -1,0 +1,21 @@
+# API Keys and Secrets
+.streamlit/secrets.toml
+.env
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary or local test data (optional)
+# data/
+# knowledge/
+
+# OS generated files
+.DS_Store
+Thumbs.db

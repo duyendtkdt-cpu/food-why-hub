@@ -1,0 +1,2229 @@
+
+Authored by
+Daneysa L. Kalschne
+Marinês P. Corso
+&
+Cristiane Canan
+Universidade Tecnológica Federal do Paraná
+Department of Food, Medianeira, Paraná
+BrazilAdvances in Meat Processing
+Technologies: Modern
+Approaches to Meet Consumer
+Demand
+ 
+Advances in Meat Processing Technologies: 
+Modern Approaches to Meet Consumer Demand 
+Authors: Daneysa L. Kalschne, Marinês P. Corso and Cristiane Canan 
+ISBN (Online): 978-981-14-7019-6     
+ISBN (Paperback): 978-981-14-7018-9     
+© 2020, Bentham Books imprint. 
+Published by Bentham Science Publishers Pte. Ltd. Singapore. All Rights Reserved . ISBN (Print): 978-981-14-7017-2     
+BENTHAM SCIENCE PUBLISHERS LTD.
+End User License Agreement (for non-institutional, personal use)
+This is an agreement between you and Bentham Science Publishers Ltd. Please read this License Agreement
+carefully  before  using  the  ebook/echapter/ejournal  ( “Work”).  Your  use  of  the  Work  constitutes  your
+agreement to the terms and conditions set forth in this License Agreement. If you do not agree to these terms
+and conditions then you should not use the Work.
+Bentham Science Publishers agrees to grant you a non-exclusive, non-transferable limited license to use the
+Work subject to and in accordance with the following terms and conditions. This License Agreement is for
+non-library, personal use only. For a library / institutional / multi user license in respect of the Work, please
+contact: permission@benthamscience.net.
+Usage Rules:
+All rights reserved: The Work is the subject of copyright and Bentham Science Publishers either owns the1.
+Work (and the copyright in it) or is licensed to distribute the Work. You shall not copy, reproduce, modify,
+remove, delete, augment, add to, publish, transmit, sell, resell, create derivative works from, or in any way
+exploit the Work or make the Work available for others to do any of the same, in any form or by any
+means,  in  whole  or  in  part,  in  each  case  without  the  prior  written  permission  of  Bentham  Science
+Publishers, unless stated otherwise in this License Agreement.
+You may download a copy of the Work on one occasion to one personal computer (including tablet,2.
+laptop, desktop, or other such devices). You may make one back-up copy of the Work to avoid losing it.
+The unauthorised use or distribution of copyrighted or other proprietary content is illegal and could subject3.
+you to liability for substantial money damages. You will be liable for any damage resulting from your
+misuse of the Work or any violation of this License Agreement, including any infringement by you of
+copyrights or proprietary rights.
+Disclaimer:
+Bentham Science Publishers does not guarantee that the information in the Work is error-free, or warrant that
+it will meet your requirements or that access to the Work will be uninterrupted or error-free. The Work is
+provided "as is" without warranty of any kind, either express or implied or statutory, including, without
+limitation, implied warranties of merchantability and fitness for a particular purpose. The entire risk as to the
+results and performance of the Work is assumed by you. No responsibility is assumed by Bentham Science
+Publishers, its staff, editors and/or authors for any injury and/or damage to persons or property as a matter of
+products liability, negligence or otherwise, or from any use or operation of any methods, products instruction,
+advertisements or ideas contained in the Work.
+Limitation of Liability:
+In no event will Bentham Science Publishers, its staff, editors and/or authors, be liable for any damages,
+including, without limitation, special, incidental and/or consequential damages and/or damages for lost data
+and/or profits arising out of (whether directly or indirectly) the use or inability to use the Work. The entire
+liability of Bentham Science Publishers shall be limited to the amount actually paid by you for the Work.
+General:
+Any dispute or claim arising out of or in connection with this License Agreement or the Work (including1.
+non-contractual disputes or claims) will be governed by and construed in accordance with the laws of
+Singapore. Each party agrees that the courts of the state of Singapore shall have exclusive jurisdiction to
+settle  any  dispute  or  claim  arising  out  of  or  in  connection  with  this  License  Agreement  or  the  Work
+(including non-contractual disputes or claims).
+Your rights under this License Agreement will automatically terminate without notice and without the2.
+need for a court order if at any point you breach any terms of this License Agreement. In no event will any
+delay or failure by Bentham Science Publishers in enforcing your compliance with this License Agreement
+constitute a waiver of any of its rights.
+You acknowledge that you have read this License Agreement, and agree to be bound by its terms and3.
+conditions. To the extent that any other terms and conditions presented on any website of Bentham Science
+Publishers  conflict  with,  or  are  inconsistent  with,  the  terms  and  conditions  set  out  in  this  License
+Agreement, you acknowledge that the terms and conditions set out in this License Agreement shall prevail.
+Bentham Science Publishers Pte. Ltd.
+80 Robinson Road #02-00
+Singapore 068898
+Singapore
+Email: subscriptions@benthamscience.net
+
+CONTENTS
+FOREWORD   ........................................................................................................................................... i
+PREFACE   ................................................................................................................................................ ii
+ CHAPTER 1  THE MEAT INDUSTRIALIZATION SCENARIO: PRODUCTION,
+CONSUMPTION, AND PRODUCT CHANGES DRIVEN BY CONSUMERS   ............................... 1
+INTRODUCTION   .......................................................................................................................... 1
+FINAL CONSIDERATIONS   ........................................................................................................ 6
+REFERENCES   ............................................................................................................................... 6
+ CHAPTER 2  DRY FERMENTATION TECHNOLOGY   ................................................................. 8
+INTRODUCTION   .......................................................................................................................... 8
+TRADITIONAL DRY-FERMENTED PRODUCTS ELABORATION PROCESS  ................ 9
+BIOCHEMICAL TRANSFORMATIONS   .................................................................................. 11
+USE OF NEW TECHNOLOGIES IN DRY-FERMENTED PRODUCTS  ............................... 12
+ULTRASOUND   .............................................................................................................................. 13
+PULSED UV LIGHT  ...................................................................................................................... 17
+QUICK-DRY-SLICE PROCESS®   ............................................................................................... 20
+FINAL CONSIDERATION  ........................................................................................................... 22
+REFERENCES  ............................................................................................................................... 22
+ CHAPTER 3  MEAT EMULSION TECHNOLOGY   ......................................................................... 26
+INTRODUCTION   .......................................................................................................................... 26
+THE TRADITIONAL EMULSIFIED PRODUCTS PREPARATION PROCESS   ................. 27
+EMERGING METHODS OR TECHNOLOGIES FOR EMULSIFIED COOKED MEAT
+PRODUCTION  ............................................................................................................................... 31
+ULTRASOUND   .............................................................................................................................. 31
+  ..................................................................................................... 35
+OHMIC HEATING  ........................................................................................................................ 37
+PULSED LIGHT  ............................................................................................................................ 38
+FINAL CONSIDERATIONS   ........................................................................................................ 40
+REFERENCES   ............................................................................................................................... 40
+ CHAPTER 4  MEAT CURING AND PRESERVATION METHODS   ............................................ 44
+INTRODUCTION   .......................................................................................................................... 44
+TRADITIONAL SALTED PRODUCTS  ...................................................................................... 45
+CURING METHODS  ..................................................................................................................... 46
+USE OF NEW METHODS IN SALTED PRODUCTS  ............................................................... 48
+ULTRASOUND   .............................................................................................................................. 48
+HIGH HYDROSTATIC PRESSURE   ........................................................................................... 50
+MICROWAVE  ................................................................................................................................ 53
+FINAL CONSIDERATION  ........................................................................................................... 53
+REFERENCES  ............................................................................................................................... 53
+ CHAPTER 5  MARINATING AND MEAT RESTRUCTURING TECHNOLOGY   ...................... 59
+INTRODUCTION   .......................................................................................................................... 59
+MARINATED MEAT PRODUCTS  ............................................................................................. 60
+RESTRUCTURED MEAT PRODUCTS   ..................................................................................... 61
+NEW TECHNOLOGIES   ............................................................................................................... 66DOUBLE EMULSIONS (DE s)
+HIGH PRESSURE PROCESSING  ............................................................................................... 66
+ULTRASOUND  .............................................................................................................................. 68
+PULSED LIGHT AND PULSED ULTRAVIOLET LIGHT  ..................................................... 69
+NEAR-INFRARED  ......................................................................................................................... 70
+FINAL CONSIDERATIONS  ........................................................................................................ 70
+REFERENCES  ............................................................................................................................... 70
+ CHAPTER 6  NON-EMULSIFIED SAUSAGE PROCESSING TECHNOLOGY   ......................... 75
+INTRODUCTION  .......................................................................................................................... 75
+USE OF NEW TECHNOLOGIES IN SAUSAGE PRODUCTS  ............................................... 76
+HIGH HYDROSTATIC PRESSURE  ........................................................................................... 77
+IRRADIATION  ............................................................................................................................... 78
+OHMIC HEATING, MICROWAVE, AND RADIO-FREQUENCY COOKING  ................... 79
+FINAL CONSIDERATION  ........................................................................................................... 82
+REFERENCES  ............................................................................................................................... 82
+ CHAPTER 7  EFFECT OF ULTRASOUND ON FRESH MEAT TENDERNESS   ........................ 85
+INTRODUCTION  .......................................................................................................................... 85
+ULTRASOUND PRINCIPLES  ..................................................................................................... 86
+ULTRASOUND ON BEEF TENDERNESS  ................................................................................ 87
+CHANGES DUE TO ULTRASOUND APPLICATION  ............................................................ 93
+Color Alterations  ..................................................................................................................... 93
+pH and Water Holding Capacity  ............................................................................................. 94
+Lipid Oxidation and Off-Flavors Alterations  ......................................................................... 94
+Protein Structure Alterations  ................................................................................................... 95
+Microbiological Alterations  .................................................................................................... 95
+FINAL CONSIDERATIONS  ........................................................................................................ 96
+REFERENCES  ............................................................................................................................... 96
+ CHAPTER 8  BOTTON-UP AND TOP-DOWN STRATEGIES FOR PROCESSING MEAT
+ANALOGS   ............................................................................................................................................... 101
+INTRODUCTION  .......................................................................................................................... 101
+BOTTOM-UP STRATEGY  ........................................................................................................... 103
+CULTURED MEAT  ....................................................................................................................... 103
+MYCOPROTEIN  ........................................................................................................................... 104
+SPINNING  ....................................................................................................................................... 105
+TOP-DOWN STRATEGY  ............................................................................................................. 105
+EXTRUSION  ................................................................................................................................... 105
+FREEZE STRUCTURING  ............................................................................................................ 108
+PROTEINS AND HYDROCOLLOIDS PRECIPITATED BY METALS CATIONS  ............ 108
+SHEAR CELL TECHNOLOGY  ................................................................................................... 108
+FINAL CONSIDERATIONS  ........................................................................................................ 109
+REFERENCES  ............................................................................................................................... 109
+ CHAPTER 9  ALTERNATIVE ADDITIVES AND INGREDIENTS   .............................................. 113
+INTRODUCTION  .......................................................................................................................... 113
+ANIMAL FAT REPLACERS  ....................................................................................................... 114
+NATURAL ANTI-OXIDANTS  ..................................................................................................... 117
+SALT REPLACERS  ....................................................................................................................... 118
+NITRITE AND NITRATE REPLACERS  ................................................................................... 120
+CONCLUSION  ............................................................................................................................... 121
+REFERENCES  ............................................................................................................................... 121
+SUBJECT INDEX    ............./g17/g17/g17.............................................................................................................../g17.... /g3/g3 
+i
+FOREWORD
+The aim of this book is to provide an approach to recent improvements in conventional meat
+products’  processing  and  the  development  and/or  use  of  new  technologies  to  students,
+researchers, and lecturers in the meat science and technology field, as well as professionals in
+the meat industry. Needs and demands by consumers for meat-based products have guided
+meat processing plants to adapt themselves to this new reality by implementing innovative
+technologies  and  ensuring  that  meat  products  are  stable  and  microbiologically  safe,
+nutritionally healthy, with good sensory characteristics, practical and of quick preparation,
+with compatible and affordable costs. Beef, pork, and poultry are the ones most used in meat
+products preparation. The use of additives and traditional techniques, such as fermentation
+and drying, salting, smoking, and cooking, contribute to the production of safe meat products.
+Chapter 1 provides an overview regarding the importance of the meat-based market in the
+world, as well as overall meat processing aspects. Chapters 2 to 7 describe conventional and
+emerging technologies presenting relevant and promising data applied in the processing of
+dry-fermented meat products, emulsified, salted and non-emulsified thick mass, marinated,
+and restructured products, and advancements in fresh meat tenderness. These chapters discuss
+the  QDS  (quick-dry-slice)  technology  that  aims  at  reducing  the  processing  time  of  sliced
+matured and/or fermented meat products; the use of ultrasound or high pressure to reduce salt
+contents of meat products as well as improve emulsion stability and replace pork fat; and new
+cooking methods such as microwaving, radio frequency and ohmic heating, the latter two
+could be used for reducing cooking time and production costs. Also, technologies such as
+pulsed  light,  ultraviolet  light,  irradiation,  ultrasound,  and  high  hydrostatic  pressure  may
+reduce  microbial  contamination  of  meat  and  meat-based  products.  Furthermore,  the
+application of ultrasound waves could augment fresh meat tenderness. The use of such new
+technologies  would  reduce  additives  content,  posing  economic  benefits  such  as  reduced
+preparation time and reduced energy and water consumption. In addition, safety and quality
+are  secured  and  the  processed  products  have  sensory  characteristics  similar  to  products
+obtained  using  traditional  technologies.  A  specific  chapter  describes  strategies  for  the
+development and production of meat analogues with nutritional and sensory properties typical
+of meat products to meet the demands of vegetarians and vegans alike. New approaches to the
+use  of  alternative  ingredients  in  order  to  obtain  meat-based  products  with  technological,
+microbiological, and sensory quality are discussed in the last chapter. These new ingredients
+aim at replacing animal fat, reducing sodium chloride, and chemical additives, such as nitrites
+and synthetic antioxidants. The advancements in processing technologies and/or development
+of  new  meat-based  products  covered  in  this  book  were  based  on  relevant  literature  and
+experiences of the authors with nearly two decades of experience in lecturing and researching,
+as well as technical-scientific interaction with meat processing plants. This book on Advances
+in  Meat  Processing  Technologies  ought  to  provide  the  readers  with  further  knowledge
+regarding  recent  developments  in  the  new  technology  for  the  full  meat  processing  chain.
+Elza Iouko Ida
+Centro de Ciências Agrárias, Universidade Estadual de Londrina, Rodovia Celso Garcia
+Cid, Postal code 86057-970, P.O. Box 10.001, Londrina, Paraná
+Brazil
+ ii
+PREFACE
+Meat and meat-based products play an important role as foods in the diets of a large number
+of people around the world. However, environmental and social issues have posed a challenge
+on the world’s meat production, given the new perspectives of conscious production and
+consumption of products from animal origin. The authors, meat science and technology
+researchers, felt the need to present in this book new and key technologies that have been
+studied in order to reduce production costs, minimize environmental impacts and produce safe
+and quality meat products. Meat and meat-based products comprise a group of foods that raise
+the social status when consumed since in ancient times, meat obtention was associated with
+an efficient and wealthy provider in families. The development of meat science and
+technology brought solutions that have allowed the consumption of meat in its entirety, in a
+safer and more diversified way, as in the past, slaughtered animals had to be consumed
+quickly since household appliances such as refrigerators and freezers were either non-existent
+or not often found in homes. Faced with the need, traditional processes such as salting,
+smoking,  and  fermentation  have  emerged,  and,  more  recently,  processes  such  as
+emulsification,  marinating,  and  tenderizing  of  meats,  which  in  addition  to  allowing
+conservation, have further diversified meat products. At present, we find a wide range of
+industrialized meat products readily available in supermarkets. However, we as consumers do
+not always come to realize the evolving processes in the meat industry, which aim at meeting
+consumers’ expectations and demands. Besides that, there has been a need for adaptation and
+modernization  of  slaughterhouses,  as  well  as  the  use  of  more  suitable  processing
+technologies, saving water, energy, and reducing waste production. However, these new
+approaches ought to provide similar or even higher nutritional, sensory, and food-safety
+levels. Our efforts as researchers and lecturers in the meat science and technology field are
+not only restricted to our students, this book emerged within this context, aiming at informing
+students, researchers, lecturers and others who are interested in the subject, about new meat
+and  meat-based  products  processing  technologies.  “Advances  in  Meat  Processing
+Technologies” comprises 9 chapters, the first of which addresses the world panorama of meat
+production and consumption, highlighting the three most consumed types of meat worldwide
+- beef, pork, and poultry. Chapters 2 to 7 discuss the use of emerging technologies in
+traditional  meat  preservation  and  diversification  processes,  including  fermentation,
+emulsification, salting, marinating, and meat tenderization. Emerging technologies studied by
+several  researchers  worldwide  are  addressed  in  the  aforementioned  chapters,  such  as
+ultrasound, high hydrostatic pressure, pulsed light, ultraviolet light, irradiation, ohmic heating
+microwaving, radio frequency heating, and quick-dry-slice. Faced with a new trend in the
+consumption of vegan products, we also have addressed this group of food in a dedicated
+chapter.
+Chapter 8 discusses meat analogues production techniques using alternative protein sources,
+as well as examples of meat products’ preparation using that raw material. Finally, chapter 9
+argues on innovations in terms of additives usage since there has been a rise in the use of
+natural products by consumers without any chemical additives.
+The use of phytic acid to replace nitrite is worth mentioning, being one of the greatest
+innovations developed by our research group, which has already been patented and mentioned
+in this chapter, as well as proposals for the use of natural antioxidants, and fat, and salt
+replacers. This book summarizes a part of our incredible experience working with meat and
+meat-based products, as well as our passion for the meat science and technology field. We
+hope that the readers will enjoy reading it and wish you a joyful reading!
+iii
+ACKNOWLEDGEMENTS
+The authors would like to acknowlegde the following Brazilian financial agencies; Conselho
+Nacional  de  Desenvolvimento  Científico  e  Tecnológico  (CNPq),  Coordenação  de
+Aperfeiçoamento de Pessoal de Nível Superior (CAPES), Fundação Araucária, Universidade
+Tecnológica Federal do Paraná (UTFPR) and the Post-Graduate Program in Food Technology
+(PPGTA), and Universidade Estadual de Londrina and the Post-Graduate Program in Food
+Science by their support in our researches and for this book elaboration. The authors would
+also like to acknowledge the meat processing plants located in Western Paraná State by the
+collaboration and partnerships in the recent years, the under-graduate and post-graduate
+students by their motivation, dedication, companionship, and fun, and Dr Paulo Stival
+Bittencourt for his support elaborating the Figures section. Last but not least, we would like to
+thank two wonderful Brazilian researchers, Dr Nelcindo Nascimento Terra from the Meat
+Technology field and Dr Massami Shimokomaki from the Meat Science field (both in
+memorian), for their great examples that have encouraged and inspired us throughout our
+careers and in this book elaboration.
+CONSENT FOR PUBLICATION
+Not applicable.
+CONFLICT OF INTEREST
+The authors confirm that the authors have no conflict of interest to declare for this
+publication.
+Daneysa L. Kalschne
+Marinês P. Corso
+&
+Cristiane Canan
+Universidade Tecnológica Federal do Paraná
+Department of Food, Medianeira, Paraná
+Brazil
+Advances in Meat Processing Technologies, 2020, 1-7 1
+CHAPTER 1
+The  Meat  Industrialization  Scenario:  Production,
+Consumption,  and  Product  Changes  Driven  by
+Consumers
+Abstract: Meat is consumed worldwide and from ancient times to the present day, the
+development of meat products and processes has been driven by meat consumers. Beef,
+pork  and  poultry  are  the  most  common  varieties  of  meat  preferred  for  human
+consumption and the emergence of meat processing industrialization has allowed the
+use of the entire carcass, the development of different products, and microbiological
+safety  due  to  advances  in  the  technology  used.  Meat  consumers  have  been  driving
+production  trends  for  meat  products  that  aim  at  acceptable  nutritional,  physico-
+chemical,  microbiological  and  sensory  characteristics  of  the  final  product.  In  this
+context, the development of emerging technologies for meat industrialization aims at
+improving  conventional  processes,  offering  new  and  suitable  solutions  to  the  meat
+industry to meet consumer demand.
+Keywords:  Additive,  Emergent  Technologies,  Healthier  Products,  High
+Hydrostatic  Pressure,  Irradiation,  Microwave,  Meat  Analogues,  Microbiology
+Safety,  Natural  Ingredients,  Ohmic  Heating,  Pulsed  Light,  Radio-Frequency,
+Ultrasound.
+INTRODUCTION
+Meat  is  consumed  worldwide.  In  the  past,  it  was  associated  with  strength  and
+power, a typical illustration of one’s social status. Nowadays, this perception is
+still  valid  and  such  a  context  has  persisted  over  the  years  [ 1].  Meat  sensory
+properties, such as color, aroma, texture, flavor, juiciness, and chewability [2]
+have attracted ever more demanding consumers.
+Furthermore, meat is recognized by its nutritional properties, consisting of 70%
+water, which is affected by the lipid content ranging from 8% to 20%, 18% to
+23%  protein,  1%  carbohydrates,  and  1  to  1.2%  minerals  [ 3,  4].  The  protein
+content has been highlighted due to amino acids’ high biological value especially
+those essential to the human diet [4 - 6].
+The content and composition of meat lipids vary according to aspects such as spe-
+Daneysa L. Kalschne, Marinês P. Corso & Cristiane Canan
+All rights reserved-© 2020 Bentham Science Publishers
+2   Advances in Meat Processing Technologies Kalschne et al.
+cies, breed, gender, age, feed (especially for pork and chicken), nutritional status,
+as well as the animal’s activity level [ 7 - 10]. Overall, meat has high saturated
+ fatty acid  levels to  keep  the  fat  tissue  healthy,  while  phospholipids
+possess  higher  unsaturated  fatty  acids  levels  conferring  greater  fluidity  to  the
+muscular  cells’  plasmatic  membrane  [ 3].The  small  portion  (<1%)  of
+carbohydrates is represented mainly by glycogen that is used as a muscle energy
+source [3, 4].
+Meat  is  considered  an  excellent  source  of  water-soluble  vitamins  such  as
+thiamine, riboflavin, niacin, vitamin B6, and vitamin B12. For the mineral content,
+red meat is famous due to its iron content combined with myoglobin content. In
+addition, potassium, phosphorus and magnesium are also abundant in meat [ 3, 4,
+11]. In addition to the importance of calcium in muscle contraction, considerable
+amounts of such minerals are only found in mechanically processed meat due to
+the presence of microscopic bone fragments [3].
+In 2018, worldwide meat production increased by 1.0% to 327 Mt, reflecting an
+increase  in  bovine  (hereafter  “beef”),  pork  and  poultry  meat  production,  with
+rather modest gains for lamb. The world’s meat exports (excluding live animals
+and processed products) are forecasted to increase 18% more by 2028 than in the
+base period. This represents a decline in the 1.4% average annual meat trading
+growth rate compared to 3% during the previous decade. However, the total meat
+output traded share on the global market could increase slightly [12].
+According to the data from the United States Department of Agriculture (USDA)
+[13], worldwide beef production for 2020 could reach 61,861 Mt (carcass weight
+equivalent),  led  by  the  USA  and  followed  by  Brazil,  the  European  Union  and
+China.  For  pork,  the  forecast  for  2020  indicates  a  95,223  Mt  (carcass  weight
+equivalent) production, led by China and followed by the European Union, USA,
+and Brazil. For chicken, the production in 2020 could reach 103,498 Mt (ready-to-
+cook equivalent), led by the USA and followed by China, Brazil and the European
+Union.
+Fig. (1) presents the worldwide per capita meat consumption considering beef,
+pork, and poultry meat per continent. The data were provided by the Organization
+for Economic Co-operation and Development (OECD) [ 14]. It was observed that
+the leading meat producers (including beef, pork and chicken) are also the leading
+consumers.
+The  meat  marketing  success  depends  on  continuous  innovation  and  increased
+production  of  high-quality  products.  It  is  important  to  point  out  that  meat
+consumption patterns are constantly changing. These changes are associated not
+The Meat Industrialization Scenario Advances in Meat Processing Technologies   3
+only  with  wide-ranging,  socio-economic,  and  cultural  trends,  but  also  with
+specific  lifestyles  of  increasingly  diversified  consumer  groups  and  the  use  of
+natural  resources.
+Fig. (1). Meat per capita consumption worldwide (%) (data from OECD [14]).
+In this context, good taste, convenience orientation, and meat avoidance are some
+important meat consumption trends that put pressure on policymakers aiming to
+influence consumer behavior and achieve more sustainable consumption [ 15]. It
+should  be  emphasized  that  meat  products’  sales  are  subdivided  into  fresh  and
+processed ones and the decision to purchase either one or the other is affected by
+the consumer profile. Consumer preferences differ according to the type of meat
+
+8 Advances in Meat Processing Technologies, 2020, 8-25
+CHAPTER 2
+Dry Fermentation Technology
+Abstract: The technology of the production of dry-fermented products is old and even
+in  current  days  these  meat  products  are  produced,  appreciated  and  consumed
+worldwide.  The  fermentation  and  drying  steps  are  responsible  for  chemical  and
+biochemical transformations that ensure the final characteristics of the product were
+reached.  One  of  the  disadvantages  in  dry-fermented  product  processing  is  the  time
+required for all transformations that characterize the product and meets the required
+standard  of  safety  and  quality.  Thus,  the  use  of  emerging  technologies  allows  the
+improvement in the production process considering the use of new approaches, always
+ensuring food safety and quality. In this chapter, the ultrasound, pulsed UV light and
+QDS process® are discussed. The approach includes the advantages and disadvantages
+of  each  technology,  the  report  of  researchers  describing  the  use  of  mentioned
+technologies  and  the  most  probable  mechanisms  associated  with  the  effects.
+Keywords:  Fermented  Sausages,  Ham,  Pulsed  UV  Light,  Quick-Dry-Slice
+Process®,  Salami,  Starter  Culture,  Ultrasound.
+INTRODUCTION
+Dry-fermented  meat  products  are  consumed  worldwide  representing  a  part  of
+traditional diets and perceived as attractive gastronomic entities contributing to
+cultural and geographic distinctiveness [1]. This processed meat product group is
+characterized by a ripening process accompanied by a more or less intense drying
+and even large of chemical and biochemical transformations [ 2]. Sausages and
+some meat cuts are the most popular dry-fermented products, which were named
+and prepared according to the influence of specific regions and diverse types had
+the designation of origin recognized. Some examples include Parma ham from
+Italy, Chorizo, Serrano and Iberian ham from Spain, Milan and Italian salamis,
+and Sobrassada from Mallorca (Islas Baleares) [2 - 5].
+The  dry  fermented  technique  was  mainly  associated  with  pork  meat
+industrialization  [ 6].
+The sausage consisting of seasoned and salted minced meat that is stuffed into
+intestinal  casings,  while  is  based  on  the  art  of  dry  ham  production  previously
+developed by the Celts and Gauls, consisting of the salting and drying of hind legs
+Daneysa L. Kalschne, Marinês P. Corso & Cristiane Canan
+All rights reserved-© 2020 Bentham Science Publishers
+Fermentation Technology Advances in Meat Processing Technologies   9
+of wild boars and pigs [ 1]. The most popular and famous dry-fermented cut is
+ham; however, the shoulder and loin are also produced and consumed.
+Over  the  years,  fermented  meats  came  to  exist  in  an  overwhelming  variety,
+characterized  by  large  differences  in  ingredients,  shape  and  caliber,  and
+processing conditions. Several types of meat have been applied, including pork,
+beef, horse, donkey, deer, poultry, and ostrich [ 1]. In this context, the possibility
+of  the  use  of  emerging  technologies  on  dry-fermented  products  represents
+alternatives in order to improve food safety, quality, and manufacturing process
+time consumption.
+TRADITIONAL  DRY-FERMENTED  PRODUCTS  ELABORATION
+PROCESS
+Salami  is  prepared  by  grinding  the  meat  and  fat  and  mixing  with  all  other
+ingredients  including  salt,  curing  salts  as  nitrite  and  or  nitrate,  sugars,  spices,
+antioxidants, and starter culture [ 6]. Moreover, the processing technologies may
+differ depending on the drying intensity, ripening length or smoking [ 2]. Table 1
+summarizes some dry-fermented meat product formulations. Note the high salt
+content used in the formulations, and considering that during the maturation stage
+the product can lose up to 50% moisture, which causes the salt content in the final
+product to increase significantly. Thus, the reduction of the salt content of these
+products  is  necessary  and  will  be  discussed  later  on  as  new  technologies  can
+contribute.
+Fig. (1). Characteristics of salami during product elaboration.
+The mass is stuffing in artificial casings and is submitted to a fermentation/drying
+for a few days with the external development of mould ( Penicillium nalgiovense ),
+and ripening for sufficient time up to reaching the desired water activity in the
+
+10   Advances in Meat Processing Technologies Kalschne et al.
+final product (Fig. 1) [6]. The dry-fermented products were generally packed and
+stored under a modified atmosphere composed of nitrogen and carbon dioxide
+(80:20, v/v) or under vacuum to enhance their shelf life stability by minimizing
+microbial growth and lipid oxidation processes [7, 14].
+Table 1. Dry-fermented meat products formulation.
+Meat product Meat base Ingredients and additives Starter culture Reference
+Italian
+salami100% pork meat1% salt, 0.3% curing salt, 1%
+flavoring, 1% sucrose, and 0.25%
+sodium erythorbateS. xylosus, S.
+carnosus, P.
+pentosaceus and P.
+acidilactici[7]
+Italian salami70% pork meat,
+and 30% pork
+fatSalt, spices, aromas, sodium nitrate,
+sodium nitrite, ascorbic acid, citric
+acid, milk powder, lactose, and sucroseLactobacillus [8]
+Italian salami62.09% pork
+meat, and
+19.10% beef2.91% salt, 0.28% sodium nitrite and
+nitrate, 0.23% sodium ascorbate, 0.19%
+pepper, 0.19% garlic powder, 0.19%
+nutmeg, 0.28% glucose, and 0.19%
+sucroseP. pentosaceus, and
+S. xylosus[9]
+Milano salami75% pork meat,
+and 25% belly2.3% NaCl, 0.2% black pepper, 0.1%
+white pepper, 0.02% garlic, sodium
+nitrite, sodium ascorbate, dextrose, and
+saccharoseL. sakei [10]
+Milano salami74.95% pork
+meat, and 30%
+pork backfat2.5% salt, 0.3% curing salt, 0.20%
+sodium erythorbate, 0.02% white
+pepper, 0.20% garlic, 1,.0% wine, and
+0.8% sugarD. hansenii, L.
+sakei, P.
+pentosaceus, S.
+carnosus, and S.
+xylosus[11]
+Milano salami69.5% pork
+meat, and 23%
+pork fat2.3% NaCl, 0.015% sodium nitrite,
+0.3% sodium erythorbate, 0.6%
+flavoring, 1.0% wine, 2.7% milk
+powder, 0.35% glucone delta lactone,
+0.25% sucrose, and 0,25% glucose,- [12]
+Chorizo 100% pork meat2% NaCl, 75 to 150 mg/kg of sodium
+nitrite, and 0.5% dextroseL. plantarum, and
+L. delbrueckii[4]
+Chorizo75% pork meat,
+18% pork
+backfat1.5% NaCl, and 0.3% curing salt, and
+5.2% sodium ascorbateL. plantarum [5]
+26 Advances in Meat Processing Technologies, 2020, 26-43
+CHAPTER 3
+Meat Emulsion Technology
+Abstract: The technology of the production of dry-fermented products is old and even
+in  current  days  these  meat  products  are  produced,  appreciated  and  consumed
+worldwide.  The  fermentation  and  drying  steps  are  responsible  for  chemical  and
+biochemical transformations that ensure the final characteristics of the product were
+reached.  One  of  the  disadvantages  in  dry-fermented  product  processing  is  the  time
+required for all transformations that characterize the product and meets the required
+standard  of  safety  and  quality.  Thus,  the  use  of  emerging  technologies  allows  the
+improvement in the production process considering the use of new approaches, always
+ensuring food safety and quality. In this chapter, the ultrasound, pulsed UV light and
+QDS process® are discussed. The approach includes the advantages and disadvantages
+of  each  technology,  the  report  of  researchers  describing  the  use  of  mentioned
+technologies  and  the  most  probable  mechanisms  associated  with  the  effects.
+Keywords:  Fermented  Sausages,  Ham,  Pulsed  UV  Light,  Quick-Dry-Slice
+Process®,  Salami,  Starter  Culture,  Ultrasound.
+INTRODUCTION
+Emulsified meat products are widely consumed all over the world and are of great
+economic importance to the modern meat industry [ 1, 2]. Although meat batters
+have been a traditional age-long prepared product, the scientific principles and
+expertise  are  significantly  important  for  commercial  products  [ 2].  Cooked
+sausages  processed  products  such  as  mortadellas  (bologna)  and  frankfurters
+(wiener,  hot  dog  or  franks)  are  the  main  meat  products  obtained  using
+emulsification processes considered the most popular ready-to-eat (RTE) cooked
+meat  products  and  convenient  for  modern  lifestyles.  Nowadays,  emulsioned
+products of several species, especially beef, pork, poultry, turkey, and fish are to
+be found.
+A meat emulsion is a mixture in which finely divided meat constituents disperse
+analogously to an oil-in-water emulsion. The discontinuous phase is fat, and the
+continuous  phase  is  an  aqueous  salt  and  protein  solution,  with  suspended
+insoluble proteins, portions of muscle fibers in the sarcolemma, and remnants of
+connective  tissue. The main  emulsifying agents are  myofibrillar proteins due to
+Daneysa L. Kalschne, Marinês P. Corso & Cristiane Canan
+All rights reserved-© 2020 Bentham Science Publishers
+Advances in Meat Processing Technologies   27
+their higher solubility (saline-solution soluble) [ 3]. However, the use of stromal
+proteins,  especially  collagen  and  sarcoplasmic  proteins,  improved  the  protein
+concentration  and  emulsion  stability  [ 4,  5].
+Meat emulsification is mainly affected by factors such as chopping parameters
+(temperature, speed, and time) and raw meat materials used (raw meat type, meat
+pH, type and amount of fat, non-meat ingredients, emulsifiers, and hydrophilic
+gums) [2, 3, 6]. Therefore, methods allowing accurate meat emulsification process
+control  or  improving  stability  ought  to  be  considered.  For  this  purpose,  the
+ultrasound  method  will  be  addressed.
+The ultrasound method has been shown to provide fat reduction for emulsified
+products [7, 8]. This is a quite relevant factor, considering the high-fat content in
+bologna sausages and frankfurters, which makes it difficult to replace animal fat
+and the need for the meat industry to meet consumer demand by offering healthier
+products.  The  multiple  emulsion  method  (W1/O/W2)  has  also  been  shown  to
+improve the technological, physicochemical, and sensory properties of emulsified
+products made with total or partial replacement of animal fat for non-meat fat [ 9,
+10].
+Another  point  that  deserves  special  attention  is  that  cooked  frankfurters  and
+bologna sausages packaging is typically re-exposed to the processing environment
+processing, leading to potential microorganism contamination. Moreover, to meet
+consumer demand for ready-to-eat (RTE) products, the meat industry has been
+providing emulsified meat products, such as bologna sausage in small portions
+(thin  slices)  from  processed  blocks,  which  could  cause  microbiological
+contamination after pasteurization [ 11 - 13]. Therefore, additional processes are
+required to ensure the safety of the product. The use of emergent methods such as
+ohmic  heating  and  pulsed  light  as  well  as  the  use  of  additives  [ 14]  have  been
+studied. The ohmic heating has been identified as a promising cooking process for
+its use in meat industries due to energy saving and shorter processing time.
+Ultrasound, double emulsion, pulsed UV light, and ohmic heating methods are
+discussed as alternative processes in the preparation of emulsified meat products
+in this chapter.
+THE  TRADITIONAL  EMULSIFIED  PRODUCTS  PREPARATION
+PROCESS
+Frankfurters are generally made of 60% beef and 40% pork. Wieners could be
+prepared with 100% beef, 100% pork or 100% poultry meat, or a combination of
+them. Wieners may vary in size and style for different markets. Frankfurters areMeat Emulsion Technology
+28   Advances in Meat Processing Technologies Kalschne et al.
+larger, while Vienna sausages are smaller. The Vienna sausage is also canned and
+could  be  stored  at  room  temperature.  The  formulation  and  processing  of
+mortadella are similar to franks, but bologna sausage casing is much larger in size
+than wieners [15].
+Mortadella is a large emulsified cooked sausage with different denominations and
+composition,  depending  on  the  geographical  location  where  it  is  produced.
+Originally  from  Bologna  in  Italy,  bologna  sausage  is  made  from  finely
+comminuted  and  cured  pork  usually  added  with  small  pork  fat  cubes.  It  has  a
+characteristic garlic flavor and coarse black peppers are added to it in some South
+American countries.
+Other meats such as buffalo, lamb, mutton [ 16], and fish might also be used in
+similar products. It is also noteworthy that the use of mechanically separated meat
+(especially  poultry)  is  law-permitted  in  some  countries  and  is  common  in
+emulsified products [ 17], also muscle nonskeletal meat (liver, tongue, heart,  etc.),
+tendons, and skin are permitted for similar low-cost products. As for the non-meat
+ingredients, the main one is iced-water for keeping the batter at a low temperature,
+as  well  as  salt,  nitrites,  antioxidants,  sugars,  stabilizers  (phosphates  and  other
+emulsifiers) and/or water-binders such as soy protein, caseinate, and starch are
+used in these products. In addition to flavorings, seasonings and spices that are
+characteristic of each product and are dependent on regional traditions. Table 1
+shows some possible emulsified meat product formulations. It is possible to notice
+the variability of the raw material and ingredients used, which makes it difficult to
+standardize these products and shelf-life. Therefore, the innovative technologies
+that will be discussed in this chapter are necessary to contribute to the quality and
+safety of these meat products.
+Frankfurter  and  bologna  sausage  production  involves  the  selection  of  raw
+material,  grinding,  seasoning,  blending,  emulsification,  stuffing,  cooking,  and
+packaging. Processing up to the stuffing stage is quite similar for both products.
+According  to  Abdolghafour  et  al .,  the  process  begins  by  choosing  the  raw
+material,  which  could  be  either  fresh  or  frozen,  but  of  good  microbiological
+quality. All ingredients must be properly weighted according to the formulation.
+The lean meat portion should be trimmed to less than 10% fat and connective
+tissue, free from tendons, cartilage and bones, for good water-binding capacity
+[16]. Meats vary in their ability to bind water and hold lean meat and fat together.
+Lean  skeletal  muscle  tissue  proteins  contain  the  best  water-retention  and  fat-
+emulsifying properties. Adding salt (15–25%) to the formulation for myofibrillar
+protein solubilization enables it to form a gel when heated [15].
+44 Advances in Meat Processing Technologies, 2020, 44-58
+CHAPTER 4
+Meat Curing and Preservation Methods
+Abstract: Salting is one of the oldest food preserving methods. New salting methods
+for  meat  products  are  currently  being  studied  aiming  at  reducing  process  time  and
+labour costs, increasing process yield, and producing safe, low-salt content foods with
+acceptable sensory characteristics. In this context, ultrasound, high hydrostatic pressure
+and  microwave  technologies  have  been  highlighted.  Several  manuscripts  have
+addressed  this  theme  and  the  results  were  satisfactory,  urging  the  need  for  further
+studies in order to improve and enable the use of such methods. This chapter will cover
+traditional  salting  methods  and  new  ones,  currently  being  discussed  aiming  at
+improving  the  quality  and  yield  of  products.
+Keywords: Brine, Dry-Cured Meat, High Pressure, Meat Quality, Microwave,
+Ultrasound.
+INTRODUCTION
+Among  the  different  meat  preservation  procedures,  salting  is  one  of  the  most
+ancient methods used. However, due to the development of new food preservation
+methods, the meat industry currently uses salt as flavouring or flavour enhancer
+and also as responsible for the desirable textural properties of processed meats [ 1,
+2].  Salt  plays  an  essential  role  in  meat  products   e.g.  in  protein  it  activates
+hydration  and  water-binding  capacity  leading  to  a  decrease  in  fluid  loss  in
+thermally-processed  vacuum-packaged  products;  an  increase  in  the  binding
+properties  of  proteins  to  improve  texture;  an  increase  in  meat  batter  viscosity,
+facilitating  the  incorporation  of  fat  to  form  stable  batters;  as  well  as  being
+essential to flavouring and having a bacteriostatic feature at relatively high levels
+[2].
+The  terms  salting  and  healing  or  salty  and  cured  have,  for  some,  the  same
+meaning. Salted meats are also called cured meats when treated with table salt
+and/or curing and adjuvant salts. Salting and curing are widespread methods for
+obtaining meat processed products and also, in the original sense of the word, to
+keep meat fresh for longer.
+Sodium nitrite is often included in the brine and is responsible for the cured meat
+colour, adding flavour, and preventing spores from microorganisms such as Clos-
+Daneysa L. Kalschne, Marinês P. Corso & Cristiane Canan
+All rights reserved-© 2020 Bentham Science Publishers
+Advances in Meat Processing Technologies   45
+tridium  botulinum  [3]  from  developing.  A  widely  used  adjuvant  is  sugar  that
+enhances the taste of meat and counteracts some of the hardening effects caused
+by salt. Over time, the term meat curing became a synonym to adding salt, sugar,
+spices,  saltpetre  (nitrate)  or  nitrite  to  meat  for  preservation  and  flavour
+enhancement.
+Salt  penetration  in  meat  is  related  to  establishing  a  balance  between  salt
+concentrations inside and outside the piece of meat. However, there are a number
+of  factors  that  influence  the  speed  at  which  equilibrium  is  established,  as
+described  in  Fig.  ( 1)  [4 -  6].
+TRADITIONAL SALTED PRODUCTS
+Salted or cured meat products are widely consumed worldwide. Table 1 presents
+some of these products and the traditional methods used for their preparation and
+countries of origin. It is considered that this general knowledge is necessary to
+arouse  the  interest  in  the  application  of  new  technologies,  since  the  technical
+literature has focused mainly on hams.
+Table 1. Salted meat products from different countries.
+Salted Product Meat Base Curing Methods Origin Country Reference
+Jerked Beef Beef Dry curing Brazil [7]
+Charque Beef, goat Dry curing Brazil [7]
+Cecina Horsemeat Dry curing Spain [8, 9]
+BiltongPieces of pork, beef, goat,
+venison, and horseDry curing South Africa [10]
+BresaolaPieces of pork, beef, goat,
+venison, and horseDry curing Italy [11]
+Spanish Serrano ham Pork Dry curing Spain [12]
+Iberian ham Pork Dry curing Spain [12, 13]
+Italian Parma ham Pork Dry curing Italy [12]
+French Bayonne ham Pork Dry curing France [12]
+Lacón Pork Dry curing Spain [12, 14]
+Bacon PorkBrine curing and/or dry
+curing* Great Britain [15]
+* It is not known for sure, but records show that Britain's traditional breakfast in 1560 was served with bacon
+and eggs [15].Meat Curing and Preservation Methods
+46   Advances in Meat Processing Technologies Kalschne et al.
+CURING METHODS
+Two main forms of applying curing ingredients are dry cure and pickle or brine
+cure. The dry cure process involves hand rubbing the dry-cure mixture (sugar,
+salt, nitrate or nitrite) in excess over the external part of the meat. However, most
+curing procedures use a salt-based brine or pickle for manufacturing the cured
+meat products [3].
+Fig. (1). Factors that influence the speed and equilibrium of salted meat products.
+Dry-salting might be an extremely time-consuming process and it often requires
+the constant rotating of meat pieces in order to standardize the product and speed
+up  the  process.  No  water  is  added,  so  the  curing  agents  are  solubilized  in  the
+
+Advances in Meat Processing Technologies, 2020, 59-74 59
+CHAPTER 5
+Marinating and Meat Restructuring Technology
+Abstract: Meat products such as marinated meats, hamburgers, and nuggets are well
+accepted  by  consumers  looking  for  convenience  in  preparing  their  meals.  These
+products possess characteristics such as tenderness, juiciness, diversity of flavors, high
+yield, and also add value to hard-to-sell meats. This chapter will discuss the traditional
+and  innovative  meat-producing  methods,  also  called  green  technologies,  currently
+aimed at making meat products safer, of higher quality, also reducing production costs.
+Green technologies use either physical, chemical, or biological methods enabling them
+to perform the same productive tasks more efficiently due to lower electrical power,
+chemical, and water consumption as well as wastewater production.
+Keywords: Batter, Breader, Green technologies, Predust.
+INTRODUCTION
+Meat  is  rich  in  high-quality  protein  and  essential  nutrients  such  as  vitamins,
+minerals, and essential fatty acids [ 1]. Meat consumption, particularly red meat
+(beef, pork, and lamb), is dated back to ancient times and remains a dominant
+lifestyle  and  nutritionally  essential  in  modern  society  [ 2].  Meat  quality  is
+influenced  by  many  factors,  such  as  the  animal`s  breed,  genetic  aspects,  age,
+gender,  pre-  and  post-slaughter  management  [ 3],  meat  composition  just  as
+connective tissue content, streaky or marbled fat, myofibrillar protein components
+and  their  myofibrillar  contraction  level,  carcass  muscle  location,  and  cooking
+method [4]. Consumers at the time of purchase choose and evaluate meat cuts
+based on visual, olfactory, and price perceptions. However, the consumer expects
+practicality and tenderness during preparation and consumption [ 5 - 8]. Marinated
+and  restructured  processed  meat  products  (breaded  or  non-breaded)  such  as
+seasoned  meat  cuts,  cooked  hams,  hamburgers  and  nuggets,  meet  these
+consumers’  expectations.
+Marinated meat is a spicy product produced generally with a whole meat piece
+with a specific flavor, tenderness, and juiciness [ 9]. Marinated meat preparation
+consists of adding brine containing a mixture of additives, spices, and flavorings
+to  the  meat.  It  might  occur  by  immersion,  diffusion  penetration,  injection,  or
+vacuum tumbling [9, 10].  On the other  hand, restructured  products such as  nug-
+Daneysa L. Kalschne, Marinês P. Corso & Cristiane Canan
+All rights reserved-© 2020 Bentham Science Publishers
+60   Advances in Meat Processing Technologies Kalschne et al.
+gets are prepared by mechanical disintegration of meat, followed by ingredients
+mixing and homogenization. The prepared meat batter is placed in containers and
+inserted  in  a  freezing  tunnel  [ 11].  Subsequently,  they  are  nugget-shaped  cut,
+breaded,  pre-fried  and  frozen-stored.  For  products  such  as  cooked  ham  -  a
+marinated and restructured meat product - brine is applied to the pork leg either
+by immersion, injection and/or vacuum tumbling, then the leg cuts are shaped and
+cooked, resulting in one-piece [ 12]. It is important to point out that less tender
+meat remnants from the boning process and difficult-to-market meats could be
+used  for  developing  marinated  and  restructured  meat  products  [ 10].  The
+subsequent  paragraphs  describe  in  more  detail  the  marinated  and  restructured
+meat  product  preparation.
+MARINATED MEAT PRODUCTS
+Marinating is a process that has been long used that consists of soaking the meat
+in brine added with simple ingredients, improving the taste and masking some
+undesirable odors. The brine used in processing is usually a mixture of water,
+additives, spices, and flavorings and is applied to the meat by dipping, massaging,
+or tapping, injection for a set period of time. The most demanded functions with
+marinating  are  shelf  life  extension  and  microbiological,  culinary,  and
+technological  quality  enhancement  (jutosity,  taste,  tenderness,  water  retention,
+and mass yield) [13, 14].
+Salt is the most important ingredient in marinating as it increases myofibrillar
+protein  solubility  and  in  conjunction  with  sodium  pyrophosphate,  sodium
+hexametaphosphate, and sodium tripolyphosphate enhances the sensory properties
+of processed meats, increases water retention capacity, assists on the emulsion,
+color,  and  flavor  stabilization  [12],  and  reduces  water  loss  during  the  cooking
+process [15]. The use of acid and alkaline phosphate mixtures provides greater
+product  functionality,  contributing  to  a  greater  meat  water  retention  capacity,
+which is of great technological interest, as well as greater juiciness and product
+slicing  easiness.  Ingredients  such  as  non-meat  proteins,  vegetable  proteins,
+hydrocolloids,  carrageenan,  xanthan,  and  organic  acids  mix  contribute  to  the
+preparation  of  standardized  quality  meat  products  with  high  water  retention
+capacity,  attractive  flavor,  and  low-cost  [ 16].
+The  marinating  methods  are  primarily  responsible  for  the  quality  of  the  final
+product.  The  application  is  essentially  static  (by  meat  immersion  in  brine)  or
+dynamic (using force and friction). Meat immersion in brine is possibly the oldest
+marinating  method,  where  the  migration  of  ingredients  into  the  myofibrils
+depends on brine solids concentration and the length of time the meat is dipped
+[8].  Upon  immersion,  the  salt  and  acid  present  in  the  solution  impregnate  the
+Advances in Meat Processing Technologies   61
+tissues, causing a fall in pH, which results in significant hydration of the proteins
+if the salt content of the solution is less than 0.3 M [ 13]. For tumbling, the cuts
+must be carefully chosen due to a high risk of bone breakage or skin separation
+from certain parts, especially of the chicken, so the tumbler is recommended for
+small,  boneless,  skinless  pieces  of  meat,  and  for  other  cuts  [ 17].  Injecting
+equipment  that  uses  pumps  to  propel  the  brine  through  needles  into  the
+myofibrillar proteins has been the most used method in the meat industry (Fig. 1).
+This  equipment  provides  a  spray  effect,  avoiding  brine  pockets  forming  in
+specific parts of the meat since it maintains brine dispersion in millions of micro-
+drops with a homogeneous distribution of the marinade in the meat [ 8]. There is
+also  partial  hydration  of  gel-forming  myofibrillar  proteins  that  denature  upon
+heating,  leading  to  meat  cuts  aggregation  [ 12].
+Fig. (1).  Injector machine used for meat injection.
+The thermal processing (cooking) of ham is carried out in baking ovens until the
+product reaches an internal temperature of approximately 68 ± 1 °C. At this stage,
+the killing of most vegetative cells of microorganisms occurs. The survival and/or
+proliferation of pathogenic microorganisms might occur if the heating treatment is
+insufficient, which could be dangerous [15].
+RESTRUCTURED MEAT PRODUCTS
+Consumers nowadays, due to an increasingly busy lifestyle, are seeking products
+that are quick and easy to prepare, which would make their daily lives easier.
+Meat Restructuring Technology
+Advances in Meat Processing Technologies, 2020, 75-84 75
+CHAPTER 6
+Non-emulsified Sausage Processing Technology
+Abstract: Non-emulsified sausages represent a wide group of processed meat products
+with peculiar characteristics depending on the region of production. In general, they are
+recognized as thick dough sausage products, stuffing and commercialized in a fresh
+way, or submitted to smoking or cooking. The fresh non-emulsified sausages are a
+highly perishable food that cannot be submitted a previous heat treatment before the
+sale, once the consumer will bake it in the consumption moment. In this context, the
+high  hydrostatic  pressure  and  irradiation  are  of  great  interest  because  only  a  slight
+increase  in  the  temperature  was  observed  during  the  processing  step,  and  can  be
+applied in the finally sealed packages, avoiding re-contamination. Furthermore, for
+cooked  non-emulsified  products,  the  number  of  possibilities  for  alternative
+technologies employment is greater. The high hydrostatic pressure and irradiation can
+be applied for microbial reduction after cooking step already in the package, and the
+alternative  heating  technologies  such  as  ohmic  heating,  microwave,  and  radio-
+frequency  can  be  tested  in  order  to  replace  the  conventional  cooking  procedures
+improving  the  microbiological  safety.  Thus,  the  use  of  emerging  technologies
+represents an interesting point of view in the processing of non-emulsified products,
+justifying the proper attention of further studies.
+Keywords:  Electron-beam  Irradiation,  High  hydrostatic  pressure,  Irradiation,
+Microwave,  Ohmic  Heating,  Radio-Frequency.
+INTRODUCTION
+The sausages were recognized as a processed meat product placed inside a wrap.
+However,  there  are  different  groups  of  sausages,  such  as  the  emulsified  (thin
+dough), the dry fermented (thick dough), and the non-emulsified, but proceeded
+by coarse grinding (thick dough). Fig. ( 1) presents some examples of the three
+mentioned  types  of  sausages.  The  non-emulsified  sausages  may  be
+commercialized as cooked, smoked, or fresh products. The thick dough sausage
+production  includes  grinding,  seasoning,  blending,  stuffing,  fermentation
+(applicable only for fermented sausage), smoking (optional), cooking (applicable
+only for cooked sausage), and packaging. The fresh sausages are highly perishable
+products  if  compared  with  fermented  and  cooked  ones  since  they  are
+manufactured from fresh ground meat, which is friendly for microbial growth of
+spoilage  and  pathogenic microorganisms; moreover, the fresh sausages generally
+Daneysa L. Kalschne, Marinês P. Corso & Cristiane Canan
+All rights reserved-© 2020 Bentham Science Publishers
+76   Advances in Meat Processing Technologies Kalschne et al.
+present a high-fat content, favorable for lipid oxidation [ 1]. In this context, the use
+of innovative technologies applied for meat and meat products highlights as an
+alternative, and for sausages, they are primarily used in order to reduce microbial
+contamination. This chapter gathers information about non-emulsified sausages,
+less researched in comparison with other sausages types, and some prepositions of
+alternative technologies that can be applied based on studies already done in other
+sausages.
+Fig. (1). Examples of different types of sausages.
+USE OF NEW TECHNOLOGIES IN SAUSAGE PRODUCTS
+Novel  and  emerging  food  processing  technologies  applied  to  meat  and  meat
+product elaboration have increasingly gained interest. More recently, there has
+been growing consumer demand for the minimally processed, free from chemical
+additives  and  healthier  meat,  highlighting  the  development  of  alternative
+technologies  to  improve  or  replace  the  conventional  heat  treatments  [ 2].
+The use of steam and hot water in conventional hot treatments for meat or meat
+products has the disadvantage of slow heat conduction flowing from the heating
+
+Non-emulsified Sausage Advances in Meat Processing Technologies   77
+medium to the thermal center of the product [ 3]. As the heating is slow, the use of
+slightly higher temperatures may cause an overheating on the outer surface of the
+food, effecting the quality of the product, which includes the formation of a free
+fat layer between the gut and the sausage. In this context, the use of alternative
+heat treatments represents an interesting solution for the meat industry, especially
+for  uniform  sausages  that  can  be  heat  processed  from  the  inside  out,  in  a
+standardized  way.
+HIGH HYDROSTATIC PRESSURE
+The high hydrostatic pressure (HHP) is defined by the application of pressure in
+the  range  from  100  to  1000  MPa.  The  emergent  technology  of  HHP  has  been
+employed mainly for microorganism reduction in meat and meat products at low
+or  moderate  temperature.  The  highest  potential  application  for  meat  products
+might be to pressurize finally sealed packages of contaminated generally sliced
+products as the color of those products can resist high pressure [4].
+According  to  Balamurugan  [ 5],  the  effect  of  HHP  (600  MPa  for  3  min)  was
+comparable with hot water pasteurization (75 °C internally kept for 15 min) in
+cooked pork sausage; both pasteurization processes were efficient for preventing
+the development of both, Listeria monocytogenes  and lactic acid bacteria, for 35
+and 21 days at 4 °C and 10 °C, respectively. Furthermore, both the pasteurization
+processes  were  efficient,  enabling  negative  test  for  Pseudomonas  spp.  and
+coliforms  throughout  the  35-day  storage  at  4  °C  and  10  °C.
+Similarly, Rubio et al. [6] employed the HHP (from 349 to 600 MPa, at 18 °C
+from 0 to 12.53 min) for Listeria monocytogenes  inactivation in Spanish chorizo
+sausage.  The  authors  observed  that  microorganism  reductions  increased  as  the
+pressure and duration of HHP treatments rose. Moreover, as chorizo presents a
+low value of water activity, the authors concluded that this parameter seemed to
+exert a protective effect on the L. monocytogenes  cells, and pressures below 400
+MPa did not lead to significant pathogen reduction.
+In  the  same  context,  a  Spanish  blood  sausage  produced  with  thick  dough  and
+cooked, named Morcilla de Burgos, has been submitted to HHP in order to reduce
+microbial contamination. The sausage was added to potassium and sodium lactate,
+and the application of HHP (600 MPa for 10 min) increased the shelf-life of the
+Morcilla  de  Burgos  by  15  days.  Enterobacteria  and  Pseudomonas  populations
+were effectively reduced at all pressures tested (300, 500 and 600 MPa for 10
+min). However, for lactic acid bacteria, only the 600 MPa allowed lower counts
+up to 21 days of storage [7].
+The main purpose of using HHP to treat meat products is to improve microbial
+Advances in Meat Processing Technologies, 2020, 85-100 85
+CHAPTER 7
+Effect of Ultrasound on Fresh Meat Tenderness
+Abstract: Ultrasound is considered a “green technology” based on acoustic energy. It
+is  a  mechanical,  nonionizing,  and  nonpolluting  technology  that  contributes  to  the
+improvement of numerous food industry processes. Several articles published in recent
+years have reported the effects of ultrasound on beef tenderness. Therefore, we have
+chosen to write this chapter as we believe that the use of ultrasound could assist the
+industry  to  establish  effective  and  efficient  processing  conditions  to  improve  meat
+quality and meet consumer demands. In this context, the effect of ultrasound on beef
+tenderness should be addressed, especially as beef is less tender than poultry, pork and
+lamb meat.
+Keywords:  Cavitation,  Emerging  Technology,  Proteins,  Proteolytic  Enzymes,
+Ultrasound  Waves.
+INTRODUCTION
+Red meat is considered a prime food for humans due to the quality of its protein
+and essential nutrients such as vitamins, minerals, and especially essential fatty
+acids [ 1]. According to consumers, tenderness is one of the key attributes they
+look for when buying fresh meat [ 2 - 5]. However, expectations are often not met
+as tenderness is influenced by many factors, such as breed, genetic aspects, age,
+gender and pre and post-slaughter management [6].
+In  China,  Japan,  and  the  USA,  beef  acceptability  is  increased  with  increased
+marbling [7], which is related to tender meat [ 8]. In some countries like Brazil, the
+genetic  basis  used  for  beef  production  comes  from  animals  with  a  great  Zebu
+genotype contribution, which negatively affects tenderness since these animals
+have  a  low  marbling  score.  Thus,  alternatives  that  could  contribute  to  the
+improvement of meat tenderness are quite relevant. High-power ultrasound is a
+green  emerging  technology  offering  great  potential  for  application  in  a  large
+number  of  food  industry  processes  [ 4,  9 -  12].
+In recent years ultrasound has been gaining space in food technology, and various
+studies have focused on its application to both fresh meat and processed products.
+The  use  of  ultrasound aims at  increasing water retention  capacity,  accelerating
+Daneysa L. Kalschne, Marinês P. Corso & Cristiane Canan
+All rights reserved-© 2020 Bentham Science Publishers
+86   Advances in Meat Processing Technologies Kalschne et al.
+maturation, improving the palatability of non-prime food cuts [ 13, 14], lowering
+energy  usage  during  cooking  [ 15],  emulsion  elaboration  [ 16],  increasing
+marinated products brine absorption (improving tenderness and yield of different
+meats) [ 17 - 19], and contributing to small ice crystal formation during freezing
+(reducing exudate loss during thawing) [20].
+Satisfactory  results  have  been  obtained  from  ultrasound  application  on  meat
+tenderness  [12,  21,  22].  Variables  such  as  cut  type,  size,  weight,  and
+physicochemical and functional properties should be considered when developing
+ultrasound systems to obtain quality products under optimal conditions [ 10]. This
+chapter  presents  the  results  of  the  use  of  ultrasound  in  fresh  beef  tenderness
+contributing  to  its  improvement  and  its  industrial  application.
+ULTRASOUND PRINCIPLES
+Ultrasound technology is based on the use of high-intensity elastic waves to alter
+the treated media by the adequate nonlinear phenomena exploitation associated
+with high amplitudes such as radiation pressure, wave distortion, streaming, and
+cavitation in liquids and dislocation in solids [ 12]. Its use in the food industry is
+related  to  physical,  chemical,  functional  or  microbiological  changes  that  may
+occur  in  food  due  to  its  use,  along  with  increased  productivity,  yield  and/or
+quality improvement, as well as food safety assurance. It is also noteworthy that it
+is a clean, fast, non-invasive, non-destructive, and accurate technology [ 23], with
+less processing time, lower water consumption, lower energy expenditure, less
+wastewater and toxic substances production, and safe food production [24, 25].
+Ultrasonic waves could be classified into (a) high frequency (2-20 MHz), low
+intensity (<1 W cm-2) and non-destructive waves applied in non-invasive imaging
+techniques, sensors and composition and dispersion or concentration analysis of
+particles in fluids [ 26]; (b) low frequency (20-100 kHz) and high intensity (10-
+1000 W cm-2) waves, which break the intermolecular binding due to higher power
+levels,  causing  a  cavitation  effect  that  alters  physical  properties  and  fosters
+chemical reactions [ 27]. Cavitation takes place when areas of pressure change
+occur in the environment with gas bubbles formation, which might or might not
+implode.  The  bubbles  increase  the  expanding  gases  diffusion  in  the  medium,
+causing  alternation  between  compression  waves  (positive  pressure)  and
+rarefaction  one  (negative  pressure)  [ 27,  28].  Cavitation  could  be  classified
+according to the mode in which it is generated, namely acoustic, hydrodynamic,
+optical and particle [ 29]. However, acoustic and hydrodynamic cavitations are the
+only ones with suitable intensities to cause physical and chemical changes in food
+[30].  The  acoustic  parameters  (frequency,  intensity,  treatment  duration,  and
+temperature) determine the extent of the desired sonication result, as well as the
+Advances in Meat Processing Technologies   87
+characteristics of the sample [14, 31].
+The improvement of both food processing and final product by ultrasound is due
+to the reactions using cavitation presenting shorter reaction times, increased yield,
+less severe processing conditions use, higher reaction products selectivity, as well
+as a lower temperature and pressure use, which contribute to the maintenance and
+integrity of components of interest in food [30].
+Ultrasound is applied by ultrasonic wave generating equipment such as ultrasound
+baths (indirect application) and immersion probes (direct application), which may
+vary in size, diameter and tip geometry, depending on the need. The differences
+between the ultrasound bath and the ultrasound probe are depicted in Fig. (1).
+ULTRASOUND ON BEEF TENDERNESS
+Meat palatability depends on quality parameters such as aroma, taste, appearance,
+juiciness and tenderness, which are all difficult to control as they are associated
+with cattle breed, genetic crossbreeding, rearing system (pasture or confinement),
+age, and gender [ 6]. The importance of quality parameters, such as tenderness,
+depends on the product and its final destination. However, at the time of purchase,
+meat tenderness is the most sought-after attribute by consumers [2, 3].
+Muscle  meat  must  undergo  some  biochemical  changes  to  become  the  final
+product, and after that, it needs to develop the proper organoleptic peculiarities,
+including tenderness [ 32]. The maturation or resolution of rigor mortis  comprises
+of  changes  after  cadaveric  stiffness  development.  At  that  stage  a  slow  muscle
+relaxation occurs, causing tenderness to meat after 3-4 days of refrigerated storage
+[8]. Maturation is also a conservation method. It involves storing meat cuts for 15
+to 21 days, at above meat freezing point temperature (around 0 ºC) [8].
+However, if maturation exceeds long periods, undesirable changes such as non-
+characteristic color pigment and flavor formation might occur. During maturation,
+the  myoglobin  iron  atom  oxidizes  losing  its  oxygen-binding  ability  (the
+myoglobin molecule is now called metmyoglobin). In this oxidized condition, the
+meat turns brown. Although this color is not harmful, it indicates that the meat is
+no  longer  fresh,  which  is  a  problem  for  beef  marketing.  In  contrast,  the  most
+compromising  issue,  beyond  meat  discoloration,  is  the  microorganism
+development that can lead to green pigments formation, such as sulfomoglobin
+produced by H2S-producing bacteria ending in actual putrefaction.
+The effect on meat tenderness during maturation is not due to the dissociation of
+actomyosin  formed  during  rigor  mortis,  but  to  the  action  of  several  meat-
+endogenous  enzymes,  especially  cathepsins,  calpains,  and  calcium-activatedFresh Meat Tenderness
+Advances in Meat Processing Technologies, 2020, 101-112 101
+CHAPTER 8
+Botton-up and Top-down Strategies for Processing
+Meat Analogs
+Abstract: There is a worldwide concern regarding the supply of protein source for both
+human  food  and  animal  feed.  In  this  context,  meat  has  a  major  impact  on  the
+environment and consumers and health professionals have been expressing growing
+concern over high meat consumption. In this respect, meat analogue products - defined
+as compounds structurally similar to meat, however, differing in composition - have
+been attracting ever-increasing attention and interest of the environment and health
+concerned consumers. Furthermore, the number of people identifying as vegetarian and
+vegan have been increasing as they look for more sustainable options due to a unique
+lifestyle. In this chapter, the main aspects of bottom-up and top-down strategies are
+presented  and  discussed.  The  literature  describes  different  approaches  to  simulate
+animal meat, such as cell culturing, mycoprotein and spinning techniques (bottom-up
+strategies)  extrusion,  proteins  and  metal-cation-precipitated  polysaccharides,  freeze
+structuring and shear cells technology (top-down strategies). Meat analogues have to
+present typical sensory and nutritional properties of animal meat for both vegetarian
+and  non-vegetarian  consumers.  Thus,  food  scientists  ought  to  test  texturization
+techniques,  develop  more  industrialized  meat  analogue  products,  evaluate  the
+scalability of production process and quality control of meat analogues, improving the
+existing technologies and developing new ones that meet consumer demands.
+Keywords:  Bottom-Up  Strategy,  Cell  Culturing,  Extrusion,  Polysaccharides,
+Protein,  Shear  Cells  Technology,  Top-Down  Strategy.
+INTRODUCTION
+Since ancient times and up to this day, meat-consuming individuals are referred to
+as  strong  and  powerful,  making  meat  consumption  a  sign  of  social  status  [ 1].
+Moreover, meat possesses a high biological protein value, due to its amino acid
+composition, vitamins and minerals [ 2]. However, its production requires a large
+number of natural resources, such as water, causing a large environmental impact
+[3, 4]. This fact contributes to the increased advocacy of plant proteins and their
+health benefits, justifying the importance of research and development of meat
+analogues [5].
+Daneysa L. Kalschne, Marinês P. Corso & Cristiane Canan
+All rights reserved-© 2020 Bentham Science Publishers
+102   Advances in Meat Processing Technologies Kalschne et al.
+In this scenario, meat analogues have been emerging as replacers [ 6], especially
+based on consumers’ interest in plant-based products that could replicate meat in
+terms of mouthfeel, texture, taste, color and smell [4].
+Moreover,  animal  cells  and  mycoproteins  have  also  been  studied  as  meat
+analogues for human consumption. Although meat analogues might replace meat
+in  terms  of  its  functionality  since  they  achieve  similar  product  properties  and
+sensory attributes to meat [ 3], amino acids’ biological value is also required. Meat
+analogues could be categorized as ground, comminuted and whole muscle. Fig.
+(1) shows some examples of meat analogue products, visually similar to animal
+meat.
+Fig. (1). Meat analogue products.
+Different structuring techniques aimed at creating fibrous plant protein materials
+could be used to develop meat analogues. Dekker at al. classified these techniques
+as  bottom-up  and  top-down  strategies  based  on  their  key  approach  to  create
+animal-meat-muscle-like  fibrous  structure  [ 3].  According  to  the  authors,  the
+bottom-up strategy consists of creating anisotropic structural elements that are
+later  assembled  into  larger  products,  whereas,  the  top-down  strategy  creates
+fibrous products by structuring biopolymer blends, in which the fibrousness of the
+product becomes apparent when stretching the material, mimicking the structure
+on larger length scales only. This nomenclature is used in the current chapter.
+Plant protein sources, such as wheat, soy, pea, and peanut are the most widely
+used raw materials for the development of meat analogues [ 4 - 9]; however, some
+animal proteins, especially egg and milk-based [10, 11], and fungi protein [12]
+have also been studied. The literature describes several animal meat simulating
+
+Advances in Meat Processing Technologies   103
+techniques, such as cell culturing, mycoprotein and spinning (bottom-up strategy);
+extrusion,  proteins  and  polysaccharides  precipitated  by  metal  cations,  freeze
+structuring and shear cells technology (top-down strategy) [ 3]. However, high-
+moisture extrusion has emerged as a food processing technology applied for meat
+analogues  production  that  has  gained  the  interest  of  food  scientists  and  is
+recognized as the most studied technique [ 5 - 9]. This chapter discusses some
+innovations  concerning  food  structuring  processes  for  protein  texturization,
+allowing  meat  analogues  production.
+BOTTOM-UP STRATEGY
+The bottom-up approach refers to a combination of individual structural elements
+to create subsequently assembled larger products [ 3]. It should be noted that meat
+is formed by the muscle ( in vivo) composed of elongated cells arranged in parallel
+to form muscle fibers ranging from 10 to 100 µm in width and of a few mm in
+length [13]. Thus, the bottom-up strategy is associated with the combination of
+protein  structures  that  could  be  grown  by  satellite-cell-culturing,  filamentous
+fungi biomass production, or by creating protein fibrils or fibers from either a
+vegetal or animal protein source, depending on the adopted strategy.
+CULTURED MEAT
+Skeletal muscle-tissue engineering could be applied to cell-based meat production
+for human consumption [14]. To culture muscle fibers, initially, myoblast-form
+satellite  cells  should  be  harvested  from  the  skeletal  muscle  of  an  animal;
+afterwards, the cells are replicated using a serum-supplemented medium with the
+nutrients needed for cell growth, such as amino acids, lipids, vitamins, and salts
+[3].  Cells  culture  media  could  be  completely  synthetic  and  devoid  of  serum
+products, however, serum-based media are still superior to synthetic ones [15].
+After obtaining enough cells, they are placed onto a scaffold with anchor points to
+connect and align the cells, yielding a multicellular tissue. Cells alignment and
+muscle fibers development are ensured by either electric fields or other means,
+and after approximately three weeks, the muscle fibers would mature and could be
+harvested [3].
+Satellite cells are undifferentiated and mononucleated [ 16], and according to Post
+[15], muscle cells culturing from satellite cells could be separated into two phases.
+The proliferation phase aims to obtain the highest number of cells from the cells
+of the starting batch, to maximize the number of doublings. Subsequently, the
+differentiation  into  skeletal  muscle  cells  and  maximum  protein  production
+(hypertrophy) occur. The author reinforces that differentiation in satellite cells
+occurs almost naturally with a very little adjustment to culture conditions. TheBotton-up and Top-down Strategies
+Advances in Meat Processing Technologies, 2020, 113-126 113
+CHAPTER 9
+Alternative Additives and Ingredients
+Abstract: Meat products conventionally contain fat, saturated fatty acids, and high salt
+contents, as well as health-harming chemical additives, such as nitrites and synthetic
+anti-oxidants. The meat industry has been striving to find alternatives in order to meet
+consumer demands for healthier products, either reduced or free of such components.
+For  this  purpose,  various  studies  have  been  carried  out  for  alternative  ingredients.
+Vegetable oils have achieved positive results as fat replacers. Methods such as pre-
+emulsion, emulsion-templated, microencapsulation, and oleogel formation (hydrogel or
+organogel)  have  been  excellent  on  partial  pork  fat  reduction,  and  consequently
+saturated fatty acids or n-3 PUFA-rich oils incorporation. Plant materials are seen as a
+good alternative for synthetic anti-oxidants. Various plant derivatives have been tested
+and presented anti-oxidant potential due to their bioactive contents, such as phenolic
+acids,  phenolic  diterpenes,  flavonoids,  and  volatile  oils.  Other  salts,  especially
+potassium chloride, have stood out on replacing sodium chloride. The use of natural
+sources of either nitrites or nitrates, such as celery and powdered vegetable juice, has
+been  suggested  as  their  replacers,  as  well  as  the  use  of  different  compounds  with
+potential natural food preservative characteristics. Overall, considerable progress has
+been made over the past few years in the field of ​​non-meat ingredients as alternative to
+conventional ones, conferring a healthier approach to meat products. However, overall
+strategic approaches to meet one or more simultaneous demands, such as fat and salt
+reduction,  among  others,  in  terms  of  sensory,  technological  and  microbiological
+efficiency  ought  to  be  encouraged.
+Keywords: Animal Fat Replacer, Natural Anti-Oxidants, Nitrite-Free Product, n-
+3 PUFA, Potassium Chloride, Salt Replacer.
+INTRODUCTION
+Consumer  demand  for  healthier  meat  products  has  increased  in  recent  years
+following overall diet changes. To meet this demand, the meat industry has been
+striving to innovate on the processing of healthier products, either by reducing the
+number  of  compounds  with  negative  health  impacts  or  by  incorporating
+ingredients that could offer benefits to consumer health when included in the diet.
+Consumer  evaluations  for  reformulated  and  healthier  processed  meat  products
+showed that healthy ingredients, salt, and/or fat contents are the most important
+factors  on consumers'  purchase intention,  second only  to price  and  meat-based
+Daneysa L. Kalschne, Marinês P. Corso & Cristiane Canan
+All rights reserved-© 2020 Bentham Science Publishers
+114   Advances in Meat Processing Technologies Kalschne et al.
+products. For reformulation, consumers preferred salt and/or fat-reduced products
+over non-reduced ones. For healthy ingredients, Omega 3 was the preferred one
+and healthier reformulations improved the health perception of processed meats
+[1].
+Typically, meat products belong to a caloric food category due to their high-fat
+content, mainly saturated fat, high sodium content and chemical additives such as
+nitrates and nitrites, synthetic anti-oxidants, polyphosphates, or even allergenic
+compounds, such as soy proteins, milk proteins and others that are associated with
+health problems. Such ingredients have been widely used by the meat industry
+due to their technological functions, sensory properties, microbiological safety,
+and the economic viability that they confer to meat products.
+Therefore, this chapter aims at addressing alternative replacements to the negative
+connotations of more conventional ingredients and additives (fat and/or saturated
+fatty acid, synthetic anti-oxidants, salt, nitrates, and nitrites), aiming at a healthier
+approach to meat products.
+ANIMAL FAT REPLACERS
+The  high  animal  fat  contents  found  in  meat  products  are  comprised  of  high
+saturated  fatty  acid  content.  Pork  fatback  is  the  most  commonly  used  fat,
+providing  the  product  with  the  taste  and  texture  characteristics  that  ensure  its
+sensory acceptance by consumers. However, consumers aim for healthy products
+as well as sensory quality and the meat industry has been looking for pork fat
+replacers,  given  the  difficulty  of  bridging  sensory  quality,  low  saturated  fatty
+acids concentration, n−3 PUFA-rich oils, and oxidative stability of products.
+Given the inefficiency of applying vegetable oils directly to the products, more
+satisfactory  results  have  been  verified  from  the  application  of  pre-emulsified
+vegetable oil, as previously covered in chapter 3. Oil pre-emulsification increases
+protein-covered fat globules with consequently greater batter stability. Kang et al.,
+using pre-emulsified soy oils to replace pork fatback changed the protein structure
+(higher ß-sheet and lower α-helix content, tyrosine residues were exposed, and
+more hydrophobic interactions were formed) allowing for lower fat and energy
+content, enhancing the quality of frankfurters [2]. Utama et al., when using oil-i-
+-water  (o/w)  emulsion,  consisting  of  perilla  and  canola  oil,  polyglycerol
+polyricinoleate, soy protein isolate, and inulin as an animal fat replacer in chicken
+sausage found that the emulsion could effectively improve the fatty acid profile
+and  oxidative  stability  without  deteriorating  the  sensory  characteristics  of  the
+emulsified  sausage  [ 3].  Hu  et  al .,  using  pre-emulsified  soybean  oil  with
+regenerated  cellulose  and  sodium  caseinate  in  emulsified  sausages  [ 4],  and
+Pintado  et  al .,  using  water  and  chia  flour  with  pre-emulsified  olive  oil  in
+Advances in Meat Processing Technologies   115
+frankfurters  have  also  achieved  satisfactory  outcomes  [ 5].
+Another approach for pork fat replacement is the incorporation of vegetable oils
+in oleogel-form (gel in that the liquid phase if oil). The vegetable oil is structured
+by a gelling compound that, by heating and cooling, is stacked in organized three-
+dimensional networks, thus providing the vegetable oil nutritional benefit and the
+positive  sensory  and  technological  properties  of  a  more  saturated  and  harder
+animal fat [ 6]. Several gelling compounds have been suggested, including kappa-
+carrageenan  [ 7,  8],  hydroxypropyl  methylcellulose  [ 9],  monoglycerides  and
+phytosterols  [10],  rice  bran  wax  [ 6],  ethylcellulose  [8,  11],  alginate  [12],  and
+others. According to Taverniers et al., polymers appear to be the most promising
+candidates  since  a  considerable  number  have  been  approved  for  use  in  food
+products, capable of providing structure, as well as being widely available and
+cost-effective [13]. The most recent oleogel application in meat products and the
+main results are presented in Table 1.
+Table 1. Examples of oleogel applied in meat products as pork fat replacers
+Meat product Oleogel composition Mainly results Reference
+Meat battersHydrogel: Canola oil (40%),
+polysorbate 80 (oil: surfactant ratio
+was 0.05%, 0.003), BHT (0.01%),
+kappa carrageenan (1.5% or 3%), and
+deionized water (up to 100%)
+Organogel: Canola oil (88%, 86.5% or
+85%), ethylcellulose (12%), glycerol
+monostearate (0%, 1.5% or 3%), BHT
+(0.01%).Replacement by regular canola
+oil increased hardness and
+lightness when compared to
+those with beef fat
+Batters formulated with
+organogel showed enhanced
+matrix stability compared to
+those with hydrogelled
+emulsions.[8]
+Meat pattiesHydrogel: Hydroxypropyl
+methylcellulose dissolved in distilled
+water (1%, w/w) overnight and added
+with canola oil (2, 4, and 6%, w/w).The 50% replacement of beef
+tallow by HPMC oleogels
+reduced cooking loss, improved
+saturated to unsaturated fat ratio
+from 0.73 to 0.18 and produced
+meat patties with good sensory
+properties.[9]
+Frankfurter-type
+sausagesRice bran wax (2.5% and 10% wt/wt)
+and correct amounts of soybean oil.Oleogel treatments were less
+dark and less red with reduced
+flavor. It was similar to pork fat
+treatment for firmness,
+chewiness, springiness and
+aroma.[6]
+Frankfurter
+sausagesSunflower oil (80%), gelators' (20%)
+(monoglycerides/phytosterols weight
+ratios were 10:10 (1:1) and 15:5 (3:1)
+w/w).For the control, no differences
+were detected in the oxidation
+levels and sensory evaluation.[10]Alternative Additives and Ingredients
+ Advances in Meat Processing Technologies , 2020 , 127-137 127 
+Daneysa L. Kalschne, Marinês P. Corso & Cristiane Canan 
+All rights reserved-© 20 20 Bentham Science Publishers 
+ 
+ 
+ SUBJECT INDEX 
+A 
+ 
+Acid 10, 12, 16, 29, 35, 60, 67, 79, 105, 117, 
+118 
+   acetic 67 
+   ascorbic 10, 117, 118 
+   ferulic 118 
+   polyricinoleic 35 
+   phytic 117 
+   sodium 29 
+   thiobarbituric 16, 79 
+Acoustic 31, 34, 68, 85, 86, 93 
+  cavitation 31, 34 
+  energy 85 
+  parameters 86, 93 
+  waves 68 
+Action 11, 88, 120, 121 
+   conservative 120 
+   efficient antimicrobial 121 
+   lysosomal enzymes 88 
+   proteolytic 88 
+   starter cultures 11 
+Additives 10, 27, 59, 60, 62, 64, 76, 113, 114, 
+118, 119, 121 
+   chemical 76, 113, 114 
+   natural 118 
+   prospective 119 
+ starter culture reference 10 
+Alignment 105, 107, 108 
+   biopolymer solutions 105 
+   freeze 107 
+   ice crystal needles 108 
+Alkaline phosphate mixtures 60 
+Alterations 38, 80, 93, 95 
+   structural 95 
+Analogues production 103, 107 
+   whole-muscle meat 107 
+Animal fat 5, 27, 32, 33, 34, 35, 36, 115 
+   replacing 32, 33, 34, 35 
+Animal meat 101, 102, 105, 107, 109 
+   simulate 101 
+   structures 105 
+Anisotropic protein 105 
+   producing 105 Anti-oxidants 117 
+   effective 117 
+   natural herbal 117 
+Aqueous 26, 94 
+  salt 26 
+  solutions 94 
+Aroma 1, 10, 11, 17, 29, 63, 87, 109, 115 
+   characteristic 63 
+   commercial 29 
+   natural smoked 29 
+Attributes 19, 20, 38, 49, 69, 85, 87, 102 
+   key 85 
+   negative 69 
+   sensory 38, 49, 102 
+ 
+B 
+ 
+Bacillus subtilis  14 
+Bacon 4, 45, 48, 53 
+   cured 48 
+   producing 53 
+Bacteria 15, 19, 22, 34, 52, 67, 69, 87, 96 
+   lactic 34 
+   pathogenic 69 
+   psychrophilic 96 
+   psychrotrophic 67 
+Bacteria inhibition 18 
+B-complex vitamins 4 
+Beef 32, 33, 68, 115, 116 
+  fat 115, 116 
+  frozen 68 
+  myofibrillar proteins 32, 33 
+  separated chicken 29 
+  unfrozen 68 
+Beef tenderness 85, 86, 87, 88, 96 
+   effects of ultrasound on 85 
+Behavior 3, 51, 80, 120 
+   influence consumer 3 
+   textural 120 
+Biological 13, 101 
+  materials 13  
+Biopolymer blends 102, 105 
+   structuring 102 
+Bologna sausage 27, 28, 29, 32, 34, 39 
+128   Advances in Meat Processing Technologies     Kalschne et al. 
+   producing 34 
+Bologna-type sausages 116 
+Bovine satellite cell culture 104 
+Bovine serum albumin (BSA) 95 
+Brassica nigra  117 
+Breaded meat product 62, 63 
+  coverage systems 63 
+  preparation 62 
+Breaded product processing 64 
+Breading 63, 64 
+   classic 63 
+Brine 34, 44, 46, 47, 59, 60, 61 
+   cavitation-treated 34 
+   concentrated 47 
+   higher concentration 47 
+   inject 47 
+   meat immersion in 60 
+   salt-based 46 
+Brine absorption 68 
+   increasing marinated products 86 
+ 
+C 
+ 
+Calcium 2, 89, 119 
+   chloride 119 
+   increased intracellular 89 
+   release 89 
+Calpains activity 94 
+Camellia sinensis 118 
+Canola oil 114, 115, 116 
+   regular 115 
+Capsule 14 
+   bacterial 14 
+Carcinogenic effects 117 
+Casings 8, 9, 30, 79 
+   artificial 9 
+   intestinal 8 
+   sheep 79 
+Castanea sativa 118 
+Cathepsin activity 89, 94 
+Cathepsins 87, 88, 92, 94 
+   release 92 
+   releasing lysosomal 88 
+Celiac disease 107 
+Chicken 33, 34, 114 
+  breast myofibrillar protein 34 
+  myofibrillar protein 33 
+  sausage 114 
+Chitosan 120 
+Cholesterol 104 Chopping parameters 27 
+Chromatic parameters 68 
+Chronic kidney disease 48 
+Clostridium 120, 121  
+  botulinum  120 
+  perfringens  121 
+Coagulation agents 105 
+Coliforms 18, 77, 96 
+   decreased 96 
+Collagen 27, 88,89 
+  fibers 89 
+  fibers melting 89 
+  molecules cross-links break 88 
+  solubility 89 
+Commercial 26, 29, 37, 67, 119 
+  competitiveness 67 
+  products 26, 29, 119 
+  sausages 37 
+Competitive microorganisms 15 
+Compounds 4, 15, 35, 69, 101, 113, 114, 115, 
+117, 120 
+   allergenic 114 
+   bioactive 35, 117 
+   gelling 115 
+   photosensitive 69 
+Compromising food safety 67 
+Concentration 60, 114, 120 
+   brine solids 60 
+   low saturated fatty acids 114 
+Connective tissue proteins 88 
+Consumer demand for healthier 5, 113 
+  meat products 113 
+  foodstuffs 5 
+Consumption 1, 3, 4, 6, 9, 59, 62, 75, 102, 
+103, 109 
+   human 1, 102, 103 
+   manufacturing process time 9 
+   meat per capita 3 
+   sustainable 3 
+Contaminated food matrix 121 
+Contamination 5, 27, 38, 69, 76, 77, 78, 82, 
+104 
+   microbial 5, 69, 76, 77, 78, 82 
+   post-heat treatment 38 
+   potential microorganism 27 
+Conventional 75, 76, 82 
+  cooking procedures 75, 82 
+  heat treatments 76 
+  hot treatments 76 
+Cooked bacon strips 53 
+Subject Index Advances in Meat Processing Technologies    129 
+Cooked emulsified 29, 40 
+  meat product elaboration 40 
+  sausage formulations 29 
+Cooked products 30, 82 
+   non-emulsified 82 
+Cooked sausages 26, 28, 75, 79 
+   large emulsified 28 
+   non-emulsified 79 
+Cooking 4, 5, 27, 28, 30, 31, 37, 38, 53, 59, 
+60, 61, 75, 80, 86, 90, 91, 106 
+   conventional oven 53 
+   high moisture extrusion 106 
+   ohmic 37 
+   methods 5, 59 
+   process 27, 31, 37, 53, 60 
+   smokehouse 38 
+Coronary heart disease 48 
+Curing 4, 9, 10, 17, 31, 44, 45, 46, 47, 48, 50 
+     agents 46 
+  brine tank 48 
+  dry 45 
+  period 47 
+  processes 47, 50 
+  reactions 31 
+  salt 9, 10 
+ 
+D 
+ 
+Damage 14, 18, 19, 38, 48, 92, 95 
+   cell 14 
+   lethal 14 
+   photophysical 38 
+   polarizes 95 
+Deits, traditional 8 
+Diffusion 49, 59, 86, 104 
+   expanding gases 86 
+   influence salt 49 
+   penetration 59 
+Dry-cured hams 52 
+   evaluated 52 
+   salt-reduced 52 
+Dry-fermented 10, 120 
+  meat products formulation 10 
+  pork sausages 120 
+Dry-fermented product processing 8, 22, 26 
+  technology 22 
+Dry-fermented products 8, 13, 26 
+   popular 8 
+   production of 8, 26 
+   weight loss 13 Dry-fermented sausages 20 
+ 
+E 
+ 
+Elastic texture, smooth 34 
+Electrical conductivity 37, 80 
+Electro-heating methods 37 
+Electron-beam irradiation 75, 78, 79 
+  application 79 
+Emulsified 27, 28, 30, 31, 32, 33 
+  cooked meat production 31 
+  meat preparation 32, 33 
+  meat preparation technology 32 
+  products 27, 28, 30 
+Emulsified sausages 4, 79, 114 
+Emulsifying agents 26 
+Energy 20, 37, 48, 53, 66, 70, 78, 81 
+   electric 37 
+   high-speed released 78 
+   increased kinetic 53 
+   invisible electromagnetic 70 
+   release electromagnetic 81 
+Enterococcus faecalis  38 
+Enzymatic degradation 89 
+Enzymes 14, 20, 85, 87, 94 
+   meat-endogenous 87 
+   microbial 20 
+   proteolytic 85, 94 
+Escherichia coli  18, 20 
+Escherichia coli  and Bacillus cereus in beef 
+69 
+Essential fatty acids 59, 85 
+Excess salt 47 
+Exposure 14, 15, 18, 33, 39 
+   conventional 18 
+   ultrasonic 15 
+Exposure time 14, 15, 17, 18, 19, 20, 21, 49, 
+93 
+   effective 15 
+   longer 49 
+   long light 19 
+Extraction 17, 118 
+   organic compounds 17 
+ 
+F 
+ 
+Fat 9, 11, 26, 27, 28, 29, 34, 35, 36, 59, 113, 
+114, 121 
+   marbled 59 
+   non-meat 27 
+130   Advances in Meat Processing Technologies     Kalschne et al. 
+Fat binding properties 35 
+Fat globules 51, 114 
+   protein-covered 114 
+Fat reduction 27, 35, 36, 116 
+   dairy products 35 
+Fermentation 4, 8, 11, 12, 17, 20, 26, 75, 104 
+  process 11 
+  step 12 
+Fermented 8, 11, 19, 26, 75, 79 
+  nonemulsified sausages 79 
+  Sausages 8, 19, 26, 75 
+  sausages, dry 11 
+  sausage texture 19 
+Fibers 88, 103, 105, 108, 116, 119, 120 
+   aligned 108 
+   insoluble 116 
+   longitudinal 88 
+   orange dietary 120 
+   single 105 
+   spun 105 
+   sugarcane bagasse 116 
+Fibrous 102, 107 
+  extrudate 107 
+  plant protein materials 102 
+Fibrous products 102, 105, 108 
+  precipitation 105 
+Flavor 19, 20, 28, 29, 31, 59, 60, 63, 64, 66, 
+95, 109, 115, 117, 118, 119, 120 
+   acidity 20 
+   attractive 60 
+   characteristic garlic 28 
+   cured 120 
+   enhancers 119 
+   developing 31 
+   metallic 95 
+   natural 29 
+   oily 95 
+   protection 120 
+   stabilization 60 
+Food 4, 5, 6, 14, 31, 35, 37, 44, 48, 50, 53, 69, 
+75, 77, 78, 79, 80, 81, 85, 86, 87, 94, 
+101, 109, 113, 120 
+   composition 78 
+   eating 4 
+   emulsion preparation by acoustic cavitation 
+31 
+   high-quality 48 
+   human 101 
+   low-salt content 44 
+   packaged 50    penetrate 53 
+   potential natural 113, 120 
+   production 5 
+   safety assurance 86 
+   technology 85 
+   treatment 48, 78 
+   ultrasound-treated 94 
+   well-appreciated 109 
+Foodborne pathogens 14, 78 
+   inactivating 78 
+Food preservation 11, 44 
+  methods 44 
+Food processing 14, 50, 80, 81, 87, 102, 118 
+  technology 102 
+Food products 4, 13, 49, 53, 69, 80, 82, 105, 
+115 
+   convenient 4 
+   decontaminate 69 
+   healthier 53 
+Food safety 8, 9, 11, 12, 22, 26 
+   ensuring 8, 22, 26 
+Frankfurter 28, 30, 115, 116 
+  and bologna sausage production 28 
+  sausages 115, 116 
+  stuffing 30 
+  type sausages 115 
+Fried product 64 
+Frozen 64, 65, 68, 107 
+  aqueous solution 107 
+  coated products 65 
+  product acceptability 64 
+  samples 68 
+Fusarium venenatum  104 
+ 
+G 
+ 
+Gamma rays treatment 78 
+Garlic 10, 11, 29, 117 
+   dried 29 
+   powder 10, 29 
+Gastric cancer 48 
+Genetic 19, 87 
+  crossbreeding 87 
+  information 19 
+Gluten 107, 108 
+   wheat 107, 108 
+Green tea 118 
+Grinding 9, 28, 62, 75 
+   coarse 75 
+   excessive 62 
+Subject Index Advances in Meat Processing Technologies    131 
+Growth 4, 14, 15, 34, 49, 103, 105 
+   bacterial 49 
+   cell 103 
+   ice crystals directional 105 
+Growth rate 2, 14, 15, 119 
+   annual meat trading 2 
+   microbial 119 
+   regarding microbial 15 
+ 
+H 
+ 
+Health 5, 34, 48, 101, 107, 113, 119 
+  awareness 48 
+  benefits 101 
+  disorders 107 
+Healthier 5, 34, 76, 113 
+   developing 34 
+  foodstuffs 5 
+  meat products 113 
+Heat 37, 66, 77, 79, 94, 107, 108, 109 
+  combination 108 
+  foods 79 
+Heating 37, 38, 53, 61, 70, 76, 77, 80, 81, 95, 
+105, 108, 115 
+   conventional 37, 38 
+   electrical resistance 80 
+   intensive 105 
+   suggested applying NIR 70 
+Hematinic iron 4 
+Heterogeneity 53 
+Hierarchical architecture terms 105 
+High hydrostatic pressure (HHP) 1, 5, 44, 48, 
+50, 51, 52, 53, 68, 75, 77, 78, 82 
+High-intensity ultrasound 32, 33, 34, 95 
+Highly-controlled growing conditions 104 
+High moisture extrusion 107 
+  process 107 
+  technology 107 
+High-pressure 50, 51, 52, 66, 67, 68, 78 
+  food processing 50 
+  processing (HPP) 51, 52, 66, 67, 68, 78 
+Holding capacity loss 93 
+Hot water pasteurization 77 
+Hydration 44, 49, 61 
+   meat protein’s 49  
+   partial 61 
+Hydrodynamic cavitations 86 
+Hydrolysed vegetable protein 29 
+Hydrophilic gums 27 
+Hydrophobic 33, 95, 114   bonds 95 
+  interactions 114 
+  residues 33 
+Hydrostatic pressure, high 1, 5, 44, 48, 50, 51, 
+75, 77, 82 
+ 
+I 
+ 
+Immersion 47, 87 
+  curing 47 
+  probes 87 
+Inhibition 14, 17, 18, 22, 69, 95, 120 
+   bacterial 120 
+   microbial 22, 95 
+   microorganisms 17 
+   yeast 18 
+Irradiation 1, 5, 75, 78, 79, 82 
+  technologies 82 
+ 
+J 
+ 
+Japanese bread crumbs 64, 65 
+Juice 36, 113, 117 
+   native beetroot 36 
+   powdered vegetable 113 
+ 
+L 
+ 
+Laboratory of meat industrialization by food 
+technology 30 
+Lactic acid bacteria 14, 77 
+Lactobacillus sakei  15 
+Lamps 69 
+   pulsed UV 69 
+Light 17, 19, 22 
+   intensive UV 19 
+   monochromatic 17 
+Light-emitting diodes 18 
+Light pulses 19, 38, 69 
+   broad-spectrum 69 
+   intense 38 
+Lipid 1, 19, 94, 103, 117 
+  content ranging 1 
+Lipid oxidation 10, 16, 17, 22, 32, 34, 38, 49, 
+76, 79, 93, 94, 95, 117 
+   and off-flavors alterations 94 
+   beef’s 95 
+   delaying 117 
+   index 16 
+132   Advances in Meat Processing Technologies     Kalschne et al. 
+   processes 10 
+   reduced 34 
+Lipophilic emulsifier 35 
+Listeria monocytogenes  18, 20, 39, 51, 69, 77 
+Longissimus 67, 88, 91, 92 
+  dorsi  88, 92 
+  lumborum  67, 91, 92 
+Low-dose ionization radiation 78 
+Lower 48, 86, 92, 108, 119 
+  energy expenditure 86 
+  shear force 92 
+  sodium content products, producing 48 
+  temperature processing 108 
+  fat oil- in-water emulsion systems 119 
+Luminosity 68, 93 
+ 
+M 
+ 
+Mammalian cell sensitivity 104 
+Marinated meat preparation 59 
+Mass 9, 17, 60 
+   transfer 17 
+Mass transport 49 
+   accelerating 17 
+Maturation 9, 48, 86, 87, 88, 89, 90 
+  process 89 
+  stage 9 
+Meat 2, 5, 9, 11, 17, 27, 28, 33, 35, 38, 44, 47, 
+51, 59, 60, 62, 66, 67, 68, 69, 75, 80, 85, 
+86, 87, 89, 93, 94, 96, 101, 104, 109, 
+120 
+   attractive 62 
+   broiler 69 
+   butcher’s 62  
+   cell culturing 104 
+   chicken breast 33 
+   cooked 38 
+   cured 17, 44, 51, 120 
+   difficult- to-market 60 
+   dry 17 
+   fermented 9 
+   fibrous 108 
+   fresh ground 75 
+   hard- to-sell 59 
+   industrialize 5 
+   industrialized 101, 109 
+   lamb 85 
+   lean 28, 47 
+   pickle-injected 47 
+   poultry 2, 27    preservation procedures 44 
+   product processing 66 
+   product quality 35 
+   proteins 11, 17 
+   quality 44, 59, 67, 85, 89, 93 
+   range 47 
+   tenderness 85, 86, 87, 89, 94, 96 
+   texture 68, 80 
+   water retention capacity 60 
+Meat emulsification 27 
+  process control 27 
+Meat emulsion 26, 30, 32, 33, 35, 37 
+ products 37 
+    system 35 
+Meat products 21, 31, 35, 37, 76, 118 
+  cooking 31 
+  deterioration 118 
+  elaboration 21, 76 
+  fat contents 35 
+  highlights 76 
+  resistance 37 
+Microbial DNA 19, 78 
+   targets 78 
+Microbial growth 15, 39, 75 
+Microbial reduction 69, 75, 78, 95 
+   pathogenic 78 
+Microwave 1, 5, 44, 48, 53, 65, 66, 75, 79, 81, 
+82 
+   electromagnetic 53 
+   industrial 53 
+Microwave heating 65, 66, 80, 82 
+  frequencies 82 
+Microwave technologies 44 
+Milk 10, 29, 63, 108, 114, 119 
+   powdered 29, 108 
+   proteins 108, 114, 119 
+Monocytogenes 18, 38, 39, 51, 52, 67, 69, 77 
+  cells 77 
+  inactivation 38 
+Multi-compartmentalized systems 35 
+Multiplication 82, 104 
+   filamentous fungus Fusarium venenatum 
+104 
+   myoblasts 104 
+Muscle 28, 89, 91, 102, 103, 104 
+   generating 104 
+   fibers development 103 
+   hot 89 
+   pre-rigor 91 
+   skeletal 103 
+Subject Index Advances in Meat Processing Technologies    133 
+Muscle cell 89, 103 
+  disruption 89 
+  culturing 103 
+Mycoprotein 101, 102, 104 
+   ingested 104 
+   produced products 104 
+Myofibrillar proteins 11, 26, 33, 61, 62, 67, 
+119 
+   disposition 62 
+   gel-forming 61 
+   insolubilization 11 
+Myofibrillar proteolysis analyses 89 
+Myoglobin iron atom oxidizes 87 
+ 
+N 
+ 
+NaCl 10, 11, 29, 47, 48, 49, 95, 119 
+   diffusion 68 
+   homogenization 47 
+   in Toscana sausage 119 
+   iodized 29 
+   replacing 48 
+Natural anti-oxidant mixtures 120 
+Nephrolithiasis 48 
+Neutral proteinases 88, 92 
+   calcium-activated 92 
+Non-meat 35, 60, 121 
+  ingredients, alternative 121 
+  proteins 35, 60 
+Non-thermal 38, 39 
+  disinfection methods 38 
+  treatment 39 
+Non-vegetarian consumers 101, 109 
+Nutritional 1, 4, 5, 34, 50, 52, 94 
+ compounds degradation 94 
+  quality 34 
+ 
+O 
+ 
+Ohmic-cooked 37, 38 
+  product 37 
+  samples 37 
+  sausages 37, 38 
+Ohmic heating 1, 5, 27, 37, 38, 40, 75, 79, 80, 
+81, 82 
+  methods 27 
+  processing 80 
+Oil 34, 36, 63, 113, 114, 115, 116, 117, 118 
+   essential 117, 118    linseed 116 
+   liquid 116 
+   preemulsified sesame 36 
+   pre-emulsified soy 114 
+   volatile 113, 117 
+Olive oil 35, 114 
+   pre-emulsified 114 
+Oxidation 16, 17, 32, 47, 79, 115, 117, 118, 
+120 
+   levels 115 
+   myoglobin 47 
+   process 117 
+   products 16 
+Oxygen 15, 87, 117 
+  atoms 15 
+  binding ability 87 
+  radicals 117 
+ 
+P 
+ 
+Packaged product treatment 39 
+Packaging 27, 28, 30, 38, 39, 69, 75, 118 
+   active 118 
+   bologna sausages 27 
+   brand 30 
+   commercial-scale food 39 
+   effective post-decontamination 38 
+Papain enzyme solution 90 
+Pasteurization 27, 34, 70, 77, 80, 82 
+   conventional 34 
+   enhancing 34 
+   evaluated Near-Infrared 70 
+   processes 34, 77 
+  ready- to-eat meat products 80 
+Pathogenic microorganisms 22, 61, 75 
+Peanut protein 107 
+   texturized 107 
+Pectin 108, 116 
+   hull-extracted 116 
+Pectoralis 88, 91, 93 
+  muscle 88, 93 
+Penicillium nalgiovense  9 
+Pepper 10, 29 
+   black 10, 29 
+   white 10 
+Photochemical 38, 69 
+  changes 38 
+  mechanisms 69 
+Photothermal 19, 38, 69 
+  and photochemical mechanisms 69 
+134   Advances in Meat Processing Technologies     Kalschne et al. 
+  effects 19 
+Phytic acid salt 121 
+Phytin 121 
+Pickle strength 47 
+Plant 101, 102, 105, 113, 117 
+   based products 101 
+   materials 113, 117 
+   protein sources 102 
+   sourced-protein 105 
+Polypeptide chains networks 94 
+Polysaccharides 101, 102, 116 
+   metal-cation-precipitated 101 
+   modified 116 
+Poly unsaturated fatty acid (PUFA) 16 
+Pork fat 10, 29, 36, 40, 116 
+   reduced 116 
+   saturated 40 
+   turkey 29 
+Pork meat 5, 8, 10, 11, 29, 69 
+  industrialization 8 
+  lean 11 
+Pork sausage 77, 120 
+   cooked 77 
+Poultry 4, 33, 116, 117 
+  industry 33 
+  processors 117 
+  production 4 
+  skin 116 
+Powder 10, 29, 120 
+   vegetable juice 120 
+Preservation 14, 31, 45, 48, 53 
+   methods 48 
+   providing longer 31 
+Pressure 3, 20, 21, 47, 50, 51, 66, 67, 68, 77, 
+78, 86, 94, 106, 119 
+   blood 119 
+   color deterioration 68 
+   external 50 
+   extreme 51 
+   negative 86 
+   positive 86 
+   radiation 86 
+   resistance 78 
+   steam 66 
+Processes 1, 4, 5, 11, 12, 14, 17, 20, 26, 27, 
+28, 29, 30, 46, 47, 50, 51, 62, 103, 105, 
+108, 109 
+   conventional homogenization 51 
+   conventional preservation 50 
+   deboning 62    dehydration 11, 12 
+   developing innovative technological 5 
+   dry cure 46 
+   emulsification 26, 29 
+   energy-intensive 17 
+   food structuring 103 
+   productive 20, 109 
+   time-consuming 46 
+   traditional 105 
+   ultrasonic 14 
+   vacuum stuffing 30 
+Processing technologies 9, 12, 76 
+   emerging food 12, 76 
+Processing time 5, 16, 22, 27, 37, 86 
+   reducing 5, 22 
+Production 2, 6, 8, 16, 20, 48, 75, 101, 103, 
+106, 107 
+   cell-based meat 103 
+   dry ham 8 
+   fibrous material 107 
+   filamentous fungi biomass 103 
+Protein extraction 47, 62 
+   salt-soluble 47 
+Protein(s) 1, 4, 31, 44, 49, 50, 60, 78, 85, 93, 
+94, 95, 101, 102, 105, 106, 107, 108 
+   blend 105 
+  coagulation 31 
+  conformation 50 
+  denaturation favouring 49 
+   fungi 102 
+   heat-denaturable 105 
+   plant 101, 105, 107, 108 
+   vegetable 60 
+Protein solubilization 28, 47 
+   myofibrillar 28 
+Proteolysis 88, 89 
+   accelerating 89 
+   post-mortem muscle 94 
+Proteolysis activation 88, 92 
+   reducing 92 
+ 
+ 
+ 
+Q 
+ 
+Quality 8, 9, 12, 19, 26, 28, 37, 38, 44, 48, 49, 
+53, 60, 121 
+   microbiological 28, 121 
+   organoleptic 53 
+   technological 32 
+Subject Index Advances in Meat Processing Technologies    135 
+ 
+R 
+ 
+Radio-frequency 79, 81 
+  cooking 79, 81 
+  process 81 
+Radioisotopes 78 
+Random coil contents 33 
+Raw material(s) 4, 20, 28, 29, 33, 34, 35, 40, 
+62, 102 
+   and ingredients 4, 28, 29 
+   low-quality 40 
+   ultrasonic rattling 34 
+Raw meat materials 27, 33 
+   low-quality 33 
+Ready- to-eat 40, 69 
+  foods 69 
+  products 40 
+Resistance 14, 19, 80 
+   bacterial 14 
+   electrical 80 
+Restructured processed meat products 59 
+Rheological tests in emulsions 34 
+RNA degradation 104 
+ 
+S 
+ 
+Salmonella typhimurium  elimination 79 
+Salt 9, 10, 11, 28, 29, 44, 45, 46, 47, 60, 67, 
+113, 118, 119, 120 
+   chlorinated 119 
+   cost-compatible 120 
+   metal 119 
+Salt content 9, 61, 66, 119 
+   reducing 66 
+Satellite cells 103 
+   myoblast-form 103 
+Saturated fatty acids 113, 114 
+Sausages 4, 8, 21, 29, 34, 40, 75, 76, 77, 79, 
+80, 81, 82 
+   fish 21 
+   large-caliber 82 
+Sensory 21, 38, 115, 118 
+  analysis 38 
+  effects 118 
+  evaluation 21, 115 
+Sensory quality 21, 34, 38, 48, 69, 114, 119 
+   bridging 114 
+Shear cell 101, 102, 108    pre-heated 108 
+   technology 101, 102, 108 
+Shear flow 108, 109 
+  direction 108 
+Shear force 89, 90, 91, 92, 105, 106 
+   measurement 89 
+   reduced meat 90 
+Sodium 10, 29, 35, 114, 116 
+  alginate 116 
+  ascorbate 10, 29 
+  caseinate 35, 114 
+Sodium chloride 29, 62, 113, 118, 119 
+   replacing 113 
+Sodium nitrite 10, 29, 44, 120 
+   replacing 120 
+Solubility 32, 49, 60, 62, 95 
+   and emulsion property 32 
+   enhancing proteins 95 
+   myofibrillar protein 60 
+   increased protein 95 
+Sonication 14, 15, 49 
+   thermo 49 
+Soybean oil 32, 33, 34, 114, 115 
+   emulsions 32, 33 
+   pre-emulsified 114 
+   restructured 34 
+Soy protein 28, 29, 34, 35, 63, 107, 114 
+   isolated 29 
+   non-sonicated 34 
+   meat 107 
+Spectrum 15, 17, 69 
+   power ultrasound frequency 15 
+   ranging 69 
+Spoilage 75, 78 
+   ensuring 78 
+Spoilage microorganisms 69 
+Spores 15, 22, 44, 78 
+   bacterial 78 
+   preventing 44 
+Spray effect 61 
+Stability 12, 35,36, 49, 64, 89, 114 
+   change collagen 89 
+   oxidative 36, 49, 114 
+Staphylococcus aureus  18, 20 
+Storage 14, 15, 16, 19, 20, 49, 51, 64, 77, 87, 
+90, 91, 92, 95 
+   long-term 64 
+   meat product 16 
+   refrigerated 87 
+ 
+136   Advances in Meat Processing Technologies     Kalschne et al. 
+T 
+ 
+Taste 3, 5, 19, 30, 45, 48, 60, 68, 87, 92, 101, 
+114, 119 
+   metallic 48, 92, 119 
+   palatable meat 68 
+Taverniers 115, 116 
+Techniques 8, 52, 68, 86, 96, 101, 102, 103 
+   dry fermented 8 
+   non-invasive 96 
+   non-invasive imaging 86 
+   simulating 102 
+   spinning 101 
+   static 52 
+   studied 103 
+   traditional marinating 68 
+Technological 60, 120 
+  quality enhancement 60 
+  sensory efficiency 120 
+Technologies 1, 5, 6, 8, 9, 12, 13, 17, 20, 22, 
+26, 28, 31, 59, 66, 68, 70, 76, 77, 78, 79, 
+80, 82, 85, 109, 119, 120, 121 
+   applying 119 
+   conventional 6 
+   effective 78 
+   emergent 17, 77 
+   emerging 1, 5, 6, 8, 9, 12, 13, 17, 22, 82, 85, 
+120, 121 
+   green 59, 68, 85 
+   innovative 28, 76, 79, 80, 82 
+   marinating 68 
+   nonpolluting 85 
+Tenderness 59, 60, 85, 86, 87, 88, 89, 93 
+   desired 88 
+   improving 86 
+Texture 17, 19, 30, 33, 35, 37, 38, 51, 52, 62, 
+63, 64, 107, 116, 118, 119 
+   crispy 64 
+   crunchy 64 
+   dense 30 
+Thermal 21, 37, 61, 66, 96 
+  processing 37, 61, 66, 96 
+  processing times 21 
+Thermally-processed vacuum-packaged 
+products 44 
+Thick dough 75, 77 
+   sausage production 75 
+Thiobarbituric acid reactive substances 
+(TBARS) 16, 49, 95 
+Tissues 17, 26, 28, 61, 62, 68, 89, 103, 104    connective 26, 28, 62, 89 
+   multicellular 103 
+Traditional salted products 45 
+Transformations 8, 11, 26 
+   biochemical 8, 11, 26 
+Treatment 14, 15, 32, 39, 52, 67, 70, 78, 88, 
+89, 90, 91 
+   combined 39 
+   cycling 78 
+   effective 90 
+ 
+U 
+ 
+Ultra-high-pressure homogenization (UHPH) 
+51 
+Ultrasound 32, 33, 49, 86, 87, 88, 89, 90, 91, 
+93, 94, 95, 96 
+  probe 87, 88, 89, 90, 91 
+  propagation direction 49 
+  systems, developing 86 
+  treatment 32, 33, 49, 90, 93, 94, 95, 96 
+Ultrasound effects 14, 15, 17, 49, 69, 85, 91, 
+93, 95, 96 
+   high energy 14 
+   on meat tenderness 96 
+ 
+V 
+ 
+Vacuum-packaged 38, 39, 69 
+  ham slices 69 
+  samples treatment 39 
+ sausages 38 
+Vegetable oil nutritional benefit 115 
+Vegetable oils 36, 113, 114, 115, 116 
+   applying 114 
+   pre-emulsified 36, 114 
+Vegetative cells 15, 18, 61 
+   bacterial 18 
+Viability 15, 114 
+   economic 114 
+Vienna sausages 28, 29, 31, 39 
+Viscous biopolymer solution 105 
+Visible light (VL) 69 
+ 
+W 
+ 
+Wastewater production 59 
+Water 17, 28, 29, 30, 32, 34, 35, 36, 38, 46, 
+47, 49, 68, 93, 94, 114, 115, 116 
+Subject Index Advances in Meat Processing Technologies    137 
+    declustering 49 
+    deionized 115 
+    disinfection 17 
+    distilled 115 
+    excessive 93 
+    holding capacity 47, 68 
+Water activity 9, 11, 12, 21, 77, 119 
+   desired 9, 11 
+   low 12 
+   lower 12 
+Water consumption 5, 59, 86 
+   lower 86 
+Water-protein interaction 95 
+Water retention capacity 60, 85, 89 
+Waves 86, 94 
+   compression 86 
+   high-intensity elastic 86 
+   non-destructive 86 
+   shock 94 
+Wheat gluten proteins 107 
+Whey protein 35, 36, 105 
+Wiltshire method 48 

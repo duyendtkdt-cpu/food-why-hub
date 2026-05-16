@@ -1,0 +1,1148 @@
+ 
+ 
+ 
+                                                                                                                                                                  
+                                                                                                                                                                 
+ www.defra.gov.uk 
+ 
+  
+ 
+  
+ 
+  
+ 
+   
+ 
+ 
+ 
+ 
+  
+ 
+  
+ 
+  
+ 
+   
+ 
+  
+ 
+  
+UK National Control Programme for Salmonella
+in chickens (Gallus gallus)  reared for meat 
+(Broilers)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Page | 1  
+   
+ 
+   
+ 
+ 
+ 
+   
+    
+ 
+ 
+      
+ 
+ 
+  
+ 
+ 
+
+ 
+ 
+     
+ 
+Department for Environment, Food and Rural Affairs Nobel House 17 Smith Square London SW1P 3JR Telephone 020 7238 6000 Website: www.defra.gov.uk  © Crown copyright 2008 Copyright in the typographical arrangem ent and design rests with the Crown. 
+ 
+This publication (excluding the royal arms  and departmental logos ) may be re-used free 
+of charge in any format or m edium provided that it is re-used accurately and not used in 
+a misleading context. The material must be acknowledged as crown copyright and the 
+title of the public ation specified. 
+ Information about this publication and fu rther copies are available from: 
+ Defra Surveillance, Zoonoses, Epidemiology and Risk Food and Farming Group Area 4A Nobel House, 17 Smith Square London SW1P 3JR  Tel: 020 7238 6000  Email: zdri@defra.gsi.gov.uk
+ 
+ 
+  This document is also ava ilable on the Defra website. 
+http://www.defra.gov.uk/corporat e/consult/broilers-ncp/index.htm
+ 
+  Published by the Departm ent for Environment, Food and Rural Affairs.
+ 
+ 
+ 
+ 
+ 
+ 
+   
+Page | 2  
+ 
+ 
+ 
+  
+UK NATIONAL CONTROL PROGRAMME FOR SALMONELLA IN  CHICKENS 
+(Gallus gallus) REARED FOR MEAT (BROILERS)  
+ 
+ 
+National Control Programme UK – Salmonella  in CHICKENS REARED FOR 
+MEAT ( Gallus gallus )           5
+ 
+Aim of the programme        5  
+1.00 General         5  
+1.1.0 The occurrence of the zoonosis or zoonotic agent concerned  
+  in the Member State.        5  
+1.1.1 Laboratory reporting trends – Salmonellosis in humans.   5  
+1.2.0 Laboratory reporting trends – Salmonella  in chickens    8  
+1.3.0 Salmonella  control programme in chickens reared for meat  
+   flocks of Gallus gallus  in the UK.       1 0  
+1.4.0 The geographical area in which the programme will be  
+  implemented.         1 1  
+1.5.0 The structure and organisation of  the relevant Competent  
+   Authorities.         1 2  
+1.6.0 Approved laboratories where sa mples collected within the  
+   programme are analysed.        1 2  
+1.7.0 Methods used in the examinatio n of the zoonoses or zoonotic 
+   agent.         1 3  
+1.8.0 Official controls.         1 4  
+1.9.0 Operator/owner’s Obligations.       1 5  
+1.9.5 Reporting of results.         1 5  
+2.0.0 Official controls at other stages of the food chain.    1 5  
+2.1.0 Measures taken by the Competent  Authorities with regard to  
+   animals or products in which zoonoses or zoonotic agents have 
+   been detected.         1 6  
+2.2.0 Relevant national legislation.       1 7  
+2.3.0 Financial assistance provided to food and feed businesses in  
+   the context of the National Control Programme.    1 8  
+2.4.0 Food and Feed businesses covered by the programme.   18  
+2.5.0 The structure of the production of the given species and  
+   products thereof         1 8  
+2.6.0  The structure of the produc tion of feed      18 
+2.6.1 The structure of t he production of food.      1 9  
+2.7.0 Relevant guides for good animal husbandry practices or other 
+   guidelines.          1 9  
+2.8.0 Routine veterinary supervision of farms.     1 9  
+2.9.0 Registration of farms.        2 0  
+3.0.0 Record-keeping at farms.        2 0  
+3.1.0 Documents to accompany animals when dispatched.   2 0  
+3.2.0 Other relevant measures to ensur e the traceability of animals 20 
+3.3.0 Approved plans from Food Business Operators.   2 1  
+Annex 1 The top ten laboratory confirmed Salmonella  serotypes isolated from
+   people UK 2006 and 2005        2 2  
+Annex 2 Sampling protocol         2 3  
+Annex 3 The Food Standards Agency.       2 4  
+Page | 3  
+ 
+Annex 4 Authorities involved in  Feed Law and its Enforcement.   25  
+Annex 5 Flocks and Holdings of meat  chicken flocks producing meat for 
+  human consumption in UK.       2 6  
+Annex 6 Codes of practi ce for the control of Salmonella.    2 7  
+ 
+ 
+                                     
+ 
+ 
+ 
+ 
+     
+Page | 4  
+ 
+ 
+ 
+National Control Programme UK – Salmonella  in CHICKENS 
+REARED FOR MEAT ( Gallus gallus) 
+ 
+Aim of the programme 
+ 
+To reduce or maintain the low prevalence of Salmonella s of public health significance in 
+flocks of domestic fowl ( Gallus gallus ) on holdings in the UK produc ing chickens for meat for 
+human consumption at least to the target leve ls set out in Regulation (EC) No 646/2007 
+which is a maximum percentage of meat chicken flocks remaining positive for Salmonella 
+Enteritidis and Salmonella Typhimurium of 1% or le ss by 31 December 2011. 
+ 
+1.00 General 
+ 
+1.01 Salmonella has been recognised as an important zoonotic pathogen for many years.  
+Salmonella Enteritidis and Salmonella Typhimurium have accounted for the majority of cases 
+of human salmonellosis since the 1980s and have consistently been the most commonly 
+implicated pathogens in general out breaks of food-borne disease. 
+ 
+1.02 A programme for the contro l of the two most important Salmonella  serovars of public 
+health significance, Salmonella Enteritidis and Salmonella  Typhimurium in breeding flocks of 
+Gallus gallus has been in operation in the UK since 19 89.  In line with Regulation EC No 
+1003/2005 since 01 January 2007 t he programme has been enhanced and includes also the 
+control of S. Hadar, S. Infantis and S. Virchow.  As a result of the control programme the 
+number of Salmonella  Enteritidis and Salmonella  Typhimurium infected breeding flocks of 
+Gallus gallus in the UK is currently very  low.  Of the other three Salmonella serovars, 
+Salmonella  Hadar, Salmonella  Infantis and Salmonella  Virchow, the occurrence is likewise at 
+very low levels.  Breeding flocks whic h are confirmed to be infected with S. Enteritidis or S. 
+Typhimurium are compulsorily slaughtered.  1.03 Information was submitted to the Commission relati ng to the occurrence of Salmonella  
+isolates in breeding flocks in the UK in 2004 (
+SANCO/1143/2005 
+http://europa.eu.int/comm/food/food/biosafety/ Salmonella/impl_reg_en.htm  ).  
+ 
+1.04 Since that report, t he results of the UK Salmonella  control programme are reported 
+annually to the Commission and are published by  the European Food Safety Authority 
+(EFSA) in the Community Summary Report on Trends and Sources of Zoonoses, Zoonotic 
+Agents, Antimicrobial resistance and Foodborne outbreaks in the European Union.  The reports for 2005 and 2006 are availa ble on the EFSA website at:  
+http://www.efsa.europa.eu/EFSA/ef sa_locale-1178620753812_1178671312912.htm
+ 
+The reports submitted by the UK for the anal ysis are available on the Defra website at 
+http://www.defra.gov.uk/animalh/diseases/zoonoses/trends-sources.htm  
+ 1.05 The success of the control programme in  breeding flocks means  that the day old 
+chicks to be reared for meat which ar e placed on farms should be free of S. Enteritidis and S. 
+Typhimuriuim.  
+1.1.0 The occurrence of the zoonosis or zoonotic agent concerned in the 
+Member State.  
+1.1.1 Laboratory reporting trends – Salmonellosis in humans. 
+ 
+Page | 5  
+ 
+1.1.2 A sharp rise in the incidence of human salmonellosis in the UK was observed in the 
+mid 1980s.  This was largely due to an increase in S. Enteritidis phage type 4 (PT 4) 
+infections, which reached a peak in the early 1990s.  The incidence of salmonellosis reached 
+a peak in the early 1990s with over 30,000 case s recorded and remained broadly stable until 
+1998 when a significant fall was recorded throughout most of the UK whic h continued for the 
+next two years.  Since then t he general decline has continued, albeit less sharply.    
+ 
+1.1.3  For the UK as a whole, 13,213 labor atory confirmed cases of human salmonellosis 
+were reported in 2007 (Figure 1), a decreas e of 6.2% on the 14,060 confirmed cases 
+recorded in 2006.  S. Enteritidis and S. Typhimurium remained the two most common 
+serotypes isolated from humans, accounting for 66% of all laboratory confirmed reports.  
+ 
+Figure 1 
+ 
+1.1.4 S. Enteritidis and S. Typhimurium may enter the food chain from sources other than 
+chickens reared for meat.  Although S. Enteritidis is mainly associated with poultry, S. 
+Typhimurium is found in other species of livestock. 
+ 1.1.5 Overall, there is little regional variat ion in salmonellosis in humans in the UK as 
+illustrated below with a more detailed summary  of the situation a ccording to region or 
+country.  
+England and Wales.
+ 
+1.1.6 In England and Wales in 2007 the number of reported cases of salmonellosis was 
+12,029, a slight increase on the total for 2006 of  12,822.  The proportion of reported cases 
+attributable to S. Enteritidis was 54% (6,495 in total).  Since 1997 the percentage of cases of 
+salmonellosis attributable to PT4 has fallen from  47% to 14% with 1,691 cases recorded in 
+2007.  As in previous years, S. Typhimurium remains the sec ond most commonly isolated 
+serotype in humans with 1,796 reported constituting just under 13% of all cases in England 
+and Wales.  The levels of infection due to S. Enteritidis and S. Typhimurium fell during 2007, 
+whilst the level of most other common se rotypes remained relatively stable.   
+ 
+Page | 6  
+ 
+Scotland.  
+1.1.7 Laboratory reports of salm onellosis increased from 2,015 in 1986 to 3,349 in 1997.  
+Since then the numbers have declined.  In 2007, 1,030 laboratory confirmed cases of 
+salmonellosis were reported, co mpared with 1,035 in 2006.  Of the reported cases, 432 were 
+reports of S. Enteritidis and 216 were cases of S. Typhimurium, constituting 42% and 21% of 
+all cases respectively.  However, for the fi rst time since 2002, PT4 was the most common 
+phage type of S. Enteritidis in Scotland with an increase of 25% (103 reports in 2007, 
+compared to 83 in 2006).  PT1 decreased by 30% (65 reports in 2007 compared to 95 in 
+2006).  S. Typhimurium DT 104 decreased by 65% (2 reports compared to 68 in 2006). 
+ 
+Northern Ireland.  
+1.1.8 In Northern Ireland in 2007,  a total of 154 cases of human Salmonella  were reported, 
+a reduction on the 203 reported in 2006.  With  the exception of 2004, (when the numbers 
+were influenced by three substantial out breaks), reported human cases have been generally 
+declining since the peak of 688 laboratory confirmed case s in 1999.  Reports of S. Enteritidis 
+declined significantly from 92 in 2006 to 47 in 2007.  Reports of S. Typhimurium also 
+decreased from 46 reports in 2006 to 40 in 2007.  
+ 
+1.1.9 The number of reports of Salmonella  in humans referred to above in England, Wales, 
+Scotland and Northern Ireland, include case s which were acquired outside the UK. 
+ 1.1.10 The top ten l aboratory confirmed Salmonella serotypes isolated from people in the UK 
+in 2006 and 2005 are given in Annex 1.  The mo st common serotypes from humans in 2007 
+are given in Table 1. 
+ 
+Table 1 
+ 
+England & Wales Scotland Northern Ireland 
+Serotype Rate per 100,000 Serotype Rate per 
+100,000 Serotype Rate per 
+100,000 
+S. Enteriditis  12.02 S. Enteriditis  8.48 S. Enteriditis  2.70 
+      
+of these PT4
+* S. Arizonae, S. Hadar, S. Kentucky, S . Panama, S. Saint-paul,  S. Schwarzengrund,  S. Senftenberg , S. Stanley 
+and S . Tenessee  were all isolated at a rate of 0.11 per 100,000.  3.14  of these PT4  2.02  of these PT4 0.10   
+      
+S. Typhimurium 2.86 S. Typhimurium 4.24 S. Typhimurium 2.30 
+      
+of these DT104  0.33  of these DT104  0.43  of these DT104 0.10   
+      
+S. Virchow 0.74 S. Virchow 0.60 S. Infantis 0.17 
+S. Newport 0.38 S. Newport 0.33 S. Montevideo 0.17 
+S. Scharzengrund 0.32 S. Scharzengrund 0.41 *  
+S. Java 0.27 S. Java 0.31   
+S. Braenderup 0.26 S. Braenderup 0.27   
+S. Infantis 0.26 S. Anatum 0.65   
+S. Stanley 0.23 S. Hadar 0.35   
+S. Kentucky 0.19 Salmonella grp B 
+(monophatic)  
+0.27   
+Page | 7  
+ 
+ 
+1.2.0 Laboratory reporting trends – Salmonella in chickens reared 
+for meat. 
+ 
+1.2.1  In the UK a volunt ary industry operated scheme (Assu red Chicken Production - ACP) 
+requires its members to operate to specified hygiene standards.  About 95% of chicken meat 
+production in the UK is included in ACP.   
+ 1.2.2 There is currently no stat utory monitoring programme for Salmonella  in chickens 
+reared for meat in the UK.  It is a statutory requirement
+1 for all laboratories which isolate 
+Salmonella  from a flock of chickens reared for meat  or its environment to report the finding 
+and supply the isolate to the Nati onal Reference Laboratory (NRL) for Salmonella – the 
+Veterinary Laboratories Agency in Great Britain or to Agri-Food Biosciences Institute in Northern Ireland.  The isolates are seroty ped, phage-typed, where appropriate, and tested for 
+antimicrobial sensitivity by the NRL.  This information is recorded and analysed.  The number 
+of reports received depends on t he level and sensitivity of monitoring which is undertaken by 
+the producers.  The reports pr ovide useful information on the serovars which are most 
+common in poultry, and indicate trends.  1.2.3 Over the last three years t he number of repor ted incidents of S. Enteritidis and S. 
+Typhimurium in flocks of chickens reared for meat, or their environm ent, has been low.   
+ 
+Chickens reared for meat 2007 (rout ine reporting from laboratories). 
+1.2.4 In chickens reared for m eat there were 7 incidents with S. Enteritidis, and 1 incident of 
+S. Typhimurium recorded in Great Britain during routine monitoring carried out by the industry 
+and private veterinarians.  When S. Enteritidis or S. Typhimurium is isolated from a flock of 
+chickens reared for meat, advice is given to the operators on control of Salmonella including 
+the code of good practice to help limit the introduction of Salmonella  and control its spread in 
+flocks of chickens reared for meat.  These inci dents relate mainly to samples taken by the 
+industry when the birds are 3 to 4 weeks of age.  In total there were 82 reports of Salmonella 
+from chickens reared for meat or their environment.  Generally the most common serovars 
+recorded on farms with chickens r eared for meat in the UK are S. Livingstone, S. 
+Senftenberg, and S. Kedougou. 
+ 
+1.2.5 The current system of voluntary monitoring and the requi rement of laboratories to 
+report positive findings does not give informa tion on the number of holdings or flocks 
+sampled.  It is not possible therefore from these figures to establish the prevalence of 
+Salmonella  in flocks of chickens reared for mea t, but the information does give valuable 
+information on the serotypes which are most co mmonly found in chickens reared for meat, 
+and the trends in these from year to year.  In addition Salmonella isolates are phage-typed as 
+appropriate, and tested for sensitivity against a panel of 16 antimicrobials in the monitoring 
+programme, which provides information on trends.  A better measure of the prevalence was obtained from the survey carri ed out to set a baseline for Salmonella  in flock holdings of 
+chickens reared for meat accordi ng to Decision (EC) No 2005/636. 
+ 
+Chickens reared for meat survey  2005-2006 (Decision EC 2005/636). 
+1.2.6 The study was conducted according to the protocol in Decision (EC) No. 2005/636. 
+ 
+                                                 
+1 Zoonoses Order 1989 or equivalent legislation. 
+ 
+Page | 8  
+ 
+1.2.7 The raw data were forwarded to the Commission for analysis by the European Food 
+Safety Authority (EFSA).  An analysis of the UK data was also carried out by the National 
+Reference Laboratory.   
+ 
+Prevalence of Salmonella Enteritidis  
+ 
+Salmonella  Enteritidis was not isolated from any of the 383 holdings sampled in the UK. 
+ Prevalence of Salmonella Typhimurium
+ 
+ Salmonella  Typhimurium was isolated from one of t he 383 holdings sampled in the UK to 
+give a prevalence of 0.3%.  The holding was a conventional broiler farm in the 100,000 plus 
+size category.  The phage type was DT104.   Prevalence of other Salmonella serovars
+ 
+ Salmonella  serovars other than S. Enteritidis and S. Typhimurium were isolated from 40 of 
+the 383 holdings sampled in the UK to  give a prevalence of 10.4%.  The Salmonella serovars 
+found in the survey are predominately those associated with cont amination of feed 
+production and hatchery associated isolates  and are presented below in Table 2  
+Table 2: Prevalence of holdings with chickens reared for meat with each Salmonella 
+serovar in the UK 
+ 
+Salmonella  
+serovar Number 
+of 
+holdings % of Salmonella  
+serovars (n=43) % of Salmonella  
+positive 
+holdings 
+3 
+(n=41) % of total 
+holdings 
+(n=383) 
+Ohio        9          20.9          25.0 2.3 
+Kedougou        7          16.3          19.4 1.8 
+Livingstone        5          11.6          13.9 1.3 
+Senftenberg        5          11.6          13.9 1.3 
+Orion        4            9.3          11.1 1.0 
+Mbandaka        3            7.0            8.3 0.8 
+Idikan        1            2.3            2.8 0.3 
+London        1            2.3            2.8 0.3 
+Montevideo        1            2.3            2.8 0.3 
+Newport        1            2.3            2.8 0.3 
+Oslo        1            2.3            2.8 0.3 
+Thompson        1            2.3            2.8 0.3 
+Typhimurium        1            2.3            2.8 0.3 
+Virchow        1            2.3            2.8 0.3 
+4,12:D:-        1            2.3            2.8 0.3 
+O-Rough: G,S,T        1            2.3            2.8 0.3 
+Total      431        100.02         
+ 
+1 Two holdings each yielded two different serovars 
+Isolates of Salmonella  Virchow from the one positive holding were phage type 2. 
+2 Rounded up to nearest decimal point. 
+3 This will add up to more than 100% as a holding may have more than one serotype isolated.  
+ 
+1.2.8 When a comparison is made with the serotypes commonly found in human cases of 
+salmonellosis (see Table 1) it is notable t hat none of the serotypes which are isolated 
+Page | 9  
+ 
+commonly in routine monitoring of chickens rear ed for meat or which were isolated on more 
+than one occasion in the survey 2005-2006, appear  in the top laboratory confirmed 
+Salmonella serotypes isolated from people in the UK in 2007.  These serotypes (i.e., those 
+other than S.Enteritidis or S. Typhimurium) do not appear to be of major public health 
+significance in terms of the number of laboratory confirmed cases of these serotypes 
+reported in people.  1.2.9 This was the first national survey carried out  according to this protocol so it is not 
+possible to compare directly with the prevalence in previous years.  
+ 
+Chickens reared for meat  2006 (rout ine reporting from laboratories). 
+1.2.10 In chickens reared for meat there were 4 incidents of S . Enteritidis, and 2 incidents  of 
+S. Typhimurium recorded in Great Britai n (out of 226 reports in total).   
+ Chickens reared for meat  – 2005 (R outine reporting from laboratories). 
+1.2.11 The number of reporte d incidents in flocks of chickens reared for meat  of S. Enteritidis 
+was 3 , and 6  of S. Typhimurium (out of 369 total reports of Salmonella in chickens reared for 
+meat.   
+ 1.2.12 Care should be taken when comparing data from one year to another as an increase 
+or decrease in the number of incidents and isolat ions reported does not necessarily indicate 
+a similar change in prevalence.  This is bec ause the total number of samples examined and 
+their distribution is not known 
+ 
+1.3.0 Salmonella  control programme in chicken s reared for meat flocks of 
+Gallus gallus  in the UK. 
+ 
+1.3.1 A national Salmonella control programme will be implemented to comply with 
+Regulation (EC) No 2160/2003 and Regulation (EC) No 646/2007.  The national control plan 
+for Salmonella in chickens reared for meat is planned to come into effect in January 2009. 
+ 1.3.2 All flocks of chickens reared for m eat will be included in the national control 
+programme unless exempted in Regulation (EC) No 2160/2003 under Article 1.3, i.e. birds produced for private domestic consumption, or w here there is direct supply of small quantities 
+of products to the final consum er or to local retail estab lishments directly supplying the 
+primary products to the final consumer.   
+1.3.3 The GB Poultry Register has been set up for disease control purposes, specifically 
+avian influenza, and contains the locations of all flocks of Gallus gallus with more than 50 
+birds.  The Poultry Register covers Engl and, Wales and Scotland.  There is a separate 
+Poultry Register in Northern Irel and.  To date, the Register has been used for avian influenza 
+risk assessment, prevention and control.  Howeve r, after public consultation, and starting 
+from the 1st August 2008, the use of the Register has been ex tended to cover the 
+management of other poultry dise ases, including other notifiable diseases and zoonoses.  
+The Register provides a large database of holdings with chickens reared for meat.   
+1.3.4 Operators will be required to implement the sampling programme in the Annex to EC 
+Regulation 646/2007.  For convenience the ‘Sampli ng protocol’ is repeat ed in Annex 2.  Two 
+pairs of boot sock/swabs will be taken by the oper ator within the period of three weeks before 
+the birds are due for slaughter.  Where possible the samples will be taken in sufficient time 
+for the laboratory results to be known before the birds are transpor ted to the slaughter house.  
+The slaughter age of birds in the UK varies; t he majority of conventionally reared birds are 
+slaughtered between 35 days and 42 days although organic birds and enhanced housing 
+Page | 10  
+ 
+system birds will be slaughtered late r.  On occasions some bi rds may be removed from the 
+flock earlier (32 days of age).  In the UK it is common practice to remove some of the birds 
+from a flock (a procedure known as “thinni ng”) and then complete the depopulation of the 
+flock some days later.  It is important to know the Salmonella status of the flock before the 
+first birds are slaughtered.  From  the time of sampling a flo ck, until a laboratory result, 
+including serotype, is obtained may take 2 wee ks.  In the UK, expe rience indicates that 
+conventionally reared meat chickens ar e most likely to test positive for Salmonella at two to 
+four weeks of age.2  The Salmonella status of the flock will t herefore be determined by the 
+results of the Salmonella test on the sample taken before the first birds are re moved from the 
+flock, (even though for the birds in the flock which are slaughtered at an older age, the 
+samples may have been taken slightly outside t he 3 week period before the slaughter date).  
+Samples will be submitted to a laboratory aut horised by the Competent Authority and which 
+applies quality assurance systems that conform to the require ments of the current EN/ISO 
+standard.    1.3.5 Each year 10% of holdings with more  than 5,000 birds will be selected at random and 
+at least one flock on the holding will be sampled by  Animal Health, or other authorized agent, 
+acting on behalf of the Competent Au thority, who will take an ‘offi cial sample’.  In addition, 
+attention will also be given to flocks w here there have been previously positive Salmonella  
+findings in the samples taken by the operators.  Particular attention will be given to holdings 
+where S. Enteritidis or S. Typhimurium have been isolated from samples.   
+ 1.3.6 Sampling to verify the achievement of  the target will be as detailed in ‘Sampling 
+protocol’ in the Annex to Commissi on Regulation (EC) No 646/2007.   
+ 1.3.7 When an official sample is taken it may replace the sample required to be taken by the 
+operator.  1.3.8 In accordance with Regulation (EC) No. 646/2007 Annex point 1 (c) the operator of a meat chicken production holding may make an appl ication to the Compet ent Authority for a 
+derogation not to sample all flocks on the holdi ng.  The Competent Au thority will assess the 
+application for a derogation against the criteria lis ted in the Annex -  
+ (i) an all in/all out system is used; (ii) the same management applies to all flocks; (iii) feed and water supply is common to all flocks; (iv) during one year and at least six crops of flocks, samples were taken for and tested for 
+Salmonella spp according to the standard monitoring scheme in all flocks on the holding.  
+Samples of all flocks of at least one crop were taken by the Competent Authority; and no SE or ST was found in any sample from this period of enhanced testing  The Competent Authority may approv e the derogation if satisfied.  
+ 
+1.4.0 The geographical area in which the programme will be implemented. 
+ 1.4.1 The National Control Programme will be implemented thr oughout the UK and will 
+cover all flocks of Gallus gallus reared for the purpose of  producing meat for human 
+consumption.  Small flocks that  are reared to supply meat for private domestic use, or small 
+quantities of primary product suppli ed directly by the producer to  the final consumer, or to 
+local retail establishments directly supplying the primary product to the fi nal consumer, will be 
+exempt, as permitted in Regulatio n (EC) No 2160/2003 Article 1.3. 
+                                                
+ 
+2 Personal communication – Dr R H Davies, National Reference Laboratory for Salmonella. 
+Page | 11  
+ 
+ 
+1.5.0 The structure and organisation of the relevant Competent 
+Authorities.   
+ 
+1.5.1 The Competent Authority for this National Control Pr ogramme in respect of EC 
+Regulation 2160/2003 for the control of Salmonella  in flocks of chickens reared for meat  
+Gallus gallus  is: 
+ Department for Environment, Food and Rural A ffairs, Nobel House, 17 Smith Square, 
+London, SW1P 3JR.  
+• In Northern Ireland the operat ion of the Control Programme is under Department of 
+Agriculture and Rural Development (DARD).   
+ 
+• The programme in Wales operates with t he collaboration of the Welsh Assembly. 
+ 
+• The programme in Scotland operates wit h the collaboration of the Scottish 
+Government.    
+ 1.5.2 The Competent Authority in re spect of Regulation (EC) No 882/2004
+ on official 
+controls performed to ensure the verification of  compliance with the main body of the feed 
+and food law; is the   
+• Food Standards Agency, Avia tion House, 125 Kingsway, London 
+WC2B 6NH.  
+(Defra and the equivalent bodies in the devolv ed administrations are the central competent 
+authorities for the animal health and welfare elements of Regulation (EC) No 882/2004) 
+ 
+1.5.3 Further information on the Food St andards Agency is given in Annex 3 .  
+ 1.5.4 With reference to the slaughter of flocks of chickens reared for meat the Meat Hygiene 
+Service is an Executive Agency of the Food Standards Agency and 
+is responsible for the 
+protection of public health and animal health and welfare in Great Britain, through proportionate enforcement of 
+legislation in licensed meat premises.  Enforcement in licensed premises in Northern Ir eland is the responsibility 
+of DARD.   
+ 1.5.5 In respect of EC Regulation No 183/2005 on feed hygiene, the Co mpetent Authorities 
+are the Food Standards Agency and local authorit ies (Trading Standards Departments and 
+some Environmental Health Services).  
+1.6.0 Approved laboratories where samples collected within the 
+programme are analysed.   
+ 
+1.6.1  Official samples colle cted within the National Control Programme will be analysed by 
+the National Reference Laboratory for Salmonella , Veterinary Laboratories Agency, 
+Weybridge, or at one of the regi onal laboratories of the Veterinary Laboratories Agency under 
+its control.  For samples in Northern Ireland the National Reference Laboratory is The Agri-Food & Biosciences Institute (AFBI), AFBI H eadquarters, Newforge Lane, Belfast BT9 5PX.  
+The AFBI was created on 01 April 2006 as an amalga mation of the Department of Agriculture 
+and Rural Development (DARD) Science Service and the Agricultural Research Institute of 
+Northern Ireland (ARINI).  AFBI is a DARD N on-Departmental Public Body (NDPB).   
+ 
+Page | 12  
+ 
+1.6.2 Samples which are taken by the operator from  flocks of chickens reared for meat  may 
+be sent to a laboratory appr oved for the testing of Salmonella  in samples taken in the 
+national control programme.  These laboratories are currently inspected and approved by the 
+National Reference Laboratory for Salmonella , and undertake regular prof iciency testing.  All 
+approved laboratories will be required to operat e to EN/ISO 17025 by 31 December 2009.  
+The United Kingdom Accreditation Service (UKAS) assesses approved laboratories and provides accreditation.  1.6.3 Laboratories may also be authorised to test samples taken under the Animal By-
+Products Regulations 2005 which makes provisi on for the administration and enforcement of 
+Regulation (EC) No 1774/2002 of  the European Parliament and of the Council laying down 
+health rules concerning animal by-products not intended for human consumption (OJ No. 
+L273, 10.10.2002, p1.).  It requires operators of render ing plants to test for Salmonella  in 
+samples of rendered animal protein that is intended for use in animal feedingstuffs.  The feeding of processed animal protein to farm ed animals is also regulated by the TSE 
+Regulations 2002 (as amended) whic h makes provision for admin istration and enforcement 
+of certain Community legislation in relation to  TSEs.  Under the term s of these Regulations 
+only fishmeal tested under the Animal By-Produc ts Regulations is permitted for feeding to 
+poultry.  1.6.4 The laboratories which are authorised by Defra or its agent are required to report findings from the examination of feed materi als such as vegetable proteins, and finished 
+feeds, including the number and type of sample s which are examined, the number positive, 
+and to supply the isolate for serotyping on r equest.  The results of these analysis are 
+published each year and are avai lable on the VLA website. 
+ 1.6.5 The operators of all laboratories are required to  report the isolation of Salmonella from 
+any sample taken from livestock (including meat chicken flocks of Gallus gallus ), their 
+environment, or their feed to t he Competent Authority and to pr ovide a sub-culture of the 
+isolate on request under the Zoonoses Order  1989, and the Zoonoses  Order (Northern 
+Ireland) 1991.   1.6.6 Testing of food of animal origin is under taken by Food Business Operators complying 
+with the Microbiological criter ia regulations, Regulation (E C) No 2073/2005 of 15 November 
+2005 on microbiological criteria for foodstuffs.  This  is carried out according to the specified 
+reference method (ISO 6759).    
+1.7.0 Methods used in the examination of the zoonoses or zoonotic agent.  
+ 1.7.1 Samples taken by operators and samples taken as official controls are prepared and 
+tested in accordance with the requirements of the Annex in Commission Regulation (EC) No 
+646/2007 using the method recommended by the Community Reference Laboratory for 
+Salmonella  in Bilthoven, Netherlands.  The method is described in the current version of 
+Annex D of ISO 6579 (2002): ‘Detection of Salmonella spp. in animal faeces and in samples 
+of the primary production stage’.  A semi-sol id medium (modified semi-solid Rappaport-
+Vassiladis medium, MSRV) is used as the single selective enrichment m edium.  At least one 
+isolate will be serotyped according to the Kaufmann-White scheme.   Isolates of S. Enteritidis 
+and S. Typhimurium will also be phage typed.  Sensitiv ity to a panel of 16 antimicrobials will 
+be determined.  1.7.2 Samples taken under the Animal By-Products Regulations 2005 which make provision for the administration and enforcement of Regulation (EC)  No 1774/2002 of the European 
+Page | 13  
+ 
+Parliament and of the Council la ying down health rules concerning animal by-products not 
+intended for human consumpti on are examined by a met hod that conforms with— 
+ISO 6579/2002/BS-EN 12824:200 2 (Detection of Salmonella ) or equivalent,  
+or 
+NMKL 71: 1999 or equivalent 
+ 
+1.7.3 The reference method in the microbiological criteria regulation for carcases and processed meat is ISO 6579:2002.   
+1.8.0 Official controls.  
+ 
+1.8.1 In accordance with EC Regulation No 646/2007 the Competent Au thority will select 
+each year at random at least 10% of holdi ngs with more than 5000 birds.  The random 
+selection will take into account the size of holding and geographical distribution.  The 
+Competent Authority or its agent will select one flock at random on the hol ding that is within 3 
+weeks of going for slaughter.  The selected flo ck will be sampled (two pairs of boot swabs 
+normally) in accordance with the Anne x in EC Regulation No 646/2007.   
+ 1.8.2 In addition where t here has been detection of S. Enteritidis or S. Typhimurium in 
+operator samples from previous flocks on the hol ding disease, control advice will be provided 
+including on-farm visits by experts in Salmonella control when appropriate.  All flocks on the 
+holding will be officially sampled w hen the next crop of birds is placed. 
+ 
+1.8.3 The use of antimicrobi als (as defined in Regulation (EC) No 1177/2006) will be 
+checked when the official sample is taken.  If  the flock is under antimic robial medication for 
+animal health or animal welfare reasons the fl ock will be sampled again after the period of 
+withdrawal for the product given in its Marketing Authorisation.  Flock owners are required to 
+keep records of antimicrobial use and to make these records available under the Animals and 
+Fresh Meat (Examination for Residues) Regulati on 1988 Statutory Inst rument 1988 No 848. 
+ 1.8.4 The records of samples taken by the oper ator will be made available for inspection to 
+the Competent Authority or it s agent and will provide details of  the identity of the flock 
+sampled, date of sample, slaughter date, ty pe of sample, laboratory carrying out the 
+examination, and the result.  The number of flocks on the holdi ng and the number of birds 
+present will be recorded. 
+ 
+1.8.5 The sampling under the Animal By-Products legislatio n is monitored by the Competent 
+Authorities with inspections carri ed out using a risk-based approach. 
+ 1.8.6 Regulation (EC) No 2073/2005 of 15 November 2005 on microbiological criteria for 
+foodstuffs requires poultry abattoirs to undertake micr obiological testing for Salmonella  on 5 
+samples a week (each sample is 3 neck ski ns).  Establishments producing minced meat, 
+meat preparations and mechanically separated meat must also undertake weekly testing for 
+Salmonella .  FSA is the Competent Authority and monitors these controls through the 
+enforcement authority which is the Meat Hygiene Service (an executive agency of the Food 
+Standards Agency) and the Local Authority in Great Britain and DARD Veterinary Service in 
+Northern Ireland.   1.8.7 The official monitoring of feed controls is described in the section on the structure of the production of feed below and in Annex 4.  
+  
+Page | 14  
+ 
+1.9.0 Operator/owner’s Obligations. 
+ 
+1.9.1 Operator/owners ar e required to take samples from flocks of Gallus gallus reared for 
+meat for human consumption in accordance with the Annex of EC Regu lation No 646/2007.  
+The samples taken shall be labelled to identify the flock sampled, number of birds in the 
+flock, and the date on which it was sampled.  The samples shall be taken within three weeks 
+of the first birds being sent fo r slaughter from the flock and in su fficient time for the results of 
+tests on the samples for Salmonella to be available before the birds are slaughtered.   
+ 
+1.9.2 Operator/owners are requi red to submit a suitable sample in a timely manner to a 
+laboratory which has been authori sed by the Competent Auth ority for the detection of 
+Salmonella  in a control programme under Commission Regulation (EC) 2160/2003.   
+ 1.9.3 The owner shall keep a record of  the date when each flock is sampled for Salmonella , 
+the identity of the flock samp led, the age of the flock samp led, the date of slaughter, the 
+laboratory which undertook  the analysis, and the result of the tests and make these records 
+available to the Competent Authority or its agent.   
+ 1.9.4 Samples taken as above shall be sent by  express mail or courier within 25 hours of 
+collection to a laboratory authorised by Defra or DARD for the detection of Salmonella.  At 
+the laboratory samples shall be kept refrigerat ed until examination unless this examination is 
+begun within 3 hours of arrival of the sample at the laboratory.  Examination shall be 
+commenced within 48 hours following receipt.  
+1.9.5 Reporting of results. 
+ 1.9.6 The person in charge of any laboratory which detects Salmonella or an isolate 
+believed to be Salmonella  in any sample from a meat chicken flock or its environment must 
+notify (under the Zoonoses Order 1989, and the Z oonoses Order (Norther n Ireland) 1991) the 
+Competent Authority wit hout delay, and supply information on the type of sample, the name 
+and address of the meat chick en flock, the name and address of  the owner/operator, and 
+supply the Salmonella  isolate or sub-culture to the Compet ent Authority.  The laboratory shall 
+at the same time also advise the person/organisa tion who submitted the sample the results of 
+the test.  In practice  the reports to the Competent Aut hority are made to the local regional 
+laboratory of the Veterinary Laboratories Agen cy in England and Wales, to the Divisional 
+Veterinary Manager or Officer in Scot land and Northern Ireland respectively. 
+1.9.7 Under Article 9 of Direc tive (EC) No 2003/99 the Com petent Authority will report the 
+results of the tests carried out each year to  the Commission accord ing to the information 
+requested in the Annex to EC Regulation No 646/2007. 
+ 
+2.0.0 Official controls at other stages of the food chain.   
+ 2.0.1 Under the terms of the EC Feed Hygi ene Regulation 183/2005 feed businesses must 
+be approved or registered with their Local Author ity.  Approvals/registrations relate to 
+producers of compound feeds, feed materials,  feed additives and premixtures.  The 
+Regulation also covers transpor ters and storers of feed, food companies selling co-products 
+for use as feed and pet food manufa cturers.  Approval requires a prior-inspection visit by a 
+Local Authority to ensure that the premises are working to th e required standards (possibly 
+by taking samples), registration involves the placing of premises on a list with follow-up 
+checks of their activities.  Li vestock farms growing and using or selling crops for feed use are 
+also within the scope of the Regulation, alth ough those which supply small quantities of 
+primary products to local establishments dire ctly supplying the final consumer (e.g. other 
+producers) are not required to be registered or approved.    
+Page | 15  
+ 
+ 
+2.0.2 The Animal By-Products Regulations 2005 requires operators of rendering plants to 
+test samples of rendered animal protein that is intended for use in animal feedingstuffs for 
+Salmonella .  The feeding of processed animal protein to farmed animals is also covered by 
+the TSE Regulations 2002.  Under the terms of these Regulation s only fishmeal tested under 
+the Animal By-Products Regulations can be fed to poultry.  
+ 
+2.1.0 Measures taken by the Competent Authorities with regard to animals 
+or products in which zoonoses or zo onotic agents have been detected.   
+ 
+2.1.1 When a meat chicken flock of Gallus gallus is suspected of being infected with 
+Salmonella  Enteritidis or Salmonella  Typhimurium the flock will be investigated.  The flock is 
+suspected of being infected when S. Enteritidis or S. Typhimurium is isolated from a sample 
+of faeces, or boot swabs, carried out privately or  as required by either  the operator or the 
+Competent Authority as detailed in the Annex to Regulation (EC) No 646/2007.  
+Tissue/organs may be taken from bi rds as part of the investigatio n of clinical disease by the 
+private veterinarian; these cases will be disc ussed and additional follow up investigation 
+carried out as appropriate, along with advice on Salmonella control.  Neck skins are sampled 
+at abattoirs under Regulation (EC) No 1441/2007.  The potential for cross contamination make the results from abattoir sampling difficult to  interpret in relation to a particular flock.  
+During 2008 consideration will be given to  the value of reporting the results of Salmonella  
+monitoring at the abattoir to the flock owners where this is possible.    
+ 2.1.2 In most cases it will not be possible to ca rry out an investigation of the birds in the 
+flock from which the Salmonella was isolated as the birds will have been slaughtered shortly 
+after the results become available.  A notice may be served by  the Competent Authority as 
+necessary requiring the operator to clean and disinfect the building from which the infected flock originated.  After cleaning and disinfecting the building the operator  may be required to 
+take swabs from a number of sites in the bu ilding and submit them to  an approved laboratory 
+to be tested for Salmonella in order to check on the efficiency of the hygiene measures taken.  
+In cases where S. Enteritidis or S. Typhimurium was isolated the cleaning and disinfection 
+may be checked by the Competent Authority or  its agent.  The Code of  Practice for the 
+control of Salmonella in chickens reared for meat on fa rms will be supplied to the operator.  
+This Code gives advice on biosecurity, Salmonella  control, prevention, and cleaning and 
+disinfection.  During 2008 we intend to review t he advice on monitoring in the Code to make it 
+consistent with the requirements of the Annex to Regulation (EC)  No 646/2007.  The Code of 
+Practice for the prevention of rodent infestat ions in poultry flocks is also being updated and 
+will be available in 2008.
+3  
+ 
+2.1.3 If the results of post-cleaning  and disinfection monitoring of Salmonella  are positive for 
+S. Enteritidis or S. Typhimurium, the next crop (cycle) will be monitored under supervision by 
+the Competent Authorit y or its agent.  If Salmonella is isolated in this subsequent crop of 
+birds the holding will be placed under official control; re-stocking of the house will be 
+permitted only if the supervised post-cleaning  and disinfection samples from the house are 
+negative, or if still positiv e, under licence from the Co mpetent Authority.   
+ 
+2.1.4 When a flock is positive for Salmonella in the samples taken during the period 3 weeks 
+before slaughter the food busi ness operator for the abattoir where the birds are to be 
+slaughtered will be informed so that arrangements can be made to take measures to reduce 
+the possibility of cross contam ination of other batches, for ex ample arranging slaughter to 
+take place at the end of the day, or before a break, etc. 
+                                                 
+3 http://www.defra.gov.uk/animalh/diseases/zoonoses/zoonoses_reports/salrodent.pdf   
+Page | 16  
+ 
+ 
+2.1.5 For the purposes of establishing the progress towards the target if S. Enteritidis or S. 
+Typhimurium is isolated from either an operator sample or an official sample the flock is 
+classed as positive.  A flock positive for a specif ic serotype will be recorded only once for that 
+serotype. 
+ 2.1.6 Isolates of Salmonella  Enteritidis and Salmonella  Typhimurium will be examined to 
+determine if they are vaccine strains according to the manufacturer’s specification.  If vaccine 
+strains are confirmed in samples the flock will not be classed as positive for the purposes of 
+establishing the progress towards t he target.  Although vaccines against Salmonella are not 
+currently used in chickens rear ed for meat, this practice may change in the future if suitable 
+vaccines are developed . 
+ 2.1.7 Official sampling will be carried out under the control of the Compet ent Authority in all 
+replacement flocks where the previous flock in a building was positive for S. Enteritidis or S. 
+Typhimurium.  This sampling will take place according to the procedure in the Annex to 
+Regulation (EC) No 464/2007.  2.1.8 Operators with a flo ck which is positive for S. Enteritidis or S. Typhimurium will be 
+contacted by the Competent Au thority and invited to contact their veterinary adviser for 
+advice on how to reduce or eliminate the Salmonella .  Advice on the control of Salmonella  in 
+chickens reared for meat will be ava ilable from government experts on Salmonella  control 
+based in the Veterinary Laboratories Agency, Anim al Health, and DARD.  Advice may include 
+recommendations on management, cleaning and disi nfection, pest control, biosecurity, 
+monitoring, and the potential use of other aids in the control of Salmonella .  The Code of 
+Practice for the control of Salmonella on farms rearing chickens for meat will be supplied to 
+the producer to help educate, and to help t he producer implement measures to reduce 
+Salmonella in the flocks
+4. 
+ 
+2.2.0 Relevant national legislation.   
+ 
+2.2.1 The following legislation is  administered by Defra or the Competent Authorities in the 
+devolved administrations where equiva lent legislation is in place. 
+ 
+• Zoonoses Order 1989 and in Northern Irel and, the Zoonoses Order (Northern 
+Ireland) 1991– requires the person responsible  for all laboratories to report the 
+isolation of a Salmonella  and to provide a sub-culture on request.  
+ 
+• The Animal Health Act, 1981 designates Salmonella  as a disease of poultry and 
+provides powers for the slaughter of flocks which are confirmed to be infected.  In 
+Northern Ireland the Disease of Animals (Northern Ireland) Order 1981 designates 
+Salmonella  as a disease of poultry and provides similar powers as above. 
+ 
+• The Animal By-Products Regulations 2005 – covers the disposal of animal by-products for the administration and enforcem ent of Regulation (EC) No 1774/2002 
+of the European Parliament and of the Council laying down health rules concerning 
+animal by-products not int ended for human consumption.
+ 
+ 
+2.2.2 The following legislation is admin istered by the Food Standards Agency: 
+ 
+                                                 
+4 http://www.defra.gov.uk/animalh/diseases/zoonoses/zoonoses_reports/salmonellainchick.pdf  
+ 
+Page | 17  
+ 
+• Regulation EC No. 852/2004 requires food business operators to ‘ensure that 
+primary products are protected against contamination’  [‘contamination’ means the 
+presence or introduction of a hazard].   
+ 
+• Food Safety Act 1990 
+http://www.opsi.gov.uk/acts /acts1990/Ukpga_19900016_en_1.htm  
+ 
+2.2.3 Further legislation w ill be introduced or current legi slation amended during 2008 to 
+provide a legislative basis for th e National Control Programme for Salmonella in chickens 
+reared for meat for human consumption.     
+ 
+2.2.4 A full consultation on the proposed new legislation will take place in 2008 including an Impact Assessment allowing 12 weeks for comment from interested parties as required in 
+standard UK procedures for intr oducing new legislation. 
+ 
+2.3.0 Financial assistance provided to food and feed businesses in the 
+context of the National Control Programme.   
+ 
+2.3.1 In flocks of Gallus gallus being reared for meat for human consumption no financial 
+assistance is provided in the c ontext of the control programme. 
+ 
+2.3.2 No charge is made for t he investigations carried out by  the Competent Authority when 
+a flock is suspected of being infected with S. Enteritidis or S. Typhimurium, and no charge is 
+made for the expert and other adv ice given by the Competent Authorities on the control of 
+Salmonella.  
+2.3.3 The UK is considering application to  the Commission for co-financing for certain 
+aspects of the control programme within the terms of Council Decision 90/424 of 26 June 
+1990 on expenditure in the veterinary field.  
+2.4.0 Food and Feed businesses covered by the programme. 
+ 
+2.4.1  The programme for the control of Salmonella  in chickens reared fo r meat is part of the 
+controls along the whol e of the food chain. 
+2.5.0 The  structure of the production of the given species and products 
+thereof. 
+ 
+2.5.1 The structure of the meat chicken fl ocks in the UK is given in Annex 5.  
+ 
+2.6.0 The structure of the production of feed.  
+ 
+2.6.0.1 A number of Compet ent Authorities are involved in feed law policy and its 
+enforcement.  The Food Standards Agency deals with the composition and marketing of 
+animal feeds (including undesirable substances , additives and labelling); Defra (Veterinary 
+Medicines Directorate VMD) which deals wit h zootechnical and medicated feeds; and Defra 
+Animal Health and veterinary gro up, or its equivalent in the devolved administrations, covers 
+processed animal proteins and Salmonella . 
+ 2.6.0.2 Many low moisture feeds , in particular those derived from  cereals, oilseeds and sugar 
+processing industries are widely used in the manufacture of compound feeds and blends.  
+Soya bean and rapeseed meals are major sources of protein.  The Animal By-Products 
+Page | 18  
+ 
+Regulations 2005 requires operator s of rendering plants to take samples of rendered animal 
+protein (fishmeal) that is intended for use in animal feedingstuffs.  The samples must then be 
+tested at an approved labor atory for the presence of Salmonella . 
+ 
+2.6.0.3 Only a few feed compounders oper ate on a national scale manufacturing and 
+distributing compound livestock feeds on a nat ion-wide basis.  Other feed compounders 
+operate on a regional basis.  Some feed co mpounders may be farmer controlled or co-
+operatives.  A number of companies manufacture feeds as part of an in tegrated process of 
+poultry and egg production.     
+2.6.1 The structure of the production of food. 
+ 2.6.2 At the end of the gr owing period the birds are slaughtered and may go for human 
+consumption.  In acco rdance with Regulation 853/2004,  chicken meat for human 
+consumption must be slaughtered  in approved slaughterhouses.  T here are 127 of these in 
+Great Britain and 7 in Northern Ireland.  The enforcement authority in  these plants is the 
+Meat Hygiene Service (an executive agency of the Food Standards Agency) in Great Britain 
+and DARD Veterinary Service in Northern Ireland.  The industry guide entitl ed "A guide to the 
+food hygiene and other r egulations for the meat industry" se ts out the detailed requirements 
+that apply to the slaughter and processing of meat chickens in such meat plants. 
+ 2.6.3 Producers who rear and slaughter on the farm, and who subsequently sell the meat locally or direct to the cons umer, are exempt from the deta iled requirements of Regulation 
+853/2004 and thus do not have to slaughter the birds in approved slaughterhouses.  The rules that apply to these producers are also set out in the industry guide "A guide to the food 
+hygiene and other regulations for the meat i ndustry".  The enforcement authority on these 
+exempt premises is the local food authority.  Howe ver, the number of producers of meat 
+chicken flocks of Gallus gallus who slaughter on farms is thought to be very low.  
+2.6.4 Chicken meat sold at retail level within the UK is required to be marked with a code 
+identifying the establishment (production site), and the country of origin.  This mark can be 
+applied direct to the product, t he wrapping, packaging or be print ed on a label affixed to the 
+product, the wrapping or the packaging.  This is in accordance with EU Regulation No. 853/2004, Annex II, Section I (I dentification Marking)  
+ 2.6.5 Further information on the production of chicken meat in the UK is available at:  
+http://www.defra.gov.uk/foodrin /poultry/statistics/index.htm
+  
+ 
+2.7.0 Relevant guides for good animal husbandry practices or other 
+guidelines. 
+ 
+2.7.1 A number of voluntary guides have been produced in collaboration with 
+representatives of the i ndustry on the control of Salmonella  in poultry production.  Relevant 
+ones are listed in Annex 6, and some are also available on the website at; 
+http://www.defra.gov.uk/animalh/diseases/zoonoses/salmonella-cop.htm   
+Hard copies are available on request.  
+ 
+2.8.0 Routine veterinary supervision of farms. 
+ 
+2.8.1 The owner is responsible for the health and welfare of the poultr y on the holding, and 
+for ensuring that a veterinarian is consulted on disease and welfare issues as appropriate.  
+The Competent Authority carries out inspections on farms for animal welfare reasons, to take 
+samples for residues, and to c heck medicine records.   
+Page | 19  
+ 
+ 
+2.9.0 Registration of farms. 
+ 
+2.9.1 All poultry breeding flocks of more than 250 birds are regi stered (Control of Salmonella 
+in Poultry Order 2007).  The register is main tained at the local level by the Competent 
+Authority or its agent (Animal Health in Gr eat Britain, DARD in Northern Ireland). 
+ 
+2.9.2 A GB Poultry Register  and an equivalent register in  Northern Ireland detail the 
+locations and numbers of all poultr y for the purposes of contro l of avian influenza.  The 
+information in the Register may be used for Salmonella  control purposes under Regulation 
+(EC) 2160/2003.   
+ 
+3.0.0 Record-keeping at farms. 
+ 3.0.1 All meat chicken flock operators are required to keep records of medicine usage, including vaccines, which must be available for inspection.  3.0.2 Records relating to movement of fl ocks onto and off the holding must be kept. 
+ 3.0.3 Records giving details of sampling for Salmonella  and results will be kept either at the 
+holding or be readily available.  
+3.1.0 Documents to accompan y animals when dispatched. 
+ 
+3.1.1 Operators wishing to export more t han 20 birds or hatching eggs to another EU 
+Member State (or certain third countries) must comply with EU Directive 90/539/EC and 
+ensure that the consignment is accompanied by a completed and signed Intra-trade Animal 
+Health Certificate (ITAHC) for poultry breedi ng and production.  This can be obtained from a 
+local Animal Health Divisional Office and mu st be completed and signed by the Official 
+Veterinarian as well as the operator to confirm compliance with the relevant articles of 
+Directive. 
+ 
+3.1.2 The ITAHC will also require the reference number of the oper ator’s poultry health 
+certificate.  3.1.3 The ITAHC will be amended to include the results of the last test for Salmonella  as 
+required in Commission Regulatio n (EC) 2160/2003 Article 9.1 prior to any dispatching of the 
+live animals, or hatching eggs, fr om the food business of origin .  The date and the result of 
+testing shall be included in the relevant heal th certificates provided for in Community 
+legislation as required by  Decision (EC) No 2007/594 
+ 
+ 
+3.2.0 Other relevant measures to en sure the traceability of animals. 
+ 
+3.2.1 The Control of Salmonella  in Poultry Order 2007 (CSPO)5, and the equivalent 
+legislation implemented in the devolved adminis trations in Wales, Scotland and Northern 
+Ireland require the operators of hatcheries and the keepers of breeding flocks to keep 
+records of poultry or hatching eggs entering or  leaving the premises.  The records must 
+contain information on the number, date, and origin or destination.  These records must be 
+retained for one year and be available to the Competent Authority for inspection.  The 
+                                                 
+5 CSPO was brought into force to support the introduction of Salmonella  National Control Programmes 
+required by Regulation 2160/2003 for breeding and laying flocks (revoking The Poultry Breeding 
+Flocks and Hatcheries Order 2007). 
+Page | 20  
+ 
+Diseases of Poultry Order 2003 (and equivalent legislatio n) extends this requirement to every 
+person who is engaged in the transpor t or marketing of poultry.  
+ 
+3.2.2 All official veterinary health certificat es issued for the export of poultry and hatching 
+eggs are recorded on either t he Centaur system or the Trade Control and Expert System 
+(TRACES).  Both of these systems allow tra cking of exports of live animals and hatching 
+eggs accompanied by veterinary health certific ation.  Centaur creates Export Health 
+Certificates for exports to third countries wh ile TRACES generates ITAHCs issued for intra-
+Community movements.  TRACES is an in ternet-based service which is owned and 
+maintained by the Commission.  It is possibl e for traders (economic operators) to apply for 
+both Centaur EHCs and TRACES ITAHCs on- line or using paper application forms.  
+Operators wishing to export bi rds to EU Member States can register with TRACES via 
+Defra's website or their local Animal Health Office. 
+ 
+3.3.0 Approved plans from Food Business Operators.  
+ 
+3.3.1 Approval has been granted to plans s ubmitted by the follo wing Food Business 
+Operators.  Name of plan Food Business Operator Date of approval  
+ 
+3.3.2 The Commission will be advised of any f ood business operator plans which have been 
+approved by the Competent Authority.  
+Page | 21  
+ 
+Annex 1 
+Top laboratory confirmed Salmonella  serotypes isolated from people, UK 2006 
+England & Wales  Scotland  Northern Ireland   
+S. Enteritidis 12.98 S. Enteritidis 9.64 S. Enteritidis 5.34 
+of these PT4 Serotype  Rate per 
+100,000 Serotype Rate per 
+100,000 Serotype Rate per 
+100,000 
+of these PT4 1.63 of these PT4 0.75 3.59     
+ 
+      
+S. Typhimurium 2.7 S. Typhimurium 4.02 S. Typhimurium 2.61 
+      
+of these DT104 of these DT104 1.35 of these DT104 0.64 0.52     
+ 
+      
+S. Virchow  0.73 S. Virchow 0.55  S. Virchow 0.29 
+S. Newport  0.42 S. Newport 0.44 S. Schwarzengrund        0.29 
+S. Aijobo 0.28 S. Montevideo 0.31 S. Agona 0.29 
+S. Infantis  0.27 S. Infantis  0.29 S. Montevideo 0.23 
+S. Stanley  0.27 S. Hadar  0.27 **  
+S. Montevideo  0.26  *    
+S. Braenderup  0.19      
+S. Hadar  0.17      
+ 
+*  S. Java, S. Oranienburg, and S. Stanley were all isolated at a rate of 0.26 per 100,000 population 
+** S. Infantis, S. Dublin, S. Java, S. Manhattan, S. Newport, S. Stanley and S. Weltevereden were all isolated at a  
+    rate of 0.12 per 100,000 population 
+ 
+The top ten laboratory confirmed Salmonella  serotypes isolated from people, UK 2005  
+England & Wales  Scotland  Northern Ireland   
+S. Enteritidis 12.5 S. Enteritidis 10.30 S. Enteritidis 4.85 
+of these PT4 Serotype  Rate per 
+100,000 Serotype Rate per 
+100,000 Serotype Rate per 
+100,000 
+of these PT4 2.26 of these PT4 0.76 3.33     
+ 
+      
+S. Typhimurium 2.7 S. Typhimurium 4.04 S. Typhimurium 1.93 
+      
+of these DT104 of these DT104 1.69 of these DT104 0.23 0.7     
+ 
+      
+S. Virchow  0.62 S. Goldcoast 0.81  S. Virchow 0.35 
+S. Newport  0.33 S. Virchow 0.77 S. Goldcoast 0.23 
+S. Stanley 0.29 S. Newport 0.43 S. Saint-paul 0.23 
+S. Hadar  0.29 S. Saint-paul  0.41 S. Kentucky 0.18 
+S. Infantis  0.22 S. Hadar  0.35 S. Kottbus 0.18 
+S. Goldcoast  0.22  S. Stanley 0.30 S. Meunchen 0.18 
+S. Kentucky  0.19  S. Corvallis 0.28   
+S. Agona  0.14  S. Agona  0.26   
+Page | 22  
+ 
+Annex 2  
+Sampling protocol.  
+For each flock*  At least two pairs of boot/sock swabs shall be taken.  For free range fl ocks of chickens reared 
+for meat, samples shall only be collected in t he area inside the house.  All boot/sock swabs 
+must be pooled into one sample.  In flocks with less than 100 chickens reared for meat, where it is not possible to use boot/sock swabs as access to the houses is not possible, they may be replaced by hand drag 
+swabs, where the boot swabs or socks are worn over gl oved hands and rubbed over 
+surfaces contaminated with fresh faeces, or if not feasible, by other sampling techniques for 
+faeces fit for the intended purpose.  Before using the boot/sock swabs, their surf ace shall be moistened with maximum recovery 
+diluents (MRD:0,8 % sodium chlo ride, 0,1 % peptone in sterile deionised water), or sterile 
+water or any other diluent approved by the national reference l aboratory referred to in Article 11 of Regulation (EC)  No 2160/2003.**  
+The use of farm water containing antimicrobials or additional disinfectants shall be prohibited.  
+The recommended way to moisten boot  swabs shall be to pour the liquid inside before putting them on.  Alternatively, boot swabs or socks may be autoclaved with dilu ents within autoclave bags or  jars before use.  Diluents 
+may also be applied after boots are put on using a spray or wash bottle. 
+ It shall be ensured that all sections in a house are represented in the sampling in a 
+proportionate way and that at least 100 steps are taken with each pair of boot swabs.  Each 
+pair should cover about 50 % of the area of the house.  On completion of sampling the boot/sock swabs shall be carefully removed so as not to dislodge adherent material.  Boot swabs may be in verted to retain materi al.  They shall be 
+placed in a bag or pot and labelle d to identify the flock sampled, and the date the samples 
+were taken.  * 
+‘flock’ means all poultry of the same health status kept on the same premises or in the same enclosure and 
+constituting a single epidemiological unit; in the case of housed poultry, this includes all birds sharing the same 
+airspace.  ** Mains water is suitable 
+ 
+ 
+            
+Page | 23  
+ 
+Annex 3 
+The Food Standards Agency.   
+The Food Standards Agency is an independent Government  department set up by an Act of Parliament in 2000 
+to protect the public's health and consumer interests in relation to food.  The Agency is led by a Board 
+that has been appointed to act in the public interest  and not to represent pa rticular sectors.  
+Board members have a wide range of relevant skills and experience.  Their UK headquarters 
+are in London, but the Agency also has national offices in Scotland, Wales and Northern Ireland.  
+The Food Standards Agency is  accountable to Parliament thr ough Health Ministers, and to the 
+devolved administrations in Scot land, Wales and Northern Ireland fo r its activities within their 
+areas.  
+Page | 24  
+ 
+Annex 4 
+Authorities involved in Feed  Law and its Enforcement. 
+ 
+ Policy, Regulation and 
+Implementation of 
+Legislation Enforcement Legislation
+Composition and 
+Marketing of Animal 
+Feeds (undesirable 
+substances, additives, 
+labelling etc) Food Standards AgencyGB: Local Authorities 
+ 
+NI: (Northern Ireland): 
+Department of 
+Agriculture and Rural 
+Development (DARD) 
+Zootechnical and 
+Medicated Feeds Defra (Veterinary) 
+Medicines Directorate 
+(VMD) 
+ 
+DARD (Animal Health 
+and Welfare Policy 
+Division) GB: Animal Medicines 
+Inspectorate 
+ 
+NI:DARD 
+Animal Disease related 
+Legislation  
+(BSE, Processed 
+Animal Proteins, 
+Salmonella ) Defra (Animal Health 
+and Veterinary Group) 
+ 
+DARD (Animal Health 
+and Welfare Policy 
+Division) GB: Checks carried out 
+by Animal Health 
+(Defra) 
+Prosecution: Local 
+Authorities 
+ 
+NI: DARD 
+Pesticide Residues Defra (Pesticides Safety 
+Directorate – PSD) 
+ 
+Agri-environmental 
+Policy Division GB: Pesticides Safety 
+Directorate and Local 
+Authorities 
+ 
+NI: DARD 
+ 
+Page | 25  
+ 
+Annex 5 
+Flocks and Holdings of meat chicken  flocks producing meat for human 
+consumption in UK6. 
+ 
+ 
+ 
+Region 5000-
+9999 10000-
+49999 50000-
+99999 ≥100000 Totals 
+England        41       234       200       337     812 
+Wales        22         50         17         26     115 
+Scotland          2         25         16         30       73 
+Northern Ireland        24       195         52         24     295 
+Totals for UK        89       504       285       417   1295 
+ 
+UK Census data for 2006 (excluding Wales) indicated 110,672,000 chickens reared for meat were present.  In data from the GB Poultr y Register on 30 January 2007 there were a total of 2,196 
+premises which kept a total of 122,255,150 chickens reared for meat: there were 989 
+premises which kept 5,000 or less chickens reared for meat, and 1,207 premises which kept 
+more than 5,000 chickens reared for meat.   
+                                                
+ 
+6 Census data 2004 
+Page | 26  
+ 
+Annex 6 
+Codes of practice for the control of Salmonella.  
+ 
+1. Code of Practice For The Prevention and Control of Salmonella - 
+ In Commercial Egg Laying Flocks. 
+ Ref No PB 2205   
+2. Codes of Practice For The Control of Salmonella – 
+ For The UK Fish Meal Industry  Ref No PB 2203 
+3. Code of Practice For The Control of Salmonella – 
+ In The Production of Final Feed For Livestock In Premises Producing Less  Than 10,000 tonnes Per Annum.  Ref No 2201  
+4. Code of Practice For The Control of Salmonella – 
+ In the Production of Final Feed for Li vestock In Premises Producing Over  
+ 10,000 Tonnes Per Annum.  Ref No 2200 
+5. Code of Practice For t he Prevention and Control of Salmonella  – 
+ In Chickens Reared For Meat on farm  Ref No PB7323 http://www.defra.gov.uk/animalh/diseases/zoonos es/zoonoses_reports/salmonellainchick.pdf
+  
+6. Code of Practice For The Control of Salmonella – 
+ During the Storage, Handl ing and Transport of Raw Materials Intended For 
+ Incorporation Into, or Direc t Use As, Animal Feedingstuff. 
+ Ref No 2202  
+7. Code of Practice For The Control of Salmonella - 
+ In Animal By-products Rendering Industry.  Ref No 2199 
+8. Code of Practice  For The Prevention of Rodent In festation In Poultry Flocks.  
+ The Control of Salmonella. 
+ Ref No 2630 http://www.defra.gov.uk/animalh/diseases/z oonoses/zoonoses_reports/salrodent.pdf
+  
+9. Code of Practice For The Prevention and Control of Salmonella - 
+ In Breeding Flocks and Hatcheries.    Ref No PB 1564      
+10. Code of Practice For The Control of Salmonella - 
+  In The Production Of Fi nal Feed For Livestock.  
+ Ref No 2200 & 2201 
+11.Egg Quality Guide  Ref No PB 4821 
+12.Code of Practice   The Handling and storage of eggs from farm to  retail sale 
+  Ref No. PB2818 
+ 
+Page | 27  
+ 
