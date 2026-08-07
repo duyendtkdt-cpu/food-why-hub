@@ -150,7 +150,9 @@ st.markdown("""
 # ══════════════════════════════════════════════════════════════
 
 if app_mode == "📋 Quy trình Phase 1 & 2":
-    file_path = r"d:\.antigravity\3. FOOD WHY - Smart Assistant\complyfood_phase1_2.html"
+    import os
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    file_path = os.path.join(base_dir, "complyfood_phase1_2.html")
     with open(file_path, "r", encoding="utf-8") as f:
         html_code = f.read()
 
@@ -167,8 +169,9 @@ if app_mode == "📋 Quy trình Phase 1 & 2":
     components.html(html_code, height=900, scrolling=True)
 
 else:
-    # Đọc HTML template Mapping QCVN (có FALLBACK_DB sẵn bên trong)
-    file_path = r"d:\.antigravity\3. FOOD WHY - Smart Assistant\ComplyFood_UI.html"
+    import os
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    file_path = os.path.join(base_dir, "ComplyFood_UI.html")
     with open(file_path, "r", encoding="utf-8") as f:
         html_code = f.read()
 
