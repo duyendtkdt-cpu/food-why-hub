@@ -4,3 +4,4 @@ PyPDF2
 pycryptodome
 Pillow
 firebase-admin
+pandas
