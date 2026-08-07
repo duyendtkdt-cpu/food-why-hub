@@ -1,0 +1,275 @@
+{
+  "unit_1": {
+    "title": "Chất lượng nguyên liệu (Thịt Heo & Gà)",
+    "references": [
+      "FAO: Guidelines for slaughtering, meat cutting and further processing.",
+      "Khoa học về Thịt (Meat Science): Hiện tượng PSE và DFD.",
+      "USDA FSIS: Tầm quan trọng của Phúc lợi động vật (Animal Welfare)."
+    ],
+    "core_knowledge": [
+      "Thịt PSE: Nguyên nhân do stress trước giết mổ, pH giảm nhanh khi nhiệt độ thân thịt còn cao.",
+      "Thịt DFD: Do lợn bị đói hoặc kiệt sức kéo dài, cạn kiệt glycogen, pH cuối cùng cao (>6.0).",
+      "Ở Gà: Hiện tượng thịt gà trắng (White striping) và cơ ức gỗ (Wooden breast) do sinh trưởng quá nhanh."
+    ],
+    "sessions": [
+      {
+        "id": "session_1",
+        "title": "Nhận diện thịt tươi bằng cảm quan",
+        "week": 1,
+        "video_url": "https://www.youtube.com/watch?v=euo6UWC8FPk&t=1s",
+        "pre_question": {
+          "question": "Trong một buổi sáng nhận nguyên liệu tại nhà máy, Sasa (QA có kinh nghiệm) nhíu mày khi kiểm tra lô thịt gà mới về, anh ấy nói 'Có gì đó không ổn với lô này'. Ran (QA mới) nhìn vào và thấy màu sắc thịt vẫn hồng hào, không có mùi lạ rõ rệt, và bề mặt còn khá săn chắc, bèn đáp 'Em thấy ổn mà sếp'. Rento (Giám đốc Sản xuất) đi tới, nhìn Sasa rồi quay sang Ran hỏi: 'Vậy, ngoài những gì Ran vừa quan sát, chúng ta cần kiểm tra thêm những yếu tố nào khác để thực sự đánh giá độ tươi và an toàn của lô thịt này, đặc biệt khi nhà máy đang trong giai đoạn siết chặt chi phí và tối ưu hóa tài nguyên?'",
+          "options": [
+            "A. Kiểm tra kỹ hơn về mùi ẩm mốc nhẹ, độ nhớt bề mặt và độ đàn hồi cơ thịt, đồng thời yêu cầu nhà cung cấp báo cáo nguồn nước sử dụng trong quá trình giết mổ ban đầu.",
+            "B. Chỉ cần tin vào Ran vì màu sắc và mùi không có vấn đề lớn thì có thể bỏ qua.",
+            "C. Đợi đến khi chế biến, nếu có vấn đề mới xử lý để tiết kiệm thời gian kiểm tra.",
+            "D. Chụp ảnh gửi cho khách hàng hỏi ý kiến họ trước khi quyết định nhận hay từ chối."
+          ],
+          "correct": 0,
+          "explanation": "Để đánh giá chính xác độ tươi và an toàn của thịt, cần kết hợp nhiều yếu tố cảm quan tinh tế hơn như mùi ẩm mốc, độ nhớt bề mặt, và độ đàn hồi. Đặc biệt, nguồn nước sử dụng trong giết mổ và sơ chế ban đầu có vai trò tối quan trọng, ảnh hưởng trực tiếp đến vi sinh vật và hóa chất trên thịt, là yếu tố nền tảng cho chất lượng và thời hạn sử dụng sản phẩm."
+        },
+        "content": "## Nhận Diện Thịt Tươi Bằng Cảm Quan: Nền Tảng Chất Lượng Nguyên Liệu\n\nChào mừng anh chị đến với Session 1 của FOOD WHY Academy! Với vai trò là chuyên gia đào tạo về An toàn Thực phẩm trong ngành Giết mổ & Chế biến Thịt, tôi hiểu rằng việc đánh giá chất lượng nguyên liệu đầu vào là bước then chốt, quyết định sự thành công của cả chuỗi sản xuất. Và trong số các phương pháp đánh giá, **nhận diện cảm quan** chính là 'ngón nghề' đầu tiên và quan trọng nhất mà mỗi QA cần thuần thục.\n\n### 1. Các Yếu Tố Cảm Quan Của Thịt Tươi (Heo & Gà)\n\nĐể đánh giá thịt tươi bằng cảm quan, chúng ta cần tập trung vào các tiêu chí sau:\n\n*   **Màu sắc:**\n    *   **Thịt Heo:** Màu hồng đỏ tự nhiên, không quá sẫm cũng không quá nhợt nhạt. Mỡ có màu trắng ngà, không bị vàng ố.\n    *   **Thịt Gà:** Màu hồng nhạt đặc trưng. Da gà có màu vàng tự nhiên hoặc trắng tùy giống, không có vết thâm tím hay mảng xanh tái.\n*   **Mùi:** Mùi tanh nhẹ đặc trưng của thịt tươi, không có mùi ôi, thiu, chua, mốc hoặc mùi kháng sinh.\n*   **Độ đàn hồi (cấu trúc):** Dùng ngón tay ấn vào thớ thịt, vết lõm phải nhanh chóng trở lại trạng thái ban đầu. Thịt phải săn chắc, không bị nhão, bở.\n*   **Bề mặt:** Khô ráo, không bị nhớt, không có dịch rỉ ra hoặc đọng vũng.\n*   **Trạng thái:** Các thớ thịt liền khối, không bị lợn cợn, không có tụ máu bất thường.\n\n### 2. Tầm Quan Trọng Của Nước Trong Bảo Toàn Chất Lượng Nguyên Liệu\n\nĐể các đặc tính cảm quan trên được duy trì, chất lượng của nguyên liệu thịt cần được bảo vệ từ ngay những khâu đầu tiên trong quá trình giết mổ và sơ chế. Và ở đây, **nước** đóng một vai trò tối quan trọng. Theo tài liệu 'The Use of Water in Animal Production, Slaughter, and Processing' (NACMCF, 2021), nước là yếu tố thiết yếu và được sử dụng với khối lượng lớn trong toàn bộ quy trình chế biến động vật.\n\n#### 2.1. Tiêu Chuẩn Nước Và An Toàn Thực Phẩm\n\nFSIS (Cục An toàn và Kiểm tra Thực phẩm Hoa Kỳ) yêu cầu nước sử dụng trong chế biến thịt và gia cầm phải tuân thủ các quy định về nước uống (National Primary Drinking Water regulations - 40 CFR 141) đối với nguồn nước thành phố, hoặc phải được chứng nhận đạt chuẩn uống được nếu là giếng tư nhân (9 CFR 416.2(g)(1)-(6)). Điều này nhấn mạnh:\n\n*   **Nước tiếp xúc trực tiếp/gián tiếp với thực phẩm:** Phải đạt tiêu chuẩn nước uống. Nước không đạt chuẩn có thể đưa các tác nhân gây ô nhiễm (vi sinh vật, hóa chất) trực tiếp vào sản phẩm, làm giảm chất lượng và an toàn. Các chuyên gia đã chỉ ra sự khác biệt rõ rệt giữa hai tiêu chuẩn chất lượng nước: một cho nước tiếp xúc trực tiếp hoặc gián tiếp với thực phẩm, và một cho nước không tiếp xúc với thực phẩm, nhằm đảm bảo an toàn tối ưu (Charge Question #4).\n\n#### 2.2. Tác Động Của Các Chất Gây Ô Nhiễm Trong Nước Lên Chất Lượng Nguyên Liệu\n\nTài liệu tham khảo đã nêu rõ các chất gây ô nhiễm trong nước có thể là **vi sinh vật, hóa chất/độc tố, vật lý và dinh dưỡng** (Charge Question #3). Những chất này, dù tồn tại dưới dạng dư lượng trong nước sử dụng tại các khâu ban đầu, đều có thể ảnh hưởng đến chất lượng và an toàn của thịt:\n\n*   **Ô nhiễm vi sinh vật:** Nước bị nhiễm khuẩn (ví dụ, từ môi trường chăn nuôi hoặc vệ sinh kém) có thể làm tăng nhanh mật độ vi khuẩn trên bề mặt thịt ngay sau khi giết mổ, dẫn đến:\n    *   **Giảm thời hạn sử dụng:** Thịt dễ ôi thiu hơn.\n    *   **Thay đổi cảm quan:** Mùi ôi, nhớt bề mặt, thay đổi màu sắc.\n*   **Ô nhiễm hóa chất:** Dư lượng hóa chất từ quá trình khử trùng, làm sạch hoặc thậm chí từ nguồn nước cấp (ví dụ: sắt, độ cứng của nước) có thể:\n    *   **Ảnh hưởng đến chất lượng sản phẩm:** Thay đổi mùi vị, màu sắc của thịt (Charge Question #4, ví dụ về tác động của sắt và 'nước cứng' lên can thiệp phốt phát).\n    *   **Giảm hiệu quả của các chất phụ gia:** Ảnh hưởng đến khả năng hoạt động của các chất kháng khuẩn hoặc dung dịch tẩm ướp.\n\nTrong các bước sơ chế thịt (như làm sạch, làm mát), nếu nước không đạt chuẩn, nguy cơ lây nhiễm chéo hoặc suy giảm chất lượng là rất cao. Ví dụ, nước dùng trong khâu làm nguội (chillers) cho gà, nếu không được kiểm soát tốt, sẽ trở thành nguồn lây nhiễm vi khuẩn.\n\n### 3. Thực Hành Tại Nhà Máy\n\nLà một QA, việc nhận diện cảm quan không chỉ dừng lại ở việc 'nhìn, ngửi, chạm' mà còn phải là người đầu tiên đặt câu hỏi về nguồn gốc, điều kiện vận chuyển, và đặc biệt là chất lượng nước đã được sử dụng trong các bước sơ chế ban đầu của nhà cung cấp. Một sự thay đổi nhỏ về chất lượng nước tại nhà máy giết mổ có thể dẫn đến sự suy giảm rõ rệt về chất lượng cảm quan của lô thịt khi về đến nhà máy chế biến của chúng ta. Luôn yêu cầu chứng nhận chất lượng nước và quy trình kiểm soát nước từ nhà cung cấp để đảm bảo tính minh bạch và an toàn.\n\n## Bảng Tóm Tắt Các Chỉ Tiêu Cảm Quan Chính\n\n| Tiêu Chí    | Thịt Heo Tươi                  | Thịt Gà Tươi                     | Dấu Hiệu Suy Giảm Chất Lượng        |\n|-------------|---------------------------------|----------------------------------|------------------------------------|\n| **Màu sắc** | Hồng đỏ, mỡ trắng ngà           | Hồng nhạt, da vàng/trắng         | Tái xanh, xám xịt, vàng ố, thâm tím |\n| **Mùi**     | Tanh nhẹ đặc trưng              | Tanh nhẹ đặc trưng               | Ối, thiu, chua, mốc, hóa chất      |\n| **Độ đàn hồi**| Săn chắc, đàn hồi tốt          | Săn chắc, đàn hồi tốt            | Nhão, bở, chảy nước                |\n| **Bề mặt**  | Khô ráo, không nhớt             | Khô ráo, không nhớt              | Nhớt dính, có dịch rỉ              |\n",
+        "flashcards": [
+          {
+            "front": "Nước Potable là gì?",
+            "back": "Nước đạt tiêu chuẩn có thể uống được, an toàn khi tiếp xúc với thực phẩm 💧."
+          },
+          {
+            "front": "Yếu tố cảm quan quan trọng nhất của thịt tươi?",
+            "back": "Mùi, màu sắc, độ đàn hồi và bề mặt thịt ✨."
+          },
+          {
+            "front": "Tác động của nước bị nhiễm khuẩn đến thịt?",
+            "back": "Giảm thời hạn sử dụng, gây mùi ôi thiu, bề mặt nhớt 🦠."
+          },
+          {
+            "front": "Tại sao cần hai tiêu chuẩn nước trong nhà máy?",
+            "back": "Để phân biệt nước tiếp xúc trực tiếp/gián tiếp với thực phẩm (phải là nước uống được) và nước không tiếp xúc với thực phẩm, đảm bảo an toàn tối đa 🛡️."
+          },
+          {
+            "front": "Ảnh hưởng của 'nước cứng' hoặc sắt trong nước đến chất lượng thịt?",
+            "back": "Có thể làm thay đổi mùi vị, màu sắc và giảm hiệu quả các chất phụ gia 🔬."
+          }
+        ],
+        "challenge": "Tình huống: Một nhà máy chế biến xúc xích (sử dụng thịt heo làm nguyên liệu chính) nhận thấy sản phẩm thành phẩm có mùi vị lạ, hơi chua và màu sắc không đồng đều, dù các chỉ tiêu cảm quan ban đầu của thịt heo khi nhập về đều 'có vẻ' bình thường. Thời gian gần đây, nhà máy giết mổ đối tác báo cáo rằng họ đã áp dụng một số biện pháp tiết kiệm nước do hạn hán kéo dài, bao gồm việc tái sử dụng nước cho một số khâu không tiếp xúc trực tiếp với thực phẩm. Tuy nhiên, họ khẳng định nước dùng cho các khâu rửa thịt, làm mát vẫn đạt chuẩn potable theo quy định của FSIS (ví dụ: 9 CFR 416.2(g) và 40 CFR 141).\n\n**Với vai trò là Trưởng phòng QA của nhà máy chế biến, bạn sẽ:**\n\n1.  **Phân tích nguyên nhân tiềm ẩn:** Dựa trên các yếu tố cảm quan đã học và tài liệu tham khảo về sử dụng nước, hãy đưa ra ít nhất 3 giả thuyết về nguyên nhân khiến chất lượng thịt heo nguyên liệu bị ảnh hưởng, dù 'trông có vẻ' ổn lúc ban đầu, và dẫn đến vấn đề của sản phẩm cuối cùng.\n2.  **Đề xuất giải pháp kiểm tra và xác minh cụ thể:** Bạn sẽ yêu cầu nhà máy giết mổ đối tác cung cấp những thông tin gì và thực hiện các bước kiểm tra nào tại nhà máy của mình để xác minh các giả thuyết trên? (Ví dụ: Các loại xét nghiệm nước, kiểm tra quy trình, v.v.).\n3.  **Đề xuất giải pháp khắc phục và phòng ngừa:** Nếu giả thuyết liên quan đến nước là đúng, bạn sẽ đề xuất những hành động nào để giải quyết vấn đề hiện tại và ngăn ngừa tái diễn trong tương lai, đặc biệt là khi vấn đề biến đổi khí hậu vẫn đang gây áp lực lên nguồn nước?"
+      },
+      {
+        "id": "session_2",
+        "title": "PSE, DFD",
+        "week": 2,
+        "video_url": "",
+        "pre_question": {
+          "question": "Sasa và Ran đang kiểm tra lô thịt lợn tươi vừa nhập về. Ran phát hiện một số miếng thịt có màu rất nhợt nhạt, mềm nhão và tiết nhiều nước, trong khi một số khác lại có màu đỏ sẫm bất thường, cảm giác cứng và khô bề mặt. Sasa, với kinh nghiệm lâu năm, lập tức nhận ra đây là các dấu hiệu của các vấn đề chất lượng nghiêm trọng. Theo bạn, Sasa và Ran đang đối mặt với những vấn đề gì của chất lượng thịt và nguyên nhân gốc rễ thường gặp của chúng là gì?",
+          "options": [
+            "A. Nhiễm khuẩn chéo và dư lượng kháng sinh, do vệ sinh kém tại lò mổ.",
+            "B. Thịt PSE (Pale, Soft, Exudative) và thịt DFD (Dark, Firm, Dry), liên quan đến điều kiện chăn nuôi và xử lý trước giết mổ.",
+            "C. Thịt bị biến chất do bảo quản không đúng nhiệt độ và quá hạn sử dụng.",
+            "D. Thịt bị pha trộn chất cấm và tiêm nước, do gian lận thương mại."
+          ],
+          "correct": 1,
+          "explanation": "Câu B là đáp án chính xác. Các mô tả về thịt nhợt nhạt, mềm, rỉ nước chỉ ra thịt PSE, trong khi thịt đỏ sẫm, cứng, khô bề mặt là dấu hiệu của thịt DFD. Cả hai đều là các vấn đề chất lượng thịt phổ biến, phát sinh chủ yếu do stress trước giết mổ và quy trình làm mát, xử lý sau giết mổ không tối ưu, ảnh hưởng đến quá trình chuyển hóa glycogen và pH của cơ thịt."
+        },
+        "content": "### Chất lượng nguyên liệu (Thịt): Hiểu về PSE và DFD\n\nKính chào các Anh/Chị học viên của FOOD WHY Academy!\n\nTrong khuôn khổ khóa học về An toàn Thực phẩm, Session 2 của chúng ta sẽ đi sâu vào hai khía cạnh quan trọng ảnh hưởng đến chất lượng thịt nguyên liệu: **Thịt PSE (Pale, Soft, Exudative)** và **Thịt DFD (Dark, Firm, Dry)**. Mặc dù tài liệu chung về Quy định (EC) Số 853/2004 của Ủy ban Châu Âu tập trung chủ yếu vào các yêu cầu vệ sinh cụ thể đối với thực phẩm có nguồn gốc động vật để đảm bảo an toàn thực phẩm xuyên suốt chuỗi cung ứng, việc hiểu rõ các yếu tố về chất lượng cảm quan và vật lý như PSE và DFD là cực kỳ cần thiết. Bởi lẽ, việc đảm bảo 'tất cả các yêu cầu được thực hiện đúng cách để đảm bảo an toàn thực phẩm' không chỉ dừng lại ở vệ sinh mà còn bao gồm cả việc lựa chọn và xử lý nguyên liệu có chất lượng phù hợp cho mục đích sử dụng, từ đó giảm thiểu rủi ro và tối ưu hóa sản phẩm cuối cùng.\n\n#### 1. Thịt PSE (Pale, Soft, Exudative - Thịt nhợt, mềm, rỉ nước)\nThịt PSE là một tình trạng chất lượng thịt thường gặp ở lợn, và đôi khi ở gia cầm. Nó đặc trưng bởi:\n*   **Màu sắc nhợt nhạt (Pale):** Do sự biến tính protein làm thay đổi khả năng hấp thụ và phản xạ ánh sáng.\n*   **Cấu trúc mềm nhão (Soft):** Protein bị biến tính mất khả năng liên kết cấu trúc ban đầu.\n*   **Rỉ nước (Exudative):** Khả năng giữ nước của thịt kém, dẫn đến mất nước dịch bào đáng kể.\n\n**Nguyên nhân:** Tình trạng này xảy ra khi động vật trải qua stress cấp tính ngay trước khi giết mổ. Stress gây ra sự cạn kiệt nhanh chóng glycogen trong cơ bắp, dẫn đến sự tích tụ axit lactic quá mức và giảm pH nhanh chóng khi nhiệt độ cơ thịt vẫn còn cao. Sự kết hợp giữa pH thấp và nhiệt độ cao làm biến tính protein, mất khả năng giữ nước.\n\n**Tác động:** Thịt PSE có năng suất chế biến thấp (do mất nước), hương vị kém, cấu trúc kém hấp dẫn, và giảm giá trị dinh dưỡng. Nó không phù hợp để sản xuất các sản phẩm thịt chế biến cần khả năng giữ nước tốt như giăm bông, xúc xích.\n\n#### 2. Thịt DFD (Dark, Firm, Dry - Thịt sẫm màu, cứng, khô)\nThịt DFD, hay còn gọi là 'thịt sẫm màu' hoặc 'thịt dai', cũng là một vấn đề chất lượng quan trọng, thường thấy ở bò và đôi khi ở lợn.\n*   **Màu sắc sẫm tối (Dark):** Do pH cuối cùng của thịt cao, Myoglobin giữ oxy kém và phản xạ ánh sáng khác biệt.\n*   **Cấu trúc săn chắc (Firm):** Sợi cơ giữ chặt nước, tạo cảm giác săn chắc.\n*   **Bề mặt khô (Dry):** Mặc dù có khả năng giữ nước cao bên trong, bề mặt có thể trông khô do nước bị giữ chặt trong protein cơ.\n\n**Nguyên nhân:** Thịt DFD thường là kết quả của stress kéo dài hoặc mãn tính trước giết mổ (ví dụ: vận chuyển dài, hỗn chiến, đói, sợ hãi, thời tiết khắc nghiệt). Stress này làm cạn kiệt lượng glycogen dự trữ trong cơ bắp. Khi giết mổ, không đủ glycogen để chuyển hóa thành axit lactic, do đó pH của cơ thịt không giảm đủ sâu mà duy trì ở mức cao. pH cao tạo môi trường thuận lợi cho vi khuẩn phát triển và ảnh hưởng đến màu sắc, cấu trúc.\n\n**Tác động:** Thịt DFD có hạn sử dụng ngắn hơn (do pH cao), màu sắc không hấp dẫn, khó chế biến thành các sản phẩm có màu sắc và cấu trúc mong muốn. Mặc dù khả năng giữ nước cao, nhưng lại cho cảm giác dai, cứng khi ăn.\n\n**Kết luận:** Việc giám sát và kiểm soát các yếu tố gây stress cho động vật trước giết mổ (như vận chuyển, môi trường chuồng trại, phương pháp xử lý) là chìa khóa để giảm thiểu tỷ lệ thịt PSE và DFD. Hiểu rõ về các vấn đề này giúp doanh nghiệp thực phẩm không chỉ tuân thủ các quy định về vệ sinh mà còn nâng cao chất lượng sản phẩm, tối ưu hóa quy trình sản xuất và đáp ứng tốt hơn kỳ vọng của người tiêu dùng về chất lượng thịt nguyên liệu.",
+        "flashcards": [
+          {
+            "front": "PSE (Pale, Soft, Exudative)",
+            "back": "Tình trạng thịt có màu nhợt nhạt, mềm nhão và rỉ nước nhiều, do pH giảm nhanh kết hợp với nhiệt độ cơ thịt cao sau giết mổ."
+          },
+          {
+            "front": "DFD (Dark, Firm, Dry)",
+            "back": "Tình trạng thịt có màu sẫm tối, cấu trúc săn chắc và bề mặt khô, do pH cơ thịt duy trì ở mức cao sau giết mổ vì cạn kiệt glycogen trước đó."
+          },
+          {
+            "front": "Glycogenolysis",
+            "back": "Quá trình phân giải glycogen thành axit lactic trong cơ bắp sau giết mổ, ảnh hưởng trực tiếp đến sự thay đổi pH và chất lượng thịt."
+          }
+        ],
+        "challenge": "Một nhà máy chế biến thịt tại Việt Nam đang đối mặt với sự gia tăng đột biến của cả thịt PSE và DFD trong các lô nguyên liệu thịt lợn nhập về, đặc biệt trong những tháng hè nắng nóng. Điều này ảnh hưởng nghiêm trọng đến chất lượng giăm bông và xúc xích thành phẩm, gây thiệt hại kinh tế đáng kể. Với vai trò là chuyên gia an toàn thực phẩm của FOOD WHY Academy, bạn hãy đề xuất một kế hoạch hành động toàn diện để nhà máy xác định nguyên nhân gốc rễ và kiểm soát hiệu quả tình trạng này. Kế hoạch cần bao gồm các bước từ khâu tiếp nhận nguyên liệu, đánh giá quy trình chăn nuôi và vận chuyển, đến các biện pháp xử lý sau giết mổ có thể áp dụng."
+      },
+      {
+        "id": "session_3",
+        "title": "Bảo quản gia cầm đúng chuẩn",
+        "week": 3,
+        "video_url": "https://www.youtube.com/embed/LB0-F9OMDSY",
+        "pre_question": {
+          "question": "Sasa và Ran đang kiểm tra lô thịt gà tươi vừa nhập kho tại nhà máy chế biến thực phẩm. Sasa phát hiện một số thùng thịt gà có nhiệt độ bề mặt cao hơn quy định và có dấu hiệu 'đổ mồ hôi'. Ran lập tức muốn chuyển lô hàng này vào khu vực làm lạnh sâu và sau đó đưa vào sản xuất ngay lập tức để tiết kiệm thời gian.\n\nTheo bạn, hành động của Ran có phù hợp với nguyên tắc an toàn thực phẩm trong bảo quản nguyên liệu gia cầm không?",
+          "options": [
+            "A. Phù hợp, vì việc làm lạnh sâu sẽ khắc phục vấn đề nhiệt độ và ngăn chặn vi khuẩn kịp thời.",
+            "B. Phù hợp, miễn là lô hàng được chế biến nhanh chóng, rủi ro sẽ được giảm thiểu.",
+            "C. Không phù hợp, vì việc làm lạnh sâu đột ngột không thể đảo ngược hoàn toàn hư hỏng đã xảy ra, và chất lượng/an toàn có thể bị ảnh hưởng.",
+            "D. Không phù hợp, vì cần phải tiến hành kiểm tra kỹ lưỡng hơn toàn bộ lô hàng, đánh giá mức độ rủi ro và có thể phải loại bỏ phần đã bị ảnh hưởng nhiệt độ."
+          ],
+          "correct": 3,
+          "explanation": "Hành động của Ran không phù hợp. Việc tăng nhiệt độ đã tạo điều kiện cho vi sinh vật phát triển. Làm lạnh sâu đột ngột không thể 'phục hồi' sản phẩm đã bị tổn hại về an toàn hoặc chất lượng. Cần kiểm tra kỹ lưỡng toàn bộ lô hàng, đánh giá rủi ro theo các tiêu chuẩn vệ sinh, và đưa ra quyết định phù hợp, có thể bao gồm việc loại bỏ."
+        },
+        "content": "Chào mừng các bạn đến với Session 3 của khóa học An toàn Thực phẩm tại FOOD WHY Academy! Hôm nay, chúng ta sẽ đi sâu vào một khía cạnh cực kỳ quan trọng trong việc đảm bảo chất lượng nguyên liệu thịt: **Bảo quản gia cầm đúng chuẩn**. Gia cầm, bao gồm các loại chim nuôi như gà, vịt, ngan..., là nguồn protein thiết yếu nhưng cũng tiềm ẩn nhiều rủi ro nếu không được xử lý và bảo quản đúng cách.\n\nTrong bối cảnh ngành thực phẩm hiện đại, theo `CAC/RCP 58-2005 – CODE OF HYGIENIC PRACTICE FOR MEAT`, các biện pháp vệ sinh phải được áp dụng tại những điểm trong chuỗi thực phẩm mang lại giá trị lớn nhất trong việc giảm thiểu rủi ro cho người tiêu dùng. Điều này đặc biệt đúng với quá trình bảo quản.\n\n### 1. Nguyên tắc chung về vệ sinh thịt trong bảo quản\nNguyên tắc cốt lõi là **phòng ngừa và kiểm soát ô nhiễm** xuyên suốt tất cả các khía cạnh của quá trình sản xuất thịt và chế biến sâu hơn. Việc áp dụng các nguyên tắc **HACCP** là một yếu tố thiết yếu để đảm bảo an toàn và chất lượng. Từ trang trại đến bàn ăn, mỗi bước đều cần được kiểm soát chặt chẽ để ngăn chặn sự phát triển của vi sinh vật gây bệnh và hình thành độc tố.\n\n### 2. Kiểm soát nhiệt độ: Yếu tố then chốt (Mục 8.7 CAC/RCP 58-2005)\nKiểm soát nhiệt độ hiệu quả là **cực kỳ quan trọng** đối với sự an toàn và phù hợp của thịt. Để đảm bảo điều này, các cơ sở phải:\n\n*   **Làm lạnh nhanh:** Cung cấp các thiết bị đầy đủ để nhanh chóng loại bỏ nhiệt từ thân động vật sau khi giết mổ và làm sạch.\n*   **Duy trì nhiệt độ thích hợp:** Giữ thân động vật đã làm sạch, thịt và các sản phẩm chế biến từ thịt ở nhiệt độ thích hợp sau khi làm lạnh.\n*   **Quy định nhiệt độ và thời gian cụ thể:** Các mức nhiệt độ và thời gian làm lạnh, bảo quản cụ thể cần được xác định rõ ràng và tuân thủ.\n*   **Thiết bị đo nhiệt độ:** Lắp đặt các thiết bị đo nhiệt độ chính xác và dễ nhìn tại mỗi điểm kiểm soát quan trọng trong hệ thống.\n\n### 3. Yêu cầu vệ sinh sau kiểm tra sau giết mổ (Mục 9.7 CAC/RCP 58-2005)\n\n*   **Làm lạnh (Chilling - 9.7.1):** Thân động vật, thịt và các sản phẩm thịt phải được làm lạnh ngay lập tức sau khi làm sạch hoặc chế biến, hoặc càng sớm càng tốt, đến nhiệt độ kiểm soát hiệu quả sự phát triển của vi sinh vật gây bệnh và hình thành độc tố. Cơ sở làm lạnh phải được thiết kế và vận hành để tránh ô nhiễm thịt.\n*   **Bảo quản thịt (Storage of meat - 9.7.2):** Thịt phải được bảo quản theo cách không gây ô nhiễm hoặc hư hỏng, đồng thời ngăn chặn sự phát triển của vi sinh vật gây bệnh và hình thành độc tố.\n    *   Phòng bảo quản phải được giữ sạch sẽ, khô ráo và thông gió tốt.\n    *   Nhiệt độ và độ ẩm của cơ sở bảo quản phải được kiểm soát.\n    *   Thịt phải được bảo vệ đúng cách khỏi ô nhiễm bằng cách che đậy bằng vật liệu phù hợp.\n\n### 4. Vận chuyển an toàn (Mục 12 CAC/RCP 58-2005)\nCác phương tiện vận chuyển thịt phải được thiết kế, xây dựng và bảo trì để đảm bảo có khả năng bảo vệ thịt khỏi ô nhiễm và sự phát triển của vi sinh vật gây bệnh hoặc hình thành độc tố. Đặc biệt:\n\n*   **Kiểm soát nhiệt độ:** Phương tiện vận chuyển có kiểm soát nhiệt độ phải được thiết kế và xây dựng để đảm bảo duy trì nhiệt độ đã định trong suốt thời gian vận chuyển.\n*   **Vệ sinh phương tiện:** Phương tiện phải được xây dựng sao cho có thể làm sạch và khử trùng hiệu quả. Không được sử dụng cho việc vận chuyển các sản phẩm khác ngoài thịt và các sản phẩm thịt trừ khi được làm sạch và khử trùng kỹ lưỡng trước khi sử dụng.\n\nTuân thủ nghiêm ngặt các nguyên tắc và yêu cầu này là nền tảng để đảm bảo chất lượng và an toàn của thịt gia cầm, từ đó bảo vệ sức khỏe người tiêu dùng và uy tín của doanh nghiệp.",
+        "flashcards": [
+          {
+            "front": "Abattoir (Lò mổ)",
+            "back": "Bất kỳ cơ sở nào nơi các loài động vật được chỉ định được giết mổ và làm sạch cho mục đích tiêu thụ của con người và được cơ quan có thẩm quyền phê duyệt, đăng ký và/hoặc niêm yết cho các mục đích đó."
+          },
+          {
+            "front": "HACCP (Phân tích mối nguy và điểm kiểm soát tới hạn)",
+            "back": "Hệ thống phân tích mối nguy và điểm kiểm soát tới hạn. Một yếu tố thiết yếu để ngăn ngừa và kiểm soát ô nhiễm, đặc biệt trong toàn bộ chuỗi sản xuất thịt từ trang trại đến bàn ăn."
+          },
+          {
+            "front": "Kiểm soát nhiệt độ (An toàn Thịt)",
+            "back": "Yếu tố quan trọng đối với sự an toàn và phù hợp của thịt, bao gồm việc làm lạnh nhanh sau khi làm sạch và duy trì nhiệt độ thích hợp trong quá trình bảo quản và vận chuyển để ngăn chặn sự phát triển của vi sinh vật và hình thành độc tố."
+          }
+        ],
+        "challenge": "Một nhà máy chế biến gia cầm, 'Gà Ngon', vừa nhận một lô thịt gà nguyên con đã được làm lạnh. Nhật ký nhiệt độ của xe vận chuyển cho thấy có sự dao động trong quá trình vận chuyển, với nhiệt độ tăng trên giới hạn quy định trong 2 giờ trước khi trở lại bình thường. Khi lô hàng đến nơi, kiểm tra trực quan không thấy dấu hiệu hư hỏng ngay lập tức, nhưng một số con gà có cảm giác ấm hơn một chút so với nhiệt độ dự kiến.\n\nVới vai trò là Quản lý Chất lượng tại 'Gà Ngon', bạn sẽ quyết định như thế nào về lô hàng này? Dựa trên các nguyên tắc của CAC/RCP 58-2005, hãy phân tích các bước cần thực hiện để đánh giá rủi ro và đưa ra quyết định cuối cùng."
+      },
+      {
+        "id": "session_4",
+        "title": "Phúc lợi động vật và tác động đến chất lượng",
+        "week": 4,
+        "video_url": "https://www.youtube.com/embed/YHrRLdFHtvo",
+        "pre_question": {
+          "question": "Sasa, một nhân viên mới tại bộ phận tiếp nhận nguyên liệu thịt, quan sát thấy một số công nhân dùng gậy gỗ lớn để thúc gia súc di chuyển và la hét lớn tiếng khi chúng chần chừ. Ran, quản lý ca, giải thích rằng đó là cách nhanh nhất để đưa động vật vào chuồng chờ. Theo bạn, hành động của các công nhân này có thể dẫn đến hậu quả nào nghiêm trọng nhất đối với chất lượng thịt thành phẩm?",
+          "options": [
+            "A. Tăng nguy cơ lây nhiễm chéo vi sinh vật do động vật bị stress thải phân nhiều hơn.",
+            "B. Gây ra các vết bầm tím và tổn thương vật lý trên thân thịt, dẫn đến giảm giá trị kinh tế.",
+            "C. Ảnh hưởng đến trạng thái sinh lý của động vật, gây cạn kiệt glycogen, làm thay đổi pH thịt và giảm chất lượng cảm quan (ví dụ: thịt DFD).",
+            "D. Kéo dài thời gian giết mổ, làm giảm năng suất tổng thể của nhà máy."
+          ],
+          "correct": 2,
+          "explanation": "Việc sử dụng bạo lực và gây căng thẳng quá mức cho động vật trước khi giết mổ có thể làm cạn kiệt dự trữ glycogen trong cơ. Điều này ngăn cản quá trình giảm pH bình thường sau giết mổ, dẫn đến tình trạng thịt có pH cao, màu sẫm, khô và cứng (DFD – Dark, Firm, Dry), làm giảm đáng kể chất lượng cảm quan và khả năng bảo quản của thịt."
+        },
+        "content": "### Phúc lợi động vật và tác động đến chất lượng nguyên liệu (Thịt)\n\nTrong ngành công nghiệp thực phẩm, chất lượng nguyên liệu thịt không chỉ phụ thuộc vào giống loài hay chế độ dinh dưỡng mà còn chịu ảnh hưởng sâu sắc từ phúc lợi động vật trong giai đoạn tiền giết mổ và giết mổ. Việc đảm bảo phúc lợi động vật không chỉ là trách nhiệm đạo đức mà còn là yếu tố then chốt để tối ưu hóa chất lượng thịt thành phẩm, đáp ứng các tiêu chuẩn ngày càng cao của người tiêu dùng và thị trường quốc tế.\n\n**1. Các Nguyên tắc Chung về Xử lý Động vật Nhân đạo:**\nTheo tài liệu của OIE (Chapter 7.5), các cá nhân tham gia vào quá trình bốc dỡ, di chuyển, nuôi nhốt, chăm sóc, khống chế, gây choáng, giết mổ và lấy máu động vật đóng vai trò quan trọng trong phúc lợi của chúng. Do đó, cần có đủ nhân sự, những người phải kiên nhẫn, chu đáo, có năng lực và am hiểu các khuyến nghị về phúc lợi động vật. Năng lực này có thể đạt được thông qua đào tạo chính quy và/hoặc kinh nghiệm thực tế.\n\n**2. Hiểu biết về Hành vi Động vật:**\nNgười xử lý động vật cần có kinh nghiệm và năng lực trong việc xử lý và di chuyển vật nuôi, đồng thời hiểu rõ các kiểu hành vi của động vật. Các yếu tố như giống, giới tính, tính khí, tuổi tác và cách nuôi dưỡng ảnh hưởng đến hành vi. Cần lưu ý các điểm sau:\n*   **Phản xạ bầy đàn:** Hầu hết vật nuôi sống theo bầy đàn và đi theo một con đầu đàn theo bản năng.\n*   **Vùng bay (Flight Zone):** Khoảng cách tới một cá thể động vật mà nếu con người tiếp cận gần hơn, động vật sẽ cố gắng bỏ chạy. Người xử lý nên tránh xâm nhập đột ngột vào vùng này để tránh gây hoảng loạn.\n*   **Điểm cân bằng (Point of Balance):** Thường nằm ở vai của động vật. Người xử lý có thể di chuyển động vật tiến lên bằng cách đứng phía sau điểm này, hoặc lùi lại bằng cách đứng phía trước điểm này.\n*   **Thị giác:** Động vật có tầm nhìn góc rộng nhưng khả năng nhìn xa và cảm nhận độ sâu hạn chế, chỉ có thể đánh giá khoảng cách trực tiếp phía trước. Các vách chắn đặc trên đường dẫn có thể giúp giảm xao nhãng.\n*   **Khứu giác và thính giác:** Động vật có khứu giác rất nhạy và có thể nghe được dải tần số rộng hơn con người, nhạy cảm hơn với tần số cao. Tiếng ồn lớn liên tục hoặc đột ngột có thể khiến chúng hoảng loạn.\n\n**3. Loại bỏ các Yếu tố Gây xao nhãng:**\nĐể giảm thiểu căng thẳng cho động vật, các yếu tố gây xao nhãng nên được loại bỏ hoặc thiết kế lại khỏi cơ sở vật chất:\n*   Phản chiếu trên bề mặt kim loại sáng bóng hoặc sàn ướt.\n*   Lối vào tối vào các chuồng, lồng gây choáng (cần chiếu sáng gián tiếp).\n*   Người hoặc thiết bị di chuyển phía trước.\n*   Tiếng rít của khí nén, tiếng kim loại va đập (cần lắp bộ giảm thanh, sử dụng vật liệu giảm chấn).\n*   Dòng khí từ quạt hoặc rèm gió thổi vào mặt động vật.\n\n**4. Di chuyển và Xử lý Động vật:**\n*   **Đánh giá:** Động vật cần được đánh giá tình trạng sức khỏe và phúc lợi khi đến. Động vật bị thương hoặc bệnh cần được giết mổ nhân đạo ngay lập tức.\n*   **Tốc độ di chuyển:** Không ép động vật di chuyển nhanh hơn tốc độ đi bộ bình thường để giảm thiểu nguy cơ té ngã hoặc trượt chân. Sàn nhà phải không trơn trượt.\n*   **Tránh bạo lực:** Không bao giờ dùng hành động bạo lực như bẻ đuôi, giật mắt, kéo tai, ném, làm rơi hoặc kéo lê động vật bằng các bộ phận cơ thể. Không sử dụng vật gây tổn thương hoặc chất kích thích.\n*   **Sử dụng công cụ hỗ trợ:** Gậy điện chỉ được sử dụng trong trường hợp cực đoan, giới hạn ở phần thân sau của lợn và gia súc lớn, không bao giờ dùng trên các vùng nhạy cảm (mắt, miệng, tai, vùng hậu môn-sinh dục, bụng) và không dùng cho ngựa, cừu, dê, bê và lợn con. Các công cụ hữu ích và được phép bao gồm tấm chắn, cờ, mái chèo nhựa. Tuyệt đối không sử dụng các thủ thuật gây đau đớn như quất, xoắn đuôi, véo mũi, gây áp lực lên mắt, tai hoặc bộ phận sinh dục ngoài.\n\n**5. Khống chế Động vật:**\nThiết bị khống chế cần được thiết kế với sàn chống trơn trượt, tránh áp lực quá mức gây vật lộn hoặc kêu la. Cần giảm tiếng ồn của khí nén và va chạm kim loại, không có cạnh sắc nhọn. Nghiêm cấm các phương pháp khống chế gây đau đớn như treo hoặc nâng động vật khi chúng còn tỉnh táo.\n\n**6. Tác động đến Chất lượng Thịt:**\nPhúc lợi động vật kém, gây căng thẳng và đau đớn trước khi giết mổ, có thể dẫn đến những thay đổi sinh lý nghiêm trọng, ảnh hưởng trực tiếp đến chất lượng thịt:\n*   **Thịt DFD (Dark, Firm, Dry):** Xảy ra khi động vật bị căng thẳng kéo dài, dẫn đến cạn kiệt glycogen trong cơ trước khi giết mổ. Điều này làm cho pH của thịt sau giết mổ cao hơn bình thường, dẫn đến màu sắc sẫm, kết cấu cứng và khô, khả năng giữ nước kém và thời gian bảo quản ngắn hơn.\n*   **Vết bầm tím và tổn thương vật lý:** Di chuyển hoặc khống chế thô bạo có thể gây ra vết bầm tím, gãy xương, hoặc trầy xước. Những tổn thương này không chỉ làm giảm giá trị thẩm mỹ mà còn tăng tỷ lệ loại bỏ phần thịt bị hỏng và tạo điều kiện cho vi khuẩn xâm nhập, làm giảm vệ sinh và an toàn thực phẩm.\n*   **Nguy cơ ô nhiễm:** Động vật bị stress nặng có thể khó kiểm soát, tăng nguy cơ phân tán phân và các chất bẩn khác, dẫn đến ô nhiễm bề mặt thân thịt trong quá trình chế biến.\n\nViệc tuân thủ nghiêm ngặt các nguyên tắc về phúc lợi động vật trong mọi giai đoạn từ tiếp nhận đến giết mổ là yếu tố không thể thiếu để sản xuất thịt chất lượng cao, an toàn và lành mạnh. Đầu tư vào đào tạo nhân sự, cải thiện cơ sở vật chất và áp dụng các quy trình xử lý nhân đạo không chỉ thể hiện trách nhiệm xã hội mà còn mang lại lợi ích kinh tế bền vững cho doanh nghiệp.",
+        "flashcards": [
+          {
+            "front": "Flight Zone (Vùng bay)",
+            "back": "Khoảng cách tới một cá thể động vật mà nếu con người tiếp cận gần hơn, động vật sẽ cố gắng bỏ chạy hoặc phản ứng. Khoảng cách này thay đổi tùy loài, cá thể và kinh nghiệm tiếp xúc với con người."
+          },
+          {
+            "front": "Point of Balance (Điểm cân bằng)",
+            "back": "Một điểm nằm ở vai của động vật. Người xử lý có thể di chuyển động vật tiến lên bằng cách đứng phía sau điểm này, hoặc lùi lại bằng cách đứng phía trước điểm này."
+          },
+          {
+            "front": "DFD (Dark, Firm, Dry) Meat",
+            "back": "Tình trạng thịt có màu sẫm, kết cấu cứng và khô do động vật bị căng thẳng kéo dài trước khi giết mổ, làm cạn kiệt glycogen và giữ pH thịt ở mức cao sau giết mổ."
+          }
+        ],
+        "challenge": "Tại nhà máy A, bộ phận tiếp nhận gia súc thường gặp tình trạng động vật khó di chuyển vào khu vực lồng gây choáng. Người quản lý báo cáo rằng nhiều con vật dừng lại đột ngột hoặc quay đầu. Sau khi kiểm tra, Sasa nhận thấy có một tấm kim loại sáng bóng ở lối vào khu vực gây choáng phản chiếu ánh sáng mạnh từ đèn trên cao, và một đoạn dây xích bị lỏng lẻo treo lủng lẳng bên trong hành lang dẫn vào. Hơn nữa, tiếng ồn từ thiết bị khí nén gần đó khá lớn và chói tai. Hãy phân tích các vấn đề đang xảy ra dựa trên tài liệu đã học và đề xuất các giải pháp cụ thể để cải thiện tình hình, đồng thời giải thích tại sao những vấn đề này lại ảnh hưởng đến phúc lợi động vật và gián tiếp đến chất lượng thịt."
+      }
+    ]
+  },
+  "unit_2": {
+    "title": "Kiểm soát Vi sinh vật đặc thù ngành thịt",
+    "references": [
+      "Codex Alimentarius (CAC/GL 61-2007): Hướng dẫn quản lý rủi ro vi sinh đối với thực phẩm.",
+      "FDA Bad Bug Book: Thông tin chi tiết về các tác nhân gây bệnh."
+    ],
+    "core_knowledge": [
+      "Salmonella: Vi khuẩn đường ruột phổ biến ở heo và gà. Kiểm soát bằng cách tránh làm vỡ lòng mổ và kiểm soát nhiệt độ chần/làm lạnh nhanh.",
+      "Listeria monocytogenes: Chịu được nhiệt độ lạnh (sinh trưởng ở 0-4°C). Là mối đe dọa lớn nhất đối với thịt chế biến sẵn (RTE).",
+      "Màng sinh học (Biofilm): Môi trường trú ngụ của vi khuẩn trên bề mặt inox, cần hóa chất gốc kiềm mạnh và enzyme để phá vỡ."
+    ],
+    "sessions": []
+  },
+  "unit_3": {
+    "title": "Quản lý Nước & Nước đá trong giết mổ",
+    "references": [
+      "WHO Guidelines for Drinking-water Quality.",
+      "FAO: Cẩm nang quản lý nước trong nhà máy chế biến thực phẩm."
+    ],
+    "core_knowledge": [
+      "Tiêu chuẩn nước: Bắt buộc đạt chuẩn QCVN 01-1:2024/BYT.",
+      "Xử lý nước làm mát (Chiller water): Duy trì nồng độ Clo hoạt tính 20-50 ppm.",
+      "Nước đá vảy: Phải được làm từ nước sạch sinh hoạt, máy làm đá phải được vệ sinh SSOP định kỳ."
+    ],
+    "sessions": []
+  },
+  "unit_4": {
+    "title": "Chuỗi lạnh (Cold Chain) & Kỹ thuật bảo quản",
+    "references": [
+      "IIR: Hướng dẫn cơ bản về chuỗi lạnh thực phẩm.",
+      "USDA FSIS: Tiêu chuẩn thời gian/nhiệt độ làm mát thân thịt."
+    ],
+    "core_knowledge": [
+      "Làm mát thân thịt (Chilling): Giảm nhiệt độ tâm thịt heo/bò xuống <7°C, thịt gia cầm <4°C càng nhanh càng tốt.",
+      "Đứt gãy chuỗi lạnh: Sự dao động nhiệt độ làm tinh thể đá tan ra và kết tinh lại thành đá to, đâm thủng tế bào thịt.",
+      "Rã đông an toàn: Quy định rã đông trong kho mát (<4°C) hoặc lò vi sóng công nghiệp."
+    ],
+    "sessions": []
+  },
+  "unit_5": {
+    "title": "Phụ gia & Gia vị chế biến thịt",
+    "references": [
+      "JECFA: Đánh giá an toàn phụ gia.",
+      "Thông tư 24/2019/TT-BYT: Quy định về quản lý và sử dụng phụ gia thực phẩm."
+    ],
+    "core_knowledge": [
+      "Nitrite/Nitrate (E250/E251): Giữ màu hồng đặc trưng của thịt muối/xúc xích, ngăn chặn C. botulinum.",
+      "Phosphate (E450, E451): Tăng độ pH, giãn màng protein giúp thịt giữ nước tốt hơn.",
+      "Axit Ascorbic (Vitamin C): Dùng làm chất xúc tác giúp Nitrite phản ứng nhanh hơn."
+    ],
+    "sessions": []
+  },
+  "unit_6": {
+    "title": "Vật liệu & Công nghệ Đóng gói thịt",
+    "references": [
+      "Packaging Technology and Science Journal.",
+      "FDA: Quy định an toàn vật liệu tiếp xúc thực phẩm (FCM)."
+    ],
+    "core_knowledge": [
+      "MAP (Modified Atmosphere Packaging): Thay đổi tỷ lệ khí trong bao bì. Ở thịt tươi, tăng O2 và CO2.",
+      "Đóng gói chân không (Vacuum): Rút sạch không khí. Ức chế vi khuẩn hiếu khí.",
+      "Màng co (Shrink film): Màng nhiều lớp (PA/PE) cản oxy cực tốt, dùng cho xúc xích tiệt trùng."
+    ],
+    "sessions": []
+  },
+  "unit_7": {
+    "title": "Kiểm soát lây nhiễm chéo (Cross-contamination)",
+    "references": [
+      "BRCGS Food Safety Issue 9: Yêu cầu về High Risk, High Care và Ambient High Care.",
+      "ISO/TS 22002-1: Yêu cầu tiên quyết cho nhà máy thực phẩm."
+    ],
+    "core_knowledge": [
+      "Phân vùng nhà máy: Tuyệt đối tách biệt khu Raw và khu Cooked/RTE.",
+      "Lây nhiễm qua con người: Công nhân phải thay đồ, rửa tay, đi qua bồn lội ủng.",
+      "Quản lý Dị ứng (Allergen): Các nguyên liệu phụ chứa dị ứng phải được lưu trữ riêng."
+    ],
+    "sessions": []
+  },
+  "unit_8": {
+    "title": "Quản lý Dị vật & Thiết bị dò",
+    "references": [
+      "FSMA: Preventative Controls for Human Food.",
+      "Hướng dẫn thực hành GMP trong vận hành thiết bị dò kim loại."
+    ],
+    "core_knowledge": [
+      "Rủi ro ngành thịt: Mảnh xương (dị vật nội sinh), lưỡi dao gãy, dăm kim loại từ máy xay.",
+      "Máy dò kim loại: Chịu ảnh hưởng bởi 'Hiệu ứng sản phẩm' (Product effect) - thịt chứa nhiều muối.",
+      "Máy X-ray: Dò được mảnh xương cứng, đá, thủy tinh, nhựa cứng bất chấp nhiệt độ hay độ ẩm."
+    ],
+    "sessions": []
+  },
+  "unit_9": {
+    "title": "Quy trình Làm sạch & Khử trùng (SSOP)",
+    "references": [
+      "Ecolab/Diversey Sanitation Manuals.",
+      "Hướng dẫn xây dựng tiêu chuẩn SSOP."
+    ],
+    "core_knowledge": [
+      "Quy trình 7 bước: 1.Dọn rác khô → 2.Xả nước → 3.Phủ bọt → 4.Chà xát → 5.Xả sạch → 6.Kiểm tra → 7.Phun sát trùng.",
+      "Hóa chất: Gốc kiềm đánh tan mỡ và protein. Gốc axit tẩy cáu cặn khoáng. Sát trùng dùng Quat hoặc PAA.",
+      "Lấy mẫu Swab: Kiểm tra ATP hoặc vi sinh bề mặt sau vệ sinh để đánh giá mức độ sạch."
+    ],
+    "sessions": []
+  },
+  "unit_10": {
+    "title": "Pháp chế, Thú y & Xuất xứ",
+    "references": [
+      "Luật An toàn thực phẩm 55/2010/QH12 (Việt Nam).",
+      "OIE: Terrestrial Animal Health Code.",
+      "ISO 22005:2007: Truy xuất nguồn gốc trong chuỗi thức ăn."
+    ],
+    "core_knowledge": [
+      "Kiểm soát trước và sau giết mổ (Ante/Post-mortem): Loại bỏ những con có biểu hiện bệnh.",
+      "Truy xuất nguồn gốc: Bắt buộc thực hiện mô hình 'Một bước trước - Một bước sau'.",
+      "Thu hồi sản phẩm (Recall procedure): Phân loại mức độ nghiêm trọng (Class I, II, III) và diễn tập thu hồi định kỳ."
+    ],
+    "sessions": []
+  }
+}

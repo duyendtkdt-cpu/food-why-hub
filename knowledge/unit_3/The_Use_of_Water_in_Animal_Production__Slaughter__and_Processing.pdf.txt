@@ -1,0 +1,4346 @@
+ 
+            
+  
+ 
+ 
+   
+   
+   
+   
+    
+  
+   
+  
+     
+   
+   
+   
+   
+   
+   
+  
+   
+    
+   
+   
+  
+    
+    
+    
+    
+  
+   
+  
+   
+   
+   The Use of Water in Animal Production, Slaughter, and Processing 
+ADOPTED 22 APRIL 2021, WASHINGTON, DC 
+2018-2020 National Advisory Committee on Microbiological Criteria for Foods 
+Table of Contents 
+FSIS Charge: The Use of Water in Animal Slaughter and Processing ........................................... 3 
+Background ................................................................................................................................. 3 
+Executive Summary .................................................................................................................... 3 
+Charge Quest ions to the Committee and Committee Responses .................................................... 4 
+Responses to Charge Question #1 ................................................................................................... 9 
+Water Conservation ................................................................................................................... 10 
+Responses to Charge Question #2 ................................................................................................. 13 
+Factors that Determine the Choice of Technology.................................................................... 13 
+Animal Harvest and Raw Processing ........................................................................................ 13 
+Ready -to-Eat and Further Processing ........................................................................................ 14 
+Sanitation and Plant Design ...................................................................................................... 14 
+Existing New Technologies for Wastewater ............................................................................. 15 
+Feasibility of A Fully Closed System ....................................................................................... 18 
+Establishment: Harmony Beef, Calgary Alberta Canada .......................................................... 19 
+Responses to Charge Question #3 ................................................................................................. 22 
+Nature of the Contaminants ....................................................................................................... 23 
+Chemical Contaminants, Including Chemical Sanitizers .......................................................... 24 
+Biological Contaminants ........................................................................................................... 26 
+Contaminants at Different Processing Steps ............................................................................. 27 
+Responses to Charge Question #4 ................................................................................................. 28 
+How Residual Contaminants Affect Product Quality and Safety ............................................. 28 
+Quality and Public Health Implications in Reconditioned Water ............................................. 30 
+Assessing Quality Implications and Risks ................................................................................ 32 
+Effect of Residual Contaminants on Materials Added During Fo od Processing ...................... 35 
+Responses to Charge Question #5 ................................................................................................. 36 
+Monitoring Quality and Safety of Alternatively Sourced Water .............................................. 36 
+Responses to Charge Question #6 ................................................................................................. 41 
+Pond Water ................................................................................................................................ 41 
+Transport Water ......................................................................................................................... 42 
+Processing Water ....................................................................................................................... 42 
+1 
+ 
+   
+  
+   
+   
+   
+  
+   
+   
+   
+   
+     
+  
+   
+  
+    
+ 
+   
+   
+   
+    
+   
+   
+   
+ Responses to Charge Question #7 ................................................................................................. 44 
+Table 1 -4. Modified audit grid of potential water conservation and savings opportunities in 
+Table 4 -1. Summarized charge questions 4 and 5 for the committee translated into the risk 
+Table 8 -2. Sanitization or disinfection products and devices with potential for decreasing 
+Figure 4- 1. Example of a risk -based decision tree to match fit -for-purpose applications of 
+reuse water with either a food contact application or a not-for-food- contact application (from 
+Appendix #2. Sanitizers and disinfectants.  Examples of measures of effectiveness required for Responses to Charge Question #8 ................................................................................................. 49 
+Tables............................................................................................................................................ 53 
+Table 1 -1. Estimated amount of water used during processing by species ............................... 53 
+Table 1 -2. Water usage in broiler processing ............................................................................ 54 
+Table 1 -3. Water usage in beef processing. Taken from Li et al. (2018), Pype et al. (2016) and 
+Warnecke et al. (2008)1............................................................................................................. 55 
+protein processing. .................................................................................................................... 56 
+assessment framework ............................................................................................................... 58 
+Table 8 -1. Cleaning mechanisms with potential for decreasing facility water use. .................. 59 
+facility water use. ...................................................................................................................... 60 
+Figures ........................................................................................................................................... 61 
+FAO/WHO, 2019) ..................................................................................................................... 61 
+Figure 7-1. Developing an Emergency Water Supply Plan (EWSP) ........................................ 62 
+Appendices .................................................................................................................................... 63 
+Appendix #1. Critical water usage in animal growth and processing facilities ........................ 63 
+EPA registration for use on hard food contact surfaces ............................................................ 64 
+Glossary ........................................................................................................................................ 65 
+References ..................................................................................................................................... 69 
+2 
+ 
+   
+  
+  
+  
+     
+     
+   
+   
+   
+  
+ 
+     
+   
+  
+     
+    
+   
+  
+   
+  
+  
+  
+   
+   
+  
+   
+     
+     1
+23
+456789
+101112131415161718
+19
+2021222324252627282930FSIS Charge: The Use of Water in Animal Slaughter and Processing 
+Background 
+Current FSIS regulations on the use of water during the processing of meat and poultry products 
+were last updated in the 1990s and may not account for the most recent technologies or alternatives to water use. Water requirements for establishments slaughtering and processing meat and poultry products are covered in the sanitation regulations in 9 CFR 416.2(g)(1), (2), (3), (4), (5) and (6). The water used in food processing must comply with 40 CFR 141, the National Primary Drinking Water regulations, if a municipal water supply is used. If a private well is used, food processors must make documentation certifying the water’s potability available to FSIS. Regulation 9 CFR 416.2(g)(4) limits the use of reconditioned water and may not reflect current technological capabilities of water treatment. Climate change is challenging the food industry’s access to clean and inexpensive water. The frequency, severity, duration, and location of weather and climate phenomena (i.e., rising temperatures, flooding rains, and droughts) are changing, which will continue to impact the food industry’s ability to produce safe food. It is essential that regulatory agencies assess these changes and evaluate current regulatory requirements associated with water use. They must also be able to provide alternatives to current 
+water consumption practices that allow industry to use less and recycle more water through 
+developing criteria on the appropriate uses of water sources in the processing of food. 
+Executive Summary Water is an essential part of food animal processing, and current processing practices use large 
+volumes of water. Due to climate change, the food industry’s access to clean and inexpensive water is increasingly a challenge. The Food Safety and Inspection Service (FSIS) seeks evaluation by the National Advisory Committee on Microbiological Criteria for Food 
+(NACMCF) to facilitate the safe reuse of sources of water in order to reduce water consumption. 
+3 
+ 
+      
+  
+   
+     
+   
+  
+   
+  
+  
+   
+  
+  
+  
+   
+    
+    
+    
+    
+   
+  
+    
+     
+  
+    
+    
+  
+   
+  
+    
+     
+  
+  31
+32
+333435
+36
+37
+38
+3940414243
+44
+45
+46
+47
+4849
+50
+51
+5253
+54
+5556575859606162Charge Questions to the Committee and Committee Responses 
+FSIS requests guidance from the NACMCF to address a lternatives to current water usage 
+practices, guidelines, and regulations for FSIS- regulated products to help clarify the following 
+issues: 
+Charge Question #1 
+What are the current water usage practices for slaughterhouses and processors? At which steps might water conservation or alternative water sources be feasible? 
+Summary/Recommendations 
+• There is a large variability, such as processing practices for each animal, practices within the 
+same animal species, etc., in the application of water in fo od-animal processing . 
+• There are a limited number of publications on water use by species. The industry may have 
+some information that is not publicly available . 
+• Important gaps are the lack of information for pork and channel catfish processing. 
+• Water management strategies should include water conservation practices, which are low -
+cost practices that may result in important reductions in water usage . 
+• The 2020 COVID-19 pandemic may have a large impact on the increase of water usage, specifically related to th e implementation of more stringent cleaning and sanitation practices 
+in meat and poultry processing establishments. 
+• There should be more collaborations among stakeholders (e.g., industry, academia, government) to collect missing information on water usage and opportunities for reuse. 
+Charge Question #2 
+What are the available technological strategies for water reuse, recycling, reconditioning, and reclamation, and how might FSIS- regulated facilities employ them? Is a fully closed water 
+system reasonable as a goal? 
+4 
+ 
+   
+  
+    
+     
+   
+   
+   
+  
+    
+   
+  
+   
+  
+    
+    
+  
+   
+   
+  
+  
+  
+      
+  
+  
+  
+    
+    
+    
+  
+  
+   63
+64
+65
+66
+67
+68
+69
+70
+71
+727374757677787980818283
+84
+85
+86
+87
+88
+89
+90
+919293Summary/Recommendations 
+• Many factors influence the type of wastewater treatment methods that an establishment can 
+implement, including the local cost of water and the cost of the technology. 
+• There are already examples of water reuse in a counterflow direction to the movement of 
+product , such as the counterflow scalders and chillers used for the processing of chickens. 
+• Water conservation, based on judicious use of water changes in behavior, is an important 
+starting point to reduce the overall water usage. 
+• A complete understanding of energy use and plant infrastructure limitations is necessary to effectively understand all opportunities for water conservation and recycling. 
+Charge Question #3 
+Water contaminants can be microbiological, chemical/toxicological, physical, and nutrient in 
+nature. Identify these contaminants and how their presence and concentrations in potable water (municipal and well- sourced) compare to those found in water treated using the reuse, recycling, 
+reconditioning, and reclamation technologies identified in (2) above. Identify the risks posed by these contaminants for various steps in food production and processing. 
+Summary/Recommendations 
+• Characterization of microbial a nd chemical contaminants in water is a very large topic that 
+requires extensive work . 
+• There are quality standards for potable water but not for the recycled water from different 
+processing states, and different water treatment systems . 
+• Different treatments may deal with different contaminants. Thus, a comparison of potable 
+water versus reused/recycle/reconditioned water is not easy to address. 
+• As we move to fit-for-purpose water recycling and usage, quality standards may need to be developed for each application and recycling system. 
+Charge Question #4 
+5 
+ 
+   
+  
+    
+ 
+  
+    
+     
+  
+  
+  
+  
+    
+   
+    
+   
+   
+    
+    
+  
+    
+    
+  
+  
+   
+  
+   
+   
+  
+  
+  949596979899
+100101102103104105
+106
+107
+108
+109110
+111
+112
+113
+114
+115
+116117118119120121122123
+124How do residual contaminants in water used for animal production, slaughter, and processing 
+affect product quality and safety? What are the quality implications and public health risks associated with contam inants at levels anticipated for reconditioned water? How might FSIS and 
+industry best assess those implications and risks? How do residual contaminants in water affect the functions of various materials added to water used in all stages of food production and processing, such as feeds, medicines, and antimicrobials? For example, consider the effects of trace pharmaceuticals on animal husbandry, and the effects of iron and “hard water” on phosphate-based interventions. 
+Summary/Recommendations 
+• The distinction of two water qualit y standards , one for water that has direct or indirect 
+contact with food and one for water that has no contact with food, best assures safety. 
+• FSIS and industry can use a fit-for- purpose risk assessment approach to assess public health 
+risks from water reuse in food contact applications that do not already require potable water 
+quality and make the risk assessment adaptable to the specific food and use situations. 
+• Reused water in animal processing should be evaluated to ensure that the finished products 
+do not exhibit an increase (relative to current water usage practices) in the health risks 
+associated with these products. 
+• A uniform standard for, and federal regulation of, the quality of reused/recycled water in 
+FSIS- regulated facilities is needed. Currently, local authorities using highly variable criteria 
+determine both the water standard and regulation. 
+Charge Question #5 
+What are the best ways to assure and/or monitor the quality and safety of alternatively sourced 
+water used in FSIS -regulated operations? 
+Summary/Recommendations 
+6 
+ 
+     
+  
+      
+  
+  
+     
+     
+    
+   
+       
+     
+  
+  
+   
+  
+  
+  
+  
+  
+  
+     
+  
+     
+    
+  
+  
+   125126
+127
+128
+129130
+131
+132133
+134
+135136137138139140141142143144
+145
+146
+147
+148149150151• There are physical, chemical, and microbiological parameters that have been traditionally monitored to ass ess water quality . 
+• Standard water analysis methods are available, well -developed, and reliable. Initial 
+monitoring of alternatively sourced water should be extensive, while ongoing performance monitoring should be in real-time and focus on measuring indica tors (refer to Glossary). 
+Water for non -food contact uses will require monitoring of fewer parameters. 
+• The set of quality parameters to be tested, and the frequency, should be developed for each technology and application based on the contaminants of conce rn and those that the 
+technology will reduce/remove . 
+• This set of quality parameters could include indicators of water quality for each food animal species, for different areas in processing and for the processing areas where reprocessed water will be used . 
+Charge Question #6 
+Are there special considerations for foods that are produced entirely within water (e.g., fish), and if so, what are they? 
+Summary/Recommendations 
+• Maintaining good water condition in fishponds is essential to control fish diseases a nd to 
+provide adequate production of channel catfish. 
+• Some water conservation strategies have been published for fish processing establishments; 
+however, economic and other incentives to incorporate conservation practices or recycling technologies do not e xist. 
+7 
+ 
+    
+  
+  
+    
+  
+  
+  
+  
+     
+  
+    
+   
+  
+   
+  
+    
+    
+  
+  
+  
+      
+     
+   
+  
+   
+   
+   
+   
+   152
+153154155156157158159
+160
+161
+162
+163164165166167168169170171
+172
+173174175
+176
+177
+178179180Charge Question #7 
+Flooding can contaminate animals and water sources with human sewage and farm waste. What precautions should establishments take when floodwater or runoff affects a food or water source, or a processing area? 
+Summary/Recommendations 
+• Companies should develop emergency programs to manage natural disasters, such as 
+flooding. 
+• There are several national and state guidelines that can be reviewed for the organization of these emergency programs. 
+Charge Question #8 
+What technologies are appropriate for the replacement of liquid water in food production and food processing areas (e.g., foam, mist, or dry chemicals)? 
+Summary/Recommendations 
+• Conducting a review of cleaning and sanitation and other manufacturing pract ices and the 
+use of alternative technologies, such as air chilling instead of water chilling, helps in the 
+identification of areas in which changes could contribute to an overall reduction of water use 
+in a processing establishment . 
+• Newer technologies (e.g ., ozone generators and ultraviolet treatments, surface coatings with 
+sustained antimicrobial properties) are being approved by the EPA for specific sanitation practices and may provide viable alternatives to reduce water usage during the cleaning and sanitizing practices in animal food establishments. 
+8 
+ 
+     
+  
+    
+   
+  
+     
+      
+   
+    
+     
+   
+    
+   
+    
+    
+  
+  
+   
+  
+  
+    
+   
+  
+   
+    
+  
+    
+     
+  
+   181182183184185186187188189190191192193194195196197198
+199
+200201202203204205206207208209210Responses to Charge Question #1 
+What are the current water usage practices for slaughterhouses and processors? At which 
+steps might water conservation or alternative water sources be feasible? 
+There is a large variability in the application of water in food animal processing. This variability 
+includes differences in the processing practices for each animal species (beef, pork, poultry and 
+channel catfish ), and variations within the practices employed within the same animal species. 
+Other factors that affect water usage practices include the available and implemented technolog ies at the establishment s, the equipment and practices in place, education and training 
+on water conservation (refer to Glossary), and the actual cost- benefit of water 
+conservation/recycling/reuse (refer to Glossary) for each establishment . However, there is 
+limited information on the exact water use at each of the different processing steps, and for the differen t food animal establishments in the USA (Compton et al., 2018; Meneses et al., 2017). 
+There is also limited information on the cost- benefit of each of the available water 
+conservation/recycling/reuse technologies. 
+In general, meat processing may account for up to 24% of freshwater consumption in the food 
+and beverage industries, while seafood accounts for approximately 2% (Bustillo -Lecompte and 
+Mehrvar, 2015). A report from Australia estimated that the water usage in beef slaughter 
+establishments varied fr om 3.8 to 17.9 kiloliters per ton of carcass weight produced (Warnecke et 
+al., 2008). 
+Table 1 -1 describes the estimated amounts of water used during the processing of broiler 
+chicken, beef and turkeys. Although there are several reports on the use of water in establishments processing broiler chickens and beef, there is less information abo ut 
+establishments processing turkeys, pork and channel catfish . Most of the published studies about 
+water use in beef are from countries other than the USA. 
+9 
+ 
+    
+  
+      
+   
+    
+  
+  
+  
+   
+  
+   
+   
+     
+      
+   
+  
+     
+    
+  
+  
+     
+   
+    
+   
+     
+    
+  
+  
+    
+     
+   211
+212213214215216217218219220221222223224225226227228
+229
+230
+231
+232
+233234
+235
+236237238239240241Water Conservation 
+The potential costs- benefits for water reuse or recycling projects may result in an increased 
+efficiency by the establishment, with energy savings and more efficient use of antimicrobial 
+applications . A complete understanding of energy cost and plant infrastructure limitation s is 
+important to effectively understand all opportunities for water conservation and recycling. 
+The water usage in broiler processing is described in Table 1 -2. Poultry harvest facilities rely 
+primarily on water to drop the temperature of the carcasses p ost-evisceration and to deliver 
+antimicrobials to control bacterial pathogens. For broiler chickens and turkeys, water chillers are 
+as large as 200,000 gallons. The major water usage occurs in the areas from evisceration to carcass chilling. In each of these areas, there are opportunities for water conservation. In some 
+cases, the industry has reused water (refer to Glossary)from the end of the chill tanks to feed the 
+scalding tanks (Amorim et al. , 2007; Blevins, 2020; Matsumura and Mierzwa, 2008; Northcutt 
+and Jones, 2004; Russell, 2013). 
+In a study conducted in a broiler processing plant in Brazil (Amorim et al., 2007) with a water 
+supply consisting of 99.5% deep water wells and 0.5% public water supply system, the proposals 
+for water consumptio n reduction included: 
+• Reusing effluent from clea ning of transport cages (after removing coarse solids) would 
+result in reductions of: 
+o 12% of drinking water consumed 
+o 1% of the effluent generated 
+• Reusing effluents generated by the cooling towers and in the de- freeze of cooling 
+tunnel/storage chambers ; 7.5% and 1.4% of wastewater (refer to Glossary) generated, 
+respectively ; to wash live poultry receiving and unloading yards would result in 
+reductions of: 
+o 91% of drinking water consumed 
+o 7% of the slaughterhouse's overall water consumption 
+o 9% of the effluent generated 
+10 
+ 
+    
+  
+   
+     
+    
+    
+  
+    
+  
+     
+   
+  
+  
+   
+     
+   
+     
+  
+    
+    
+   
+   
+    
+  
+      
+   
+ 
+    
+   
+  242243
+244
+245
+246247248249
+250
+251252253254255256257258259260261262263264265266267268269270271• Reusing effluent from the final rinsing of the slaughterhouse cleaning process to pre -
+wash the by-product room would result in a 4% reduction in overall water consumption. 
+• Using all three of the pro posals listed above would result in: 
+o A reduction of about 12% of the water taken from the deep water well 
+o A reduction of approximately 10% in the effluent generated 
+o A savings of approximately $6,500 (US) per year in wastewater treatment costs 
+These authors also highlighted that the incorporation of automatic, pressure- activated closing 
+water taps could save approximately 40% of water compared to conventional taps, and that incorporating an infrared device for opening and closing of taps would save an additional 30% of water usage (Amorim et al., 2007). 
+Table 1 -3 describes the estimated water usage in a beef processing facility. A review from an 
+Australian beef processing facility highlights that water conservation can save up to 10% of the 
+water usag e in a small town (Pype et al., 2016). Water reuse, which is described by these authors 
+as the “reuse of one process waste stream to the same or another process with or without pre-treatment,” could save up to 15% of a town’s water usage. The publication also highlights that in 
+small towns, the recycling of non-potable water can save up to 40% of town water use, with a recovery on the investment within 6 to10 years. The recycling of potable water (refer to 
+Glossary) can save up to 70% of town water use, with a recovery on the investment of about 10 
+years. The calculated payback time of implementing these practices ranged from immediate to up to three years (Pype et al., 2016). Yet, some water reuse technologies may not be practical or economically feasible f or small slaughter establishments. 
+In pork and beef harvest establishments, carcasses are chilled primarily by air chilling. However, water spray chill systems are also employed throughout the pork and beef industries. Because the skin is not removed in the initial steps in pork processing, various methods of carcass scalding are used to remove hair follicles and wash the carcass. This can be done via large scald tanks or can be accomplished using other technologies, such as steam through vertical scalding units. 
+11 
+ 
+       
+     
+   
+    
+    
+   
+  
+    
+    
+     
+   272
+273274275276277278279280281282There is no publicly available data on the use of water in channel cat fish processing. There are 
+advantages in improving water management and there are several companies providing water conservation consulting services to the food industry. Most of these companies collect background information on water usage in an animal food processing est ablishment by 
+performing water audits , which can help create a water management plan to better understan d the 
+total water consumption and discharge , and identify inefficient or unnecessary uses, such as taps 
+that are left on overnight. By applying a checkl ist of good practices, and systematically metering 
+and tracking the volume of water used in a facility , an establishment can help to identify areas 
+for potential water conservation (Timmermans, 2014). Table 1 -4 shows the areas of a processing 
+environment w here there is potentia l for conservation and savings. 
+12 
+ 
+     
+  
+ 
+   
+  
+  
+  
+  
+    
+  
+  
+   
+   
+  
+  
+  
+  
+  
+   
+   
+    
+  
+    
+  
+      
+    
+    
+  
+    
+   
+  283284285286287288289290291292293294295296297298299300
+301
+302303304305306307308309310311312313Responses to Charge Question #2 
+What are the available technological strategies for water reuse, recycling, reconditioning, and reclamation, and how might FSIS- regulated facilities employ them? Is a fully closed 
+water system reasonable as a goal? 
+Factors that Determine the Choice of Technology Water is a necessary component for meat production and meat processing. Water serves an 
+important role in product formulations, processing, sanitation, and food safety. However, considerations for technology used for wastewater treatment methods and the ability to reuse and/or recycle is plant - specific. These abilities are based upon the primary function and the 
+infrastructure of the plant, the efficiency and cost of implementing these strategies, and regulatory requirements for both water end use and effluent.  
+Animal Harvest and Raw Processing Water is vital in providing safe and wholesome food products of animal origin. The recognition 
+of food safety and the removal of pathogens during meat processing has required the use of 
+surface antimicrobials to be used throughout the harvest process. Thes e surface antimicrobials 
+are often diluted processing aids that are effective against eliminating pathogens, but also have the least organoleptic effect on the quality of the meat. The reliance and need for these surface antimicrobials will continue as sta ndards for food safety increase. 
+A few opportunities for water reuse present themselves in the harvest process across all animal protein establishments. In general, water that is the cleanest and least contaminated should be used after the evisceration process. However, considerations for water quality, as it relates to food safety, will need to be evaluated to determine opportunities for reuse. An example of a potential scheme for the utilization of reused water in a turkey harvest operation could be the use 
+of water in a counter-flow direction to the movement of product: 
+13 
+ 
+            
+  
+   
+     
+    
+    
+   
+     
+   
+  
+  
+  
+  
+  
+    
+      
+  
+   
+   
+  
+  
+  
+    
+    
+  
+     
+    
+    
+  
+    
+    314
+315316317318319320321322323324325326327328329330331
+332
+333334
+335
+336337338339340341342343344Chiller Water  Final Bird Wash First Bird Wash Feather Wash Cage wash 
+Larger scale capital projects would need to be evaluated on their merits and overall cost. An example of w ater usage reduction would be a pork processing plant considering a change from 
+water spray chilling carcasses to utilization of a mechanical process of chilling, such as blast chilling. Evaluation for the water usage from spray chilling would need to be a ssessed against the 
+increased overall energy usage from blast chilling to determine if there is a net environmental benefit, an assessment for a potential opportunity to reuse the water used in a different application further upstream in the process, as we ll as a financial net present value gain by 
+making the change. 
+Ready -to-Eat and Further Processing 
+The water usage in further processing facilities should also be considered. Like harvest and raw 
+processing facilities, water is used for sanitation, to deliver ingredients in formulation, and to improve food safety. Many of the ingredients delivered with water are vital to the functionality, identity, palatability, and safety of the product. Functional ingredients such as salt, sugar, sodium nitrite, and antimicrobials are carried into the product via a brine. Thus, potable water is the 
+minimum standard of acceptance for use in formulations. 
+Sanitation and Plant Design 
+Wet cleaning (refer to Glossary) sanitation is also widely employed throughout the meat 
+processing industry. Reduction of water use may not be practical because of its importance in 
+cleaning and sanitizing processing lines.  However, opportunities for water reuse water in a counter flow direction from the movement of product could be employed. An example of this would be using water from the final bird wash upstream in the process, such as in the feather wash or cage wash in the trailers used to transport the live birds.  Due to the nature of the 
+processes and the types of contaminants present, there are fewer opportunities for dry sanitation in the meat processing establishments. Because meat is an excellent growth medium for many bacteria (including pathogens), wet sanitation is also requ ired to provide processing “breaks” in 
+14 
+ 
+      
+     
+     
+  
+   
+  
+     
+  
+    
+  
+   
+   
+    
+    
+     
+  
+   
+  
+  
+     
+    
+    
+  
+  
+    
+    
+   
+  
+   
+  345
+346347348349350351352353354355356357358359360361362
+363
+364365366367368369370371372373374production and a sanitation schedule that reduces pathogens and spoilage bacteria. Cleaning and sanitizing protocols also limit the extent of the compromised product, should the product become contaminated with a known pathogen that results in a recall. Extended product runs to reduce the frequency of sanitation are often product specific and need to be monitored and verified to show effectiveness with respect to food safety requirements (Anonymous, 1999). 
+Besides wat er usage implications, there are other potential meat quality, food safety, and cost 
+implications that need to be considered if changes to water usage practices are considered. Many 
+of the processing plants in the USA were built before many environmental c onservation practices 
+were envisioned and included within the building design. Thus, electrical, plumbing, and sewage requirements may present cost barriers that are difficult to overcome. Also, the ability to utilize reused and/or recycled water (refer to Glossary) may require space that may not be available in 
+older processing plants without major renovation or construction of the facility. Inline treatment systems and the need for holding tanks may limit a plant’s ability to utilize reused or recycled water in the current footprint of the plant. 
+Existing New Technologies for Wastewater 
+The US EPA has established Effluent Guidelines (US EPA, 2002) to comply with national standards for industrial wastewater discharges to surface waters and publicly owned t reatment 
+works (e.g., municipal sewage treatment plants). The Effluent Guidelines are issued for different industrial sectors under Title III of the Clean Water Act. The standards are technology -based 
+(i.e., they are based on the performance of treatment a nd control technologies), and not risk -
+based, or based on impact studies. The standards for wastewater discharges from meat and poultry processing are codified under Title 40 of the Code of Federal Regulations (CFR) Part 432 (US EPA, 2002), and include the discharge limits for several parameters, or indices, 
+including pH, fecal coliform (refer to Glossary), total recoverable oil and grease, 5 -day 
+biochemical oxygen demand (BOD
+5; refer to Glossary ), and total suspended solids. Some of 
+these indices provide i nformation on the degree of organic pollution of the water. 
+15 
+ 
+   
+    
+  
+   
+    
+   
+     
+    
+    
+  
+ 
+    
+   
+    
+   
+    
+  
+  
+   
+    
+    
+     
+   
+   
+   
+  
+   
+   
+    375376377378379380381382383384385386387388389390391392
+393
+394
+395396397398399400401
+402
+403404Bustillo -Lecompte and Mehrvar (2015) reviewed different slaughter wastewater treatment 
+methods. Following is a brief discussion of those different methods : 
+Land application: Land application refers to the direct application of biodegradable materials to soil which can help increase the nutrient content of the soil. One significant advantage of this process is the recovery of by -products from slaughter wastewater which can be used as an 
+alternative source of fertilizer. The land application process can also improve the structure of the receiving soil. One limitation of land application is that the process is dependent on factors like temperature and weather conditions. Hence, land application finds limited use in countries that experience very low temperatures during the winter season. Some other limitations of land application include potential surface water pollution, presence of persistent pathogens, and off-odors (San Jose, 2004; Mittal, 2004; Avery et al., 2005; Kiepper, 2001). 
+Physicochemical treatment : In the process, slaughterhouse wastewater (SWW) is separated into 
+different components (primarily solids and liquids) using different types of methods ( Al-Mutairi 
+et al., 2008; De Nardi et al., 2011) : (a) dissolved air filtration (DAF), (b) coagulation and 
+flocculation, (c) electrocoagulation, and (d) membrane technology. 
+• DAF : These systems utilize air to separate liquids and solids in slaughter wastewater. The 
+separatio n of solids and liquids is achieved via introduction of air from the bottom of the 
+holding vessel. As a result, low density products like fat, grease, and light solids will migrate 
+to the top of the surface forming a “sludge blanket”. This sludge blanket w ill then 
+subsequently be removed. Advantages of this system results in improved chemical oxygen demand (COD ; refer to Glossary ) and BOD. In addition, this system is also successful in 
+removal of nutrients from SWW. Some limitations noted by previous studie s include a 
+regular malfunctioning of the system and poor total solids removal ( Al-Mutairi et al., 2008; 
+De Nardi et al., 2011). 
+• Coagulation and flocculation : This process involves the addition of coagulants such as 
+aluminum sulfate, ferric chloride, or fe rric sulfate to treat SWW. Studies showed that these 
+systems can significantly reduce the total phosphorous, total nitrogen and COD during SWW 
+16 
+ 
+    
+  
+  
+     
+  
+  
+  
+    
+   
+    
+     
+   
+    
+  
+   
+     
+    
+    
+  
+     
+  
+ 
+    
+      
+   
+   
+  405406
+407
+408409410411
+412
+413414415416417418419420421422423
+424
+425426427428429430431432433treatments using poly -aluminum chloride as reagents ( Núnez et al., 1999; Aguilar et al., 
+2002). 
+• Electrocoagulation : Electrocoagulation is a cost -effective technology that has been 
+demonstrated to be successful in separating solid and liquid waste in SWW systems. In addition, the system was proven to be effective in removing organics, nutrients, heavy metals, and eve n pathogens from SWW without the involvement of chemicals (Kobya et al., 
+2006; Emamjomeh and Sivakumar, 2009) 
+• Membrane Technology : Membrane technology, which includes technologies such as 
+reverse osmosis, nanofiltration, ultrafiltration, and microfiltration, is very effective in removing particulates, colloids, and macromolecules based on pore size. Some limitations of this process include (a) a reliance on additional conventional technology to efficiently remove nutrients; and (b) the potential to cause fo uling due to the highly concentrated SWW 
+feeding streams ( Bustillo -Lecompte and Mehrvar, 2015; Almandoz et al., 2015) . 
+Biological treatment: Biological treatment involves treating SWW systems with microorganisms for the purpose of removing organics. There are two main types of biological treatments described in literature: anaerobic and aerobic systems ( Bustillo -Lecompte and 
+Mehrvar, 2015; Martínez et al., 1995; Mittal, 2006; Masse and Masse, 2000) . 
+• Anaerobic Treatment: It is commonly perceived that anaerobic systems are less complex to operate compared to aerobic systems, since they do not require complex equipment and constant aeration. Bacteria metabolize organic compounds and produce products like carbon dioxide and methane during the anaerobic digest ion process. There are several advantages to 
+using anaerobic treatment systems: high COD removal; low sludge production compared to 
+those of aerobic systems; and less energy requirements with potential nutrient and biogas. One of the limitations of anaerob ic treatment is it may produce effluents that do not comply 
+with current discharge limits and standards. Specifically, when SWW systems are subjected to anaerobic treatments, stabilization of organic compounds may not be achieved owing to the organic stren gth of SWW. 
+17 
+ 
+     
+   
+    
+   
+   
+  
+    
+  
+    
+  
+   
+  
+      
+       
+  
+  
+   
+   
+   
+  
+  
+   
+  
+  
+  
+  
+  
+  
+   434435436437438439440441442443444445446447448449450451452453454455456457458459460461
+462
+463464• Aerobic treatment: In aerobic systems, bacteria metabolize organic compounds in the presence of oxygen to facilitate removal of organic compounds. The strength of SWW becomes a determining factor in understanding the amount of oxygen required during the treatment of SWW systems. Typically, aerobic treatment is used following the treatment of organic compounds using a physicochemical treatment. In other words, it may serve as a final decontamination technology in the treatment of SWW. Aerobic rea ctors may have 
+several configurations based on the amount of nitrogen required to be removed. Typical configurations for SWW aerobic treatment include activated sludge, rotating biological contactors, and aerobic sequencing batch reactors (refer to Glossar y). 
+Advanced oxidation processes (AOPs) : AOPs are becoming an interesting alternative to 
+conventional treatment and a complementary treatment option, as either pretreatment or post-treatment, to current biological processes. Furthermore, AOPs do not involve the application of chemicals to inactiv ate microorganisms compared to the conventional systems (e.g., chlorination 
+that is used for water disinfection (refer to Glossary) may have the potential to produce hazardous 
+by products). As a result, AOPs have been recognized as processes that can offer advanced 
+degradation, water reuse, and pollution control, thus being positioned as an effective complementary treatment. Several types of advanced oxidation process systems have been described in the literature, including (but not limited to): ozonation, gamma radiation, and an ultraviolet light/hydrogen peroxide application (Tabrizi and Mehrvar, 2004; Mehrvar and 
+Venhuis, 2005; Venhuis and Mehrvar, 2005; Mehrvar and Tabrizi, 2006; Bustillo -Lecompte and 
+Mehrvar, 2015) . 
+Feasibility of A Fully Closed System 
+Establishments simply cannot operate without water. There are some system -wide reasons to 
+recycle water: 
+• Inherent energy cost : The cost of getting water out of the ground (or other sources), treat it 
+to potable standards, transport it to a facility, and then properly dispose of the wastewater by 
+treating to effluent standards and discharging back to the environment. 
+18 
+ 
+    
+    
+      
+   
+  
+   
+  
+    
+  
+   
+   
+    
+   
+   
+  
+  
+  
+  
+    
+     
+   
+   
+    
+    
+     
+     
+    
+   465466
+467
+468
+469470471472
+473
+474475476477478479480481482483484485486487488489490491492493494495• Competition for available water : As water becomes scarce, companies, especially those 
+located in proximity to or in metropolitan areas , will have to compete with municipalities. 
+• Social responsibilities : With increased attention to sustainability, the industry will want to 
+ensure that their water use is judicious. 
+Once companies consider all the above and other issues that may affect their access to water, they will begin to recognize the significance of the business security that water recycling will bring to their operation and realize the importance of this financial investment. 
+1. Obstacles to water recycling: 
+a. Outdated policies 
+b. Lack of national standards, with current regulations under the jurisdictions of states 
+and counties. Federal policies may be needed to increase consistency of water recycling in all 50 states. 
+Establishment: Harmony Beef, Calgary Alberta Canada 
+Water Recycling System Manufacturer: Delco Water, Saskatoon, SK, S7P 0A6 
+(https://www.delco -water.com/delco -water -projects/harmony -beef/) 
+Storyline: A plant which was shut down for seven years was purchased, renovated and when the 
+time came to go on- line, the plant owners were told that their water allotment had been allocated 
+to a shopping mall.  The owners had to find a solution and they focus on water recycling system.  After extensive world -wide search, they settle on a system designed and installed by Sapphire.  
+They are the first food processing plant in North America to reprocess their water. They recycle all, except those of human waste stream, process water.  Better than 90% of their daily water needs are recycled water.  The final discharge to sewer is only 7% of the process water volume, with the rest lost to evaporation (Rich Vesta, Owner and Operator of Harmony Beef, Alberta, Canada, Personal communications). 
+The process:  They system is a continuous system with the flow rate of 13.9 L/second 
+19 
+ 
+     
+    
+   
+    
+     
+    
+     
+     
+  
+     
+    
+      
+     
+     
+    
+  
+   
+    
+   
+       
+  
+  
+      
+  
+  
+  
+   
+       
+       
+     
+   496
+497498499500501502503504505506507508509510511512513
+514
+5155165175185195205215225235245255261. Mechan ical Treatment: Water flows through drum screen with 1 mm slot openings to remove 
+coarse particles and large suspended solids. 
+2. Primary Treatment: inline analyzer to adjust the pH to 5.8 -6.7 and then to Dissolved Air 
+Flotation (DAF ; refer to Glossary ) – This stage removes medium to fine size particles, grit, 
+fat, oil and grease. The removal is achieved by dissolving air in the water or wastewater under pressure and then releasing the air at atmospheric pressure in a flotation tank basin. The released air fo rms tiny bubbles which adhere to the suspended matter causing the 
+suspended matter to float to the surface of the water where it may then be removed by a skimming device. 
+3. Secondary Treatment: Pumped to another tank for moving bed biofilm reactor (MBBR, ref er 
+to Glossary ), which is an attached growth biological treatment process.  Prior to MBBR 
+inline analyzers adjust the pH to 6.8 -7.2.  It is an aerobic digester system 
+4. Tertiary Filtration: membrane ultrafiltration is used to remove emulsified oils, small, suspended solids, and larger molecules from the flow. 
+5. Polishing: Water flows through dual Reverse Osmosis (RO) membrane to remove total dissolved solids, pesticides, cysts, bacteria, and viruses. Utilizing a two -pass design 
+minimizes wastewater disposal from the treatment process. 
+6. Disinfection: U.V. filtration and then chlorinated to 1 -2% 
+7. Pump to 500,000-gallon tank ready for use. 
+8. Sludge treatment – Finally, the sludge moves through a dewatering process to reduce sludge volume by 60% to 70%. 
+Water Quality: Actual data from Certificate of Analysis (CoA) issued by Element (Calgary 
+Canada) for Harmony Beef.  Examination of a number of such CoAs indicates very little variability. 
+1. Microbial Analysis 
+a. Coliforms -<1.0 CFU/ml (below the detection limit of the method) 
+b. E. coli - <1.0 CFU/ml (below the detection limit of the method) 
+2. Physical and Aggregate: meets or exceeds standards 
+3. Chemistry 
+20 
+ 
+        
+     
+      
+     
+     
+      
+      
+     
+      
+      
+        
+        
+       
+      
+       
+      
+      
+  
+  
+     
+   
+    
+   
+   
+   
+   527
+528529530531532533534535536537538539540541542543544
+545
+546547548549550551552a. pH 9.1 
+b. Electrical conductivity 392 microS/cm 
+c. Dissolved Calcium 1.1 mg/L 
+d. Dissolved Magnesium 0.3 ml/L 
+e. Dissolved Sodium 81.9 mg/L 
+f. Dissolved Potassium 5.8 mg/L 
+g. Dissolved Iron 0.01 mg/L 
+h. Dissolved Manganese 0.008 mg/L 
+i. Dissolved Chloride 37.6 mg/L 
+j. Fluoride <0.05 mg/L 
+k. Nitrate – N 0.03 mg/L 
+l. Nitrite - N 0.012 mg/L 
+m. Nitrate and Nitrite 0.04 mg/L 
+n. Dissolved Sulfate <0.9 mg/L 
+o. Hydroxide <5 mg/L 
+p. Carbonate 39 m/L 
+q. Bicarbonate 100 mg/L 
+Advantages: 
+1. No reliance on municipalities for water 
+2. No competition for human for water 
+3. Far better quality of water than municipal or well water 
+4. 3-4 years pay back 
+5. No need to lagoons 
+6. No incoming water or wastewater fees  
+21 
+ 
+     
+  
+  
+    
+   
+   
+    
+  
+       
+   
+  
+   
+   
+    
+    
+      
+   
+      
+      
+    
+        
+    
+    
+    
+  
+  
+   
+   
+   
+    
+   553
+554555556557558559560561562563
+564565566
+567
+568
+569570571572573574575576577578579580581582583Responses to Charge Question #3 
+Water contaminants can be microbiological, chemical/toxicological, and nutrient in nature. Identify these contaminants and how their presence and concentrations in potable water 
+(municipal and well- sourced) compare to those found in water treated using the reuse, 
+recycling, reconditioning, and reclamation technologies identified in (2) above. Identify the risks posed by these contaminants for various steps in food p roduction and processing. 
+This specific Charge question was found to be a large topic to cover, with extensive variations due to the many different factors , including: 
+• Animal species processed 
+• Stage of pr ocessing at which water is used 
+• Contaminant under study 
+• Sensitivity of the methodology to det ect the target contaminant 
+• System used to produce reused/recycled/reconditioned water (refer to Glossary) 
+There is limited information detailing all the potential contaminants (refer to Glossary) , mainly 
+chemical and biological, that can be present in the water used during processing. Yet, it could be 
+assumed that all known contaminants of public health concern that have been identified by species (e.g., Campylobacter spp. in broiler chickens, or Escherichia coli O157:H7 in beef) 
+could end up in processed water in an establishment processing that species. It is also important 
+to remember that water potability relates to drinki ng water standards and is done mainly by 
+testing for chemicals and coliform indicator bacteri a, not by testing for pathogenic bacteria per 
+se. 
+Studies of drinking and recreational water have generated a large volume of information on risk-
+based water quality thresholds for different water quality indicators using quantitative microbial 
+risk assessment (refer to Glossary). The presence of fecal indicator bacteria (FIB, fecal coliform 
+or enterococci) usually correlates with adverse health effects a nd are used as water quality 
+criteria in regulations aimed at protecting public health (US EPA, 2012a). Yet, human fecal 
+22 
+ 
+    
+   
+     
+    
+  
+  
+  
+     
+   
+   
+   
+        
+   
+   
+  
+  
+   
+  
+ 
+   
+   
+   
+   
+    
+  
+    
+   
+   
+    584585586587588589590591592593594595596597598599600601
+602
+603604605606607608609610611612613614indicator bacteria, not just all FIBs, are now accepted as the most important indicator of ambient 
+water contamination (Boehm and Solle r, 2020). We do not have similar information on the most 
+appropriate indicators for water recycling in food animal processing establishments (refer to answers for Charge Question #5). 
+Nature of the Contaminants 
+Water used in the processing of animal protein establishments contain high amounts of organic 
+matter, pathogenic and non- pathogenic microorganisms, residual chemicals from cleaning and 
+sanitizing activities (Bustillo -Lecompte and Mehrvar, 2015; Debik and Coskun, 2009; Masse and 
+Masse, 20 00). An essential aspect of food safety efforts in meat, poultry, channel cat fish and egg 
+products are the monitoring and control of chemical residues that may result from the use of 
+animal drugs and pesticides, or from incidents involving environmental contaminants. The 
+chemical contaminants coming with the live animal raised with proper husbandry practic es 
+should not bring any public health concern. These contaminants include chemical compounds added to the animal during production, such as growth promoters and antibiotics to control animal disease. 
+There are specific regulations on the use and applicat ion of drugs in food production animals. 
+These regulations establish withdrawal times for chemical compounds that need time to clear up 
+from the animal and be at levels that do not represent human health concerns. The U.S. 
+Department of Agriculture’s Food Safety and Inspection Service ( USDA FSIS) administers the 
+U.S. National Residue Program (NRP) for meat, poultry, and egg products. The NRP is an interagency program designed to identify, prioritize , and analyze veterinary drugs, pesticides, 
+and environmental contaminants in meat, poultry, and egg products. FSIS partners with the Food and Drug Administration (FDA) and the Environmental Protection Agency (EPA) as the primary Federal agencies that manage the NRP. The FDA, under the Federal Food, Drug, and Cosm etic 
+Act (FFDCA), establishes tolerances for veterinary drugs and action levels for food additives and environmental contaminants and reviews violative residues reported to FDA by USDA FSIS for risk-based inspection and compliance follow-up. The EPA, under the FFDCA, the Federal 
+Insecticide, Fungicide, and Rodenticide Act (FIFRA), and the Toxic Substances Control Act, 
+23 
+ 
+    
+      
+  
+    
+    
+      
+   
+     
+   
+  
+   
+   
+  
+ 
+  
+      
+    
+     
+  
+   
+      
+   
+   
+  
+  
+  
+       
+    
+   
+   
+  615616617618619620621622623624625626627628629630631632
+633
+634635636637638639640641642643644645establishes tolerances for registered pesticides. Title 21 CFR includes tolerance levels established by FDA, and Title 40 CFR includes tolerance levels established by EPA. 
+FSIS publishes NRP Data (traditionally known as the Red Book) each year to summarize the 
+results of testing meat, poultry, and egg products for chemical residues and contaminants of public health concern. When testing for residues in food animal tissues, test results reported by 
+FSIS laboratories are compared to a quantitative acceptable level (i.e., tolerance or action level) to verify that the meat, poultry, and egg products tested are safe and wholesome and do not contai n levels of a chemical that would render the product adulterated. 
+The NRP domestic sampling program is comprised of two correlated programs: the scheduled 
+sampling program and the inspector-generated sampling program. Under the inspector-generated 
+samplin g plan, the number of samples screened and collected has remained the same (FY 2016 -
+2019), at approximately 174,000 samples screened per year. The violation rate has remained below 0.4% and has declined since 2016. The predominant violative residues in th e samples 
+were antibiotics, mainly ceftiofur, penicillin, and sulfadimethoxine, which account for 30%, 23%, and 9.7% of total violative residues, respectively. Of the violations reported, 85% were attributed to cattle ; dairy cows accounted for 71%, and bob veal for 14%. In samples from swine 
+slaughter (market swine, sows, roaster swine, boar swine, and feral swine), there were only 8 violative samples, which represented 0.03% of the swine samples (USDA FSIS, 2019). The drugs in violations are mainly antibiotics found at higher than allowable levels. Thus, unless we consider the potential adverse reaction to an antibiotic (e.g., penicillin), these antibiotics are not per se a direct human health hazard. 
+Chemical Contaminants, Including Chemical Sanitizers There is a potential for chemicals for sanitation practices to contaminate water used in animal 
+food processing plants, but there is no information on the impact of the accumulation of these 
+residual chemical sanitizers (refer to Glossary), or their by -products, on the efficacy of the 
+recycling technologies. In addition, there is limited information on the cost to remove all 
+sanitizer from contaminated water in an animal food processing establishment. It is not clear if 
+24 
+ 
+    
+   
+  
+ 
+       
+  
+    
+   
+      
+       
+  
+   
+     
+ 
+  
+   
+      
+    
+    
+   
+  
+     
+   
+    
+   
+  
+  
+  
+   
+      646647648649650651652653654655656657658659660661662663
+664
+665666667668669670671672673674675676interaction among different chemical compounds may bring challenges with water recycling systems. Thus, this is an area where more information is needed. 
+The chemical compounds used to control pathogens during the processing of food animals, and 
+that have contact with food, have all received approval by FDA as generally recognized as safe 
+(GRAS; refer to Glossary) or as a secondary direct food additive permitted in food for human 
+consumption (Anonymous, 1977) , more specifically as an “antimicrobial agent” (refer to 
+Glossary). These antimicrobial agents are considered processing aids with temporary technical 
+effect in the treated food and are ordinarily removed or not present in the final food . Thus , any 
+residu als that may be carried over to the final product are not expect ed to have any effect on the 
+final product. Through the shared ingredient approval process by the two agencies, USDA FSIS makes judgments on a case-by- case basis using FDA’s approval of a compound to determine 
+whether a substance is a processing aid , and can be used as an antimicrobial agent, or is an 
+ingredient of a food. While USDA FSIS determines the suitability and effectiveness for the intended purpose of use, the Agency also ensures that the conditions of use do not result in an 
+adulterated product. Once the suitability and safety of a compound has been determined, the substance is added to FSIS Directive 7120.1 (USDA FSIS 2021 a). USDA FSIS also maintains a 
+list of Safe and Suitable Ingredients that is periodically updated (USDA FSIS 2021b). Although 
+there is no information on the residues of “antimicrobial agents” (GRAS or secondary direct food 
+additives) in processing water, the probability of any accumulation of these substances in their active forms in water is low. 
+Under regulations codified as Title 9 CFR Part 416 Sanitation, establishments under the 
+jurisdiction of USDA FSIS are required to implement and monitor written Sanitation Standard 
+Operating Procedures (Sanitation SOPs) and maintain daily records to document the implementation and monitoring of the Sanitation SOPs and any corrective action taken. Under 9 CFR 416.4, the regulations require t hat: 
+§416.4(c) Cleaning compounds, sanitizing agents, processing aids, and other chemicals used by an establishment must be safe and effective under the conditions of use. Such chemicals must be used, handled, and stored in a manner that will not adultera te product 
+25 
+ 
+     
+ 
+  
+  
+ 
+       
+   
+  
+     
+   
+     
+    
+  
+  
+  
+    
+    
+    
+ 
+      
+    
+   
+   
+    
+  
+      
+  
+    
+    
+  
+  677
+678679680681682683684685686687688689690691692693694
+695
+696697698699700701702703704705706707or create insanitary conditions. Documentation substantiating the safety of a chemical's use in a food processing environment must be available to FSIS inspection program employees for review. 
+Companies selling cleaning and sanitizing agents mu st sell only compounds that have been 
+approved for these activities and are registered as antimicrobial pesticides with EPA under 
+FIFRA. 
+Within the food commodities under USDA FSIS, processed eggs and Siluriforme fish are 
+considered allergens. Therefore, establishments that need to reduce these allergenic proteins 
+from surfaces to avoid cross -contact will also have to establish cleaning and sanitation protocols 
+that are specific for these circumstances. 
+Biological Contaminants Biological contaminates are important contaminants present in water used in animal food 
+establishments. Yet, the large variation in the type and amount of contamina tion in an 
+establishment makes it difficult to include all the potential hazards. Factors such as the origin of 
+the biological hazard (human, animal, environment), the potential for survival, and the difficulty 
+for removal play a role in the degree of cont amination of wastewater and therefore each animal 
+food establishment is unique. Testing for all potential biological hazards is not practical and the collection of information with a structured quality assessment of the wastewater and recovered water has b een described as an important initial step before implementing reconditioning (refer 
+to Glossary) treatments (Meneses et al., 2017). 
+At the time this report is written, the world is undergoing the COVID -19 pandemic and many 
+food processing establishments are using more stringent cleaning and sanitation protocols and, in 
+some cases, are disinfecting surfaces to reduce the spread of SARS -CoV-2. Thus, processors 
+may be reducing microbial loads further than what is achieved by regular sanitizing procedures due to COVID-19. 
+26 
+ 
+   
+  
+  
+   
+      
+   
+    
+    708
+709710711712713714715Contaminants at Different Processing Steps 
+The transformation of live animal into human food varies from species to species, but it can be 
+assumed that all the processing steps during the dressing of animal carcasses, where water contacts the carcasses, will have the potential to contaminate the water with, primarily, biological 
+and chemical hazards. Once carcasses are eviscerated, washed , and the temperatures lowered, 
+there will be less water contacting the carcasses. Yet, some water is used during cutup, deboning or portioning and may contain species- specific microbiologic al hazards. 
+27 
+ 
+     
+  
+   
+     
+   
+     
+   
+  
+  
+    
+  
+     
+      
+  
+   
+  
+   
+   
+   
+  
+   
+   
+   
+   
+   
+  
+  
+     
+    
+  
+   716
+717718719720721722723724725726727728729730731732733
+734
+735736737738739740741742743744745
+746Responses to Charge Question #4 
+How do residual contaminants in water used for animal production, slaughter, and 
+processing affect product quality and sa fety? What are the quality implications and public 
+health risks associated with contaminants at levels anticipated for reconditioned water? How might FSIS and industry best assess those implications and risks? How do residual contaminants in water affect the functions of various materials added to water used in all stages of food production and processing, such as feeds, medicines, and antimicrobials? For example, consider the effects of trace pharmaceuticals on animal husbandry, and the effects of iron and “hard water” on phosphate -based interventions. 
+As shown in Table 4-1, Charge Question #4 and Charge Question #5 can be broadly framed using a risk assessment framework per Codex Alimentarius guidelines (FAO /WHO, 2001). 
+How Residual Contaminants Affect Product Quality and Safety 
+Not all FSIS -regulated operations’ steps require the use of potable water. Wastewater from some 
+processes, with or without additional treatment, may meet the requirements of various, specific 
+reuse and can be safely recycled. For example, Miller et al. (1994) found that the use of 
+reconditioned and chlorinated water on swine carcasses during scalding, dehairing, and polishing had no effect on the load of foodborne pathogens (including staphylococci, enteric streptococci, Listeria monocytogenes , coliforms, and Aeromonas ) on carcasses (Miller et al., 1994). 
+Water used in FSIS -regulated operations can be broadly categorized as those with direct contact, 
+indirect contact, or no contact (refer to Glossary ) with product . The following gives definition 
+and examples of each: 
+Water with direct product contact : Wate r that directly contacts the product or surfaces that 
+come into direct contact with the product being processed include: 
+• Final rinsing of edible product that is not further processed; 
+28 
+ 
+      
+   
+     
+     
+  
+        
+     
+  
+     
+       
+      
+  
+      
+      
+  
+      
+   
+  
+    
+  
+    
+  
+  
+    
+ 
+   
+    
+      
+   
+  747748
+749
+750
+751752753754
+755
+756757758
+759
+760761762763764
+765
+766
+767
+768769770771772773774775776• Preparation of surfaces including hooks, tables, conveyors, etc., that would have direct contact with meat products or meat packaging materials ; 
+• Final rinsing of clean -in-place (CIP) systems or manual cleaning systems; and 
+• Direct addition of water as an ingredient in a manufactured meat product . 
+Water with indirect product contact : Water inside the meat processing environment that is not 
+in direct contact with the product or product contact surfaces include: 
+• Environmental sanitation of non-meat product contact surfaces inside the processing 
+environment, with consideration for the risk of contamination of unprotected meat 
+product contact surfaces by aerosols or transfer of water from the non -product contact 
+surfaces; and 
+• As a diluent for cleaning and sanitation chemicals used in Cleaning- In-Place ( CIP; refer 
+to Glossary) systems or manual sanitation, excluding the final CIP water rinse. 
+Water with no product contact : Water with the lowest risk outside of the meat processing 
+environment include: 
+• Boilers and cooling towers, with consideration for the risk of aer osols and transfer of 
+water into the meat processing environments; and 
+• Washing of transport vehicles, with consideration for the risk of cross-contamination from containers to product packaging and then to product. 
+Spreading non-potable water on food (i.e., direct contact) may make the food unsafe, as this 
+water may contain pathogens and chemicals. Current regulations and guidance to industry found in 9 CFR 416.2(g) and USDA FSIS ’s guidance for water, ice, and solution reuse in poultry 
+mandate that water must remain free of pathogenic organisms and fecal coliform organisms and 
+that other physical, chemical, and microbiological contaminat es have been reduced to prevent 
+adulteration of product (Anonymous, 1999; USDA FSIS, 1999). 
+29 
+ 
+       
+    
+  
+  
+  
+  
+   
+  
+  
+  
+  
+    
+  
+  
+   
+  
+    
+     
+     
+    
+  
+  
+  
+   
+      
+    
+ 
+   
+  
+     777778779780781782783784785786787788789790791792793794
+795
+796797798799800801802803804805806807Creating various grades of water quality is not practical. The distinction of two water qualities, one that has direct or indirect contact with food and one that has no contact with food, can simplify the impl ementation of water reconditioning (refer to Glossary) programs while assuring 
+safety. Currently, both the water standard and regulation of that standard is by local authorities and is highly variable across the nation. 
+Quality and Public Health Implications in Reconditioned Water 
+The quality of alternatively sourced (se glossary) water with no direct contact with product, used 
+inside the processing plant, as well as alternatively sourced water with no product contact, used 
+outside of the processing plant, could be of a quality less than potable. Based on animal type, life stage, method of raising, and amount of processing, reconditioned water may vary greatly from plant to plant. 
+Temperature and turbidity (refer to Glossary) are the physical characteristics that impact safe 
+water usage . Water temperature affects microorganism viability, the solubility of oxygen, and 
+increases or decreases the toxicity of ammonia and other substances. Turbidity is a measure of 
+the fine sediment suspended in the water and has no inherent health effects, unless it indicates 
+inadequate filtration that may not have removed protozoa like Cryptosporidium or Giardia 
+lamblia and/or infectious viruses or bacteria. Turbidity can also interfere with disinfection and 
+may include substances that allow microbial growth. 
+The chemical characteristics that impact safe water usage include pH, nutrients, ammonia, and 
+dissolved oxygen and metals. Chemical water properties are often interrelated. The pH describes the balance between hydrogen and hydroxide ions that can affect many other chemical constituents such as the dominant form of ammonia and the solubility of metals. Water acidity or 
+alkalinity can cause corrosion (both low and high pH) or precipitation and fouling (high pH). Reused water may have extreme pH values from caustic washes or regeneration of ion exchange resins. Nutr ient levels are usually measured as nitrate -nitrite nitrogen and total phosphorus, but 
+can be as total inorganic nitrogen, organic nitrogen, or soluble reactive phosphorus. Ammonia is naturally occurring in water but can increase when nitrogen-containing organic waste and 
+30 
+ 
+  
+ 
+    
+    
+   
+  
+      
+   
+        
+    
+     
+      
+  
+   
+  
+    
+    
+   
+   
+     
+     
+     
+   
+   
+  
+     
+    
+   
+     
+   
+    808809810811812813814815816817818819820821822823824825
+826
+827828829830831832833834835836837838dissolved oxygen levels increase. Dissolved metals can include arsenic, lead, mercury, iron, cadmium, copper, sodium, chloride, potassium, manganese, or magnesium. Ingestion and bioaccumulation in tissues can be a health risk for those who consume some metals. Mercury is usually in inorganic form but can convert to toxic methylmercury in conditions of low pH, low dissolved oxygen, and high dissolved organic matter.  
+Processing water may include the presence of residual sanitizing compounds, and their by-
+products, used during processing. Results from the National Residue Program, described in 
+answers to Charge Question #3, highlight that agriculture and veterinary residues may not be a 
+public health concern in live animals that will be proc essed, if the application of agrochemicals 
+and the use of veterinary drugs follow appropriate guidelines for use. Please refer to the National Residue Program under responses for Charge Question #3. 
+The microbiological properties that impact safe water u se include pathogenic protozoa, bacteria, 
+and viruses. Organisms of concern include, but are not limited to, Campylobacter jejuni , 
+pathogenic Escherichia coli , Salmonella (including antimicrobial resistant strains of these 
+pathogenic bacteria), Cryptospori dium , spores of bacterial pathogens , Toxoplasma gondii , 
+norovirus, and helminths. Indicator organisms are often used as a marker or estimate of 
+contamination levels due to cost or inability to monitor the actual pathogen. The biological 
+indicators that hig hlight the potential of public health risk include the presence of fecal 
+coliforms, generic E. coli , and enterococci. In the case of parasites, such as Cryptosporidium and 
+Giardia lamblia, and viruses such as enteric viruses, the direct testing for the pathogen is used, 
+although some recent research suggest that bacteriophages can be used as indicators of fecal pollution and enteric virus removal in recreational water (McMinn et al., 2017). 
+Australia has previously developed a national guidance document for water recycling which 
+covers both potable and non- potable end uses. The guidance document requires the development 
+of a risk assessment process for the “hazards getting through the treatment system in sufficient 
+amounts to pose a risk to human health” (Anonymous, 2008). In this document, six pathogens from 52 airborne and waterborne pathogens from water reuse were identified as the pathogens of 
+concerns to address when recycling water , and some recommendations on how to ensure that the 
+31 
+ 
+     
+  
+   
+  
+  
+   
+    
+     
+    
+     
+      
+   
+  
+    
+   
+   
+ 
+  
+     
+       
+   
+    
+   
+    
+  
+    
+  
+ 
+    
+   839840841842843844845846847848849850851852853854855856
+857
+858859860861862863864865866867868869risk assessment process, based on examining reference contaminants to represent functional groups of pathogens or chemical contaminants, is compatible with the Australian Recycled Water Guidelines was provided by Warnecke et al. (2008). 
+Facilities currently enga ging in water reconditioning and reuse are reusing cleaner water for 
+areas where there are more contaminants and use only potable water for direct food contact. 
+Non-potable water is not allowed as an ingredient or to have direct contact with meat in the US . 
+Most European nations do not allow the use of recycled water in direct contact with meat (Pype et al., 2016). Guidelines from the World Health Organization (WHO 2011) also highlight that 
+water from alternate sources that has direct or indirect contact with product must meet drinking 
+water guidelines. These types of regulation s and guidelines have direct implications for the 
+international meat trade . 
+The r isk of introducing hazards from the reuse of water in operations can be mitigated by 
+employing appropriate control measures , including engineering controls (e.g., filtering water on-
+site), administrative controls (e.g., changing job tasks so one individual is not continually exposed or showering out), and personal protective equipment (PPE) (e.g., gloves, mask, protective eyewe ar, and coveralls). A risk assessment should be completed when there is a 
+change in systems, animal inputs, or water source or if there is the emergence of a previously unidentified hazard. No water reuse system should be allowed to be put in place if it r esults in an 
+increased risk to human health. Therefore, while there are potential increased hazards with water reuse, no increased risk to public health would occur with proper controls. Each plant will face 
+its own needs and challenges. Using technology coupled with well-trained individuals to implement and monitor systems may protect public health while reducing environmental impacts from water use in meat slaughter and processing. 
+Assessing Quality Implications and Risks 
+A report by the Food and Agricultural Organization of the United Nations (FAO) and the World 
+Health Organiz ation (WHO) addressed the safety and quality of water used in food production 
+and processing (FAO/ WHO, 2019). Although this report does not focus on water reuse, its 
+32 
+ 
+     
+   
+     
+     
+   
+    
+       
+   
+  
+  
+  
+    
+  
+     
+  
+     
+      
+    
+  
+  
+   
+   
+     
+     
+   
+  
+   
+   
+     
+     870
+871872873874875876877878879880881882883884885886887
+888
+889890891892893894895896897898899principl es are relevant to the question addressed here. The report highlights that water quality 
+should be established in a “fit-for-purpose” basis, considering the application and context, rather than using the same water quality standards across all applications. In this report, authors 
+propose the use of decision support system tools which incorporate risk assessments and the use 
+of monitoring to inform stakeholders when making decisions on water quality and reuse at steps in the supply chain (FAO/ WHO, 2019). A challenge in the use of risk assessments is that 
+monitoring of water quality is often based on microbial indicators, which do not correlate with 
+the presence or quantity of pathogen s in water or food . This means that continuous monitoring 
+might have to also include relevant pathogens, depending on the target application of the reused water. 
+The report also highlights the similarities in risk management approaches in safe potable water 
+and safe food, such as that both are risk - and evidence-based and need proper verification and 
+monitoring. It also points out the additional complexities in food production due to the wide 
+range of products, primary production and processing systems, microbial hazards along the food supply chain, and the end use of food products. As a result, the report recommends a risk- based 
+approach to water use and reuse instead of defaulting to specifying the use of potable w ater or 
+other water quality types ( FAO/WHO, 2019). 
+As described earlier, different applications of reused water require different water quality standards. For food contact applications, there are specific US regulation s and WHO guidelines 
+on the need to have equivalence to potable water to prevent adulteration of food products with 
+biological hazards (Anonymous, 1999; WHO, 2017). The equivalence to potable water should be 
+based on quality indicators, and therefore risk assessment methodolog ies should incorporate 
+these quality indicators when evaluating the safety of reused water . 
+Assessing public health risks of an intervention requires quantifying the risk in absolute (i.e., total public health impact) or comparative ( i.e., increase/decrease in public health risks from 
+status -quo) terms. For example, assessing the risks from a regulated animal product new to the 
+market would require estimating the absolute public health impact of that product, whereas 
+33 
+ 
+   
+   
+  
+  
+  
+     
+    
+  
+   
+  
+  
+  
+    
+   
+     
+    
+   
+    
+  
+  
+  
+     
+   
+     
+    
+  
+   
+  
+     
+  
+  900
+901902903904905906907908909910911912913914915916917
+918
+919920921922923924925926927928929930knowing if a new regulatory intervention effectively reduces foodborne illnesses would require a comparison of illnesses against current interventions. 
+Although potable water is safe, food products generated with potable water can still have certain 
+public health risks due to pathogen contamination throughout the production chain. Thus, reused water for use in animal processing should be evaluated to ensure that its use does not result in a net increase (i.e., relative to current water usage practices) in the number of human illnesses, hospitalizations, and deaths attributable to animal products under USDA FSIS regulations. Answering the question of reused water would be amenable to a comparative risk assessment framework. 
+Regulatory r isk assessments applied to food safety risk assessment were published, and should 
+follow Codex guidelines, chiefly Principles and Guidelines for the Conduct of Microbiological 
+Risk Assessment (CXG 30 -1999) (FAO/WHO, 2001) and Working Principles for Risk Analysis 
+for Food Safety for Application by Governments (CXG 6 2-2007) (FAO, 2007). These guidelines 
+describe the main components of a risk assessment as hazard identification (identify food safety 
+hazard(s) from the intervention), exposure assessment (estimating the extent of anticipated human exposure to the hazard as a result of the intervention), hazard characterization (estimating 
+the severity and duration of negative health outcomes resulting from exposure to the hazard), and 
+risk characterization (obtain a population- level estimate of the public health risks resulting from 
+the intervention). In the US, the USDA FSIS and the US EPA have published the Microbial Risk 
+Assessment guideline (US EPA, 2012b) for pathogenic organisms in food and water to achieve a more consiste nt approach to microbial risk assessment across federal agencies. Such efforts have 
+resulted in an emphasis by US agencies regulating food on performing these fit- for-purpose risk 
+assessments, rather than following formulaic or overly strict risk assessment frameworks (Dearfield et al., 2014). USDA FSIS also published a repository of current and past quantitative risk assessments performed since the late 1990s in a variety of inspected products, mostly concerning microbial contaminants (USDA FSIS, 2020a). L ikewise, the US FDA makes 
+available to the public a variety of risk assessments and risk assessment resources for microbial and chemical hazards (FDA, 2020). 
+34 
+ 
+     
+    
+  
+    
+     
+    
+    
+   
+  
+    
+  
+    
+  
+  
+  
+  
+     
+  
+   
+   
+   
+   
+      931
+932933934935936937938939940941942943944945946947948
+949
+950951952953Based on the principle of fit- for-purpose risk assessment, FSIS and the industry should assess the 
+public health risks using a risk assessment approach for water reuse in food contact applications that do not already require potable water quality. The risk assessment models should be adaptable to the specific food and processing situations. The divers ity in the different water use 
+scenarios and food products makes it difficult to recommend any specific risk assessment framework (e.g., qualitative versus quantitative microbial risk assessment), but it should be useful to create a series of use cases to provide examples and guidance of possible risk 
+assessments to apply in FSIS inspected products. 
+As proposed by the FAO- WHO (2019), following a risk assessment, a decision tree could be 
+used to assist industry in deciding the fit-for-purpose of water reuse under four different 
+applications (i.e., as food ingredient, intentional food contact, unintentional food contact, not for food contact) and conditioning scenarios. An example of a relevant decision tree is provided in Figure 4-1. Thus, the risk assessment and decision trees framework should be flexible enough to accommodate such diversity. 
+Effect of Residual Contaminants on Materials Added D uring Food P rocessing 
+Residual contaminants ( refer to Glossary), as indicated by high turbidity in non-potable, recycled 
+water may inhibit the ability of antimicrobials added to the water to reduce pathogens in water or 
+food. Turbidity can interfere with disinfection and may include substances that allow microbial growth (Chahal et al., 2016). Thus, highly turbid/contaminated water should not be used in the facility before further processing (see responses to Charge Question #2). 
+35 
+ 
+     
+  
+ 
+    
+  
+    
+  
+    
+  
+   
+   
+   
+    
+     
+    
+   
+   
+   
+   
+  
+  
+    
+  
+     
+   
+    
+   
+   
+  
+  
+      954
+955956957958959960961962963964965966967968969970971
+972
+973974975976977978979980981982983984Responses to Charge Question #5 
+What are the best ways to assure and/or monitor the quality and safety of alternatively sourced water used in FSIS -regulated operations? 
+The safe use of reconditioned water requires monitoring to validate the initial processes and ongoing verification so that water quality is consistent. The water source characterization and its 
+intended reuse will direct the allowable levels of substances. Initial monitoring of alternatively sourced water should be extensive and may involve independent, accredited laboratories, while ongoing performance monitoring should be in real -time and can focus on measuring indicators 
+rather than a complete analysis. 
+Source water (refer to Glossary) assessments consider a range of possible contaminants and can 
+be derived from lists such as the Guidelines for Drinking- Water Quality by (WHO, 2017) and the 
+WHO guidelines on the management of chemical contaminants (WHO , 2007). After the source 
+vulnerability assessment, it is not necessary to continually assess all potential contaminants and 
+analyses can focus on the relevant contaminants. The specific physical, chemical, and microbiological parameters to be monitored, the frequency of monitoring, and on- line versus 
+discrete analyses should be chosen based on the distinct contamination vulnerability of the source water. 
+Monitoring Quality and Safety of Alternatively Sourced Water Effective methods to monitor and ensure water quality and safety are in use by municipal 
+wastewater treatment plants. Removal of nutrients and pathogens has been the focus of these 
+facilities for over 100 years . The same methods can be used for alternatively sourced water. 
+Typical wastewater treatment is monitored (using indicators) for the elimination of all pathogenic microorganisms, except for spores. 
+Monitoring parameters for recycled water include investigative, process performance, and 
+verification. Initially, an investigative, comprehensive assessment of water contaminants in the 
+36 
+ 
+    
+   
+     
+     
+  
+   
+    
+  
+    
+  
+  
+  
+       
+       
+    
+      
+    
+    
+   
+  
+     
+  
+  
+  
+   
+    
+     
+      
+ 
+    985986987988989990991992993994995996997998999
+100010011002
+1003
+100410051006100710081009101010111012101310141015source water should be done, as they may impact recycling. Annual wate r analysis should 
+document the overall quality of the incoming water and meet the regulatory requirements. Standard water analysis methods are available, well -developed, and reliable (APHA, 2005). The 
+potential contamination in waters is evaluated by testi ng different parameters, such as pH, total 
+dissolved solids, total organic carbon (TOC), ammonia nitrite, nitrate, hydrogen sulfide, 
+dissolved oxygen, chloride, chlorine, sodium, sulphate, turbidity, urea, etc. TOC is an excellent indicator of the treatmen t process performance and there are manual and in -line monitors 
+systems for rapid and inexpensive TOC evaluation. Total dissolved solids can be detected by electrical conductivity , a measurement that provides information on dissolved inorganic ions in 
+wate r. 
+The presence of potential human pathogens is evaluated by testing for bacterial indicators, such as aerobic plate counts (counts of total bacteria), coliforms , Escherichia coli, etc. Depending on 
+the incoming source, an initial analysis for lipid, protein, lactose/sugar, and minerals may be 
+needed to be sure the water quality will not adversely affect product or process. A fter the water is 
+used in processing, other tests should be considered, such as testing for residues of sanitizers or 
+the accumulation of metal cation . The type of parameters to monitor, and the frequency, will also 
+depend on whether the water is used directly on foods or food contact surfaces versus the use on 
+non-food contact surfaces. 
+The physical parameters of water include t urbidity , which is an important indicator of microbial 
+quality (bacteria, parasites, viruses). In -line turbidity meters with alarm systems are available at 
+relatively low cost. Depending on the intended water use, real- time monitoring of turbidity is 
+recommended, and standard acceptable levels have been set (US EPA, 2018a). 
+The chemical parameters of water coming into the facility from outside should be known. There 
+should be an initial testing when a new source of water is used. Once the composition of the 
+source water is known and the treatment process is in place, the chemical composition does not 
+need frequent monitoring. There are numerous chemical indicators used to characterize the quality of the water, such as specific metals (e.g., Fe, Mn, Pb), radionuclides (e.g., radium 
+226/228 and uranium in particular), anions (e.g., SO4, NO3-), silica, nutrients (e.g., NH3-, 
+37 
+ 
+    
+   
+   
+  
+     
+     
+  
+     
+   
+    
+  
+   
+   
+    
+  
+    
+  
+     
+   
+    
+    
+   
+  
+   
+  
+    
+  
+   
+    
+    
+    1016
+10171018101910201021102210231024102510261027102810291030103110321033
+1034
+103510361037103810391040104110421043104410451046phosphorus oxyanions), and some specific synthetic organics. Color is generally an indicator of organics in the water and is r eadily measured by visual or spectrophotometric methods. Odor is 
+important and can be checked by smell for objectionable aromas of sulfide or algal products. 
+Disinfectant residuals such as chlorine, chlorine dioxide, or chloramine residuals could be 
+detrimental for some products. Ozone dissipates rapidly and ultraviolet light provides immediate 
+disinfection with no residual. One or more disinfectants are requir ed as part of the treatment 
+process to ensure microbial safety. Additionally, routine residual measurements are important to establish presence and/or absence of residuals. Inexpensive disinfectant residual test kits are available. However, in-line monitors for chlorine and ozone are preferred for continual monitoring of microbial safety. 
+The microbial parameters of water should be monitored frequently because contamination risks are acute. Reclaimed water (refer to Glossary) used in direct or indirect co ntact with product 
+should receive secondary treatment with disinfection. Also, for non- contact water reuse 
+identification of potential fecal contamination is an issue for worker safety. 
+Safety indicators can include monitoring filtration, disinfection, an d the presence of residual 
+disinfectant s. In general, and for different types of waters (e.g., drinking, recreational, animal 
+processing, etc.), microbiological water testing detects indicator organisms, instead of specific 
+pathogens, as a sign of fecal contamination. However, it is important to emphasize that many microbial indicators (e.g., coliforms, E. coli , enterococci) have been used to assess fecal 
+pollution, but there is no direct correlation between the numbers of any microbial indicator in water and the presence of an enteric pathogen (Grabow, 1996, Ashbolt, et al., 2001). 
+Heterotrophic plate count (refer to Glossary) estimates the number of live heterotrophic 
+microorganisms in water and provides some information about water quality. Yet, the test itself 
+does not specify the organisms that are detected and results in a wide range of quantitative and qualitative results (WHO, 2001). Total coliforms are another bacterial group that can indicate 
+potential contamination, but coliforms can originate from many sources and are not good sanitary waste indicators. Another group are the FIB (see response to answers for Charge 
+38 
+ 
+    
+  
+  
+  
+      
+  
+      
+    
+  
+         
+  
+       
+   
+     
+   
+     
+         
+       
+    
+     
+     
+        
+    
+   
+  
+   
+    
+  
+  
+   
+  1047
+10481049105010511052105310541055105610571058105910601061106210631064
+1065
+106610671068106910701071107210731074107510761077Question #3), which have been used by public health agencies for several decades to identify 
+potential for illness resulting from recreational activities in surface waters contaminated by fecal pollution (US EPA, 2012c). 
+The US EPA recommends the use of FIB, specifically enterococci and E. coli , as indicators of 
+fecal contamination for fresh water, and enterococci as indicators of fecal contamination for 
+marine water (US EPA , 2012c; 2012d). FIBs are considered “pathogen indicators” (refer to 
+Glossary), but th e Agency recognizes that these microbial groups are not used as direct 
+indicators of pathogens by the scientific community (US EPA, 2012c). In addition, the Agency has not yet published any criteria for pathogens per se (US EPA, 2012c). 
+Historically, Escherichia coli was considered an appropriate indicator organism for determining 
+the potential presence of bacterial fecal pathogens in reused wastewater. However, contemporary research highlights that Escherichia coli may not be an effective indicator of water quality 
+because it appears and grows in natural environments in addition to the intestines of warm -
+blooded animals (Whitman and Nevers, 2003). T he large diversity within Escherichia coli 
+strains, and the actual sources of the majority of the Escherichia coli strains isolated from the 
+environment may not be identified by a library -dependent method (refer to Glossary) (Ishii et al. 
+2007; Jang et al., 2017). The use of other indicators, such as bacteriophages (McMinn et al., 
+2017), to assess fecal pollution and enteric virus removal in recreational water also bring s 
+uncertainties and have limitations for the modeling of microbial populations in recreational 
+water. Thus, we do not know the most appropriate indicators f or each food animal species that is 
+processed. However, as our knowledge in this area increases, we expect to find other 
+microorganisms, or DNA markers, that could be used to assess the level of pollution in waters. 
+Microbiome sequencing has been suggested as the next method to help evaluate the efficacy of 
+cleaning and sanitation practices, antimicrobial intervention, and to provide information on the 
+quality of recycled water in animal processing establishments (Blevins et al., 2017; Feye et al., 2020). Microbiome mapping using DNA data from next generation sequencing may help processors understand the key microbes on the food product and in the processing water. 
+39 
+ 
+       
+     
+  
+    
+    
+     
+       
+    
+  
+    
+   
+            
+   1078
+107910801081108210831084108510861087108810891090There are real -time, in-line monitors systems to eval uate physicochemical properties quality of 
+recycled water . In-line monitors are available for pH, conductivity, turbidity, particle counts, 
+TOC, and many individual chemicals. In -line electrical conductivity monitors are inexpensive 
+and provide information on salinity, while in -line pH systems are simple and cost -effective. 
+Other in -line monitoring systems are expensive and require regular calibration, maintenance, 
+and trained personnel. There are no real -time, in-line monitor ing systems to detect and count 
+microorganisms yet. However, signals from in -line chlorine and turbidity tests could in the future 
+be used to assess the level of microbial contamination in water . 
+Verification monitoring is needed when a system does not meet specifications and correcti ve 
+action is implemented. This monitoring assures performance and requires an increased frequency 
+until specifications for the specific parameter are consistently met. This is critical if the recycled 
+water has any product contact potential.   
+40 
+ 
+     
+  
+   
+   
+  
+    
+    
+  
+  
+  
+    
+   
+   
+     
+      
+   
+      
+       
+       
+     
+    
+  
+       
+   
+   
+   
+      
+    
+   
+  1091
+10921093109410951096109710981099110011011102110311041105110611071108
+1109
+11101111111211131114111511161117111811191120Responses to Charge Question #6 
+Are there special considerations for foods that are produced entirely within water (e.g., fish), and if so, what are they? 
+The answers to this specific question focus on the growing, transporting, and processing of 
+channel catfish (Siluriforme fish). 
+Pond Water 
+Channel catfish (Siluriforme) are raised primarily in ponds in the southern states of Mississippi, 
+Alabama, Arkansas, and Texas, accounting for 95% of annual US sales of channel catfish . 
+Channel catfish production was valued at $380 million in 2018 in the US (NASS, 2019) and over 90% of the commercial channel catfish is produced in embankment/levee type of ponds, which 
+keeps the water free of pollutants and other species of fish. These water impoundments are constructed on flat land where the dirt has been moved into a levee around the pond bottom and 
+usually range from 8 to 25 acres with a depth of 4 to 6 feet (Anonymous, 2020). Another system 
+of channel catfish production is the split -cell pond, where a traditional pond is split in half with 
+an earthen dam. This system is more efficient and may increase the production per acre 
+compared to embankment/levee type of ponds, but it requires much more intensive aeration 
+management due to the increased stocking rate (Coblentz, 2017). 
+The ponds in which channel catfish are produced must yield fish that are healthy and wholesome 
+for human food consumption. Ponds are typically filled with non- treated water from a ground 
+well. This water is used throughout the fish growing peri od and is replenished as needed. Water 
+conservation measures have been implemented to maximize capture of rainwater and at the same 
+time prevent ponds from overflowing and losing water during heavy rains (Tucker et al ., 2016; 
+Tucker et al ., 2017). Some ponds are drained and refilled annually; however, most ponds are 
+often used for up to 10 years without draining. 
+41 
+ 
+       
+    
+    
+    
+         
+   
+    
+  
+  
+   
+   
+    
+  
+  
+  
+  
+    
+   
+    
+     
+  
+      
+     
+    
+   
+   
+  
+  
+  
+   
+      1121
+11221123112411251126112711281129113011311132113311341135113611371138
+1139
+114011411142114311441145114611471148114911501151Maintaining good water condition is essential to control fish diseases and to provide adequate 
+production o f channel catfish. As with all food animal production systems open to the 
+environment, fishponds could potentially become exposed to foodborne pathogens from other animals (wild and domestic) that have access to the area, but it does not appear to impact the 
+success in raising wholesome channel catfish (USDA FSIS, 2017). Because the water is used all 
+year and replenished as needed, there is no economic, or other types of incentives, for water 
+conservation/recycling, although some conservation practices have already been described 
+(Tucker et al., 2017). 
+Producers monitor pond water for production-related parameters (e.g., dissolved oxygen, 
+temperature, pH, alkalinity, hardness, total ammonia nitrogen, etc.), while USDA FSIS is responsible for monitoring ponds for environmental chemicals and pesticides that can impact food safety (USDA FSIS, 2017). 
+Transport Water Catfish are harvested from ponds and transported to the processing establishments in live-haul 
+trucks that contain aerated water -filled tanks . The water in transport tanks may be sourced from 
+well water or the production pond. Wynne and Worts (2011) recommended that the transport 
+truck be scrubbed using a detergent, followed by a disinfection spray and then rinsed. It is 
+uncle ar if this recommendation is regularly followed in the industry. If trucks are used for 
+multiple runs from the same pond, disinfecting after every load may not be practical. Cleaning 
+and disinfecting trucks is a biosecurity measure to control the spread of diseases between fish 
+rather tha n a sanitation measure associated with food processing. Reduction of water use in 
+catfish transportation appears to be unlikely due to the concern with preventing transport stress 
+and disease transmission between loads. 
+Processing Water 
+Channel catfish processing comes under the jurisdiction of the USDA F SIS; therefore, Sanitation 
+Performances Standards and Standard Operating Procedures apply to water use and water supply 
+42 
+ 
+     
+      
+     
+  
+  
+    
+   
+     
+     
+    
+   
+    
+  
+    
+  
+  
+     
+    
+      
+  
+   
+  
+  
+   1152
+11531154115511561157115811591160116111621163116411651166116711681169
+1170
+11711172117311741175as mandated by 9 CFR 416.2(g) (Anonymous, 1999; USDA FSIS 1999) . These requirements are 
+adequate for channel catfish processing. As with other food animal processing, there may exist 
+possible water reclamation and reuse opportunities if the wholesomeness of the product is not 
+compromised. 
+Guimarães et al. (2018) evaluated the possible reuse of water in seafood processing in Brazil. 
+These authors evaluated industrial water management and quantified and qualified eﬄuents from 
+general processing activities and concluded that direct reuse of processing water would not be 
+recommended due to the high number of bacterial contaminants . However, the authors also 
+concluded that indirect recycling of water from freezing tunnel and cooling chamber defrosting 
+could be used to supply cooling tower demands after a simple treatment and disinfection process. 
+It was estimated that this practice might reduce total average water consumption of the processing unit by 11%. It was also noted that if eﬄuents from cooling tower purges were also 
+reused, water reduction levels of approximately 22% could be attained. 
+Similar to the high number of bacterial contaminants described by Guimarães et al. (2018), o ther 
+food industries (e.g., beef processing and poultry processing) that have implemented processes to 
+capture, treat and reus e water , have also reported high levels of bacterial contaminants in the 
+water captured for recycling (Casani et al., 2005) . However, various treatments have been proven 
+to be effective at bringing the water back to potable standards in order to be reused (Casani et al., 2005). Although technologies for the recycling of water in food manufacturing exist, which 
+could also be useful in recycling water in the fish industry, these technologies would have to be 
+economically beneficial for the processing facility to implement. 
+43 
+ 
+     
+  
+  
+   
+  
+  
+      
+   
+    
+   
+  
+   
+  
+  
+  
+   
+ 
+    
+   
+  
+  
+   
+    
+   
+  
+  
+   
+    
+    
+   
+  117611771178117911801181118211831184118511861187118811891190119111921193
+1194
+119511961197119811991200120112021203120412051206Responses to Charge Question #7 
+Flooding can contaminate animals and water sources with human sewage and farm waste. What precautions should establishments take when floodwater or runof f affects a food or 
+water source, or a processing area? 
+Flooding events are considered “significant incidents” by USDA FSIS, meaning they represent 
+grave or potentially grave threats to people or products. These events could trigger a “Significant 
+Incident Response” by the Agency (USDA FSIS 2018). Depending on the scope of the 
+emergency, such an event could trigger response actions under the National Response Framework, National Response Plan, and State emergency management activities ( USDA FSIS 
+2019). The USDA FSIS “Significant Incident Preparedness and Response” program is a resource 
+for education, collaboration and assistance with preparing emergenc y response plans (USDA 
+FSIS 2020 b). 
+Food production companies should have documentation for managing natural disasters, such as flooding in a facility, that clearly define preparedness and response actions. This documentation may be a corporate-level doc ument that outlines general action items for establishments, and/or 
+establishment -level contingency plans or emergency response plans. These documents will give 
+direction on how to manage such situations, and typically include checklists that provide guidance. General guidance on flooding preparedness is available for processing facilities, including small and very small facilities, at the USDA FSIS website (USDA FSIS, 2013). Companies also need to consider following state guidelines (e.g., Emergency Action Planning 
+Guidance for Food Production Facilities by the New Jersey Department of Health ) (Anonymous, 
+2012). 
+A documented flood emergency response plan can give a facility’s staff a step -by-step course of 
+action to follow in times of need and help minimi ze losses for a business. Time invested in 
+training and educating staff members for natural disasters will help to keep team members and 
+animals safe. 
+44 
+ 
+    
+   
+   
+   
+  
+   
+      
+  
+  
+  
+    
+ 
+    
+  
+  
+  
+    
+  
+   
+   
+    
+   
+  
+   
+  
+    
+   
+  
+  
+   
+  120712081209121012111212121312141215121612171218121912201221122212231224
+1225
+122612271228122912301231123212331234123512361237Industry-driven audits of food safety systems require facilities to have procedures designed to 
+effectively manage and report incidents and potential emergency situations that impact food safety, quality or legality, including appropriate contingency plans. Incidents such as fire, flood, natural disaster, malicious contamination or sabotage, digital cyber-security, etc., may include disruption to key services such as water, energy, transport, refrigeration processes, staff 
+availability and communication. Facility operators should consider whether products from the site may be affected by an incident before r eleasing them to market. 
+Floods or other natural disasters affecting an animal production facility need an immediate and humane response to find, assess and secure the affected animals, consistent with the provisions of the Animal Welfare Act (USDA APHIS, 2020) , and with worker safety. If animals are present 
+in a facility during a flooding event, facility managers should follow established and appl icable 
+Animal Welfare Policies to remove animals to a safe and secure area (USDA FSIS , 2011, 2015), 
+which include moving animals to safe locations, rinsing them down if heavily soiled, managing 
+and containing animal waste and contaminated water in accordance with applicable regulations, rinsing down and cleaning all surfaces, sanitizing animal contact surfaces with approved products, and forced air drying to prevent mold growth. 
+Following a flooding event in which flood water has entered an animal or processing facility, 
+managers should follow the SOPs in their emergency response plan to mitigate fac ility 
+contamination and damage in order to return the facility to a safe operational state. Large debris/gross contamination can be removed from surfaces by removing them with clean water. 
+Fans or other mechanical drying equipment can be used to dry wetted surfaces more quickly to 
+reduce potential molding. Surfaces that have been contaminated by floodwater should be cleaned with an approved cleaning product appropriate to the setting and operational process. I f these 
+surfaces come in contact with animals or animal products , they should be sanitized with an EPA-
+registered sanitizer. 
+A facility’s emergency response plan should also take into consideration potential damage to, 
+and contamination of, the facility’s water supply and distribution system. Whether for worker or 
+animal health, maintaining facility operations, or product quality, a safe water supply is a critical 
+45 
+ 
+     
+ 
+  
+     
+   
+  
+   
+   
+      
+  
+     
+       
+  
+  
+    
+     
+    
+      
+    
+   
+   
+  
+      
+    
+   
+   
+  
+     
+    123812391240124112421243124412451246124712481249125012511252125312541255
+1256
+125712581259126012611262126312641265126612671268resource that needs to be incorporated into emergency preparedness and mitigation plans for 
+animal growing and processing (Appendix #1). Wat er-related emergency preparedness at a 
+facility includes understanding the water supply and how water is used in the facility. Flood water can contain pathogens, chemicals and toxins that can contaminate a facility’s water supply at its source, during treatment, or during distribution. If mitigation or preventive measures are not taken, t his contaminated water may be consumed by workers or used for facility production 
+processes like animal care and facility cleaning. Clean, safe water is essential for human and 
+animal consumption, proper hygiene, surface cleaning, and handwashing. It is important for facilities to ensure their water supply is safe for intended purposes (Appendix #1). 
+If a facility is served by a municipal water system that experiences flooding, managers should 
+check with the local water authority to determine if a drinking water advisory has been issued, and any precautions that should be considered ( CDC, 2020) . Many water utilities also offer text-
+based alert systems for rapidly notifying customers of any drinking water advisories. State health departments may also have guidance on emergency planning for water advisories and interruption of water service (Anonymous, 2012). If the facility uses a groundwater well, managers may consider consulting a well or pump contractor to have the well inspected to determine if it or associated equipment has been damaged during flooding or is not working 
+properly. If managers suspect that a facility’s groundwater source might have been contaminated 
+by floodwater, they can contact their local or state health department or agriculture extension office for advice on disinfecting the well (CDC, 2016). Before resuming use for drinking or production, the well should be tested for appropriate fecal and chemical water quality parameters 
+(CDC, 2009). 
+A facility’s water emergency and preparedness plan will include detailed information and 
+procedures to enable facility staff and remediation personnel to respond to and recover from interruption of the f acility’s water supply. This plan will typically identify alternate water 
+sources and mitigation procedures (e.g., posting signage that water is not safe for consumption, 
+employing alternate procedures if tap water is not appropriate for process use). In addition to 
+considering alternate water supplies, facility managers can benefit from planning for actions to remediate the facility’s water supply, distribution, and building plumbing systems (also known as 
+46 
+ 
+     
+  
+      
+   
+   
+  
+    
+     
+    
+  
+    
+ 
+  
+  
+   
+   
+  
+    
+  
+     
+  
+   
+    
+  
+    
+  
+    
+     
+    
+   
+    126912701271127212731274127512761277127812791280128112821283128412851286
+1287
+128812891290129112921293129412951296129712981299“premise plumbing”). Mitigation planning includes identifying water system repair and 
+rehabilitation companies that can quickly respond following a flood event, having documents ready to assist in the system repair and rehabilitation process, and ensuring that the facility water system is effectively flushed to remove contaminated water and contaminant residues (Bartrand et al., 2018). 
+The guidance documents from CDC and American Water Works Association (AWWA) on 
+developing emergency water supply plans for healthcare facilities may be helpful to animal 
+growth and production facilities. The CDC and AWWA ’s Emergency Water Supply Planning 
+Guide for Healthcare Facilities has checklists and decision trees that could be adapted to food 
+production facilities during the preparation for, and response to, a water supply interruption 
+(CDC AWWA, 2012). Similar guidance could be developed to provide information and tools to food processing facilities interested in developing water preparedness plans. 
+Steps and considerations in preparing a food processing facility water preparedness plan include 
+(Figure 7-1): 
+1: Identify the facility’s water supply and operations team. 
+2:Understand facility water usage by conducting a water use audit, including assessment of 
+facility water taps and processes that could present risks that may need to be mitigated if the 
+water supply is suspected to have been compromised by flooding. 
+3:Analyze the facility’s emergency water supply alternatives. 
+o Review and incorporate applicable r ules and guidance from local, state and federal 
+authorities. 
+o Identify alternate sources of water that can be obtained and used for facility 
+operations, including drinking or use in facility processes. 
+o Identify critical partners that can assist with obtain ing alternate water sources or 
+rehabilitate the facility’s established water source and building plumbing system. 
+4:Develop and test the Emergency Water Supply P lan. 
+o Develop messaging examples to provide facility workers with guidance on consuming or using water in the facility. 
+47 
+ 
+      
+   
+    
+   1300 o Develop alternate procedures in event the facility water supply is compromised and 
+1301 not suitable for use or consumption. 
+1302 o Educate and train staff on water- related preparedness for the facility. 
+1303 
+48 
+ 
+     
+  
+   
+    
+    
+  
+      
+      
+  
+ 
+   
+   
+  
+  
+  
+  
+     
+   
+     
+    
+  
+  
+     
+   
+     
+   
+     
+   
+  130413051306130713081309131013111312131313141315131613171318131913201321
+1322
+132313241325132613271328132913301331133213331334Responses to Charge Question #8 
+What technologies are appropriate for the replacement of liquid water in food production and food processing areas (i.e., foam, mist, or dry chemicals)? What advanced emerging 
+technologies may reduce the need or volume for water in processing ? 
+Alternate water -sparing processes may be considered, such as air chilling a product in place of 
+chilling in a water bath and using recycled water and wastewater for specific purposes (refer to 
+Charge Question #2). Recycled water can be used for product-con tact equipment rinsing, 
+provided that the provisions of 9 CFR 416.2(g)(3) and (4), where applicable, are properly addressed (Anonymous, 1999; USDA FSIS, 1999). Strategies that prevent contamination from 
+being brought into a clean processing area may enhanc e the overall effectiveness of a cleaning 
+program, such as using boot disinfection stations and limiting wheeled equipment to specific zones. Staff training with regular updates can maintain and reinforce cleaning and water-sparing behaviors. 
+Cleaning, sa nitizing and disinfection are critical components of a facility’s operations program 
+during routine operations and for recovery activities following a flood or other contamination 
+event. Cleaning is the process of removing contaminants from a surface that could be harmful to 
+human or animal health, damage equipment, lead to process inefficiency, or impact product 
+integrity or safety. Cleaning processes and chemical products are not designed to kill bacteria, 
+viruses or fungi, but rather to remove them from surfaces along with dirt, oils, and other inorganic and organic materials. Sanitizing and disinfecting (refer to Glossary) are related 
+concepts, as both are focused on killing or inactivating microorganisms , including pathogens. 
+Disinfectant products and processes are those that result in a more rigorous removal or 
+inactivation of microorganisms of public health concern than sanitizing products (sanitizers) and sanitizing processes ( Appendix #2). For example, there are no sanitizer -only products with EPA -
+approved virus claims, but there are sanitizer-only products with EPA- approved bacteria claims, 
+as vegetative bacteria (though not bacterial spores) are generally easier to inactivate than viruses (Sobsey, 1989). 
+49 
+ 
+        
+   
+      
+   
+  
+    
+    
+   
+ 
+     
+  
+  
+    
+   
+    
+  
+  
+ 
+   
+    
+   
+   
+   
+   
+      
+   
+  
+  
+ 
+      
+    133513361337133813391340134113421343134413451346134713481349135013511352
+1353
+135413551356135713581359136013611362136313641365When choosing a sanitizer or disinfec tant, it is important to consider what level of sanitizing or 
+disinfection is indicated for each facility process, and what the product is registered to do (i.e., the label claims). Some products can have both claims , as a sanitizer and as a disinfectant , 
+depending on variables such as concentration and contact times (Appendix #2). 
+The general steps in cleaning and sanitizing food contact surfaces are site -specific and variable. 
+Wet cleaning of an establishment includes a cleaning step, which may include the use of 
+detergent s, to remove, as much as possible, organic matter and may be accompanied by physical 
+actions, such as scrubbing, pressure, etc. The sanitizer(s) is(are) applied after cleaning . Dry 
+cleaning protocols (refer to Glossary) also include mechanical removal of soil or residue, aided 
+with vacuum, compressed air, or compressed steam, and wiping with alcohol- based swabs or 
+moistened pads, followed by towel drying (Table 8-1). Dry sanitizing and disinfection treatm ents 
+can reduce microbial contamination, using products based on a variety of mechanisms of 
+antimicrobial action and approved by the EPA for use on food contact surfaces (Table 8-2). A critical final step is often a disinfectant treatment that may intentio nally leave an antimicrobial 
+residue. 
+Most cleaning, sanitizing and disinfection approaches standard in the protein food processing 
+industry are water intensive. Several water -sparing technologies may have uses that could reduce 
+dependence on water for t hese basic steps (Tables 8-1 and 8- 2). Many of these technologies were 
+developed first for use in dry and ready- to-eat food processing environments, where waterless 
+cleaning and disinfection has been widely adopted, and may also have applications in meat and 
+poultry processing. Novel sanitizers and disinfectant strategies may offer similar bacterial load reduction and disinfection while using less water. Whole room or closed chamber treatments with fogs or ultraviolet light may help reduce bacterial loads on exposed surfaces without requiring any water at all. Surface treatment preparations that do not require a final rinse may reduce water use. 
+Sanitizers and disinfectants for use on food contact surfaces are registered as antimicrobial 
+pesticide products with the EPA under FIFRA (refer to Charge Question #3) , which reviews data 
+from standard microbial reduction effectiveness assays to validate public health claims for 
+50 
+ 
+        
+   
+    
+  
+   
+   
+  
+  
+    
+      
+   
+    
+    
+       
+    
+   
+  
+      
+    
+  
+   
+   
+   
+   
+     
+   
+  
+    
+  
+    
+      1366
+13671368136913701371137213731374137513761377137813791380138113821383
+1384
+138513861387138813891390139113921393139413951396particular uses, such as treatment of hard surfaces (US EPA 2012 c, US EPA 2018b). Whole 
+room treatments using disinfectant products delivered as a fog are registered for that delivery 
+system. But novel cleaning and sanitizing products may help reduce use of water. For instance, 
+cleaning solutions based on quaternary ammonium compounds can be used with pre-moistened wipes as an alternative to well -established chlorine -based wipes. Sanitizing solutions based on 
+~60% isopropyl alcohol and quaternary ammonium compounds may introduce little water. 
+Ultraviolet light treatments and ozone applications may have applications in enclosed spaces, as 
+an adjunct to other treatments, with adequate precautions for worker safety. These alternatives 
+(ultraviolet light and ozone applications) a re regulated by the E PA as devices, and are not 
+registered, nor granted health claims by the Agency (US EPA 2020). EPA is also developing regulatory strategies for the new and rapidly expanding category of surface treatments or coatings with sustained antimicrobial properties. Copper alloys, which are registered by the EPA 
+as surface antibacterials with limited sanitization claims and not for food contact surfaces ( US 
+EPA 2016), have been described for use in hospitals and other clinical facilities, and have limited 
+though long- lasting effects, and validated bacterial effect claims (Muller et al., 2016). Some 
+coatings are registered but do not have public health pathogen claims. Silver alloys have been incorporated into poured floors and other surfaces to make them more mold and mildew 
+resistant. Surface treatments for food contact surfaces may offer a longer lasting residual 
+antimicrobial effect, though published practical experience with them is limited. Similar 
+experience is begin ning to be reported from healthcare settings (B oyce, 2016). Once a standard 
+test protocol is developed, including assessment of how long effectiveness lasts, more coatings with residual antimicrobial effects lasting for weeks or months are likely to be registered with specific health claims. In the future, with more published experience and EPA registration, such 
+technologies may offer efficient sanitizing and disinfection in combination with more routine 
+cleaning methods, while using less water . 
+When considering a novel technology, it is important to evaluate several critical points: 
+1. Is the new technology involving sanitizing or disinfecting registered with the EPA as either a sanitizer or as a disinfectant for use on food contact surfaces? The appropriate criteria for one 
+51 
+ 
+       
+    
+    
+     
+    
+   
+   
+  
+  
+   
+     
+  
+   
+   
+    
+    
+   
+   
+     
+     
+      
+  
+   1397
+139813991400
+1401
+140214031404140514061407
+1408
+140914101411
+1412
+1413
+1414
+1415
+1416
+1417
+1418
+1419or the other (Appendix #2), need to be met if the technology is to be used for those purposes 
+on a food contact surface. If the new technology is a device or surface coating, the company 
+will need to evaluate the available antimicrobial effect data, as these are not registered wit h 
+the EPA for health claims. 
+2. What published or other experience is available showing that in a practical use case the technology achieved reductions in both the pathogen load and in the volume of water used in cleaning and disinfection? The nature of that experience needs to be carefully considered, including whether the impact was measurable with standard monitoring tests already in use in the facility’s water use plan. A hierarchy of evidence has been described for evaluating 
+products used in the health care sector (McDonald and Arduino, 2013). A similar approach 
+may be useful in evaluating reported experiences in the food processing sector. 
+3. Does the technology make economic sense, so the value of the water saved at least equals the cost of applying the novel strategy? That may include the cost of water piped in, and sewerage costs incurred, as well as the cost of implementing the new technology (Timmermans , 2014). 
+4. Is the new process readily accepted by the workforce? What additional trainin g and ongoing 
+reinforcement will be needed? 
+5. How can existing sanitization performance standards and sanitary standard operating 
+procedures be adapted to include the new process? Are ongoing environmental and product 
+monitoring tests in place to provide ongoing assessment of the impact on microbial targets? 
+6. If it is adopted, what evaluation at future time points will be made, to see what the impact is 
+on the actual water use as measured in the ongoing water management plan ? 
+52 
+ 
+   
+  
+            
+  
+   
+  
+   
+ 
+ 
+  
+  
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+      
+  
+    
+   1420 Tables 
+1421 
+1422 Table 1-1. Es timated amount of water used during processing by species 
+1423 
+Species 
+Broiler 
+chickens Water Usage 
+18.9 to 37.8 (average 26.5) L per 2.3 
+kg broiler (Avula et al., 2009; 
+Northcutt and Jones, 2004; Micciche 
+et al., 2018) Adjusted per Kg 
+Average 
+8.5 to 11.5 L per 
+kg of broiler meat Comments 
+Avula et al., 2009 / 
+Calculated usage by 
+processing step 
+Micciche et al. , 2018 
+Beef 4,947 liters by ton LCW 1 (Li et al., 
+2018) 
+4,200 to 16,600 liters by ton LCW (Jones 1993) 2,299 liters per carcass (Beckett and Oltjen, 1993) 3,000 to 5,000 (small establishments) up to 10,000 to 11,000 (large establishments) liters per ton ( Warnecke et al. 2008) 4.2 L per kg of 
+meat 
+3 to 5 (small 
+establishments ) up 
+to 10 to 11 (large establishments) liters per kg Li et al. 2018 . Includes 
+water for processing and cleaning and sanitizing 
+Jones, 1993. E stimated 
+water use in beef 
+processing ranging from 4,200 to 16,600 L/t LCW 
+Turkey 41.6 to 87 liters per turkey N/A CAST , 1995 
+1424 1425 
+1 Liter per metric ton live carcass weight. 
+1426 
+53 
+ 
+      
+  
+  
+  
+     
+  
+   
+    
+   
+   
+    
+      
+   
+   
+ 
+ 
+  
+ 
+   
+   
+   1427 Table 1-2. Water usage in broiler processing . 
+1428 
+Processing Step Water Usage Is Water Conservation/Reuse Feasible? 
+(L/Bird) 
+Live receiving 0 Some discussion about recycling some water to be used as 
+a primary rinse for cleaning live chicken drawers, but we 
+are unaware of anyone doing this practice. 
+Hanging 0.19 Little to no water used 
+Stunning 0 No water used 
+Bleeding 0 No water used 
+Scalding 0.95 Yes. Refer to Russel, 2013 
+De-feathering 1.14 Potable water is used because it directly contacts food . 
+Evisceration 7.57 Refer to Carcass washes 
+Carcass washes 4.35 There is work done to reclaim the water from the 
+Inside/Outside bird washers, treat that with PAA and 
+reuse it on other areas upstream . 
+Pre-Chiller/Chiller 2.12 Yes. Refer to Amorim, 2007, Avula et al. 2009, Blevins, 
+2020; Northcutt, 2008, Russell, 2013, Matsumura, 2008 
+Cut-up/deboning 3.03 The committee is unaware of reuse in these steps 
+Packing 1.14 The committee is unaware of reuse in these steps 
+1429 
+54 
+ 
+      
+  
+  
+  
+ 
+   
+ 
+  
+    
+     
+ 
+ 
+  
+ 
+ 
+ 
+ 
+    
+    
+     
+    
+   
+ 
+ 
+ 
+ 
+ 
+  
+   
+  
+     
+   
+  
+     
+    
+   1430 Table 1-3. Water usage in beef processing. Taken from Li et al. (2018), Pype et al. (2016) and 
+1431 Warnecke et al. (2008)1 
+1432 
+Processing Step Water Percent of Comments 
+Usage Total Water 
+(L/t LCW)2 Consumption 
+Live receiving 247 7-14 
+Stunning, Bleeding and 1418 44-60 Li et al . (2018) . The kill floor (live 
+Dressing (head, hoof, receiving, stunning, bleeding 
+hide removal)3 dressing) represented 28.7% of the 
+total water used, including 6.5% for 
+antimicrobial interventions (prewash; carcass wash; organic acid spray). 
+Evisceration 537 11 
+Rendering 647 2-13 
+Carcass Chilling 2 
+Fabrication (boning) 333 5-10 
+Cleaning and sanitation LD4 22-24 Li et al. (2018). Water with high 
+pressure (60°C) at processing shifts: 11.2%; water with high pressure (60°C) at sanitizing shift: 12.8%; subtotal: 24% of total water used in the plant 
+1433 1434 
+1 There is limited information on the water use in amenities and plan service (e.g., cooling, 
+1435 heating) services. 
+1436 2 Liter per metric ton live carcass weight. All data normalized per metric ton live cattle weight (t 
+1437 LCW) with an estimated live weight of 635 k g per cattle. Approximately 2.94 liters per kg of 
+1438 LCW . 
+1439 3 The wash cabinets are areas for potential water reuse and water conservation . 
+1440 4 LD =limited data. There are large variabilities in the use of water for cleaning and sanitizing. 
+1441 
+55 
+ 
+     
+  
+  
+     
+   
+  
+   
+  
+ 
+    
+  
+ 
+ 
+ 
+    
+ 
+  
+  
+      
+   
+ 
+    
+   
+ 
+      
+  
+ 
+    
+   
+    
+ 
+   
+   
+   
+ 1442 Table 1 -4. Modified audit grid of potential water conservation and savings opportunities in protein processing. 
+1443 Provided by Varsha Shah, Sr. Program Leader, Food and Protein RD&E, Ecolab. 
+1444 
+Opportunity Location System Type Comments 
+Dry Pick Up Sanitation Sanitation 
+Program Water 
+Minimization Completing a good dry pick up of excess packaging 
+material, product waste and excessive soils prior to implementing the pre -rinse can save time, energy and 
+water. 
+Optimize cleaning Plant CIP/COP1 Water 
+minimization Chose right cleaner for soil type, water quality, surface 
+to be treated, method of application and based on environmental guidelines. 
+Chilled and hot 
+water leaks Utilities Factory Water 
+Minimization, 
+Leaks Water leaks are always an issue and eliminating leaks 
+will conserve water. 
+Condensate return 
+and traps Utilities Factory Condensate Condensate systems and steam traps will result in some 
+water savings, but mostly will result in energy savings. 
+Poor steam trap 
+operation Utilities Facto ry Steam Systems, 
+Leaks Leaking steam traps will waste energy and water as 
+both steam and condensate. 
+Re-use sample 
+water Utilities Factory Water Reuse Anywhere where a stream of water is used 
+continuously for either taking a sample, or as sample cooler water, the water should always be collected and repurposed. 
+Hand wash stations Sanitation Factory Equipment 
+Shutdown Hand wash stations left running wastes water 
+Hose stations Sanitation Factory Equipment 
+Shutdown, Water 
+Minimization Hoses are used for floor cleaning and equipment wash 
+down. Often, they are left running, have had nozzles 
+cut off or have orifices too large for the job. High 
+pressure is generally more efficient than low pressure 
+systems. 
+56 
+ 
+      
+    
+   
+  
+ 
+ 
+    
+    
+ 
+  
+ 
+ 
+   
+  
+  
+  
+     
+ 
+   
+ 
+     
+ 
+ 
+    
+    
+ 
+ 
+   
+  
+    
+ 
+  
+ 
+  
+   
+   Opportunity Location System Type Comments 
+Line shutdown Plant Factory Water When a line stops or product is no longer running, all 
+Minimization water systems need to be turned -off. This also results 
+in significant energy savings . 
+Weekend water Plant Factory Water Shut all equipment when the plant is shut down. While 
+consumption Minimization a plant is shut down and not operating over a weekend, 
+it should not be using much, if any , water if all 
+equipment is shut down. 
+Metering and Plant Metering Most operations do not have wate r meters at locations 
+monitoring where flow rates need to be monitored and when they 
+do, they typically do not do a good job recording or reacting. A good metering and monitoring program can 
+save 10% of plant water use. 
+Water reuse system Sanitation Production Water Reuse Chicken plants especially have water savings 
+opportunities to re- use and recycle chiller water. This 
+system could be evaluated for water savings from 
+flumes as well. 
+Inside outside bird Sanitation Production Water Reuse Chicken plants especially have water savings 
+washer (IOBW) opportunities to re- use and recycle IOBW systems. 
+Optimization of Sanitation Sanitation leaks COP tank systems can overflow or leak , consuming 
+cleaning -out-of 
+place (COP1) Program water. 
+system 
+RO/membrane rinse Sanitation Sanitation Water These systems use a large amount of water and many 
+optimizations Program Minimization steps with high flow to wash and rinse. Good rinse studies can optimize rinses and save large volumes of 
+water. 
+1445 1446 
+1 CIP and COP: Refer to Glossary 
+1447 
+57 
+ 
+       
+   
+  
+ 
+   
+  
+    
+  
+  
+ 
+ 
+ 
+ 
+   
+ 
+  
+ 
+  
+ 
+ 
+   
+ 
+   
+  
+  
+  
+ 
+  
+ 
+ 
+  
+  
+ 
+   
+ 
+ 
+   
+ 
+  
+   1448 Tabl e 4-1. Summarized charge questions 4 and 5 for the committee translated into the risk 
+1449 assessment framework. 
+1450 
+Charge 
+Question 
+#4a, b, d Summarized committee 
+question(s) 
+How do residual contaminants in 
+water used for animal production, slaughter, and processing affect product quality and safety? What are the quality implications and public health risks associated with Risk assessment 
+question(s) 
+Can reconditioned water 
+reduce product quality and safety? Can this change result in increased public health 
+risks? Risk analysis step(s) 
+Hazard identification 
+contaminants at levels antic ipated for reconditioned 
+water? 
+#4c How might FSIS and industry 
+best assess those implications and risks? Quantify the additional 
+public health risk from using reconditioned water (vs status -quo 
+potable water usage) Comparative risk 
+assessment (i.e., 
+exposure assessment, 
+hazard character ization, 
+risk characterization) 
+#5 What are the best ways to assure 
+and/or monitor the quality and safety of alternatively sourced 
+water used in FSIS -regulated 
+operations? How do we monitor and 
+control public health 
+risks from using 
+reconditioned water? Risk management, risk 
+communication 
+1451 
+1452 
+58 
+ 
+    
+  
+  
+    
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+  
+   1453 1454 Table 8-1. Cleaning mechanisms with potential for decreasing facility water use. 
+Cleaning Type Mechanism/Delivery 
+Mechanical Manual tools (brushes, cloths, scrapers, scrubbing) 
+Detergent wipes, Dry ice/CO2 
+Vacuum 
+Chemical 
+Thermal Compressed air/High -pressure “Dry ice/CO2 
+Ultrasonic bath (for COP) 
+Enzymatic foam 
+Spray 
+Atomizing 
+“Dry” Steam 
+1455 1456 
+59 
+ 
+      
+  
+  
+   
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+     
+ 
+   
+  
+ 
+  
+   1457 1458 1459 Table 8-2. Sanitization or disinfection products and devices with potential for decreasing facility 
+water use. 
+Disinfectant Type Product/Active Component Comments 
+Chemical Chlorine, chlorine dioxide, Fogging uses little water, but is not 
+hydrogen peroxide, Quaternary recommended for primary disinfection 
+ammonium compounds, ammonia, ozone, photo plasma 
+Thermal Antimicrobial materials or 
+coatings 
+Steam or dry heat May reduce microbial burden on 
+surfa ces and floors (less frequent and 
+lower use of water for cleaning and disinfection) 
+Evaporates on contact. Takes time to 
+ensure all surfaces are contacted. 
+Irradiation Ultraviolet light Effect limited to surfaces exposed to 
+ultraviolet light; so residual contamination can remain on surfaces in 
+shadow. 
+1460 1461 
+60 
+  
+ 
+  
+   
+ 
+ 
+  
+  urpose: 
+• Notforfood contact applications I Re-used water I 
+• No microbiological requirements ~ I Purpose: 
+• Food contact applications (food or 
+food contact surfaces) 
+for consumer food safety 
+Ir 
+Is contact of the reuse 
+water (as reclaimed/ 
+recycled) with food 
+materials impossible due 
+to passive management, 
+i.e. design and 
+infrastructure of Food 
+operation? 
+N y 
+Is active management feasible 
+to consistently exclude contact 
+of reuse water with food 
+materials? 
+N 
+' 
+• Notfit-for­
+purpose 
+• Do not use this 
+reuse water 
+source or 
+supply without 
+reconditioning y 
+' 
+• Fit-for-purpose 
+for all not-for-food 
+contact 
+applications 
+• Assure water is 
+separately stored 
+and transported 
+from water for 
+food contact 
+applications 
+• Verify active 
+management 
+when additionally 
+needed • Microbiological Safety requirement: 
+re-use water should not compromise 
+consumer safety 
+Are microbiological hazards 
+absent in the reuse water 
+or present at acceptable 
+levels, i.e. levels that do not 
+compromise the consumer 
+food safety of the concerned 
+ingredient/food ? 
+N 
+' 
+Can reuse water be treated Y 
+to avoid presence of hazards ~ 
+or to control hazards to 
+acceptable levels? 
+N 
+' 
+Can application of reuse 
+water be limited to 
+applications other than 
+as food ingredient or 
+those not contaminating 
+food materials or contact 
+surfaces? 
+N 
+• Not fit-for-purpose. 
+• Consider only 
+"not-for-food contact" 
+applications that 
+effectively exclude contact 
+of reuse water with food 
+materials or contact 
+surfaces y -• Fit-for-purpose 
+for intentional 
+and unintentional 
+food contact 
+applications 
+• Build active 
+management into 
+your food safety 
+management 
+system, including 
+validation of 
+control measures 
+as well as 
+monitoring and 
+verification of 
+control during 
+day-to-day 
+operation 
+• Fit-for-purpose 
+only for food 
+application s other 
+than as ingredient 
+or final cleaning/ 
+washing 
+• Build active 
+management into 
+your food safety 
+management 
+system, including 
+validation, 
+monitoring and 
+verification 1462 Figures 
+1463 
+1464 Figure 4-1. Example of a risk -based decision tree to match fit-for-purpose applications of reuse 
+1465 water with either a food contact application or a not- for-food- contact application (from 
+1466 FAO/ WHO, 2019). 
+1467 
+1468 
+1469 
+61 
+ 
+    
+  
+  
+    
+ 
+  
+ 
+  
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+  
+ 1470 Figure 7-1. Developing an Emergency Water Supply Plan (EWSP) 
+1471 
+1472 
+1473 
+STEP 1 
+IDENTIFY the 
+facility’s water 
+supply & 
+operations team 
+STEP 4 
+DEVELOP and 
+exercise the 
+EWSP 
+STEP 2 
+UNDERSTAND 
+water usage 
+locations & 
+processes 
+STEP 3 
+ANALYZE the 
+facility’s water 
+supply 
+alternatives 
+62 
+ 
+   
+  
+    
+  
+    
+   
+   
+   
+   
+   
+  
+   
+   
+   
+    
+   1474
+147514761477
+14781479
+1480
+14811482
+1483
+1484
+148514861487
+1488
+1489Appendices 
+Appendix #1. Critical water usage in animal growth and processing facilities 
+• Consumption and essential health & safety functions 
+• Handwashing 
+• Drinking 
+• Food production and preparation 
+• Animal care 
+• Fire suppression 
+• Equipment and sanitary purposes 
+• Flushing toilets 
+• Cleaning and sanitizing/ disinfecting facility and equipment 
+• Heating, ventilation, and air conditioning 
+63 
+ 
+   
+   
+  
+     
+     
+  
+     
+  
+    
+   
+    
+    
+     
+  
+     
+   1490
+14911492
+14931494
+1495
+1496
+1497
+1498
+1499
+15001501
+1502
+1503
+1504
+1505Appendix # 2. Sanitizer s and disinfectants. Examples of measures of effectiveness required for 
+EPA registration for use on hard food contact surfaces. 
+• Sanitizers for use on hard surfaces (Food contact surfaces) (US EPA 2012c): 
+• After treatment, 10
+5 reduction in numbers of Salmonella enterica and 
+Staphylococcus aureus 
+• No efficacy claims for viruses or other non -bacterial pathogens 
+• Broad spectrum disinfectant on hard non-porous environmental surfaces (US EPA 2018b): 
+• 60 test surfaces (carriers) with 10
+5-106 Salmonella enterica/carrier 
+• 60 test surfaces (carriers) with 106-107 Staphylococcus aureus /carrier 
+• After treatment, no more than 1 carrier positive for Salmonella, and 3 positives 
+for Staphylococcus 
+• Disinfectant claims for viruses can also be based on efficacy testing 
+64 
+ 
+   
+  
+ 
+    
+  
+  
+  
+  
+   
+ 
+  
+  
+  
+   
+    
+  
+  
+    
+     
+     
+     
+  
+  
+            
+  
+   
+   
+   
+  
+  
+  
+  
+  
+                   
+  
+   
+   
+   
+  
+   
+   
+  
+      
+     
+  1506150715081509151015111512151315141515151615171518151915201521152215231524152515261527152815291530
+1531
+15321533153415351536153715381539154015411542154315441545154615471548154915501551Glossary 
+Activated sludge . A wastewater treatment process where sewage or industrial wastewaters are 
+treated by aeration and a biological floc, or sludge blanket, composed of bacteria and protozoa to remove organic pollutants. 
+Alternatively sourced . Water not from a municipal water treatment plant . 
+Antimicrobial agent. Substance used to preserve food by preventing growth of microorganisms 
+and subsequent spoilage, including fungistats, mold and rope inhibitors, and the effects listed by the National Academy of Sciences/National Research Council under "preservatives" (21 CFR 170.3(o)(2)). 
+Biological oxygen demand. The amount of oxygen consumed by bacteria and other 
+microorganisms while they decompose organic matter under aerobic conditions at a specified temperature. 
+Chemical oxygen demand ( COD). The amount of oxygen consumed to chemically oxidize 
+organic contamina nts in water to inorganic end products. It is a measure of water and wastewater 
+quality, and it is used to monitor water treatment plant efficiency. This test is based on the 
+principle that strong oxidizing agents in acidic environments will oxidize almost any organic compound to carbon dioxide. 
+Clean . To remove soil, dirt, grease – any objectionable, visible material. 
+Cleaning -In-Place . A process that uses water rinses, hot caustic and/or acid recirculation, 
+precise temperatures, and turbulence to clean soils and bacteria microbial contaminants from the 
+inside surfaces of food production equipment, Equipment such as, mixing tanks, pumps, valves, storage vessels. 
+Cleaning -Out-of-Place . A process of cleaning equipment items at a designated cleaning station. 
+Equipment could include fittings, clamps, product handling utensils, tank vents, pump rotors, 
+impellers, casings, hoses, etc. 
+Clean water . Water which does not compromise the safety of the food in the context of its use. 
+Cleaning product/compound/substance. A substance or mixture of substances (such as 
+chemical or biological substances) that is intended to clean away or remove inanimate material 
+from a surface, water or air. 
+Contaminant. Any undesirable chemical substance, microorganism or physical matter present in 
+a sample. Disinfection . A process performed to eliminate many or all pathogenic microorganisms, except 
+bacterial spores, in a liquid (e.g., water) or on inanimate objects. 
+65 
+ 
+     
+     
+     
+      
+       
+  
+  
+           
+  
+     
+  
+  
+   
+   
+   
+  
+   
+ 
+      
+     
+   
+      
+  
+  
+       
+ 
+      
+     
+       
+  
+  
+      
+  
+  
+  
+   
+    
+  
+      
+      
+  
+  
+  
+   
+     
+  1552
+155315541555155615571558155915601561156215631564156515661567156815691570157115721573157415751576
+1577
+15781579158015811582158315841585158615871588158915901591159215931594159515961597Dissolved air flotation . A water treatment process that clarifies wastew aters (or other waters) by 
+the removal of suspended matter such as oil or solids. The removal is achieved by dissolving air in the water or wastewater under pressure and then releasing the air at atmospheric pressure in a flotation tank basin. The released air forms tiny bubbles which adhere to the suspended matter causing the suspended matter to float to the surface of the water where it may then be removed by a skimming device. 
+Dry cleaning. The removal of food residue with mechanical action. 
+Fecal coliform. A type of bacterial count as determined by approved methods of analysis (40 
+CFR 136.3). GRAS (generally recognized as safe) . A substance that is generally recognized, among 
+qualified experts, as having been adequately shown to be safe unde r the conditions of its 
+intended use, or unless the use of the substance is otherwise excepted from the definition of a 
+food additive. The general recognition of safety is based on 1) scientific procedures, through the views of experts qualified by scientific training and experience to evaluate the safety of substances directly or indirectly added to food, or 2) history of the use of the substance prior to January 1, 1958 (21 CFR 170.3). In 2016, FDA issued a final rule that amended and clarified the 
+criteria for when the use of a substance in food for humans or animals is not subject to the premarket approval requirements of the Federal Food, Drug, and Cosmetic Act because the substance is considered GRAS under the conditions of its intended use (FDA 2016). 
+Heterotrophic plate count . A variety of simple culture -based tests that are intended to recover a 
+wide range of heterotrophic microorganisms, which are microorganisms that require organic 
+carbon for growth and include bacteria, yeasts and molds. This test was formerly known as “standard plate count,” and the test methodology involves a wide range of test conditions, such as incubation t emperatures varying from 20°C to 40°C, or incubation times varying from a few 
+hours to a few we eks, and nutrient conditions of the medium varying from low to high (WHO, 
+2001). 
+Indicators. Microorganisms whose presence in water indicates the potential presence of a public 
+health hazard. Library -dependent method. A range of bacterial source tracking techniques based on the 
+isolation, phenotyping, and genotyping of indicator bacteria from different sources, such as fecal 
+sources and water samples (Mott and Smith, 2011). Moving bed biofilm reactor . A water processing system that optimizes the use of a sludge 
+activated sand biofilter to utilize the whole tank volume for biomass growth (Ødegaard et al., 
+1994). 
+No contact . Water in the meat processing environment that does not touch product or produc t 
+contact surfaces (e.g., environmental sanitation of non- meat product contact surfaces inside the 
+processing environment, as a diluent for cleaning and sanitizing chemicals used in CIP systems 
+or manual sanitation, excluding the final CIP water rinse). 
+66 
+ 
+   
+           
+  
+    
+     
+   
+  
+  
+               
+  
+     
+    
+  
+  
+                 
+                
+                 
+      
+  
+               
+            
+  
+      
+   
+    
+   
+    
+    
+  
+   
+   
+  
+  
+   
+  
+  
+                
+              
+  
+  
+       
+  
+    
+   
+     
+      1598
+159916001601160216031604160516061607160816091610161116121613161416151616161716181619162016211622
+1623
+16241625162616271628162916301631163216331634163516361637163816391640164116421643Pathogens . Disease- causing organisms (generally certain viruses, bacteria, protozoa, or fungi). 
+Pathogen indicators . A substance that indicates the potential for human infectious disease 
+(Clean Water Act, section 502(253)). Enterococci and generic E. coli are indicators. They do not 
+cause human illness because they are not human pathogens, but they indicate the presence of fecal contamination. 
+Potable water. Drinking water that meets or exceeds state and federal drinking water standards. 
+Quantitative microbial risk assessment. The application of probabilistic models to estimat e the 
+order of magnitude of risk of infection and illness when a population is exposed to specific 
+micro biological hazards. 
+Reclaimed water . Water that was originally a constituent of a food, has been removed from the 
+food by a process step , and has been subsequently reconditioned when necessary, such that it 
+may be reused in a subsequent food manufacturing operation. Water that has been treated to be 
+fit-for-purpose for reusing or recycling. 
+Reconditioning . The treatment of water intended for reuse by means designed to reduce or 
+eliminate microbiological, chemical , and physical contaminants, according to its intended use. 
+Recondition ed water. Water that has never contained human waste and is returned to safe 
+drinking water standards via treatment by an onsite advanced wastewater treatment facility. Reconditioned water can be used on raw product and throughout the facility provided 
+that produc t or equipment that contacts reconditioned water receives a final rinse with non -
+reconditioned water that also meets safe drinking water standards. Reconditioned water cannot be used on ready- to-eat products (citation: 9 CFR 416.2(g)(4) ): 
+Recycled water. Water, other than first use or reclaimed water, that has been obtained from a food manufacturing operation and has been reconditioned when necessary, such that it may be 
+reused in a subsequent food manufacturing operation. 
+Residual contaminants . Impurities remaining in water after the implementation of a remedial 
+action. Reuse. The recovery of water from a processing step, including from the food component itself; 
+its reconditioning treatment, if applicable; and its subsequent use in a food manufacturing 
+operation. Reused water . Recycled and reclaimed water. 
+Sanitizers. Antimicrobial pesticide s used to reduce, but not necessarily eliminate, 
+microorganisms from the inanimate environment to levels considered safe as determined by 
+public health codes or regulations. Sanitize. To reduce microorganisms of public health 
+importance (and other undesirab le microorganisms) to levels considered safe. Sanitize d surface. 
+67 
+ 
+                 
+            
+            
+  
+    
+  
+       
+    
+  
+ 
+   
+     
+      
+    
+  
+  
+   
+  
+              
+        
+  
+              
+  
+     
+     
+ 
+     
+     
+  
+               
+              1644
+164516461647164816491650165116521653165416551656165716581659166016611662166316641665166616671668
+1669
+16701671167216731674Adequately treat cleaned surfaces by a process that is effective in destroying vegetative cells of 
+pathogens, and in substantially reducing numbers of other undesirable microorganisms, but 
+without adversely affecting the product or its safety for the consumer. 
+Sequencing batch reactors. A type of activated sludge process for the treatment of wastewater. 
+Source Water. A place from which water is obtained; a municipal water supplier, a well, a 
+spring, a fountain, etc. More generally: a place from which water can be obtained. Turbidity . The measure of relative clarity of a liquid. It is an optical characteristic of wat er and 
+is a measurement of the amount of light that is scattered by material in the water when a light is 
+shined through the water sample. The higher the intensity of scattered light, the higher the turbidity. Material that causes water to be turbid includ e clay, silt, very tiny inorganic and 
+organic matter, algae, dissolved colored organic compounds, and plankton and other microscopic organisms. 
+Wastewater . Used water. 
+Water conservation. More efficient use of water, resulting in reduced demand for water. 
+Sometimes called “end -use efficiency” or “demand management.” 
+Wet cleaning. The process of removing food residue with water and chemicals. 
+Water reuse. Water, ice, and solutions used to wash or chill product, which is maintained free of 
+contamination and recirculated on the processing line. Water can only be reused for the same 
+purpose (e.g., water used at evisceration can only be reused within the evisceration 
+process). Reused water can be treated but does not need to meet safe drinking water s tandards. 
+(citation: 9 CFR 416.2(g)(2- 3). 
+Water reconditioning . The treatment of water intended for reuse by means designed to reduce 
+or eliminate microbiological, chemical, and physical contaminants, according to its intended use. 
+68 
+ 
+   
+  
+                  
+            
+  
+  
+              
+            
+    
+  
+              
+           
+      
+  
+                 
+            
+   
+  
+   
+  
+   
+  
+  
+   
+   
+  
+ 
+  
+  
+   
+   
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+     
+  
+  1675167616771678167916801681168216831684168516861687168816891690169116921693169416951696169716981699
+1700
+17011702170317041705170617071708170917101711171217131714171517161717171817191720References 
+Aguilar, M. I., Saez, J., Llorens, M., Soler, A., Ortuno, J. F. 2002. Nutrient removal and sludge 
+production in the coagulation flocculation process. Water Res. 36 (11), 2910e2919. Available at 
+http://dx.doi.org/10.1016/S0043-1354(01)00508-5. 
+Almandoz, M. C., Pagliero, C.L., Ochoa, N. A., Marchese, J. 2015. Composite ceramic 
+membranes from natural aluminosilicates for microfiltration applications. Ceram. Int. 41 (4), 
+5621e5633. Available at http://dx.doi.org/10.1016/j.ceramint.2014.12.144. 
+Al-Mutairi, N. Z., Al-Sharifi, F. A., Al -Shammari, S.B. 2008. Evaluation study of a 
+slaughterhouse wastewater treatment plant including contact- assisted activated sludge and DAF. 
+Desalination 225 (1), 167e175. http://dx.doi.org/10.1016/j.desal.2007.04.094. 
+Amorim, A. K. B., De Nardi, I. R., Del Nery, V. 2007. Water conservation and effluent 
+minimization: Case study of a poultry slaughterhouse. Resour Conserv Recycl 51:93-100. 
+Available at https://doi.org/10.1016/j.resconrec.2006.08.005. 
+Anonymous, 1977. Secondary direct food additives permitted in food for human consumption. 
+Code of Federal Regulations 21, part 173 (sections 300, 325, 368, and 370). U.S. Government Printing Office (via GPO Access), Washington, D.C. Available at https://ecfr.federalregister.gov/current/title -21/chapter- I/subchapter -B/part-173 
+Anonymous. 1999. Title 9 Code of Fe deral Regulations Part 416.2(g). Sanitation, Subchapter 
+E—Regulatory requirements under the Federal Meat Inspection Act and the Poultry Products 
+Inspection Act. Federal Register 64 FR 56417, Oct. 20, 1999. Available at 
+https://www.govinfo.gov/content/pkg/CFR-2012- title9 -vol2/pdf/CFR -2012- title9 -vol2- sec416 -
+2.pdf . 
+Anonymous. 2008. Efficient use of water in export meat establishments. Australian Government Department of Agriculture , Fisheries and Forestry. Available at 
+https://www.agriculture.gov.au/sites/default/files/sitecollectiondocu ments/biosecurity/export/me 
+at/elmer-3/notices/2008/2008-06.pdf 
+Anonymous. 2012. Emergency Action Planning Guidance for Food Production Facilities, New 
+Jersey Department of Health. Available at https://www.state.nj.us/health/ceohs/documents/food -
+drug-safety/emer_action_planning_guidance.pdf . 
+Anonymous. 2020. Pond construction for catf ish farming. Extension publication. Mississippi 
+State University. Available at  http://extension.msstate.edu/content/pond-construction-for -
+catfish -farming . 
+APHA (Am erican Public Health Association). 2005. Standard Methods for the Examination of 
+Water and Wastewater. 21st Edition. American Public Health Association/American Water Works Association/Water Environment Federation, Washington DC. 
+69 
+ 
+   
+    
+  
+  
+                  
+            
+  
+  
+                  
+         
+  
+  
+       
+   
+   
+  
+  
+                 
+          
+  
+  
+  
+  
+  
+  
+  
+                    
+              
+              
+       
+  
+  
+  
+  
+  
+  
+  
+ 
+   
+  
+          
+               
+       
+  
+  1721172217231724172517261727172817291730173117321733173417351736173717381739174017411742174317441745
+1746
+1747174817491750175117521753175417551756175717581759176017611762176317641765Ashbolt, N. J., Grabow, W. O. K., Snpzzi, M. 2001. Indicators of microbial water quality. In: Water Quality: Guidelines, Standards and Health. Edited by Lorna Fewtrell and Jamie Bartram. Published by IWA Publishing, London, UK. ISBN: 1 900222 28 0. 
+Avery, L. M., Killham, K., Jones, D. L. 2005. Survival of E. coli O157:H7 in organic wastes 
+destined for land application. J. Appl. Microbiol. 98 (4), 814e822. Available at 
+http://dx.doi.org/10.1111/j.1365-2672.2004.02524.x. Avula, R. Y., Nelson, H. M., and Singh, R. K. 2009. Recycling of poultry process wastewater by 
+ultrafiltration. Innov. Food Sci. Emerg. Tech. 10, 1–8. Available at 
+https://doi.org/10.1016/j.ifset.2008.08.005. Bartrand, T., Masters S. , Clancy J., Ragain L. , Wh elton A. J., Casteloes K. 2018. Flushing 
+Guidance for Premise Plumbing and Service Lines to Avoid or Address a Drinking Water 
+Advisory. The Water Research Foundation. WRF Report 4572. Available at https://www.waterrf.org/system/files/resource/2019 -05/4572.pdf . 
+Beckett, J. L., Oltjen, J. W. 1993. Estimation of the water requirement for beef production in the 
+United States. J. Anim Sci., Apr, 71(4), 818-26. Available at 
+https://doi.org/10.2527/1993.714818x. 
+Blevins., R., Kim, S.A., Park, S.H., Rivera, R., Ricke, S.C. 2017. Chapter 18. Historical, current 
+and future prospects for food safety in poultry product processing systems. In: S.C. Ricke, G.G. Atungulu, S.H. Park, C.E. Rainwater (Eds.), Food and Feed Safety Systems and Analysis, Elsevier Inc., San Diego, CA, pp. 323-345. 
+Blevins, R. E., Feye, K. M., Dittoe , D. K., Bench, L., Bench, B. J., Ricke, S. C. 2020. Aerobic 
+plate count, Salmonella and Campylobacter loads of whole bird carcass rinses from pre -chillers 
+with different water management strategies in a commercial poultry processing plant. J Environ 
+Sci Health B 55(2):155-165. Available at https://doi.org/10.1080/03601234.2019.1670522. 
+Boehm, A. B., Soller, J. A. 2020. Refined ambient water quality thresholds for human- associated 
+fecal indicator HF183 for recreational waters with and without co -occurring gull fecal 
+contamination. Microbial Risk Analysis, 16, 100139. Available at 
+https://doi.org/10.1016/j.mran.2020.100139. 
+Boyce, J. M. 2016. Modern technologies for improving cleaning and disinfection of 
+environmental surfaces in hospitals. Antimicrobial Resistance and Infection Control 5:10. Available at https://doi.org/10.1186/s13756-016-0111-x. 
+Bustillo -Lecompte, C. F., Mehrvar, M. 2015. Slaughterhouse wastewater characteristics, 
+treatment, and management in the meat processing industry: A review on trends and advances. 
+Journal of environmental management, 161, 287-302. Available at 
+https://doi.org/10.1016/j.jenvman.2015.07.008. 
+70 
+ 
+   
+       
+   
+  
+   
+  
+  
+  
+  
+   
+  
+  
+   
+  
+  
+  
+  
+  
+    
+ 
+    
+  
+  
+       
+     
+    
+  
+ 
+   
+  
+  
+ 
+  
+   
+  
+  
+  
+  
+  
+  
+   
+  
+   1766176717681769177017711772177317741775177617771778177917801781178217831784178517861787178817891790
+1791
+17921793179417951796179717981799180018011802180318041805180618071808180918101811Casani, S., Rouhany, M, Knøchel, S. 2005. A discussion paper on challenges and limi tations to 
+water reuse and hygiene in the food industry. Water Research 39(6): 1134-1146. Available at https://doi.org/10.1016/j.watres.2004.12.015. 
+CAST (Council for Agricultural Science and Technology). 1995. Waste Management and 
+Utilization in Food Production and Processing. Task force report No. 124. ISSN 0194-4088. Avalable at https://www.cast -science.org/publication/waste- management -and-utilization -in-food-
+production- and-processing . 
+CDC (Centers for Disease Control and Prevention). 2009. Well Testing. Available at 
+https://www.cdc.gov/healthywater/drinking/private/wells/testing.html 
+CDC. 2016. Private Drinking Water Wells. Available at 
+https://www.cdc.gov/healthywater/emergency/drinking/private-drinking- wells.html 
+CDC. 2020. Drinking Water Advisories. Available at 
+https://www.cdc.gov/healthywater/emergency/drinking/drinking- water -advisories/index.html 
+CDC AWWA (Centers for Disease Control and Prevention and American Water Works Association). 2012. Emergency Water Supply Planning Guide for Hospi tals and Healthcare 
+Facilities. Atlanta: U.S. Department of Health and Human Services. Updated 2019. Available at https://www.cdc.gov/healthyw ater/emergency/pdf/emergency -water -supply-planning-guide -
+2019-508.pdf . 
+Chahal, C., Van Den Akker, B., Young, F., Franco, C., Blackbeard , J., Monis, P. 2016. Pathogen 
+and particle associations in wastewater: significance and implications for treatment and disinfection processes. In Advances in Applied Microbiology. Jan 1 (Vol. 97, pp. 63-119). Academic Press. Available at https://doi.org/10.1016/bs.aambs.2016.08.001. 
+Colblentz, B. 2017 Mississippi Catfish: Smaller ponds intensify production. AgFax.com. Available at https://agfax.com/2017/04/17/mississippi- catfish -smaller -ponds- intensify -
+production/#:~:text=Split%2Dcell%20ponds%20are%20stocked,per%20acre%20to%20break%2 0even. 
+Compton, M., Willis, S., Rezaie, B., Humes, K. 2018. Food processing industry energy and 
+water consumption in the Pacific northwest Innovative Food Science & Emerging Technologies, 47 (2018), pp. 371-383. Available at https://doi.org/10.1016/j.ifset.2018.04.001 
+Dearfield, K . L., Hoelzer, K., Kause, J. R. 2014. Review of various approaches for assessing 
+public health risks in regulatory decision making: Choosing the right approach for the problem. Journal of Food Protection 77(8):1428-1440. PMID: 25198609. Available at https://doi.org/10.4315/0362-028X.JFP-14-046. 
+Debik, E., Coskun, T., 2009. Use of the Static Granular Bed Reactor (SGBR) with anaerobic 
+sludge to treat poultry slaughterhouse wastewater and kinetic modeling. Bioresour. Technol. 100 (11), 2777-2782. Available at http://dx.doi.org/10.1016/j.biortech.2008.12.058. 
+71 
+ 
+   
+                
+           
+        
+  
+  
+             
+          
+  
+  
+  
+  
+  
+  
+   
+    
+      
+  
+    
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+ 
+   
+  
+  
+  
+    
+  
+  
+    
+  
+  
+   
+    
+  
+  1812181318141815181618171818181918201821182218231824182518261827182818291830183118321833183418351836
+1837
+1838183918401841184218431844184518461847184818491850185118521853185418551856De Nardi, I. R., Del Nery, V., Amorim, A.K.B., dos Santos, N.G., Chimenes, F. 2011. 
+Performances of SBR, chemicaleDAF and UV disinfection for poultry slaughterhouse 
+wastewater reclamation. Desalination 269 (1), 184-189. Available at 
+http://dx.doi.org/10.1016/j.desal.2010.10.060. 
+Emamjomeh, M., Sivakumar, M. 2009. Review of pollutants removed by electrocoagulation and 
+electrocoagulation/flotation processes. J. Environ. Manag. 90 (5), 1663e1679. Available at 
+http://dx.doi.org/10.1016/j.jenvman.2008.12.011. FAO. 2007. Working principles for risk analysis for food safety for application by governments. 
+CAC/GL 62 -2007. Available at 
+http://www.fao.org/documents/card/en/c/fdaaa09d -8a3f- 50c6-b801-945ffcac73a2/. 
+FAO/WHO (Food and Agricultural Organization of the United Nations and World Health Organization). 2001. Principles and guidelines for the conduct of microbiological risk 
+assessment. CAC/GL -30-1999. In: Codex Alimentarius - Food Hygiene - Basic Texts - Second 
+Edition. Food and Agriculture Organization of the United Nations. Italy, Rome. ISBN 92-5-104619-0. Available at http://www.fao.org/3/y1579e/y1579e05.htm 
+FAO/ WHO (Food and Agricultural Organization of the United Nations and World Health 
+Organization). 2019. Safety and Quality of Water Used in Food Production and Processing Microbiolo gical Risk Assessment Series 33 . Available at 
+https://www.who.int/foodsafety/publications/mra_33/en/. 
+FDA (Food and Drug Administration). 2020. Risk & Safety Assessments. Center for Food Safety 
+and Applied Nutrition. The Food and Drug Administration. Available at https://www.fda.gov/food/science- research -food/cfsan -risk-safety -assessments. 
+Feye, K.M., D.R. Thompson, M.J. Rothrock, M.H. Kogut, S.C. Ricke. 2020. Poultry processing and the application of microbiome mapping. Poultry Sci., 99 (2):678-688. Available at https://doi.org/10.1016/j.psj.2019.12.019. 
+Grabow, W.O.K.  1996. Waterborne diseases: Update on water quality assessment and control. 
+Water SA 22, 193–202. Available at https://hdl.handle.net/10520/AJA03784738_1884. 
+Guimarães, J. T., Souza, A.L.M., Brigida, A.I.S., Furtado, A.A.L., Chicrala, P.C.M.S., Santos, V.R.V., Alves, R.R., Luiz, D.B., and Mesquita, E.F.M. 2018. Quantification and characterization of effluents from the seafood processing industry aiming at water reuse: A pilot study. J. Water Process Eng. 26:138-145. 
+Ishii, S., Hansen, D. L., Hicks, R. E. and Sadowsky, M. J. 2007. Beach sand and sediments are 
+temporal sinks and sources of Escherichia coli in Lake Superior. Environ Sci Technol 41, 2203– 2209. 
+72 
+ 
+   
+   
+  
+  
+  
+   
+  
+                
+       
+  
+             
+         
+  
+  
+         
+                   
+     
+  
+               
+         
+   
+  
+               
+              
+    
+  
+      
+  
+  
+  
+   
+  
+              
+                
+  
+  
+             
+            
+   
+  
+  
+ 
+  
+  
+  
+   1857185818591860186118621863186418651866186718681869187018711872187318741875187618771878187918801881
+1882
+18831884188518861887188818891890189118921893189418951896189718981899190019011902Jang, J.; Hur, H.-G.; Sadowsky, M. J.; Byappanahalli, M. N.; Yan, T.; Ishii, S. Environmental Escherichia coli: ecology and public health implications-a review. J. Appl. Microbiol. 2017, 123 (3), 570−581. 
+Johns, M., 1993. Developments in Waste Treatment in the Meat Processing Industry—A Review 
+of Literature, 1979 –1993. Commissioned by the Meat Research Corporation (MRC). 
+Kiepper, B. 2001. A survey of wastewater treatment practices in the broiler industry. Proc. Water 
+Environ. Fed. 2001 (12), 12e25. http://dx.doi.org/10.2175/193864701790864854. 
+Kobya, M., Senturk, E., Bayramoglu, M. 2006. Treatment of poultry slaughterhouse wastewaters 
+by electrocoagulation. J. Hazard. Mater. 133 (1e3), 172e176. 
+http://dx.doi.org/10.1016/j.jhazmat.2005.10.007. 
+Li, S., Ziara, R. M. M., Dvorak, B., Subbiah, J. 2018. Assessment of water and energy use at 
+process level in the U.S. beef packing industry: A case study in a typical U.S. large -size plant. J. 
+Food Process Eng., 41:e12919. Martínez, J., Borzacconi, L., Mallo, M., Galisteo, M., Vinas, M. 1995. Treatment of ~ 
+slaughterhouse wastewater. Water Sci. Technol. 32 (12), 99-104. http://dx.doi.org/10.1016/0273-
+1223(96)00143-6 . Masse, D. I., Masse, L. 2000. Characterization of wastewater from hog slaughter- houses in 
+Eastern Canada and evaluation of their in -plant wastewater treatment systems. Can. Agric. Eng. 
+42 (3), 139-146. 
+Matsumura, E. M., Mierzwa, J. C. 2008. Water conservation and reuse in poultry processing 
+plant—A case study. Resources, Conservation and Recycling 52, 835–842. McMinn, B.R., Ashbolt, N.J., Korajkic, A. 2017. Bacteriophages as indicators of faecal pollution 
+and enteric virus removal. Lett. Appl. Microbiol. 65:11–26. 
+Mehrvar, M., Tabrizi, G. B. 2006. Combined photochemical and biological processes for the 
+treatment of linear alkylbenzene sulfonate in water. J. Environ. Sci. Health A 41 (4), 581e597. 
+http://dx.doi.org/10.1080/10934520600572975. Mehrvar, M., Venhuis, S. H. 2005. Photocatalytic treatment of linear alkylbenzene sulfonate 
+(LAS) in water. J. Environ. Sci. Health A 40 (5), 1003-1012. http://dx.doi.org/10.1081/ESE -
+200056129 . Meneses, Y. E., Stratton, J., Flores, R. A. 2017. Water reconditioning and reuse in the food 
+processing industry: Current situation and challenges. Trends in Food Science & Technology, 
+61:72-79. 
+McDonald, L. C., Arduino, M. 2013. Climbing the Evidentiary Hierarchy for environmental 
+infection control. Clin Infect Dis: 56:36 -39. Available at https://doi.org/10.1093/cid/cis845. 
+73 
+ 
+   
+   
+  
+   
+  
+   
+   
+  
+  
+                
+      
+  
+    
+             
+             
+   
+  
+ 
+ 
+    
+  
+  
+     
+   
+  
+      
+  
+  
+                
+           
+  
+              
+                
+   
+  
+    
+  
+  
+      
+    
+  
+  1903190419051906190719081909191019111912191319141915191619171918191919201921192219231924192519261927
+1928
+1929193019311932193319341935193619371938193919401941194219431944194519461947Miller, A. J., Schultz , F. J., Oser, A., Hallman, J. L., Palumbo, S. A. 1994. Bacteriological safety 
+of swine carcasses treated with reconditioned water. Journal of Food Science 59, no. 4: 739-741. Available at http://dx.doi.org/10.1111/j.1365-2621.1994.tb08116.x. 
+Mittal, G. S. 2004. Characterization of the effluent wastewater from abattoirs for C.F. Bustillo -
+Lecompte, M. Mehrvar / Journal of Environm ental Management 161 (2015) 287e302 301 land 
+application. Food Rev. Int. 20 (3), 229e256. 
+Mittal, G. S. 2006. Treatment of wastewater from abattoirs before land application - a review. 
+Bioresour. Technol. 97 (9), 1119e1135. 
+Micciche, A. C., K. M., Rubinelli1, P. R., Wages, J. A., Knueven, C. J., Ricke, S. C. 2018. The 
+implementation and food safety issues associated with poultry processing reuse water for 
+conventional poultry production systems in the United States. Front. Sustain. Food Syst . 
+Available at https://doi.org/10.3389/fsufs.2018.00070. 
+Mott, J., Smith, A. 2011. Library-Dependent Source Tracking Methods. In: Hagedorn C., Blanch A., Harwood V. (eds) Microbial Source Tracking: Methods, Applications, and Case Studies. Springer, New York, NY. Available at https://doi.org/10.1007/978-1-4419-9386-1_3 
+Muller, M. P., MacDougall, C., Lim, M., and the Ontario Agency for Health Protection and Promotion (Public Health Ontario), the Provincial Infectious Diseases Advisory Committee on Infection Prevention and Control (PIDAC- IPC). 2016. Antimicrobial surfaces to prevent 
+healthcare -associated infections: a systematic review. J. Hosp. Infect., 92:7-13. 
+NASS (National Agricultural Statistics Service). 2019. Agricultural Statistics Board, United 
+States Department of Agriculture. Available at https://www.nass.usda.gov/Publications/Todays_Reports/reports/cfpd0419.pdf 
+Northcutt, J. K., Jones, D. R. 2004. A survey of water use and common industry practices in 
+commercial broiler processing facilities. J. Appl. Poult. Res. 13, 48–54. 
+Núnez, L.A., Fuente, E., Martínez, B., García, P.A. 1999. Slaughterhouse wastewater ~ treatment 
+using ferric and aluminium salts and organic polyelectrolites. J. Environ. Sci. Health A 34 (3), 
+721e736. http://dx.doi.org/10.1080/10934529909376861. Ødegaard, H., Rusten, B., Westrum, T., 1994. A new moving bed biofilm reactor —applications 
+and results. Water Sci. Technol. 29 (10–11), 157–165. Prasad, P., Johns, M., Fredheim, L., Price, N., Gaffel, J. 2017. Guideline for water recycling and 
+reuse in red meat processing. Australian Meat Processor Corporation Limited. 
+http://www.ampc.com.au/uploads/pdf/Environment- Sustainability/AMPC -Water -Recycle -and-
+Reuse- Guidelines -Final.pdf. 
+74 
+ 
+                
+              
+      
+   
+  
+                
+             
+         
+  
+               
+    
+  
+    
+  
+  
+              
+              
+  
+  
+    
+   
+    
+  
+   
+   
+  
+   
+  
+   
+  
+    
+   
+   
+  
+   
+  
+ 
+  
+  
+  
+   
+  
+  1948194919501951195219531954195519561957195819591960196119621963196419651966196719681969197019711972
+1973
+197419751976197719781979198019811982198319841985198619871988198919901991Pype, M., Doederer, K., Jensen , P., Ford , R. 2016. Strategic evaluation of RD& E opportunities 
+for water reuse and recycling at australian abattoirs. Australian Meat Processor Corporation Ltd. 
+Project code: 2016.1021. Available at https://www.ampc.com.au/uploads/pdf/Environment -
+Sustainability/2016%201021_Final%20report.pdf 
+Russell, S. M. 2013. Water reuse in poultry processing now addressed in the HACCP program. 
+The University of Georgia College of Agricultural and Environmental Sciences College of 
+Family and Consumer Sciences Cooperative Extension. Circular 901. 
+San Jose, T. 2004. Bird slaughterhouse: generation and purification of their water. Tecnol. Agua 
+24 (251), 48-51. Sobsey, M. D. 1989. Inactivation of health- related microorganisms in water by disinfection 
+processes. Wat. Sci. Tech., 21(3):179-195. Tabrizi, G. B., Mehrvar, M. 2004. Integration of advanced oxidation technologies and biological 
+processes: recent developments, trends, and advances. J. Environ. Sci. Health A 39 (11 -12), 
+3029-3081. Timmermans, H. 2014. Economics and management of hygiene in food plants. Chapter 17 in 
+Hygiene and Food Processing; Principles and Practice, 2
+nd Ed. Eds Woodhead Publishing, Ltd. 
+pp 577-589. Available at https://doi.org/10.1533/9780857098634.3.577 
+Tucker, C, Pote, J., Wax, C. 2016. Water Use in Catfish Farming. National Warmwater Aquaculture Center News – November. 
+Tucker, C. S., Pote , J. W., Wax, C. L., Brown, T. W. 2017. Improving water‐use efficiency for 
+Ictalurid catfish pond aquaculture in Northwest Mississippi, USA. Aquac Res, 48: 447-458. 
+Available at https://doi.org/10.1111/are.12893. 
+USDA APHIS (Animal and Plant Health Inspection Service). 2020. US Code, Title 7: 
+CHAPTER 54 —Transportation, Sale, And Handling of Certain Animals. Sections 2131– 2159. 
+Avai lable at https://www.aphis.usda.gov/animal_welfare/downloads/awa/awa.pdf . 
+FDA, 2016. Substances Generally Recognized as Safe. Federal Register, Vol 81, 54960. Docket No. FDA-1997-N-0020. Available at https://www.federalregister.gov/documents/2016/08/17/2016-19164/substances- generally -
+recognized -as-safe 
+USDA F SIS. 1999. Sanitation Performance Standards Compliance Guide. 9 CFR § 416.2(g) 
+Water supply and water, ice, and solution reuse. Available at 
+https://www.fsis.usda.gov/wps/portal/fsis/topics/regulatory -compliance/compliance-guides -
+index/sanitation- performance -standards/sanitation- compliance -guide#416.2(g). 
+75 
+ 
+    
+ 
+  
+  
+ 
+    
+  
+  
+   
+  
+  
+    
+    
+  
+  
+    
+  
+  
+    
+   
+   
+  
+  
+    
+  
+  
+          
+  
+  
+ 
+   1992199319941995199619971998199920002001200220032004200520062007200820092010201120122013201420152016
+2017
+20182019202020212022202320242025202620272028202920302031203220332034203520362037
+USDA FSIS. 2011. Humane Handling and Slaughter of Livestock. Directive 6900.2. Available at https://www.fsis.usda.gov/wps/wcm/connect/2375f4d5-0e24-4213-902d-d94ee4ed9394/6900.2.pdf?MOD=AJPERES . 
+USDA FSIS. 2013. Flooding: A Checklist for Small and Very Small Meat, Poultry, and Egg Processing Plants. Available at: https://www.fsis.usda.gov/wps/portal/fsis/topics/regulatory -
+compliance/haccp/small -and-very- small -plant -outreach/flooding-a- checklist -for-small -and-very -
+small -plants . 
+USDA FSIS. 2015. Humane Handling Guidance. Available at https://www.fsis.usda.gov/wps/wcm/connect/96407439-2142-40c7-8e16 -
+c24949f637ce/humane_handling_booklet.pdf?MOD=AJPERES . 
+USDA FSIS. 2017. Compliance guideline for establishments that slaughter of further process Siluriformes fish and fish products. Available at https://www.fsis.usda.gov/wps/wcm/connect/8ec92a7f-8f9b-45ae-b80f -
+7c336f7d6ff5/Compliance- Guideline -Siluriformes -Fish.pdf?MOD=AJPERES 
+USDA FSIS. 201 8. Em ergency Response. Available at 
+https://www.fsis.usda.gov/wps/portal/fsis/topics/food -defense-defense- and-emergency -
+response /emergency -response , https://www.fsis.usda.gov/wps/wcm/connect/dea42bb0-41be -
+4f5f-b476-5205678a5ff3/5500.2.pdf?MOD=AJPERES . 
+USDA FSIS. 20 19. National Residue Program for Meat, Poultry, and Egg Products 
+FY 2019 Residue Sample Results. United States Department of Agriculture, Food Safety and 
+Inspection Service, Office of Public Health Science. Available at 
+https://www.fsis.usda.gov/wps/wcm/connect/8340a7bb-726c-498d-bd6b-1429fa40d781/fy2019-red-book.pdf?MOD=AJPERES 
+USDA FSIS. 2020a. Risk Assessments. Food Safety and Inspection Services, U.S. Department of Agriculture. Available at https://www.fsis.usda.gov/wps/portal/fsis/topics/science/risk -
+assessments. 
+USDA FSIS. 2020b. Food Defense and Emergency Response. Available at 
+https://www.fsis.usda.gov/wps/portal/fsis/topics/food -safety -education/teach -others/download-
+materials/for -kids-and-
+teens/familyeducation/!ut/p/a1/jZDNCsIwEISfxQcISa0WPUpAbNUWKWrMRZYmbYNtIjEq -
+vRWPSn -
+dOe0wzcMDOaYYa7hpApwymio7j8PtmRBAm9ISZQMvTEJ49UimVJKBmm_ATY_gNhvmf 9yI_IvH7Uo6No5nReY78GVSOncYOYkZCUyrpT2gJkwZ10ZEKgGJ62CqvFyY9FOiQMCLZ CTUt89qFV1keKYPfbBa8xf64nXKIz9tDeJYp8kvXfgwz5P4PsA -
+3rJrrNRnoZF5wYQtcq6/?urile=wcm%3Apath%3A%2FFSIS -
+Content% 2Finternet%2Fmain%2Ftopics%2Ffood -defense- and-emergency -response. 
+USDA FSIS. 2021a. Safe and suitable ingredients used in the production of meat, poultry, and egg products. FSIS Directive 7120.1 Rev 54, 10/28/20. Available at 
+76 
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+   
+  
+  
+  
+    
+  
+   
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+  
+ 
+   
+  
+  
+   
+  
+  
+  
+    
+  2038203920402041204220432044204520462047204820492050205120522053205420552056205720582059206020612062
+2063
+2064206520662067206820692070207120722073207420752076207720782079208020812082https://www.fsis.usda.gov/wps/wcm/connect/ce40e7ae-3d55-419e-9c68-a1b6fefcd4de/7120.1_table_2.pdf?MOD=AJPERES . 
+USDA FSIS 2020b. Table of Safe and Suitable Ingredients. Last updated in November 2019. Available at https://www.fsis.usda.gov/wps/wcm/connect/ce40e7ae-3d55-419e-9c68-
+a1b6fefcd4de/7120.1_table_2.pdf?MOD=AJPERES . 
+US EPA. 2002. Office of Water. Development Document for the Proposed Effluent Limitations Guidelines and Standards for the Meat and Poultry Products Industry Point Source Category (40 CFR 432), Document and Appendices. Available at https://www.ecfr.gov/cgi-bin/text -
+idx?SID=9b2ad535d533c8e67ed84ba64ff900de&mc=true&node=pt40.32.432&rgn=div5#se40.3 2.432_15. 
+US EPA. 2012a. Framework for Human Health Risk Assessment to Inform Decision Making . 
+601-D12-001; 2012. Available at https://www.epa.gov/risk/framework- human -health -risk-
+assessment -inform-decision- making . 
+US EPA. 2012b. Microbial Risk Assessment Guideline: Pathogenic Microorganisms with Focus 
+on Food and Water. EPA/100/J- 12/001 . Available at https://www.epa.gov/risk/microbial- risk-
+assessment -guideline-pathogenic- microorganisms -focus-food-and- water . 
+US EPA. 2012c. Recreational Water Quality Criteria. Office of Water 820 -F-12- 058. U. S. 
+Environmental Protection Agency. Available at https://www.epa.gov/sites/production/files/2015-10/documents/rwqc2012.pdf . 
+US EPA. 2012d. Water Quality Standards Handbook: Second Edition. EPA-823-B-12-002; 
+March 2012. Available at http://water.epa.gov/scitech/swguidance/standards/handbook/index.cfm . 
+US EPA. 2012c. Product Performance Guidelines OCSPP 810.2300: Sanitizers for use on Hard Surfaces – Efficacy Data Recommendations, EPA 712-C-07-091, September 4, 2012. Available 
+ar https://www.epa.gov/test-guidelines- pesticides -and- toxic -substances/series -810-product -
+performance- test-guidelines . Sept 16, 2020. 
+US EPA. 2016. Updated Draft Protocol for the Evaluation of Bactericidal Activity of Hard, Non-porous Copper Containing Surface Products, January 29, 2016. Accessed at https://www.epa.gov/pesticide- registration/updated -draft -protocol-evaluation- bactericidal -
+activity -hard-non-porous . Oct 1, 2020. 
+US EPA. 2018a. Edition of the Drinking Water Standards and Health Advisories Tables (EPA 822-F-18-001). Available at https://www.epa.gov/sites/productio n/files/2018-
+03/documents/dwtable2018.pdf 
+US EPA. 2018b. Product Performance Guidelines OCSPP 810.2200: Disinfectants for Use on 
+environmental Surfaces; Guidance for Efficacy Testing. EPA 712-C-17-004, February 2018. 
+77 
+ 
+   
+  
+  
+     
+  
+  
+              
+           
+  
+  
+               
+                
+ 
+  
+  
+  
+   
+  
+     
+   
+  
+   
+  
+  
+  
+     
+    
+  
+  
+  
+   
+  
+  2083208420852086208720882089209020912092209320942095209620972098209921002101210221032104210521062107
+2108
+2109211021112112211321142115211621172118Available at https://www.epa.gov/test-guidelines- pesticides -and-toxic- substances/series-810-
+product- performance -test-guidelines . 
+US EPA. 2020. Pesticide Devices: A Guide for Consumers, January 21, 2020. Available https://www.epa.gov/safepestcontrol/pesticide-devices-guide-consumers . 
+Venhuis, S. H., Mehrvar, M. 2005. Photolytic treatment of aqueous linear alkylbenzene sulfonate 
+(LAS). J. Environ. Sci. Health A 40 (9), 1731e1739. Available at http://dx.doi.org/10.1081/ESE -
+200068007. 
+Warnecke M, Farrugia T, Ferguson C. 2008. Review of abattoir water usage reduction, recycling 
+and reuse. Meat & Livestock Australia Limited ABN 39 081 678 364 (MLA). Available at 
+https://www.ampc.com.au/uploads/cgblog/id165/CAP_2008_Review-of-Abattoir- water -usage-
+reduction- recycling -and-reuse__Final-report.pdf. 
+Whitman, R. L., Nevers, M. B. 2003. Foreshore sand as a source of Escherichia coli in nearshore 
+water of a Lake Michigan beach. Appl. Environ. Microbiol. 69:5555–5562. 
+WHO (World Health Organization). 2001. Heterotrophic plate counts and drinking- water safety. 
+The significance of HPCs for water quality and human health. Edited by J. Bartram, J. Cotruvo, 
+M. Exner, C. Fricker, A. Glasmacher. Published on behalf of the World Health Organization by IWA Publishing, London, UK. ISBN: 92 4 156226 9. 
+WHO. 2007. Chemical safety of drinking water - Assessing priorities for risk management. 
+ISBN 92 4 154676 X. Available at 
+https://www.who.int/water_sanitation_health/publications/dwchem_safety/en/. 
+WHO. 2017. Guidelines for drinking -water quality, 4th edition, incorporating the 1st addendum. 
+Available at 
+https://www.who.int/water_sanitation_health/publications/drinking -water -quality-guidelines-4-
+including- 1st-addendum/en/. 
+Wynne, F. S., Wurts, W. A. 2011. Transportation of warmwater fish: equipment and guidelines. Mississippi State University and Kentucky State University Cooperative Extension Program. SRAC-Publication No. 390. Available at file:///C:/Users/rb78/Downloads/SRAC_0390%20(1).pdf . 
+78 

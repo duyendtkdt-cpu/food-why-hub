@@ -1,0 +1,350 @@
+Vi sinh trong thực phẩm đặcthù
+Masan
+R&D Operations -Micro
+Vìsao
+NSX -NTD
+THỰC PHẨM AN 
+TOÀN –SẠCH
+THỰC PHẨM 
+DỄ HƯ HỎNG, 
+KHÔNG AN TOÀN
+SỨC KHỎE, TÍNH MẠNG
+TÀI CHÍNH
+THƯƠNG HIỆU, DANH TIẾNG
+Phạm vi nộidung
+DESIGN 
+CÔNG THỨC
+ĐIỀU KIÊN 
+SẢN XUẤTQUY TRÌNH 
+SẢN XUẤT
+Nộidung chính
+Vi sinh thực phẩm cơbản
+Cácyếu tốảnh hưởng VS
+Kiểm soát rủirovi sinh trong PTSP
+Yếutốkey khiphát triển công thức
+Chủng loại vi sinh cầnbiết
+GHP: nộidung chính vàtuân thủ
+Mục đích
+•Tăng cường nhận thức vi sinh:
+–Vi sinh vàcácđiều kiện phát triển
+–Cácchủng vi sinh quan trọng
+–Bảo quản thực phẩm
+•Yếutốvi sinh khithiết kếsảnphẩm
+•Cáclưuý vi sinh trong sảnxuất
+VI SINH THỰC PHẨM CƠBẢNPhần 1
+6
+Vi sinh vậtlàgì?
+•Cơthểsống kích thước rấtnhỏ, không thấy
+bằng mắt thường (1/1,000,000 m = µm)
+
+Đặc điểm chính củaVSV
+Khả năng thích nghi cao(adaptability)
+v.dnhiệt độ, ẩm, mặn , ngọt …
+Ở khắp mọi nơi(ubiquity)
+v.dkhông khí, nước , động thực vật, con 
+người (tay, chân , miệng …)
+Sinh trưởng đadạng (growth ability)
+v.dE. coli phân chia 20 -30’/ lần
+Cácnhóm vi sinh thực phẩm
+Vi khuẩn (Bacteria)Nấm (Fungi)Khác
+Nấm men (Yeast) Nấm mốc (Mold)
+Thường 0.5 –2µmThường 5 –10 µm Thường 2 –10 µmVirus, Prion,
+Tảo…
+Nhiều hình dạng
+Tạo bào tửHình dạng tròn , 
+gầntrònDạng sợitơ, chằng
+chịt. Tạo bào tử
+Hiếu khí(cầnkhông khí)
+Kịkhí(không cầnkhông khí)
+Hiếu khítùyý (cóhoặc không
+cầnkhông khí)Chủ yếuhiếukhí
+tùyýHoàn toàn hiếu khí
+→mọc trên bềmặt
+Nhóm chịu acid, mặn , chịu
+nhiệt , chịu áp…Chịu stress cao
+hơn VKChịu stress caohơn
+VK vàmen
+Sing trưởng ,thích nghi nhanhSinh trưởng chậm
+hơn VKSinh trưởng chậm
+hơn VK
+VS gâybệnh : E. coli, 
+Salmonella
+VK lactic: Lactobacillus Men bia, rượu :
+Saccharomyces Penicillium (kháng
+sinh), Aspergilus (lên
+men tương )
+Hình dạng
+CFU = Colony forming 
+unit = khuẩn lạc
+VI KHUẨN
+MEN/MỐC
+BÀO TỬ
+VaitròVSV trong thực phẩm
+GOOD BAD
+•Lênmen thực phẩm
+•Probiotics
+•Chế phẩm sinh học
+•Không cótácđộng
+lênthực phẩm
+•Gây hưhỏng (mùi, vị, 
+cảm quan )
+•Gây ngộ độc thực
+phẩm
+YẾU TỐẢNH HƯỞNG ĐẾN PHÁT
+TRIỂN CỦA VI SINHPhần 2
+
+
+Vòng đờicủavi sinh
+Pha thích nghi Pha tăng trưởng Pha cânbằng Pha suytàn
+Làm quen vớimôi
+trường mớiTăng trưởng , sinh sôi
+đến mức tốiđaỔnđịnh giữa sinh và
+chếtVSV chết do chất độc
+tích tụ, không đủdinh 
+dưỡng
+Thực phẩm chưa hư
+hỏngBắtđầu gâyhưhỏng
+sảnphẩm , sinh độc tốTiếp tụcgâyhưhỏng
+sảnphẩm , sinh độc tốThực phẩm đãhư
+hỏng , cóđộc tố
+Yếutốchính ảnh hưởng đến VSV
+Yếutốbên trong củasảnphẩm :
+-Dinh dưỡng
+-pH
+-Aw
+-Chất ứcchế/kìm hãm vi sinh
+-…
+Yếutốmôi trường bên ngoài :
+-Nhiệt độ
+-Độẩm
+-Loại môi trường không khí
+-…
+HOẠT ĐỘNƯỚC (AW)Phần 2.1
+Hoạt độnước (Aw)
+•Ápsuất hơitrong dung 
+dịch /Ápsuất hơinước
+tinh khiết
+•Chỉsốnước tựdo cho
+hoạt động VS vàhóa học
+•Thang đo: 0 –1 (hoàn
+toàn khô –nước nguyên
+chất )
+
+Phụ giavàAw
+Tuong ot
+STT MẪU Aw
+1 ĐC - KBQ 0.9528
+2 ĐC - E211 0.1% (sodium benzoate) 0.9549
+3 M1-KAA 0.9506
+4 M2-CAA 0.9435
+5 Nền cũ (có A.Acetic) +So.Lactate 0.8703
+6Nền cũ (có A.Acetic) +So.Lactate
+                               + NaCl - 1 0.8847
+7 Citri - fi 0.6%0.9592
+8Nền cũ (có A.Acetic) +So.Lactate
++ NaCl-2 0.8792
+9 Heinz0.9345
+Dầu XBH
+STT MẪU Aw đo
+1 KBQ 0.6901
+2 E211 0.6923
+3 KCL2% 0.6809
+4 SA PE 0.1% 0.7001
+5 E211 – 2608 0.6873
+6 Add 4.5% so.lactate 2608 0.6698
+Dầu Spa ghetti
+STT MẪU Aw đo
+1 KBQ 0.7808
+2 E211 0.8527
+3 KCL2% 0.7434
+4 SA PE 0.03% 0.7785
+5 E211 – 3108 0.7500
+6 Maltose dextrin – 3108 0.7595
+7 Add 4% so.lactate 3108 0.6983
+Tácđộng chung củaAw
+Vi Sinh vs Aw
+0.9: VK
+0.8: Men
+0.6: MốcĐộẩmvs AwPhản ứng hóa
+học
+Tương quan Aw vàVSV
+21
+Dầu mìNước tương , 
+tương ớtNước mắmHạtnêm
+Book : Advances in thermal and non -thermal 
+food preservation, Gaurav Tewari,Vijay K. 
+Juneja
+Ảnh hưởng củaAw đến VSV
+Aw = Aw tốiưu→
+cânbằng trong và
+ngoài tếbàoAw > Aw tốiưu→
+Nước vàotrong tế
+bàoAw < Aw quá thấp→
+nước rútkhỏi tếbào
+ĐỘACID ( PH)Phần 2.2
+Độacid (pH)
+•Chỉthịnồng độion H+ trong dung dịch
+•pH = -log[H+]
+•Thang pH 1 –14 (rấtacid/ chua –rấtkiềm /mùi
+xàphòng ), pH = 7 trung tính
+•Phụ thuộc vàoloạiacid
+
+Chất tạođộacid vàpH
+•Acid vôcơ(HCl) > acid hữu cơ(citric, lactic, …)
+•Fumaric > Lactic > Malic > Gluconic > Citric
+
+Tương quan pH vàVSV
+26
+
+Ảnh hưởng pH đến VSV
+Acid vàotheo
+cách tựnhiên
+VSV đẩyacid rađểduytrì
+pH = 7
+pH & pKa
+
+Chất bảo quản
+•Thường làgốcacid yếu
+•Hoạt động tốthơn ở môi trường pH thấp
+•Phổ hoạt động :
+–Sodium benzoate (E211): phổ rộng (VK, MM)
+–Potassium sorbate (E202): men mốc
+•Kếthợp > riêng lẻ
+–Nước tương E211:E202 (750:250ppm) > 
+E211/E202 1000 ppm
+NHIỆT ĐỘMÔI TRƯỜNG (T)Phần 2.3
+Phân loạiVS theo nhiệt độ
+•3 ngưỡng : Tốithiểu –Tốiưu–Tốiđa
+•3 nhóm vi sinh chính :
+Vi sinh chịu nhiệt > 50oC
+Vi sinh ưaấm25 -40oC
+Vi sinh chịu lạnh < 20oC
+Ảnh hưởng củanhiệt độđến VSV
+32Vùng nhiệt độ
+nguy hiểm , vi sinh
+phát triển tốtVSV bịtiêu diệt
+nhiệt độtăng cao
+VSV giảm hoạt
+động , bấthoạt4oC60oC
+
+CHỦNG LOẠI VI SINH CẦN BIẾTPhần 4
+Lactobacillus
+ Nấm mốc
+Lactobacillus -Men
+Lactobacillus
+Chủng loạivi sinh cầnbiết
+Vi khuẩn hiếu khí
+Men mốc
+Coliforms
+E. Coli
+Staphylococcus aureus
+Clostridium sp.
+Cl. perfringens
+Salmonella
+Bacillus cereus
+Lactobacillus sp.Nhóm 1: Vi sinh chỉthịchất lượng chung
+Nhóm 2: Vi sinh chỉthịđiều kiện vệsinh cánhân , 
+môi trường
+Nhóm 3: Vi sinh gâybệnh phải kiểm soát
+Nhóm 4: Vi sinh gâyhưhỏng thường gặp
+Nhóm 1: VKHK + MM
+NGUỒN LÂY 
+NHIỄM CHÍNH
+ĐIỀU KIỆN KIỂM 
+SOÁT
+TÁC HẠI-Nguyên liệu tươi , sống
+-Nông sảnsấykhô
+-Môi trường sảnxuất
+→chỉthịchất lượng nguyên liệu + hiệu quả xửlý+ điều
+kiện sảnxuất chung
+-Kiểm soát Aw vàpH như ma trận
+-Xửlývi sinh bằng nhiệt , lọc
+-NL đầu vào
+-Điều kiện sảnxuất
+-Vượt chỉtiêu BTP/TP
+-Vượt mức gầnchuẩn : rủirothấp (hưhỏng nhanh )
+-Vượt mức cao: hưhỏng , độc tốvi nấm , ngộ độc
+Nhóm 2: Coliforms + E. coli
+NGUỒN LÂY 
+NHIỄM CHÍNH
+ĐIỀU KIỆN KIỂM 
+SOÁT
+TÁC HẠI-Nguồn nước bịnhiễm bẩn (cống , rác, phân động vật)
+-Con người không vệsinh sạch sẽ
+-Nguyên liệu, thiết bịtiếp xúcvớinước vàcon người
+→chỉthịkhảnăng nhiễm bẩn
+-pH < 4.4 hoặc Aw < 0.95 (~ 8% NaCl )
+-Xửlývi sinh bằng nhiệt thanh trùng , lọc
+-Vệsinh nhà xưởng , con người
+-Ngộ độc thực phẩm : nhức đầu, sốt, đau bụng , nôn
+mửa , tiêu chảy
+-Nặng : hưchức năng thận , tửvong
+Nhóm 3: Salmonella sp.
+NGUỒN LÂY 
+NHIỄM CHÍNH
+ĐIỀU KIỆN KIỂM 
+SOÁT
+TÁC HẠI-NL nguồn gốcđộng vật(thịt, trứng , cá, tôm), sữa và
+sảnphẩm từsữa
+-Bảo quản < 7oC
+-pH < 4.4, Aw < 0.96
+-Xửlýnhiệt thanh trùng
+-Ngăn ngừa nhiễm chéo từNL tươi , sống
+-Chóng mặt, đau bụng , buồn nôn, cảm sốt, nhức đầu
+-Thương hàn
+Nhóm 3: Clostridium perfringens
+NGUỒN LÂY 
+NHIỄM CHÍNH
+ĐIỀU KIỆN KIỂM 
+SOÁT
+TÁC HẠI-Thịt tươi sống , sảnphẩm từthịt
+-Thực phẩm chếbiến bảo quản không đúng điều kiện
+-Thịt hộp, xúcxích xửlýtiệttrùng không đủthời gian
+-Sinh bào tử
+-Bảo quản < 7oC hoặc > 60oC
+-GiữpH < 4.5
+-Dùng CBQ: nitrites, phosphates, lactates, sorbates
+-Tiệt trùng đúng , đủ
+-Ngộ độc mức nhẹ, rốiloạn tiêu hóa
+-Cl. Botulinum : chất độc thần kinh , tửvong ở mức
+0.1mg
+Nhóm 3: Staphylococcus aureus
+NGUỒN LÂY 
+NHIỄM CHÍNH
+ĐIỀU KIỆN KIỂM 
+SOÁT
+TÁC HẠI-NL tươi sống nóichung
+-Da, tóc, tuyến mũi củangười→Ho, hắthơi, không
+rửatay
+-Chịu khô (Aw ~ 0.83) →bềmặt máy móc , thiết bị
+không khử trùng sạch
+-Xửlýnhiệt đầyđủvàgiữa lạnh < 7oC
+-Kiểm soát vệsinh vàsứckhỏe cánhân
+-Vệsinh máy móc , thiết bị
+-Ngộ độc thực phẩm : đau bụng , tiêu chảy , nôn mửa
+-Nặng : mất nước , co rút, hạhuyết áp
+Nhóm 3: Bacillus cereus
+NGUỒN LÂY 
+NHIỄM CHÍNH
+ĐIỀU KIỆN KIỂM 
+SOÁT
+TÁC HẠI-NL tươi sống
+-Nông sảnkhô, cótiếp xúcvớiđấtcát
+-Sảnphẩm chếbiến từgạohoặc cótinh bột
+-Sinh bào tử
+-pH < 4.3, Aw < 0.95 or > 7% NaCl
+-CBQ sorbate , benzoate, nisin (sảnphẩm sữa)
+-Kiểm soát NL đầu vào+ xửlýnhiệt
+-Ngộ độc thực phẩm
+Nhóm 4: Lactobacillus sp.
+NGUỒN LÂY 
+NHIỄM CHÍNH
+ĐIỀU KIỆN KIỂM 
+SOÁT
+TÁC HẠI-NL tươi hoặc NL lênmen lactic (men chua )
+-Sảnphẩm bịkẹttrong máy móc thiết bị
+-Môi trường không khí
+-Aw < 0.94
+-pH < 4.0, cóchủng pH < 3.3
+-Xửlýnhiệt đầyđủ+ ngăn tiếp xúclâuvớikhông khí
+-Hưhỏng sảnphẩm : chua , phồng chai, gói

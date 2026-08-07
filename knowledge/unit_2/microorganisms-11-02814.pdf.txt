@@ -1,0 +1,1508 @@
+Citation: Shaji, S.; Selvaraj, R.K.;
+Shanmugasundaram, R. Salmonella
+Infection in Poultry: A Review on the
+Pathogen and Control Strategies.
+Microorganisms 2023 ,11, 2814.
+https://doi.org/10.3390/
+microorganisms11112814
+Academic Editors: M ónica Oleastro
+and Ana Botelho
+Received: 20 October 2023
+Revised: 8 November 2023
+Accepted: 11 November 2023
+Published: 20 November 2023
+Copyright: © 2023 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+microorganisms
+Review
+Salmonella Infection in Poultry: A Review on the Pathogen and
+Control Strategies
+Syamily Shaji1
+, Ramesh K. Selvaraj1and Revathi Shanmugasundaram2,*
+1Department of Poultry Science, The University of Georgia, Athens, GA 30602, USA;
+syamily.shaji@uga.edu (S.S.); selvaraj@uga.edu (R.K.S.)
+2Toxicology and Mycotoxin Research Unit, US National Poultry Research Center, Athens, GA 30605, USA
+*Correspondence: revathi.shan@usda.gov
+Abstract: Salmonella is the leading cause of food-borne zoonotic disease worldwide. Non-typhoidal
+Salmonella serotypes are the primary etiological agents associated with salmonellosis in poultry.
+Contaminated poultry eggs and meat products are the major sources of human Salmonella infection.
+Horizontal and vertical transmission are the primary routes of infection in chickens. The principal
+virulence genes linked to Salmonella pathogenesis in poultry are located in Salmonella pathogenicity
+islands 1 and 2 (SPI-1 and SPI-2). Cell-mediated and humoral immune responses are involved in the
+defense against Salmonella invasion in poultry. Vaccination of chickens and supplementation of feed
+additives like prebiotics, probiotics, postbiotics, synbiotics, and bacteriophages are currently being
+used to mitigate the Salmonella load in poultry. Despite the existence of various control measures,
+there is still a need for a broad, safe, and well-deﬁned strategy that can confer long-term protection
+from Salmonella in poultry ﬂocks. This review examines the current knowledge on the etiology,
+transmission, cell wall structure, nomenclature, pathogenesis, immune response, and efﬁcacy of
+preventative approaches to Salmonella .
+Keywords: Salmonella ; vaccines; poultry
+1. Introduction
+Salmonella is the leading cause of foodborne diseases worldwide that infects the gas-
+trointestinal tract and causes diarrhea, nausea, and cramps in humans [ 1]. The Center for
+Disease Control and Prevention (CDC) estimates that approximately 1.35 million infec-
+tions and 420 deaths are reported annually in the United States. Salmonella enterica ser.
+Enteritidis ( S.Enteritidis), and Salmonella enterica ser. Typhimurium ( S.Typhimurium),
+belonging to the non-typhoidal Salmonella group (NTS), is responsible for the majority of
+human salmonellosis. Globally, non-typhoidal Salmonella is responsible for approximately
+93 million cases of gastroenteritis and 155,000 fatalities annually. The severity of human
+salmonellosis varies depending on factors such as the speciﬁc strain causing the infection,
+health conditions, and host age. It has been reported that the infective dose in a human
+infant is reported to be 100 bacterial cells, and even fewer cells are required to cause an
+infection in an immunocompromised individual [2–4].
+Poultry serves as the main reservoir for various non-typhoidal Salmonella (NTS)
+serotypes among food-producing animals. Epidemiologically signiﬁcant NTS serotypes
+include S.Typhimurium, S.Enteritidis, S.Heidelberg, and S.Newport. In North America
+and Europe, S.Enteritidis dominates the egg-borne transmission of infection to humans,
+whereas S.Typhimurium was the primary serovar associated with external egg contamina-
+tion in Australia [ 5–7]. Between 1998 and 2008, poultry accounted for 17.9% of foodborne
+illnesses in the United States, with Salmonella ser. Enteritidis and Typhimurium are re-
+sponsible for 17.4% and 34% of poultry-related foodborne illnesses, respectively [ 8]. In
+2016, a national outbreak of multidrug-resistant S.Heidelberg linked to chicken products
+Microorganisms 2023 ,11, 2814. https://doi.org/10.3390/microorganisms11112814 https://www.mdpi.com/journal/microorganisms
+Microorganisms 2023 ,11, 2814 2 of 27
+produced by a single poultry company was reported in California and Washington, leading
+to high hospitalization rates and indicating high virulence strains of Salmonella [9].
+Society pays signiﬁcant health costs and economic burdens caused by nontyphoidal
+Salmonella associated with chickens, estimated at 2.79 billion annually. This concern is
+growing as the global demand for ready-to-eat food products continues to rise [ 10]. Given
+the emergence of multi-drug-resistant bacteria and the associated public health crisis,
+alternatives to antibiotics are gaining more importance in the poultry sector, as antibiotic
+residues are known to contaminate consumed meat [ 11]. Several preharvest and postharvest
+intervention strategies have been developed to ensure the safety and hygiene of poultry
+products. Preharvest interventions include farm-level management, including the use of
+feed additives and biosecurity measures. Post-harvest methods include activities during
+carcass slaughter and meat processing, including the implementation of Hazard Analysis
+Critical Control Point (HACCP) plans [4].
+Furthermore, with the FDA’s decision to abate the use of antibiotics in animal agricul-
+ture and consumer demand for antibiotic-free chicken, alternative control strategies that
+include vaccination programs are routinely followed by producers to combat pathogenic
+bacteria. Ensuring the sustainable production of poultry products is critical to meeting
+the future global demand for poultry products. However, annual Salmonella outbreaks
+can signiﬁcantly impact production efﬁciency and food safety. To eradicate pathogens like
+Salmonella , which has multiple infectious serotypes, more powerful vaccines that confer
+cross-protection against multiple serotypes, including emerging serotypes, and induce
+long-term immunity are needed.
+This review article focuses on the current understanding of Salmonella as a pathogen,
+its pathogenesis, and control strategies against Salmonella in poultry.
+2. Etiology and Transmission
+Salmonella spp. is a Gram-negative, oxidase-negative, non-spore-forming bacillus
+member of the Enterobacteriaceae family. Salmonella is a facultative anaerobic intracellular
+bacillus with a cell length between 2–5 m. They are non-fastidious, motile, and have
+peritrichous ﬂagella, except Salmonella enterica serovar Gallinarum and Pullorum. Most
+Salmonella serovars, except S.Typhimurium, are aerogenic. Salmonella is capable of produc-
+ing hydrogen sulﬁde and converting nitrates to nitrites. Most Salmonella typically grows at
+temperatures ranging from 5–45C, with the ideal temperature being between 35–37C
+and at the optimum pH range of 6.5 and 7.5. Some strains can even grow at a pH as low
+as 3.7. Salmonella is sensitive to salt concentrations ranging from 0.5% to 5% and survives
+in environments with higher water activity (a w) ranging from 0.96 to 0.99. They can also
+survive in low-moisture food products for a long duration [12]. The severity of Salmonella
+infection varies according to many factors, including host age, host immunity, the presence
+of coinfections, environmental stress, managerial characteristics, and infective dose. Older
+birds, for instance, tend to be less susceptible to Salmonellosis even with concentrations of
+106CFU/mL of S.Typhimurium [13].
+Salmonella is distributed worldwide and is endemic to areas where animal husbandry
+is practiced. Serovars also vary in their distribution across the world, with ST and SE being
+prevalent everywhere. Some serovars are host-speciﬁc, like Salmonella ser. Abortusovis in
+sheep, Salmonella ser. Choleraesuis in pigs, and Salmonella ser. Dublin in cattle. Typhoidal
+Salmonella serovars like S.Typhi and S.Paratyphi are human pathogens transmitted via
+the fecal-oral route. In contrast, NTS is zoonotic and can infect a wide range of animal
+reservoirs, including birds, reptiles, dogs, cats, and rodents [14].
+The primary reservoir for Salmonella in animals, particularly poultry, is the primary
+source of food-borne human salmonellosis. Transmission occurs mainly through the
+consumption of contaminated egg and meat products [ 12]. During the production cycle,
+poultry can become infected with Salmonella through various routes, including contact with
+carrier animals like rodents, cats, and insects. Contaminated poultry feed, litter, water, and
+aerosol transmission also contribute to the transmission of Salmonella [15].
+Microorganisms 2023 ,11, 2814 3 of 27
+Salmonella contamination of eggs can occur via two routes, namely horizontal and
+vertical, particularly by the serovar S.Enteritidis. In vertical or transovarial transmission,
+the infection occurs directly in the yolk, vitelline membrane, and albumen before the egg
+is laid. The infection originates in reproductive organs such as the ovary and oviduct
+with S.Enteritidis. As a result, bacteria enter the egg even before the eggshell is formed
+in the oviduct [ 16]. In horizontal or fecal-oral transmission, eggs become contaminated
+by eggshell penetration from the colonized gastrointestinal tract (GIT). Additionally, con-
+taminated feces transfer the pathogen to eggs during or after oviposition. Feces serve as
+nutrient reservoirs for Salmonella ’s growth, contaminating the environment and potentially
+infecting the rest of the ﬂock in the same enclosure. The bacterial penetration of the egg is
+more rapid during the ﬁrst few minutes post-oviposition, as some cuticles are immature
+and few pores are open [ 17]. Outer shell contamination by Salmonella is evident in eggs
+collected from contaminated nests and hatchery environments. Some studies reported that
+there is no direct relationship between eggshell thickness and Salmonella Typhimurium
+penetration, but eggs with high speciﬁc gravity shells tend to offer more resistance against
+S.Enteritidis penetration [16].
+Insects can act as vectors for Salmonella on poultry farms. Cockroaches, for example,
+have the potential to introduce foodborne pathogens like Salmonella into poultry production
+facilities due to their ability to cross-contaminate and transmit the pathogen to uninfected
+individuals within their group. Studies have indicated that cockroaches infected with
+S.Typhimurium can transfer the bacteria to the surface of the table egg [ 18]. Flies captured
+in poultry establishments have been shown to harbor Salmonella . The poultry mite ( Der-
+manyssus gallinae ) has been implicated as a biological vector of Salmonella Enteritidis and
+has been reported to carry the bacteria within poultry premises. It is suggested that the
+primary source of infection could be oral ingestion of crushed contaminated mites by the
+chicks, as well as the mite’s blood meal [ 19].Alphitobius diaperinus , also known as the litter
+beetle, has been found to transmit Salmonella to poultry in an experimental infection [ 20].
+According to Bastiaan and Aize, rodents such as mice can act as carriers of Salmonella in
+layer ﬂocks [ 21]. Feral mice present in poultry farms may serve as a rich source of multiple
+phenotypes and genotypes of S.Enteritidis [ 21]. In African countries, S.Kentucky and
+S.Enteritidis were the major serovars isolated from lizards and rodents inhabiting the
+poultry houses. It is hypothesized that the feces of lizards and rodents could contaminate
+the feed and litter, posing a biosecurity threat [22].
+Salmonella can colonize the intestines of wild birds, turning them into asymptomatic
+reservoirs. Hughes et al. reported the isolation of different Salmonella serovars from wild
+birds, mainly passerine birds, in northern England [ 23].S.Typhimurium strain DT160
+caused signiﬁcant mortality in wild birds and gastrointestinal illness in humans in New
+Zealand in 2000, indicating a zoonotic risk [ 24]. Wild birds like one buff-necked ibis, red-
+legged seriema, and eared dove captured near poultry facilities had Salmonella infection.
+Moreover, S.Typhimurium dominated the serotype isolated from wild pigeons [ 25]. It
+is hypothesized these birds play a vital role in the transmission of Salmonella serotypes
+to poultry and humans during migration, seasonal movements, and feeding [ 26]. Olga
+et al. found that 32.3% of the bacterial pathogens identiﬁed in the wild bird population in a
+national park in Ukraine tested positive for S.Enteritidis. These birds migrate to various
+parts of the world, contributing to the distribution of the pathogen to locations far from
+its source [ 27]. Furthermore, a shift in the poultry Salmonella serotypes linked with the
+spread of clones has been identiﬁed as a contributing factor to the increase in human cases
+ofS.Infantis between 2011 and 2013 across Europe [ 28]. Likewise, S.Heidelberg, with its
+multiple clones in the US, is one of the top poultry and human serotypes associated with
+multistate outbreaks [ 9]. Figure 1 summarizes the overview of the transmission routes and
+vectors of Salmonella in poultry.
+Microorganisms 2023 ,11, 2814 4 of 27
+Microorganisms 2023 , 11, x FOR PEER REVIEW  4 of 27  
+  
+Figure 1. Overview of the various transmission routes of Salmonella . Created with Biorender.com 
+(accessed on 26 July 2023).  
+3. Cell Wall and Nomenclature  
+The cell wall of Salmonella  consists of lipids, lipopolysaccharides (LPS), proteins, and 
+lipoproteins  [29]. The complex polysaccharide moiety with the Lipid A portion serves as 
+an endotoxin and is responsible for bacterial virulence  [29]. The LPS complex comprises  
+three regions: (1) an outer O polysaccharide -specific side chain , (2) a middle core portion , 
+and (3) an inner lipid A. The somatic O antigen is the central component of the endotoxin, 
+composed of various monosaccharides and polysaccharides  [29]. The Somatic O antigen 
+is the polysaccharide portion on the bacterial surface that contains multiple [5–8] mono-
+saccharides. The O -specific side chains determine the immunological specificities of the 
+respective O -antigens  [30]. Furthermore, all Salmonella  O antigens share five common sug-
+ars: heptose, ketodeoxyoctonic acid, D -glucose, D -galactose, and D -glucosamine. It has 
+been hypothesized that all -specific Salmonella  polysaccharides have a common core com-
+posed of these sugars, with attached chains made of sugars unique to the specific  serotype  
+[31]. In summary, variations in the LPS structure exist in the O -polysaccharide chain, and 
+these variations are responsible for the antigenic factors that confer serotype specificity.  
+Genotypic analysis indicated that  Salmonella  has about 60 soma tic antigens using 
+gene transfer [32]. Based on these antigens and specific antisera, Salmonella  can be grouped 
+into different serotypes. In brief, Salmonella  has three cell surface antigens: an O antigen 
+(cell-wall somatic), an H antigen (flagellar), and a K antigen (capsular). The flagellar anti-
+gen is a thermolabile protein, while the somatic O antigen is thermostable  [4]. Some 
+serovars of Salmonella  also have a K antigen, which is a heat -sensitive carbohydrate. 
+Among the Enterobacteriaceae , Salmonella  is unique for having two distinct H antigens: 
+phase 1 (specific) and phase 2 (non -specific) flagella antigens  [31]. 
+Salmonella  was initially isolated i n 1885 by Theobald Smith and Daniel Elmer Salmon 
+from pigs infected with classical swine fever [33]. Currently, the nomenclature system rec-
+ommended by the World Health Organization (WHO), namely supplement 2001 (no. 45) 
+to the Kauffmann -White scheme, is fo llowed for research on Salmonella . According to this 
+Figure 1. Overview of the various transmission routes of Salmonella . Created with Biorender.com
+(accessed on 26 July 2023).
+3. Cell Wall and Nomenclature
+The cell wall of Salmonella consists of lipids, lipopolysaccharides (LPS), proteins,
+and lipoproteins [ 29]. The complex polysaccharide moiety with the Lipid A portion
+serves as an endotoxin and is responsible for bacterial virulence [ 29]. The LPS complex
+comprises three regions: (1) an outer O polysaccharide-speciﬁc side chain, (2) a middle
+core portion, and (3) an inner lipid A. The somatic O antigen is the central component
+of the endotoxin, composed of various monosaccharides and polysaccharides [ 29]. The
+Somatic O antigen is the polysaccharide portion on the bacterial surface that contains
+multiple [ 5–8] monosaccharides. The O-speciﬁc side chains determine the immunological
+speciﬁcities of the respective O-antigens [ 30]. Furthermore, all Salmonella O antigens
+share ﬁve common sugars: heptose, ketodeoxyoctonic acid, D-glucose, D-galactose, and
+D-glucosamine. It has been hypothesized that all-speciﬁc Salmonella polysaccharides have
+a common core composed of these sugars, with attached chains made of sugars unique
+to the speciﬁc serotype [ 31]. In summary, variations in the LPS structure exist in the O-
+polysaccharide chain, and these variations are responsible for the antigenic factors that
+confer serotype speciﬁcity.
+Genotypic analysis indicated that Salmonella has about 60 somatic antigens using gene
+transfer [ 32]. Based on these antigens and speciﬁc antisera, Salmonella can be grouped
+into different serotypes. In brief, Salmonella has three cell surface antigens: an O antigen
+(cell-wall somatic), an H antigen (ﬂagellar), and a K antigen (capsular). The ﬂagellar antigen
+is a thermolabile protein, while the somatic O antigen is thermostable [ 4]. Some serovars
+ofSalmonella also have a K antigen, which is a heat-sensitive carbohydrate. Among the
+Enterobacteriaceae ,Salmonella is unique for having two distinct H antigens: phase 1 (speciﬁc)
+and phase 2 (non-speciﬁc) ﬂagella antigens [31].
+Salmonella was initially isolated in 1885 by Theobald Smith and Daniel Elmer Salmon
+from pigs infected with classical swine fever [ 33]. Currently, the nomenclature system
+recommended by the World Health Organization (WHO), namely supplement 2001 (no. 45)
+to the Kauffmann-White scheme, is followed for research on Salmonella . According to this
+Microorganisms 2023 ,11, 2814 5 of 27
+terminology, the genus Salmonella includes two species, Salmonella enterica and Salmonella
+bongori , that belong to it based on the differences in 16-sRNA sequence analysis. Historically,
+the two species are further subdivided into six subspecies based on biochemical and
+phylogenetic properties and denoted by Roman numerals: enterica (I),salamae (II),arizonae
+(IIIa), diarizonae (IIIb), houtenae (IV), and indica (VI) [ 32,34–36]. Among the subspecies of
+Salmonella ,S.enterica subsp. enterica is the one most commonly associated with human and
+animal infections [32].
+However, the serovars within the subspecies are named according to the Kauffman
+and White classiﬁcation system, which is based on the immunoreactivity of the major
+Salmonella cell surface antigens. Each Salmonella serovar possesses a unique antigenic
+combination, and a serovar (or serotype) name is assigned to each individual combination
+of the O:H1:H2 antigenic formula [ 37]. The Kauffman-White Scheme was ﬁrst published
+in 1934 with 44 serovars. The latest one, released in 2007, has over 2500 serovars [ 38].
+According to this classiﬁcation system, the Salmonella serovars are formed by different
+combinations of 46 O antigens and 114 H antigens.
+S.enterica serovars are the etiological agents of typhoidal and non-typhoidal Salmonella
+infection, with the former being host-restricted to humans and the latter zoonotic with a
+broad homeothermic host range [ 34].S. enterica comprises over 2400 serotypes. Among
+the 100 serovars of epidemiological importance in the S.enterica species, S.Enteritidis and
+S.Typhimurium are the most prevalent serovars [39].
+Salmonella serotypes are characterized and identiﬁed using various methods, including
+phage typing, PCR ribotyping, pulsed-ﬁeld gel electrophoresis analysis, multi-locus DNA
+sequencing, and antimicrobial resistance patterns [ 40–45]. Recently, alternative molecular
+methods like the Check and Trace Salmonella assay (a microarray method using molecular
+markers) and whole-genome sequencing (WGS)-based serotype prediction tools have been
+used to characterize Salmonella isolates [ 46,47]. Compared to traditional serotyping, these
+methods are claimed to be easy, requiring only a short turn-around time. Traditional
+serotyping based on phenotypes can be challenging due to the complexity of typing sera,
+antigen preparation, and antisera required for testing [23,48].
+4. Pathogenesis
+Salmonella pathogenesis can be divided into several stages, including adhesion and
+invasion of gut epithelial cells, survival, multiplication within the host cells, and extraintesti-
+nal spread. Salmonella , being an enteric pathogen, reaches the intestine via oral ingestion
+(horizontal transmission) from contaminated environments, feed, and water. Even a very
+low infective dose of Salmonella Enteritidis, as low as 1–5 bacteria cells, can lead to infection
+in day-old chicks. The incubation period for Salmonella is usually 7 to 14 days [ 4]. The
+bacterium’s ability to withstand a pH of 3.7 in the stomach helps the bacteria pass through
+the acidic stomach environment [4].
+Upon reaching the small intestine, Salmonella invades and adheres to the intestinal
+epithelial cells using ﬁmbrial adhesins. Salmonella ’s entry into the intestinal mucosa is
+facilitated mainly through M cells located over the Peyer’s patches (mucosal-associated
+lymphoid tissues). Other routes include internalization by dendritic cells and uptake
+by enterocytes mediated by effector proteins associated with virulence genes in SPI-1-
+TTSS [49,50].
+M cells, specialized antigen sampling cells of the intestinal epithelium, play a critical
+role in the uptake and active transportation (transcytosis) of Salmonella to the underlying
+lymphoid follicles. This uptake of bacterial antigen by M-cells is vital in the develop-
+ment of mucosal and systemic immune responses, as Salmonella antigens are delivered to
+mononuclear phagocytes like dendritic cells (DCs) and macrophages [51].
+Macrophages can internalize Salmonella but are unable to kill them as the bacteria
+can inhibit the fusion of phagosomes with secondary lysosomes, the mechanism used by
+macrophages to destroy intracellular pathogens. This enhances the intracellular survivabil-
+ity of the bacteria [ 52].Salmonella proliferates inside the macrophages within a structure
+Microorganisms 2023 ,11, 2814 6 of 27
+called the Salmonella -containing vacuole (SCV) and eventually translocates widely to the
+draining mesenteric lymph nodes, leading to bacteremia and invasion of systemic organs
+such as the liver, spleen, ovary, and gallbladder [52].
+Both young and adult birds are infected by the invasive S.Enteritidis. Young birds
+tend to develop a systemic disease with high mortality rates, whereas adult birds can
+remain asymptomatic carriers post-colonization by the bacterial pathogen. The infection
+dose plays a critical role in developing clinical signs, with clinical salmonellosis being more
+likely to develop in young birds infected with high doses of S.Enteritidis [53].
+Typhoid fever is caused by the bloodstream dissemination of S.enterica serotype Ty-
+phi [ 54]. Non-invasive serotypes of NTS are conﬁned to the gastrointestinal tract, where
+they induce signiﬁcant inﬂammation, including focal and diffuse mononuclear cell inﬁltra-
+tion, necrosis of epithelial cells, edema, and eventually enterocolitis [ 55]. In brief, Salmonella
+has orchestrated mechanisms to co-evolve with their hosts by altering cellular processes
+that favor bacterial survival and intracellular proliferation.
+Salmonella pathogenic factors are controlled by virulence genes and plasmids, which
+are located within Salmonella pathogenicity islands (SPIs). SPIs are a group of genes located
+in speciﬁc areas of the bacterial chromosomes that encompass multiple virulence factors,
+including invasins, adhesins, and toxins. Salmonella contains a total of twenty-three SPIs,
+with SPI-1 and SPI-2 being the two critical ones. Both of these SPIs encode a molecular
+apparatus called the type III secretion system (TTSS) or molecular syringe. This TTSS is
+responsible for injecting effector proteins produced by Salmonella into the host cell, thereby
+establishing the intracellular survival and propagation of Salmonella inside the host [55].
+Salmonella has two types of type III secretion systems, T3SS-1 and T3SS-2, found
+in SPI-1 and SPI-2, respectively. Brieﬂy, T3SS-1 is responsible for transferring effector
+proteins needed for bacterial invasion, SCV ( Salmonella containing vacuoles) biogenesis,
+and inﬂammation. On the other hand, T3SS-2 facilitates the transport of effector proteins
+that favor SCV maturation, SIF ( Salmonella -induced ﬁlaments) biogenesis, intracellular
+survival of the pathogen, and its movement inside Salmonella -containing vacuoles [56].
+The effectors of SPI2-T3SS involved in SCV maturation and SIF biogenesis are SifA,
+SseJ, SopD2, PipB2, SseF, SseG, SpvB, and SteA. These effectors are essential for convert-
+ing early SCV (endosomes) to late SCV , where bacterial replication occurs. Salmonella -
+containing vacuoles (SCVs) are specialized structures expressed by TTSS on the SPI-2 used
+by the bacteria to reside inside epithelial cells and macrophages to escape from killing by
+macrophages through the inhibition of lysosomal fusion [49].
+Salmonella -induced ﬁlaments (SIFs) are specialized endosomal tubule projections that
+extend from the SCV . They are characterized by lysosomal glycoproteins and endocytic
+markers such as Rab4, Rab9, Rab11, and Rab5, among others. These SIFs inside the host cell
+cytoplasm form a complex replicative niche. The exact role of SIFs in Salmonella infection is
+still unknown [ 57]. It has been reported that the SifA-SKIP-Rab9 complex decreased M6PR
+(late endosomal/lysosomal markers) recruitment to the SCV membrane and reduced the
+movement of lysosomal enzymes to the SCV . This reduction in the movement of lysosome
+enzymes, expanding the SCV population, helps protect intracellular Salmonella from host
+defense mechanisms [58].
+Further, studies have reported that Salmonella Typhimurium infection causes entero-
+cytes to become M-cells, thereby exacerbating inﬂammation and the immune response
+associated with enhanced translocation of bacteria across the submucosa. This differen-
+tiation of the primed intestinal cells into M cells promotes Salmonella colonization and
+host invasion. The mechanism is controlled by the type III effector protein SopB via the
+Wnt/ -catenin signaling pathway [59].
+A previous study reported by Yakhya et al. found that the deletion of SPI1 led to a
+decreased colonization of Salmonella Typhimurium in the cecum and spleen of chickens.
+They also reported that the deletion of SPI2-T3SS did not signiﬁcantly affect the cecal
+colonization by S.Typhimurium. However, the SPI2 mutation reduced the ability of
+S.Typhimurium’s ability to invade the spleen in one-week-old chicks [ 60]. In addition, the
+Microorganisms 2023 ,11, 2814 7 of 27
+Michael et al. study revealed that the disruption of spaS, an essential component of the SPI-1
+T3SS, had little inﬂuence on cecal colonization in day-old chicks. In contrast, the mutant
+spaS strain was shown to reduce cecal colonization and decrease liver invasion during an
+experimental S. Typhimurium infection in one-week-old birds [ 61]. Moreover, the same
+study illustrates that the deletion of another gene, ssaU , that encodes major components of
+SPI-2 T3SS did not affect bacterial colonization of the intestine but exhibited a signiﬁcant
+reduction in S.Typhimurium dissemination to the liver throughout the study [ 61]. A recent
+study with the S.Typhimurium challenge model showed that the deletion of SPI-1 and
+SPI-2 genes had a negative impact on the mutant strain’s ability to colonize and cause
+systemic lesions in the cecum and liver in one-day-old chickens [62].
+Salmonella spp. has the ability to form bioﬁlms at room temperature on surfaces in
+poultry environments and food processing plants. These bioﬁlm cells are highly resistant to
+antimicrobials and contribute to the increased virulence of the bacteria, thereby establishing
+a chronic infection. The ability of Salmonella to survive in bioﬁlm poses challenges for
+disinfection procedures in poultry environments [ 63]. Figure 2 summarizes Salmonella
+pathogenesis.
+Microorganisms 2023 , 11, x FOR PEER REVIEW  7 of 27  
+ Typhimurium’s ability to invade the spleen in one -week-old chicks  [60]. In addition, the 
+Michael et al. study revealed that the disruption of spaS, an essential component of the 
+SPI-1 T3SS, had little influence on cecal colonization in day -old chicks. In contrast, the 
+mutant spaS strain was shown to reduce cecal colonization and decrease liver invasion 
+during an experimental  S. Typhimurium  infection in one -week-old birds [61]. Moreover, 
+the same study illustrates that the deletion of another gene, ssaU, that encodes major com-
+ponents of SPI -2 T3SS did not affect bacterial colonization of the intestine but exhibited a 
+significant reduction in S. Typhimurium  dissemination to the liver throughout the study  
+[61]. A recent study with the S. Typhimurium challenge model showed that  the deletion 
+of SPI-1 and SPI -2 genes had a negative impact on the mutant strain’s ability to colonize 
+and cause systemic lesions in the cecum and liver in one -day-old chickens  [62]. 
+Salmonella spp. has the ability to form biofilms at room temperature on surfaces in 
+poultry environments and food processing plants. These biofilm cells are highly resistant 
+to antimicrobials and contribute to the increased virulence of the bacteria, thereby estab-
+lishing a c hronic infection. The ability of Salmonella  to survive in biofilm poses challenges 
+for disinfection procedures in poultry environments  [63]. Figure 2 summarizes Salmonella  
+pathogenesis.  
+ 
+Figure 2. Schematic representation of Salmonella  pathogenesis in pou ltry. Created with Bioren-
+der.com (accessed on 26 July 2023).  
+5. Immune Response to Salmonella  
+The interaction between humoral and cell -mediated immune systems plays a critical 
+role in clearing Salmonella infection in poultry. The complex immune response ag ainst Sal-
+monella depends on multiple factors, including host species, host age, gut microbiota com-
+position, bacterial load, and Salmonella  serotype associated with the infection  [64,65]. 
+5.1. Innate Immune System  
+The innate and adaptive immune components a re the two main classifications of the 
+avian immune system. The innate immune system serves as the first line of defense against 
+pathogens, and it has several key components, including (1) chemical and physical barri-
+ers such as skin, mucosal epithelia, muc us, and antimicrobial molecules; (2) blood proteins 
+such as complement, lectins, and agglutinins; (3) phagocytic effector cells (macrophages, 
+neutrophils, monocytes), dendritic cells, heterophils, and natural killer cells; (4) cytokines; 
+(5) cellular recep tors (pathogen recognition receptors) such as Toll -like receptors, NOD -
+like receptors, and RIG -like receptors; (6) antimicrobial peptides such as defensins and 
+cathelicidins  [66]. 
+Figure 2. Schematic representation of Salmonella pathogenesis in poultry. Created with Biorender.com
+(accessed on 26 July 2023).
+5. Immune Response to Salmonella
+The interaction between humoral and cell-mediated immune systems plays a critical
+role in clearing Salmonella infection in poultry. The complex immune response against
+Salmonella depends on multiple factors, including host species, host age, gut microbiota
+composition, bacterial load, and Salmonella serotype associated with the infection [64,65].
+5.1. Innate Immune System
+The innate and adaptive immune components are the two main classiﬁcations of the
+avian immune system. The innate immune system serves as the ﬁrst line of defense against
+pathogens, and it has several key components, including (1) chemical and physical barriers
+such as skin, mucosal epithelia, mucus, and antimicrobial molecules; (2) blood proteins
+such as complement, lectins, and agglutinins; (3) phagocytic effector cells (macrophages,
+neutrophils, monocytes), dendritic cells, heterophils, and natural killer cells; (4) cytokines;
+(5) cellular receptors (pathogen recognition receptors) such as Toll-like receptors, NOD-
+like receptors, and RIG-like receptors; (6) antimicrobial peptides such as defensins and
+cathelicidins [66].
+Microorganisms 2023 ,11, 2814 8 of 27
+The avian immune organs can be divided into bone marrow, bursa of Fabricius and
+thymus, and peripheral lymphoid organs such as the spleen and cecal tonsils [ 67,68].
+MALT (mucosa-associated lymphoid tissue) comprises components of the immune system
+linked to the gastrointestinal and bronchial mucosa, providing the ﬁrst line of protection
+against pathogens that enter the body through these mucosal surfaces. GALT, a major
+component of MALT, contains an isolated or group of lymphoid follicles disseminated in
+the lamina propria of the gastrointestinal tract, such as the bursa of Fabricius, cecal tonsils
+(CT), Meckel’s diverticulum, Peyer’s patches (PP), and intraepithelial lymphocytes. GALT
+lymphoid structures are the major secondary lymphoid organs since chickens lack other
+peripheral encapsulated lymph nodes [69,70].
+Pathogen-associated molecular patterns (PAMPs) are microbial molecular structures
+that stimulate the innate and eventually adaptive immune systems. Some examples of
+PAMPs include nucleic acids such as single-stranded RNA (ssRNA) and double-stranded
+RNA (dsRNA); proteins such as ﬂagellin; cell wall lipids such as lipopolysaccharide (LPS)
+and lipoteichoic acids; and carbohydrates like mannans found in fungi [ 66]. Cellular re-
+ceptors of the innate immune system that recognize PAMPs in pathogens are known as
+pathogen recognition receptors (PRRs). PRRs are present in various immune cells, like
+phagocytes, dendritic cells, heterophils, and barrier epithelial cells. Toll-like receptors,
+NOD-like receptors, and RIG-like receptors are examples of PRRs. Studies have iden-
+tiﬁed 10 Toll-like receptors in chickens [ 71]. The binding of PAMP to the speciﬁc TLRs
+results in the production of reactive nitrogen and oxygen intermediates, cytokines, and
+co-stimulatory molecules, initiating the adaptive immune response [ 72]. The outer mem-
+brane lipopolysaccharide (LPS) of Gram-negative bacteria is the ligand for TLR4, while
+TLR5 recognizes bacterial ﬂagellin [66].
+Okamura et al. reported that when birds were vaccinated with recombinant Salmonella
+ﬂagellin (rFliC) and challenged with Salmonella Enteritidis, there was a signiﬁcant reduction
+in bacterial load in the liver and cecum [ 73]. A transcriptome analysis study on the
+cecal mucosal immune system of layer chicks challenged with Salmonella Typhimurium
+demonstrated upregulation of TLR15, TLR1A, TLR2B, and TLR7 pathways on days 3, 5,
+and 7 post-infections with S.Typhimurium [ 74]. There was a measurable variation in
+TLR expression in multiple regions of the intestinal tract in 2-day-old broiler birds at 24 h
+post-challenge with S.Enteritidis. The infection upregulated the expression of TLR 1LA
+from the ceca to the ileum, TLR2A from the duodenum to the ceca, and TLR 15, which is
+unique to avians. However, there was a three-fold downregulation in the expression of
+TLR 5 compared to uninfected birds [ 75]. These ﬁndings emphasize the critical role of TLRs
+in the innate immune response of avians against Salmonella .
+It has been reported that heterophils are integral cells of the avian innate immune sys-
+tem. They are granulocytic white blood cells that are equivalent to mammalian neutrophils
+and act as the ﬁrst line of defense against pathogens in the avian immune system [ 76].
+The functions of heterophils include phagocytosis of both opsonized and non-opsonized
+pathogens like Salmonella , degranulation of granular content, and the initiation of oxidative
+burst (ROS) [ 76]. Ferro et al. demonstrated upregulation of proinﬂammatory cytokines IL-6,
+IL-1, and IL-8 in heterophils of Salmonella Enteritidis-resistant one-day-old chicks compared
+to infected chicks [ 77]. Toll-like receptors, including TLR1, TLR 2, TLR 3, TLR 4, TLR 5, TLR
+6, TLR 7, and TLR 10 mRNA, are associated with antipathogenic defense pathways in avian
+heterophils [ 78], and upregulation of TLR4, TLR15, and TLR 21 in heterophils following
+Salmonella Enteritidis stimulation [ 79]. A transcriptome analysis study has shown that the
+heterophil/ lymphocyte (H/L) ratio is a critical factor that determines the robustness of
+the immune response in birds [ 80]. A recent study reported that the number of goblet
+cells, IL-1, IL-8, and IFN- ileal expressions were all inversely linked with the H/L ratio,
+suggesting that birds with low H/L ratios had improved intestinal immunity and barrier
+functions [ 81]. In conclusion, these ﬁndings indicate the critical role of heterophils in de-
+fense against Salmonella and facilitate its clearance. However, further research is needed to
+Microorganisms 2023 ,11, 2814 9 of 27
+determine whether the H/L ratio could serve as a biomarker to identify chickens resistant
+toSalmonella .
+5.2. Adaptive Immunity
+5.2.1. CD4+ T-Cells, CD8+ T-Cells
+Adaptive immunity plays a critical role in defense against intracellular pathogens like
+Salmonella . In brief, T cells are key immune cells in the cell-mediated immune response.
+Helper T-cells (CD4+ T-cells), cytotoxic/killer T-cells (CD8+ T-cells), and regulatory T-cells
+(Tregs) are functionally distinct populations of T lymphocytes [ 66]. CD4+ T cells orchestrate
+cytokine production and initiate the immune response by activating other immune cells.
+Their release of IL-2 and IFN by CD4 T cells stimulates NK cells, macrophages, and
+CD8-T cells and aids B cell differentiation into plasma cells. CD8+ T cells, also known as
+killer/cytotoxic T cells, cause the lysis or apoptotic cell death of intracellular pathogens [ 66].
+Withanage et al. reported that a Th1-mediated decrease in the bacterial load was
+correlated with an upregulation in the number of CD4+ and CD8+ T cells in the spleen
+and liver of one-week-old Rhode Island Red chickens infected with S.Typhimurium [ 82].
+Infection with Salmonella Enteritidis in laying hens has been shown to increase the numbers
+of both CD4+ and CD8+ T cells along with macrophages in the ovaries and oviduct around
+7–14 days post-inoculation, which was followed by peak upregulation in B cells. The
+reduction in the bacterial recovery rate from the ovary and oviduct around the peak
+lymphocyte period indicated the involvement of cell-mediated immunity [83].
+Moreover, Saenz et al. recently reported that an increased CD4+/CD8+ ratio in vacci-
+nated birds challenged with three different Salmonella serovars was linked to a reduction
+in cecal bacterial load [ 84]. At one week post- Salmonella Enteritidis inoculation, CD4+
+and CD8+ T cells signiﬁcantly increased in the intestines of vaccinated birds compared
+to unvaccinated and non-challenged birds [ 85]. In addition, another study reported an
+increase in intraepithelial cytotoxic CD8+ T cells in SE-infected birds during multiple time
+points during the study. However, the number of splenic cytotoxic CD8+ T-cells and splenic
+helper CD4+ T-cells was comparable between the infected and uninfected birds across the
+course of infection. Thus, prevention of systemic clearance of pathogens from the spleen
+alone may be insufﬁcient [ 86]. Research has shown that at seven days post-infection with
+SE, the CD11+ MRC1LB+ macrophage level increased in the spleen, where the bacterial
+load was the highest [ 86]. The results are supported by a transgenic chicken study that
+showed increased MHC-II expression levels in MRC1LB+ macrophages. This altogether
+suggests the importance of increased levels of macrophages and CD4+ and CD8+ immune
+cells in clearing Salmonella infection in chickens [87].
+5.2.2. Regulatory T-Cells
+Regulatory T cells, or T-regs, are a subset of Th cells. Chicken T-regs (CD4+ CD25+)
+develop in the thymus and serve to maintain tolerance and suppress the immune response
+by producing the anti-inﬂammatory cytokine IL-10 [ 66]. IL-10 functions by inhibiting
+the production of IL-2 by effector T cells, which in turn suppresses the development of
+an IFN -driven proinﬂammatory response against pathogens. A study with Salmonella -
+challenged broiler chickens reported a signiﬁcant increase in the number of T-regs and
+IL-10 mRNA expression throughout the study [ 88]. They also found that the T-regs from
+infected birds suppressed T cell proliferation on days 7 and 14 post-inoculation. Moreover,
+Tregs from uninfected control birds did not suppress T cell proliferation [ 88]. In conclusion,
+an increase in the Treg percentage was associated with persistent S.Enteritidis infection in
+the cecal tonsils of broiler birds [ 88]. Persistent S.Enteritidis and S.Heidelberg infections
+were reported in chickens by the induction of CD4+CD25+ cells and by the variation in
+IL-10 mRNA transcription, resulting in an asymptomatic carrier state in birds 18 days after
+infection [ 89]. In vaccinated birds post-challenge with S.Enteritidis, there was a decrease
+in the cellular immune response, explained by the signiﬁcantly higher levels of IL-10 at
+Microorganisms 2023 ,11, 2814 10 of 27
+the same time point [ 90]. Overall, these ﬁndings indicate that Tregs have an impact on
+Salmonella infection in chickens.
+5.2.3. Cytokines
+The cells can be classiﬁed into Th1 and Th2 cells based on the types of cytokines
+they produce. Th1 cells promote the proinﬂammatory cell-mediated immune response
+against intracellular pathogens like Salmonella by producing interferon-gamma (IFN ),
+IL-12, and tumor necrosis factor (TNF). Th2 cytokines, mainly IL-10, are anti-inﬂammatory,
+suppressing the Th1 response, and are associated with immune resistance to Salmonella and
+Salmonella carrier states in chickens [91].
+In brief, exposure of ligands to PRRs on antigen-presenting effector cells like macrophages,
+dendritic cells, and B-cells causes the activation of APC, which in turn activates the naïve
+T-cells. The activated T-cells differentiate into various subsets of T-helper cells [ 66]. In addition,
+the production of IL-12 by activated macrophages, known as classical activation, induces the
+production of IFN by T cells. The production of IFN further induces the differentiation of
+T cells into Th1-type cells, marking the initiation of a cell-mediated immune response [ 66].
+Earlier studies have shown that splenic IFN mRNA expression was higher in day-old chicks
+exposed to Salmonella [92]. The clearance of Salmonella enterica serovar Typhimurium from
+the spleen is associated with an increase in T-cell proliferation and IFN expression [ 93].
+Another pro-inflammatory cytokine, IL-1 , was related to an acute immune response against
+Salmonella in young chicks [ 94]. A study demonstrated that IL-1 mRNA expression was
+increased in the ilea and cecal tonsils of S.Typhimurium-inoculated birds [ 92]. Furthermore, a
+transcriptome analysis study on the cecal mucosal immune system of layer chicks challenged
+with S.Typhimurium found a steady upregulation in the differentially expressed genes where
+IL-6 played a key role [ 74]. A study on the effects of killed S.Enteritidis vaccination in chickens
+showed increased IFN and IL-2 production by spleenocytes on antigen recall responses
+post-vaccination [ 95]. In birds immunized with a killed chitosan nanoparticle vaccine, the
+mRNA expression of TNF- in cecal tonsils increased 0.5-fold when birds were inoculated
+with Salmonella. They also reported an increase in the expression of IL-17 in the cecal tonsils
+of immunized-challenged birds [96]. However, to date, no studies have reported the specific
+function of Th-17 cells in the defense against Salmonella in poultry .
+Chausse et al. reported that genes linked to IFN alpha/beta were inhibited in birds re-
+sistant to Salmonella . In addition, they found that both carrier-state-resistant and susceptible
+birds had decreased IFN gene expression, suggesting suppression of the Th1 response [ 91].
+Salmonella has developed a “unique survival strategy” for long-term colonization of the
+chicken intestine, resulting in persistent Salmonella infection and the development of a cecal
+carrier state. It was suggested that carrier status could be associated with a Th2 response, as
+indicated by the upregulation of cytokines like IL-4, IL-5, and IL-13 mRNA expression [ 91].
+5.2.4. B-Cells and Immunoglobulins
+B cells play a crucial role in the humoral immune response by producing antibodies.
+These B cells differentiate into antibody-secreting plasma cells, which produce various Ig
+isotypes depending on the cytokine present. For instance, IgA serves as the ﬁrst line of
+defense against mucosal infections in MALT and is the most prevalent antibody on mucosal
+surfaces [ 66]. The exact role of antibodies in controlling Salmonella remains unclear [ 97].
+However, recent studies have identiﬁed that humoral immunity is also important in that
+the enteric pathogen decreases the production of serum IgG by B cells as a mechanism to
+escape from the humoral immune response. Manne et al. demonstrated that Salmonella
+uses the protein SiiE to speciﬁcally decrease the number of IgG-producing plasma cells in
+bone marrow, which in turn reduces serum IgG titer [ 98]. In addition, they also observed
+that the SiiE-depleted strain of Salmonella had increased serum anti- Salmonella IgG [ 98].
+There have been reports of a steady increase in the antigen-speciﬁc serum IgG and IgM
+antibodies in birds inoculated with Salmonella Typhimurium [ 99]. In a study on chickens
+looking at the impact of chemically induced B cell depletion on immunological response,
+Microorganisms 2023 ,11, 2814 11 of 27
+it was found that the birds with B cell deﬁciency had higher rates of intestinal Salmonella
+Enteritidis shedding [ 100]. Other studies claim that the clearance of Salmonella enterica
+serovar Typhimurium infection in birds is independent of the humoral immune response.
+They showed that B-cell-depleted birds had the same response as control birds to clearing
+theSalmonella infection [ 101]. Withanage et al. reported that intravenous inoculation of
+SE in layer birds led to peak production of IgG, IgM, and IgA antibodies around 14 days
+post-inoculation, correlating with the decrease in Salmonella recovery rates during the same
+period [ 94]. However, further research on the role of the humoral immune response in the
+chicken immune system is needed to get a clear understanding of the efﬁciency of B-cell
+and Ig repertoires in controlling Salmonella infection.
+6.Salmonella Control Strategies in Poultry
+6.1. Biosecurity
+Implementing good biosecurity measures plays a key role in combating the transmis-
+sion of Salmonella and improving food safety [ 102]. Biosecurity controls include entry-level
+and site cleanliness, immunization, boot dips, and the hand hygiene of employees. In
+addition, better rodent and ﬂy control, red mite control, and disinfection in between ﬂocks
+are recommended to reduce the incidence of Salmonella and to halt the disease cycle in
+farms [ 103]. To reduce the prevalence of D. gallinae, a biological vector of Salmonella,
+appropriate biosecurity measures should be used [104].
+Proper litter management has been associated with a decreased risk of Salmonella
+detection in poultry houses. Moreover, higher Salmonella contamination was linked to the
+use of fresh wood shavings than older litter [ 105]. Hence, proper recycling of litter using
+methods like composting is crucial in reducing the Salmonella count in poultry litter [ 106].
+Additionally, the use of proper disinfectants is vital in limiting the introduction and dissem-
+ination of disease in birds [ 107]. Furthermore, the seroprevalence of Salmonella increased
+during the summer compared to the winter season [ 108]. Hence, strict biosecurity measures
+are required to combat the seasonal prevalence of Salmonella among poultry ﬂocks.
+6.2. Antibiotics
+Antibiotics have been used in poultry feed since the 1940s, mainly due to their ben-
+eﬁts on birds’ feed efﬁciency, enhanced growth performance, and inhibition of enteric
+pathogens [ 109]. The list of antibiotics used as feed additives to combat enteric pathogens
+includes small quantities of penicillin, tetracycline, and chloramphenicol [ 110]. However,
+the subtherapeutic use of antibiotics in poultry feed is being reconsidered because of the
+growing concern about antibiotic resistance in the human food chain [ 111]. Resistant
+Salmonella serotypes have been reported against antibiotics such as quinolones, chloram-
+phenicol, and cephalosporins worldwide [ 112]. Moreover, control strategies like probiotics
+are given importance as a viable substitute for antibiotics in light of the European Union’s
+(EU) ban on their usage and the US’s restricted use of them in the production of chickens.
+Additionally, the use of antibiotics is associated with the destruction of beneﬁcial gut bacte-
+ria that help ﬁght enteric pathogens [ 113]. Hence, alternatives to antibiotics like probiotics,
+prebiotics, synbiotics, postbiotics, etc., are given more importance in the post-antibiotic era.
+6.3. Prebiotics
+Prebiotics and probiotics play important roles in promoting gut health and supporting
+the balance of beneﬁcial intestinal ﬂora in poultry. According to the International Scientiﬁc
+Association for Probiotics and Prebiotics, prebiotics can be deﬁned as “a substrate that is
+selectively utilized by host microorganisms conferring a health beneﬁt” [ 114]. The Food
+and Agricultural Organization (FAO) of the United Nations (UN) deﬁned probiotics as
+a “non-viable food component that confers a health beneﬁt on the host associated with
+modulation of the microbiota” [115].
+The prerequisite for a potential prebiotic includes the ability to withstand hydrolysis by
+gastric acids and enzymes and resist absorption in the upper gastrointestinal tract [ 116]. An
+Microorganisms 2023 ,11, 2814 12 of 27
+ideal prebiotic should also be metabolizable by the gut microbiota, be a selective compound
+that promotes the growth of beneﬁcial intestinal ﬂora, and have the capacity to regulate the
+immune response in favor of the host while suppressing pathogens, thereby improving the
+host’s health and performance [117].
+Prebiotics like non-digestible oligosaccharides and polysaccharides have been shown
+to inhibit the survival and colonization of pathogens like Salmonella by producing SCFA like
+butyrate and acetate in the ceca, which helps lower the gut pH [ 118]. Yeast cell wall-derived
+mannan oligosaccharides (MOS) [ 119], fructo-oligosaccharides (FOS), inulin [ 120], and
+xylo-oligosaccharides [ 121] are some examples of prebiotics used in poultry production
+systems to control various pathogens, including Salmonella .
+The composition of the yeast cell wall includes MOS (40%), -glucan (60%), and chitin
+(2%) [ 122]. Studies have demonstrated the beneﬁts of yeast cell product supplementation in
+poultry diets. Shanmugasundaram et al. reported that yeast cell wall product supplementa-
+tion in layer birds reduced fecal and intestinal oocyst count, up-regulated anti-inﬂammatory
+cytokine IL-10 production, and increased proliferation of beneﬁcial bacteria like LAB and
+their by-products of fermentation in the cecal tonsils during post-coccidial challenge [ 123].
+Another study found that whole yeast cell prebiotic supplementation in the diet of broiler
+birds modulates the immune response by increasing the percentage of Tregs, improving
+IL-10 (anti-inﬂammatory) mRNA expression, and reducing the pro-inﬂammatory cytokine
+(IL-1) mRNA expression in the cecal tonsils of broiler birds [ 124]. Supplementing broilers
+with MOS (0.05%) and FOS (0.25%) signiﬁcantly improved overall body weight gains [ 125].
+Dietary FOS supplementation at 1% revealed a reduction in the cecal load of Salmonella
+Enteritidis, an upregulated ileal IgA cell titer, and increased expression of TLR-4 mRNA
+in layer birds challenged with SE [ 126]. Broiler birds supplemented with 5% trehalose
+and inoculated with Salmonella Typhimurium improved feed conversion ratio, favored
+the growth of lactobacilli in jejunum and duodenum, decreased the cecal load of ST, and
+decreased inﬂammation in GIT [ 127]. These results highlight the potential beneﬁts of sup-
+plementing poultry diets with prebiotics as an alternative to antibiotic growth promoters for
+controlling harmful bacteria like Salmonella , ultimately improving production performance
+and gut health.
+6.4. Probiotics
+Probiotics, also known as direct-fed microbial (DFM), are deﬁned by FAO as “live
+microorganisms, when administered in adequate amounts, confer a health beneﬁt on the
+host” [ 128]. Lilly and Stillwell ﬁrst used the term and deﬁned probiotics as “growth-
+promoting factors produced by microorganisms” [ 129]. In this context, probiotics confer
+their beneﬁcial effects on the host through competitive exclusion, improving barrier health
+and function, immunomodulation, and digestion and absorption, thereby promoting
+growth and performance. The qualities of potential probiotic candidates are (1) host origin;
+(2) non-pathogenic and beneﬁcial to the host by adhering to the gut mucosa (bioﬁlm forma-
+tion); (3) tolerate of gastric acid and bile salts; (4) antimicrobial properties against pathogens;
+and (5) survive post-processing and storage stress [ 130,131]. Probiotic microorganisms
+used for poultry supplementation include spore-forming Bacillus spp. Saccharomyces yeast,
+Enterococcus spp. [ 132],Streptococcus spp. Lactobacillus spp. and Biﬁdobacterium spp. [ 133].
+The available probiotics on the market include either single-species or multispecies prepa-
+rations, with the latter preferred due to its ability to act on multiple sites to bring out an
+overall synergistic effect [134].
+The administration of probiotics to layers of birds improved egg production, egg
+weight, and egg quality [ 135]. Colonization by the Bacillus subtilis CSL2 probiotic strain
+normalized the level of fecal microbiota and increased Lactobacillus inSalmonella -challenged
+Hy-line Brown laying hens [ 136]. Supplementation of probiotics containing Lactobacillus
+fermentum and Saccharomyces cerevisiae in broilers improved feed efﬁciency and the per-
+centage of intestinal T-lymphocytes (CD4+ and CD8+) [ 137]. Continuous supplementation
+ofBacillus -based probiotics restored the gut microbiota, decreased Salmonella load in the
+Microorganisms 2023 ,11, 2814 13 of 27
+internal organs, and increased the level of butyrate in free-laying birds challenged with
+S.Typhimurium infection [ 138]. Probiotic supplementation has also been associated with
+increased anti- Salmonella bile IgA in birds challenged with Salmonella , indicating improved
+humoral immunity [ 139]. It has been shown that feed supplementation with Lactobacillus
+spp. and Biﬁdobacterium spp. has been shown to increase the production of proinﬂamma-
+tory cytokines IFN- and TNF- that favor the clearance of Salmonella from the gut [ 140].
+Moreover, studies have shown that probiotic bacteria play a role in maintaining a bal-
+ance between pro-inﬂammatory cytokines and anti-inﬂammatory cytokines [ 141]. Recent
+studies have reported that the combination of probiotics ( Lactobacillus spp., Pediococcus
+spp., Saccharomyces spp., and Bacillus spp.) with the live SE vaccine enhanced the growth
+performance, decreased mortality rate, and reduced fecal shedding of bacteria in Salmonella -
+challenged broilers, thereby limiting the bacterial colonization of birds [ 142]. These ﬁndings
+suggest that probiotics could be a potential alternative to antibiotics in poultry infected
+with Salmonella since they positively modulate the gut microbial population and enhance
+the immune response against the pathogen.
+However, more research needs to be performed to determine the appropriate storage
+and packaging conditions for probiotics and to investigate the development of antimicrobial
+resistance in the gut microbial community. Some studies suggest that probiotics may
+deteriorate when exposed to temperatures higher than room temperature [143].
+6.5. Synbiotics
+Synbiotics refers to the synergistic combination of prebiotics and prebiotics, a concept
+ﬁrst used by Gibson and Roberfroid in 1995 [ 144]. In synbiotics, prebiotics are used
+to support and sustain the probiotic microorganisms by modifying the gut microﬂora,
+ultimately enhancing the ability of probiotics to survive and inhibiting colonization of the
+gut epithelium by pathogens. The supplementation of synbiotics has shown signiﬁcant
+beneﬁts to host animals compared to using prebiotics and probiotics separately [ 145]. The
+Food and Agriculture Organization (FAO) recommends using the term synbiotics only if
+the combined health effect is synergistic [ 115]. Examples of synbiotics include combinations
+like fructo-oligosaccharides with biﬁdobacteria and lactitol with lactobacilli [146].
+Synbiotic supplementation has been documented to improve the production perfor-
+mance and alleviate the heat stress of broiler breeders. Birds fed synbiotics showed less heat
+stress behaviors than birds fed a regular diet [ 147]. Supplementation of synbiotic prepara-
+tions containing Lactobacillus spp., Saccharomyces cerevisiae yeast, and inulin has shown a
+positive effect on the proliferation of beneﬁcial intestinal bacteria like Biﬁdobacterium spp.
+and Lactobacillus spp. in broiler birds [ 148]. Shanmugasundaram et al. investigated the ef-
+fect of synbiotic supplementation on the production performance, immune parameters, and
+cecal Salmonella load of Salmonella -challenged layer birds. They reported improved body
+weight gain, higher hen-day egg production both with and without a Salmonella challenge,
+decreased cecal Salmonella colonization, and increased bile anti- Salmonella IgA [ 149]. In ad-
+dition, synbiotics may help to modulate lymphoid organs (bursa, spleen), increase the size
+of bursal follicles, and stimulate the immunoglobulins, thereby improving immunocompe-
+tence against Salmonella Typhimurium infection in broilers [ 150]. These ﬁndings suggest
+that synbiotics have promising effects and could serve as potential growth promoters in
+poultry production.
+6.6. Postbiotics
+Postbiotics are non-viable bacterial products or metabolic byproducts, either secreted
+by live bacteria or derived after cell lysis from probiotic microorganisms, that confer bene-
+ﬁcial functions on the host. In general, postbiotics range from SCFA to enzymes, organic
+acids (propionic and 3-phenylacetic acid), peptides, plasmalogens, vitamins, teichoic acids,
+and muropeptides. Postbiotics mimic probiotics in their mode of action, except that they
+are not alive [ 151]. The soluble factors are obtained from probiotic microorganisms in the
+cell walls and cytoplasm, such as Lactobacillus spp., Biﬁdobacterium spp., Bacillus spp., and
+Microorganisms 2023 ,11, 2814 14 of 27
+Saccharomyces cerevisiae . Postbiotics beneﬁt the host by producing immunomodulatory
+effects, decreasing gut pH, inhibiting pathogenic bacteria in the gut (pathogen antagonism),
+enhancing antioxidant properties, enhancing gut health, protecting intestinal barrier in-
+tegrity, and improving production performance [ 152]. The most common postbiotics used
+are metabolites and their combinations produced by strains of Lactobacillus plantarum [153].
+In the context of poultry, research has shown positive effects of postbiotics on various
+aspects of health and performance. In broiler birds exposed to heat stress, the postbiotic
+supplementation obtained from L. plantarum RI11 at 0.6% ( v/w) showed positive effects
+on genes related to gut barrier health and reduced the expression of heat shock protein
+70 genes as well as the acute phase protein genes, indicating the antioxidant function
+of postbiotics [ 154]. These birds also exhibited increased growth performance, intestinal
+histomorphology, a higher number of cecal microﬂora, and a negative effect on the cecal
+Salmonella population following the addition of postbiotics produced by L. plantarum in
+broiler birds maintained under heat stress conditions [ 155]. Dietary inclusion of postbiotics
+RG14 (0.15% and 0.45%) along with prebiotics (inulin) at a concentration of 1% exhibited
+improved body weight gain, a higher proportion of Biﬁdobacterium in the cecum accompa-
+nied by decreased mRNA expression of interleukins LITAF (Lipopolysaccharide-induced
+tumor necrosis factor-alpha factor) and IFN and reduced pathogenic bacteria like E. coli
+in broilers. Nevertheless, the diet did not affect the Salmonella population [ 156]. Choe
+et al. reported that supplementing layer birds with soluble metabolite combinations of
+L. plantarum strains improved egg production performance, fecal population of LAB, and
+intestinal villi height and crypt depth [ 157]. Additionally, postbiotics derived from Saccha-
+romyces cerevisiae fermentation reduced the cecal colonization of Salmonella in broilers and
+layer pullets, making them a potential preharvest intervention to enhance food safety and
+improve production performance [158,159].
+As antibiotic resistance becomes a growing concern, postbiotics are a potential alter-
+native for combating enteric pathogens like Salmonella. They can play a valuable role in
+preharvest intervention to enhance food safety practices and improve production perfor-
+mance in poultry. However, further research is needed to better understand the mechanism
+of action and safety of postbiotics in the poultry sector.
+6.7. Phytobiotics
+Phytobiotics, also known as phytogenics or phytochemicals, are biologically active
+compounds obtained from plants used in animal production as feed additives because they
+offer health beneﬁts and promote growth in animal production, including poultry. The
+bioactive substances derived from plants include saponins, ﬂavonoids, terpenoids, and
+alkaloids [ 160]. These compounds are reported to have antioxidant, antiviral, antimicro-
+bial, anticoccidial, anti-parasitic, immunomodulatory, anti-inﬂammatory, and endocrine
+stimulatory activities [ 161,162]. Dietary supplementation of poultry feed with garlic pow-
+der [163], clove and cinnamon [164], peppermint powder [165], and ginger [166] has been
+shown to improve overall production performance, feed conversion ratio, and body weight
+gain. Other examples of plants used as phytobiotics include black cumin, turmeric [ 167],
+calendula, oregano, green tea, and fennel, among others [168].
+Supplementing a phytobiotic named Intebio in the diet of growing birds challenged
+with S.Enteritidis was reported to decrease the earlier inﬂammatory response via the
+downregulation of IL6, IL8L2, CASP6, and IRF7 at day 23, thereby limiting the colonization
+of the pathogen [ 169]. Ziheng et al. found that oregano essential oil (OEO) supplementation
+in drinking water could inhibit and treat infection by S.Pullorum and S.Gallinarum in
+commercial yellow-chicken breeders. Additionally, they reported that OEO was more
+effective in preventing infection than the treatment [ 170]. A diet containing 40 mgmL 1to
+80 mgmL 1of garlic extract revealed antimicrobial properties in broiler chicks challenged
+with S.Typhimurium by reducing mortality and improving body weight [ 171]. Phytogenic
+compounds like trans -cinnamaldehyde and eugenol have decreased S.Enteritidis growth
+and cecal colonization in challenged broiler birds after ten days of infection [ 172]. Moreover,
+Microorganisms 2023 ,11, 2814 15 of 27
+natural capsaicin derived from chili pepper has been reported to control the internal organ
+(liver, spleen) invasion by S.Enteritidis in challenged layer birds [ 173]. All these studies
+indicate the great potential of phytobiotics as an antimicrobial substitute against Salmonella
+in poultry and its application in commercial farms.
+6.8. Bacteriophages
+Bacteriophages are viruses that infect bacteria and use the host machinery to proliferate
+inside the host cell. These phages penetrate their DNA into the host cell (lysogenic) and
+undergo multiplication, followed by the release of a large number of new bacteriophages,
+eventually leading to the lysis of the bacterium to release the progeny bacteriophages.
+In the lysogenic cycle, phage DNA integrates into the bacterial chromosome and can
+remain dormant for some time without causing cell lysis [ 174]. Bacteriophages are used
+as alternatives to antibiotics due to their promising target speciﬁcity, less allergic side
+effects, and harmlessness to the host’s normal ﬂora [ 175]. The treatment of S.Enteritidis-
+contaminated poultry carcass with a higher number of bacteriophages was able to reduce
+the percentage of recoverable bacteria by 93% [176].
+The application of phage cocktail (F1055S, F12013S) as an aerosol spray on fertile eggs
+challenged with S.Enteritidis during their transfer from incubators to hatchers reduced
+Salmonella ’s horizontal transfer [ 177]. The inoculation bacteriophage cocktail made from
+phages isolated from chickens (UAB_Phi20, UAB_Phi87) and pigs (UAB_Phi78) decreased
+theSalmonella load in the cecum and mortality rate of white leghorn birds challenged with
+S.Typhimurium [ 178]. The administration of CTCBIO phage signiﬁcantly reduced the
+S.Enteritidis load in the cloacal swab, liver, and spleen in broilers that are challenged with
+S.Enteritidis [ 179]. Broad-host-range phage (STP4-a) is beneﬁcial over speciﬁc phages
+since they can inhibit multiple serovars of Salmonella with their polyvalent adsorption
+sites [ 180]. Additionally, oral inoculation of S.Enteritidis and S.Typhimurium phages
+reduced depression, loss of appetite, and diarrhea in a Salmonella challenge model. There is
+a signiﬁcant decrease in the cecal colonization of Salmonella 7–15 days post-administration
+of phages in infected chicks [ 181]. In pandrug-resistant S.Typhimurium infected chicks, a
+phage combination (virulent and non-productive) enhanced the survival rate of chicks by
+100%. It decreased the bacterial load in internal organs but did not improve body weight
+gain, alleviate splenomegaly, or re-establish the intestinal microbiota [ 182]. These data
+suggest that bacteriophage treatment could improve the survival rate of Salmonella -infected
+chickens and reduce the bacterial colonization of internal organs. The poor efﬁcacy of
+phage to withstand the acidic gastric pH of the birds on oral delivery is overcome by the
+encapsulation technique [ 183]. However, the main disadvantage of phage therapy is the
+emergence of phage resistance [184].
+6.9. Vaccination against Salmonella in Poultry
+6.9.1. Live-Attenuated Vaccine
+Live attenuated vaccines, as the term suggests, are vaccines with living bacterial
+pathogens that have been rendered inactive or avirulent using attenuation methods such
+as chemical and genetically engineered mutagenesis [ 185,186]. These vaccines mimic
+natural infection as they adhere to the intestinal mucosa when administered orally, eliciting
+potent humoral and cell-mediated immune responses [ 185]. In newly hatched chicks
+with immature immune systems, Salmonella live vaccines promote resistance to infection,
+inhibiting gut colonization or competitive exclusion [187].
+In a study by Lin et al., a live attenuated bivalently lyophilized vaccine containing a
+ﬁnal concentration of 6 108CFU and 1 108CFU ST and SE strains, respectively, was
+inoculated into commercial layers at day 5, week 8, and week 18 of age [ 188]. The birds in
+different treatment groups were separately challenged with SE and ST at 25 weeks of age,
+and the birds were humanely euthanized on day 14 post-challenge. Both vaccines success-
+fully eliminated cloacal Salmonella shedding, as observed from cloacal swabs collected on
+days 7 and 14 post-challenge. Triple vaccination with the ST vaccine signiﬁcantly reduced
+Microorganisms 2023 ,11, 2814 16 of 27
+the invasion of Salmonella into the internal organs like the liver, spleen, and cecum in 90%
+of vaccinated birds [188].
+Groves et al. showed that oral administration of a live-attenuated aroA deletion mutant
+S.Typhimurium vaccine (Vaxsafe ST) at a concentration of 108CFU/250 L decreased
+Salmonella load only for a temporary duration over a period of 17–25 weeks. However,
+the dual administration of the same vaccine through the parenteral (subcutaneous) route
+enhanced the cecal clearance of the bacteria [ 189]. In a study performed on the aroA mutant
+Salmonella Typhimurium live vaccine, there were no reductions in the fecal shedding of
+ST [190].
+Many live attenuated vaccines are produced by mutating genes involved in crucial
+virus survival and metabolism [ 191]. A previous study explored the potential of an O-
+antigen-deﬁcient live attenuated Salmonella Typhimurium vaccine, created by the deletion
+of the rfaL,lon, and cpxR genes, on the level of protection from systemic colonization and
+immune response. The vaccine induced signiﬁcant ST-speciﬁc IgY and rapid clearance of
+mutant bacterial strains from the spleen and liver in about seven days [191].
+Venessa et al. immunized day-old laying–type chicks with a live Salmonella Enteri-
+tidis/Typhimurium bivalent oral vaccine, followed by two booster immunizations at six
+weeks and 16 weeks of age. The birds immunized with the bivalent vaccine ( Salmonella Duo)
+decreased the spleen colonization of a heterologous strain of bacteria when the birds were
+challenged with 4.6 108CFU of Salmonella Infantis (a heterologous strain). Hence, this
+study has been shown to confer cross-protection against S.Infantis (serotype C strains) [ 192].
+However, despite the ability of live-attenuated vaccines to stimulate both cell-mediated and
+mucosal immune responses, the biosecurity risk of virulence reversal of the live vaccine
+strain is the major drawback of live-attenuated vaccines [193].
+6.9.2. Killed or Inactivated Vaccine
+Killed bacterin vaccines made from inactivated whole-cell preparations of bacteria
+have been extensively used to control poultry Salmonella infection [ 194]. Commonly used
+inactivation agents for the preparation of killed vaccines include heat (60C for 1 h),
+formaldehyde, acetone, ethylene oxide, beta-propiolactone, and radiation (ultraviolet or
+gamma) [ 195]. The available Salmonella -killed vaccines are serovar-speciﬁc. Studies have
+shown that killed vaccines confer humoral immunity mostly and do not elicit strong cell-
+mediated immune responses. Therefore, booster vaccination is required for long-term
+protection [ 196,197]. Despite the absence of robust cell-mediated immunity, killed vaccines
+are preferred over live vaccines due to biosecurity and safety reasons [ 198]. Additionally,
+multivalent inactivated vaccines are required to contain the spread of a wide range of
+Salmonella serovars present in poultry [199,200].
+An inactivated aluminum hydroxide-gel adjuvanted trivalent Salmonella enterica vac-
+cine was shown to reduce the load of Salmonella Enteritidis in challenged birds by four
+log CFU/g, as well as demonstrate a complete reduction in bacterial dissemination to
+the liver when inoculated with Salmonella Infantis in vaccinated birds [ 194]. It has been
+shown that greater levels of IgA and IgY antibodies were produced in the bile and serum
+following the simultaneous use of live attenuated and killed Salmonella vaccines in broil-
+ers [ 201]. The combined use of both live and killed vaccination programs successfully
+reduced S.Typhimurium and S.Infantis colonization in young layers, providing broad
+protection [199].
+6.9.3. Subunit Vaccine
+Subunit vaccines, made of deﬁned antigens, are used in poultry and are claimed
+to be safer than live-attenuated or inactivated vaccines [ 193]. Vaccines derived from the
+outer membrane proteins (OMPs) and ﬂagella proteins (FliC protein) of Salmonella enterica
+serovar Enteritidis with adjuvants have been used to decrease bacterial shedding in poultry
+and to induce a signiﬁcant antigen-speciﬁc immune response against Salmonella [202].
+Additionally, a trivalent subunit cochleate system-based vaccine has been evaluated against
+Microorganisms 2023 ,11, 2814 17 of 27
+three serovars of Salmonella in layers. This vaccine increased serum IgY and improved
+production performance [84].
+Desin et al. showed the efﬁcacy of a subunit vaccine based on the Type 3 secretion
+system encoded on a type 1 pathogenicity island, which showed an increased titer of IgG
+antibodies in birds. Bacterial colonization in the liver was reduced but not in the spleen or
+cecum [ 203]. Renu et al. experimentally designed an oral mucosal adhesive biodegradable
+chitosan Salmonella subunit nanoparticle (CNP) vaccine for broilers, which successfully
+elicited mucosal IgA production, lymphocyte recall assays, serum IgY antibody levels, and
+conferred cross-protection against other Salmonella enterica serovars. Further, there was a
+signiﬁcant reduction in Salmonella Enteritidis load in the ceca and spleen of CNP-vaccinated
+birds at 21 days post-inoculation [204].
+In an experimental vaccine challenge study performed to study the protective effect of
+the vaccine on Salmonella serotypes, it was shown that a direct correlation exists between the
+increase in serum antibodies and a decrease in bacterial loads in the intestines of vaccinated
+birds [ 84]. The vaccine in the study did not affect the production performance of the
+vaccinated birds. Nevertheless, the duration of the protective response and the ability of
+these vaccines to confer cross-protective immunity are still unclear. However, not many
+vaccine studies on layer performance post-vaccination are available.
+6.9.4. Ghost Vaccine
+In the past, Salmonella ghost vaccines have been extensively tested in rat models [ 205].
+Bacterial ghosts are dead bacterial cell structures retaining surface antigenic LPS com-
+ponents without cytoplasmic contents made from Gram-negative bacteria. The lysis of
+Gram-negative bacteria mediated by the phage protein E produces bacterial ghosts [ 206].
+AS.Enteritidis ghosts (SEGs) vaccine made by chemically mediated lysis was tested in
+rats challenged with virulent S.Enteritidis to assess its efﬁcacy and capability to confer
+immune protection. They reported a signiﬁcant increase in serum IgG antibody levels in
+SEGs-vaccinated rats [205].
+Moreover, further studies have studied the safety of the ghost vaccines, as the E-
+gene-mediated lysis process, driven by the osmotic pressure-led bacterial cell emptying,
+is reportedly inefﬁcient [ 207]. Chetan et al. studied the efﬁcacy of the S.Enteritidis (SE)
+ghost vaccine, SE-LTB ghost, and a commercial vaccine. They found rapid clearance of the
+bacterial load in all groups post-SE challenge and an absence of local tissue reactions at
+the injection site. They also observed an increased level of IgG titer in SE-LTB-immunized
+birds [208].
+More recently, S.Enteritidis ghost vaccines have been produced and adjuvanted with
+ST ﬂagellin antigen (ST FliC). Birds immunized with the ghost vaccine demonstrated sig-
+niﬁcant clearance of the SE wild-type challenge strain from the spleen and liver, increased
+serum IgY antibody levels, and an improved cell-mediated immune response [ 209]. To-
+gether, the above data indicate the paramount importance of further research into ghost
+vaccines as potential Salmonella vaccine candidates. However, it is important to note that
+since they are non-living cells, they cannot penetrate the gut epithelium and trigger a potent
+mucosal immune response, which could be a potential challenge when using the ghost
+vaccine to control Salmonella in chickens.
+Salmonella , an intra-phagosomal enteropathogenic bacterium, has been used as a
+carrier for poultry DNA vaccines. DNA vaccines are considered safer than live vaccines
+because they are based on genes of antigenic proteins ligated to a plasmid, which is then
+transformed into attenuated S.Typhimurium and administered to birds [ 210]. The capacity
+of attenuated S.Typhimurium to elicit strong mucosal and systemic immune responses
+within the host is a beneﬁcial feature for using it as a live carrier to combat a range of
+poultry viral infections [ 211,212]. Some advantages of DNA vaccines include no risk of
+infection and minimal interference with passive maternal antibodies [ 213]. DNA vaccines
+can be administered by intramuscular, oral, and in ovo routes in poultry [ 214]. Despite all
+its beneﬁts, concerns about integrating DNA into the host genome and the development of
+Microorganisms 2023 ,11, 2814 18 of 27
+anti-DNA antibodies are the central claims raised against DNA vaccines [ 213]. Figure 3
+summarizes the control strategies against Salmonella in poultry.
+Microorganisms 2023 , 11, x FOR PEER REVIEW  18 of 27  
+ More recently, S. Enteritidis ghost vaccines have been produced and adjuvanted with 
+ST flagellin antigen (ST FliC). Birds immunized with the ghost vaccine demonstrated sig-
+nificant clearance of the SE wild -type challenge st rain from the spleen and liver, increased 
+serum IgY antibody levels, and an improved cell -mediated immune response [209]. To-
+gether, the above data indicate the paramount importance of further research into ghost 
+vaccines as potential Salmonella  vaccine can didates. However, it is important to note that 
+since they are non -living cells, they cannot penetrate the gut epithelium and trigger a po-
+tent mucosal immune response, which could be a potential challenge when using the 
+ghost vaccine to control Salmonella  in chickens.  
+Salmonella , an intra -phagosomal enteropathogenic bacterium, has been used as a car-
+rier for poultry DNA vaccines. DNA vaccines are considered safer than live vaccines be-
+cause they are based on genes of antigenic proteins ligated to a plasmid, wh ich is then 
+transformed into attenuated S. Typhimurium  and administered to  birds [210]. The capac-
+ity of attenuated S. Typhimurium  to elicit strong mucosal and systemic immune responses 
+within the host is a beneficial feature for using it as a live carrier to combat a range of 
+poultry viral infections [211,212] . Some advantages of DNA vaccines include no risk of 
+infection and minimal interference with passive maternal antibodies [213]. DNA vaccines 
+can be administered by intramuscular, oral, and in  ovo routes in poultry [214]. Despite all 
+its benefits, concerns about integrating DNA into the host genome and the development 
+of anti-DNA antibodies are the central claims raised against DNA vaccines [213]. Figure 3 
+summarizes the control strategies against Salmonella  in poultry.  
+ 
+Figure 3. Salmonella  control strategies in poultry.  Created with Biorender.com (accessed on 26 July 
+2023).  
+7. Conclusions  
+With the increasing global demand for poultry meat and egg products, ensuring safe 
+and hygienic poultry management is critical. A multi -intervention strategy that reduces 
+the Salmonella  bacterial load in birds and ultimately prevents carcass con tamination in 
+processing plants should be given more importance in the current era of multi -drug-re-
+sistant Salmonella . At present, there are a plethora of options claiming to reduce Salmonella 
+in poultry rearing, but it is critical to exercise caution befo re implementing any of those 
+Figure 3. Salmonella control strategies in poultry. Created with Biorender.com (accessed on
+26 July 2023).
+7. Conclusions
+With the increasing global demand for poultry meat and egg products, ensuring safe
+and hygienic poultry management is critical. A multi-intervention strategy that reduces
+theSalmonella bacterial load in birds and ultimately prevents carcass contamination in
+processing plants should be given more importance in the current era of multi-drug-
+resistant Salmonella . At present, there are a plethora of options claiming to reduce Salmonella
+in poultry rearing, but it is critical to exercise caution before implementing any of those
+approaches on a large scale. Additionally, continuous research should be performed to
+ensure the safety of all available novel control strategies. Further efforts should be made
+to study alternative vaccination strategies that can promote long-lasting immunity and
+understand the various virulence mechanisms of the zoonotic bacteria that can impair the
+effectiveness of the immune response induced in the birds.
+Author Contributions: S.S.: Writing—original draft preparation; S.S.: Writing, R.S.: review, editing,
+and funding acquisition; R.K.S.: editing and funding acquisition. All authors have read and agreed
+to the published version of the manuscript.
+Funding: This work was funded by USDA cooperative grant 58-6040-2-016 and hatch grant to R.K.S.
+and USDA ARS award number 6040-42000-046-000D to R.S.
+Data Availability Statement: No new data were created or analyzed in this study. Data sharing is
+not applicable to this article.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+Microorganisms 2023 ,11, 2814 19 of 27
+References
+1. Jung, B.; Park, S.; Kim, E.; Yoon, H.; Hahn, T. Salmonella Typhimurium lacking phoBR as a live vaccine candidate against poultry
+infection. Vet. Microbiol. 2022 ,266, 109342. [CrossRef]
+2. Majowicz, S.E.; Musto, J.; Scallan, E.; Angulo, F.J.; Kirk, M.; O’brien, S.J.; Jones, T.F.; Fazil, A.; Hoekstra, R.M. International
+Collaboration on Enteric Disease “Burden of Illness” Studies. Glob. Burd. Nontyphoidal Salmonella Gastroenteritis Clin. Infect. Dis.
+2010 ,50, 882–889.
+3. Cosby, D.E.; Cox, N.A.; Harrison, M.A.; Wilson, J.L.; Buhr, R.J.; Fedorka-Cray, P .J. Salmonella and antimicrobial resistance in
+broilers: A review. J. Appl. Poult. Res. 2015 ,24, 408–426. [CrossRef]
+4. Tajkarimi, M. Salmonella spp. Calif. Dep. Food Agric. 2007 , 1–8. Available online: https://www.cdfa.ca.gov/ahfss/Animal_Health/
+PHR250/2007/25007Sal.pdf (accessed on 19 June 2023).
+5. Howard, Z.R.; O’Bryan, C.A.; Crandall, P .G.; Ricke, S.C. Salmonella Enteritidis in shell eggs: Current issues and prospects for
+control. Food Res. Int. 2012 ,45, 755–764. [CrossRef]
+6. Ricke, S.C.; Kim, S.A.; Shi, Z.; Park, S.H. Molecular-based identiﬁcation and detection of Salmonella in food production systems:
+Current perspectives. J. Appl. Microbiol. 2018 ,125, 313–327. [CrossRef]
+7. Chousalkar, K.; Gast, R.; Martelli, F.; Pande, V . Review of egg-related salmonellosis and reduction strategies in United States,
+Australia, United Kingdom and New Zealand. Crit. Rev. Microbiol. 2018 ,44, 290–303. [CrossRef]
+8. Painter, J.A.; Hoekstra, R.M.; Ayers, T.; Tauxe, R.V .; Braden, C.R.; Angulo, F.J.; Grifﬁn, P .M. Attribution of foodborne illnesses,
+hospitalizations, and deaths to food commodities by using outbreak data, United States, 1998–2008. Emerg. Infect. Dis. 2013 ,19,
+407. [CrossRef]
+9. Gieraltowski, L.; Higa, J.; Peralta, V .I.; Green, A.; Schwensohn, C.; Rosen, H.; Libby, T.; Kissler, B.; Marsden-Haug, N.; Booth, H.
+National outbreak of multidrug resistant Salmonella Heidelberg infections linked to a single poultry company. PLoS ONE 2016 ,
+11, e0162369. [CrossRef]
+10. Scharff, R.L. Food Attribution and Economic Cost Estimates for Meat- and Poultry-Related Illnesses. J. Food Prot. 2020 ,83,
+959–967. [CrossRef]
+11. Abd El-Hack, M.E.; El-Saadony, M.T.; Shaﬁ, M.E.; Alshahrani, O.A.; Saghir, S.A.; Al-Wajeeh, A.S.; Al-Shargi, O.Y.; Taha, A.E.;
+Mesalam, N.M.; Abdel-Moneim, A.E. Prebiotics can restrict Salmonella populations in poultry: A review. Anim. Biotechnol. 2022 ,
+33, 1668–1677. [CrossRef]
+12. Bhunia, A.K. Salmonella enterica. In Foodborne Microbial Pathogens: Mechanisms and Pathogenesis ; Springer: New York, NY, USA,
+2008; pp. 271–287.
+13. Wibisono, F.M.; Wibisono, F.J.; Effendi, M.H.; Plumeriastuti, H.; Hidayatullah, A.R.; Hartadi, E.B.; Soﬁana, E.D. A review of
+salmonellosis on poultry farms: Public health importance. Syst. Rev. Pharm. 2020 ,11, 481–486.
+14. Center for Disease Control and Prevention. Salmonella. Available online: https://www.cdc.gov/Salmonella/index.html
+(accessed on 30 June 2023).
+15. O’Bryan, C.A.; Ricke, S.C.; Marcy, J.A. Public health impact of Salmonella spp. on raw poultry: Current concepts and future
+prospects in the United States. Food Control 2022 ,132, 108539. [CrossRef]
+16. De Reu, K.; Grijspeerdt, K.; Messens, W.; Heyndrickx, M.; Uyttendaele, M.; Debevere, J.; Herman, L. Eggshell factors inﬂuencing
+eggshell penetration and whole egg contamination by different bacteria, including Salmonella enteritidis. Int. J. Food Microbiol.
+2006 ,112, 253–260. [CrossRef] [PubMed]
+17. Padron, M. Salmonella typhimurium penetration through the eggshell of hatching eggs. Avian Dis. 1990 ,34, 463–465. [PubMed]
+18. Kopanic, R.J., Jr.; Sheldon, B.W.; Wright, C.G. Cockroaches as vectors of Salmonella: Laboratory and ﬁeld trials. J. Food Prot. 1994 ,
+57, 125–131. [CrossRef]
+19. Sparagano, O. Control of poultry mites: Where do we stand? Exp. Appl. Acarol. 2009 ,48, 1–2. [CrossRef]
+20. Leffer, A.M.; Kuttel, J.; Martins, L.M.; Pedroso, A.C.; Astolﬁ-Ferreira, C.S.; Ferreira, F.; Ferreira, A.J.P . Vectorial competence of
+larvae and adults of Alphitobius diaperinus in the transmission of Salmonella Enteritidis in poultry. Vector-Borne Zoonotic Dis.
+2010 ,10, 481–487. [CrossRef]
+21. Meerburg, B.G.; Kijlstra, A. Role of rodents in transmission of Salmonella and Campylobacter. J. Sci. Food Agric. 2007 ,87,
+2774–2781. [CrossRef]
+22. Raufu, I.A.; Ahmed, O.A.; Aremu, A.; Odetokun, I.A.; Raji, M.A. Salmonella transmission in poultry farms: The roles of rodents,
+lizards and formites. Savannah Vet. J. 2019 ,2, 1–4.
+23. Hughes, L.A.; Shopland, S.; Wigley, P .; Bradon, H.; Leatherbarrow, A.H.; Williams, N.J.; Bennett, M.; de Pinna, E.; Lawson, B.;
+Cunningham, A.A. Characterisation of Salmonella enterica serotype Typhimurium isolates from wild birds in northern England
+from 2005–2006. BMC Vet. Res. 2008 ,4, 4. [CrossRef]
+24. Alley, M.R.; Connolly, J.H.; Fenwick, S.G.; Mackereth, G.F.; Leyland, M.J.; Rogers, L.E.; Haycock, M.; Nicol, C.; Reed, C. An
+epidemic of salmonellosis caused by Salmonella Typhimurium DT160 in wild birds and humans in New Zealand. N. Z. Vet. J.
+2002 ,50, 170–176. [CrossRef] [PubMed]
+25. Sousa, E.; Werther, K.; Berchieri J únior, A. Assessment of Newcastle and infectious bronchitis pathogens, and Salmonella spp. in
+wild birds captured near poultry facilities. Arq. Bras. Med. Veterin ária Zootec. 2010 ,62, 219–223. [CrossRef]
+Microorganisms 2023 ,11, 2814 20 of 27
+26. Fu, Y.; M’ikanatha, N.M.; Lorch, J.M.; Blehert, D.S.; Berlowski-Zier, B.; Whitehouse, C.A.; Li, S.; Deng, X.; Smith, J.C.; Shariat, N.W.
+Salmonella enterica Serovar Typhimurium Isolates from Wild Birds in the United States Represent Distinct Lineages Deﬁned by
+Bird Type. Appl. Environ. Microbiol. 2022 ,88, 1979. [CrossRef] [PubMed]
+27. Obukhovska, O. The natural reservoirs of Salmonella Enteritidis in populations of wild birds. Online J. Public Health Inform. 2013 ,
+5. [CrossRef]
+28. Authority, E.F.S. The European Union summary report on trends and sources of zoonoses, zoonotic agents and food-borne
+outbreaks in 2017. EFSa J. 2018 ,16, e05500.
+29. Yavari, L. Antibiotic Resistance in Salmonella enterica and the Role of Animal and Animal Food Control A literature review
+of Europe and USA. 2012. Available online: https://www.researchgate.net/proﬁle/Leila-Yavari/publication/280531461_
+Antibiotic_Resistance_in_Salmonella_enterica_and_the_Role_of_Animal_and_Animal_Food_Control/links/55b7b5b608aed6
+21de048679/Antibiotic-Resistance-in-Salmonella-enterica-and-the-Role-of-Animal-and-Animal-Food-Control (accessed on 3
+July 2023).
+30. Lüderitz, O.; Westphal, O.; Staub, A.M.; Nikaido, H. Isolation and chemical and immunological characterization of bacterial
+lipopolysaccharides. Microb. Toxins 2016 ,4, 145–233.
+31. Lüderitz, O.; Staub, A.M.; Westphal, O. Immunochemistry of O and R antigens of Salmonella and related Enterobacteriaceae.
+Bacteriol. Rev. 1966 ,30, 192–255. [CrossRef]
+32. Reeves, M.W.; Evins, G.M.; Heiba, A.A.; Plikaytis, B.D.; Farmer, J.J., 3rd. Clonal nature of Salmonella typhi and its genetic
+relatedness to other salmonellae as shown by multilocus enzyme electrophoresis, and proposal of Salmonella bongori comb. nov.
+J. Clin. Microbiol. 1989 ,27, 313–320. [CrossRef] [PubMed]
+33. Dworkin, M.; Falkow, S.; Rosenberg, E.; Stackebrandt, E.; Schleifer, K. The Prokaryotes: A Handbook on the Biology of Bacteria ;
+Springer: New York, NY, USA, 2006; Volume 7.
+34. Scallan, E.; Hoekstra, R.M.; Angulo, F.J.; Tauxe, R.V .; Widdowson, M.; Roy, S.L.; Jones, J.L.; Grifﬁn, P .M. Foodborne illness acquired
+in the United States—Major pathogens. Emerg. Infect. Dis. 2011 ,17, 7–15. [CrossRef]
+35. Arya, G.; Holtslander, R.; Robertson, J.; Yoshida, C.; Harris, J.; Parmley, J.; Nichani, A.; Johnson, R.; Poppe, C. Epidemiology,
+pathogenesis, genoserotyping, antimicrobial resistance, and prevention and control of non-typhoidal Salmonella serovars. Curr.
+Clin. Microbiol. Rep. 2017 ,4, 43–53. [CrossRef]
+36. Old, D.C. Nomenclature of Salmonella. J. Med. Microbiol. 1992 ,37, 361–363. [CrossRef] [PubMed]
+37. Chattaway, M.A.; Langridge, G.C.; Wain, J. Salmonella nomenclature in the genomic era: A time for change. Sci. Rep. 2021 ,11,
+7494. [CrossRef]
+38. Grimont, P .A.; Weill, F. Antigenic formulae of the Salmonella serovars. WHO Collab. Cent. Ref. Res. Salmonella 2007 ,9, 1–166.
+39. Carter, A.J.; Adams, M.R.; Woodward, M.J.; La Ragione, R.M. Control strategies for Salmonella colonization of poultry: The
+probiotic perspective. Food Sci. Technol. 2009 ,5, 103–115.
+40. Hickman-Brenner, F.W.; Stubbs, A.D.; Farmer, J.J., 3rd. Phage typing of Salmonella enteritidis in the United States. J. Clin.
+Microbiol. 1991 ,29, 2817–2823. [CrossRef] [PubMed]
+41. Bhatta, D.R.; Bangtrakulnonth, A.; Tishyadhigama, P .; Saroj, S.D.; Bandekar, J.R.; Hendriksen, R.S.; Kapadnis, B.P . Serotyping,
+PCR, phage-typing and antibiotic sensitivity testing of Salmonella serovars isolated from urban drinking water supply systems of
+Nepal. Lett. Appl. Microbiol. 2007 ,44, 588–594. [CrossRef]
+42. Crabb, H.K.; Allen, J.L.; Devlin, J.M.; Firestone, S.M.; Stevenson, M.; Wilks, C.R.; Gilkerson, J.R. Traditional Salmonella
+Typhimurium typing tools (phage typing and MLVA) are sufﬁcient to resolve well-deﬁned outbreak events only. Food Microbiol.
+2019 ,84, 103237. [CrossRef]
+43. Ha, A.J.; Perez, L.G.S.; Kim, T.; Mizan, M.F.R.; Nahar, S.; Park, S.; Chun, H.; Ha, S. Research Note: Identiﬁcation and characteriza-
+tion of Salmonella spp. in mechanically deboned chickens using pulsed-ﬁeld gel electrophoresis. Poult. Sci. 2021 ,100, 100961.
+[CrossRef]
+44. Khan, S.A.; Foley, S.; Stefanova, R. Subtyping of Salmonella enterica Serovar Typhimurium from Clinical Samples by Multiple-
+Locus Variable-Number Tandem Repeat Analysis and Pulsed-Field Gel Electrophoresis. Microbiol. Infect. Dis. 2019 ,3, 1–7.
+[CrossRef]
+45. Mechesso, A.F.; Moon, D.C.; Kim, S.; Song, H.; Kang, H.Y.; Na, S.H.; Choi, J.; Kim, H.; Yoon, S.; Lim, S. Nationwide surveillance
+on serotype distribution and antimicrobial resistance proﬁles of non-typhoidal Salmonella serovars isolated from food-producing
+animals in South Korea. Int. J. Food Microbiol. 2020 ,335, 108893. [CrossRef]
+46. Ferrato, C.; Chui, L.; King, R.; Louie, M. Utilization of a molecular serotyping method for Salmonella enterica in a routine
+laboratory in Alberta Canada. J. Microbiol. Methods 2017 ,135, 14–19. [CrossRef] [PubMed]
+47. Mortimer, C.K.; Peters, T.M.; Gharbia, S.E.; Logan, J.M.; Arnold, C. Towards the development of a DNA-sequence based approach
+to serotyping of Salmonella enterica. BMC Microbiol. 2004 ,4, 31. [CrossRef] [PubMed]
+48. Diep, B.; Barretto, C.; Portmann, A.; Fournier, C.; Karczmarek, A.; Voets, G.; Li, S.; Deng, X.; Klijn, A. Salmonella serotyping;
+comparison of the traditional method to a microarray-based method and an in silico platform using whole genome sequencing
+data. Front. Microbiol. 2019 ,10, 2554. [CrossRef] [PubMed]
+49. Higginson, E.E.; Simon, R.; Tennant, S.M. Animal models for salmonellosis: Applications in vaccine research. Clin. Vaccine
+Immunol. 2016 ,23, 746–756. [CrossRef] [PubMed]
+Microorganisms 2023 ,11, 2814 21 of 27
+50. Broz, P .; Ohlson, M.B.; Monack, D.M. Innate immune response to Salmonella typhimurium, a model enteric pathogen. Gut
+Microbes 2012 ,3, 62–70. [CrossRef]
+51. Kobayashi, N.; Takahashi, D.; Takano, S.; Kimura, S.; Hase, K. The roles of Peyer’s patches and microfold cells in the gut immune
+system: Relevance to autoimmune diseases. Front. Immunol. 2019 ,10, 2345. [CrossRef]
+52. Buchmeier, N.A.; Heffron, F. Inhibition of macrophage phagosome-lysosome fusion by Salmonella typhimurium. Infect. Immun.
+1991 ,59, 2232–2238. [CrossRef]
+53. Velge, P .; Cloeckaert, A.; Barrow, P . Emergence of Salmonella epidemics: The problems related to Salmonella enterica serotyp
+Enteritidis and multiple antibiotic resistance in other major serotypes. Vet. Res. 2005 ,36, 267–288. [CrossRef]
+54. World Health Organization. Background Document: The Diagnosis, Treatment and Prevention of Typhoid Fever ; World Health
+Organization: Geneva, Switzerland, 2003.
+55. Coburn, B.; Grassl, G.A.; Finlay, B.B. Salmonella, the host and disease: A brief review. Immunol. Cell Biol. 2007 ,85, 112–118.
+[CrossRef]
+56. Bhunia, A.K. Foodborne Microbial Pathogens: Mechanisms and Pathogenesis ; Springer: New York, NY, USA, 2018.
+57. Knuff, K.; Finlay, B.B. What the SIF is happening—The role of intracellular Salmonella-induced ﬁlaments. Front. Cell. Infect.
+Microbiol. 2017 ,7, 335. [CrossRef]
+58. McGourty, K.; Thurston, T.L.; Matthews, S.A.; Pinaud, L.; Mota, L.J.; Holden, D.W. Salmonella inhibits retrograde trafﬁcking of
+mannose-6-phosphate receptors and lysosome function. Science 2012 ,338, 963–967. [CrossRef]
+59. Tahoun, A.; Mahajan, S.; Paxton, E.; Malterer, G.; Donaldson, D.S.; Wang, D.; Tan, A.; Gillespie, T.L.; O’Shea, M.; Roe, A.J.
+Salmonella transforms follicle-associated epithelial cells into M cells to promote intestinal invasion. Cell Host Microbe 2012 ,12,
+645–656. [CrossRef]
+60. Dieye, Y.; Ameiss, K.; Mellata, M.; Curtiss, R. The Salmonella Pathogenicity Island (SPI) 1 contributes more than SPI2 to the
+colonization of the chicken by Salmonella enterica serovar Typhimurium. BMC Microbiol. 2009 ,9, 3. [CrossRef]
+61. Jones, M.A.; Hulme, S.D.; Barrow, P .A.; Wigley, P . The Salmonella pathogenicity island 1 and Salmonella pathogenicity island
+2 type III secretion systems play a major role in pathogenesis of systemic disease and gastrointestinal tract colonization of
+Salmonella enterica serovar Typhimurium in the chicken. Avian Pathol. 2007 ,36, 199–203. [CrossRef] [PubMed]
+62. Pico-Rodr íguez, J.T.; Mart ínez-Jarqu ín, H.; G ómez-Ch ávez, J.D.J.; Ju árez-Ram írez, M.; Mart ínez-Chavarr ía, L.C. Effect of
+Salmonella pathogenicity island 1 and 2 (SPI-1 and SPI-2) deletion on intestinal colonization and systemic dissemination in
+chickens. Vet. Res. Commun. 2023 , 1–12. [CrossRef]
+63. Merino, L.; Trejo, F.M.; De Antoni, G.; Golowczyc, M.A. Lactobacillus strains inhibit bioﬁlm formation of Salmonella sp. isolates
+from poultry. Food Res. Int. 2019 ,123, 258–265. [CrossRef]
+64. Barrow, P .A. Salmonella infections: Immune and non-immune protection with vaccines. Avian Pathol. 2007 ,36, 1–13. [CrossRef]
+[PubMed]
+65. Mon, K.K.; Zhu, Y.; Chanthavixay, G.; Kern, C.; Zhou, H. Integrative analysis of gut microbiome and metabolites revealed novel
+mechanisms of intestinal Salmonella carriage in chicken. Sci. Rep. 2020 ,10, 4809. [CrossRef] [PubMed]
+66. Abbas, A.; Lichtman, A.; Pillai, S. Cellular and Molecular Immunology E-Book ; Elsevier Health Sciences: Amsterdam, The Nether-
+lands, 2014.
+67. Brisbin, J.T.; Gong, J.; Sharif, S. Interactions between commensal bacteria and the gut-associated immune system of the chicken.
+Anim. Health Res. Rev. 2008 ,9, 101–110. [CrossRef] [PubMed]
+68. Stanley, D.; Geier, M.S.; Hughes, R.J.; Denman, S.E.; Moore, R.J. Highly variable microbiota development in the chicken
+gastrointestinal tract. PLoS ONE 2013 ,8, e84290. [CrossRef]
+69. Muir, W.I.; Bryden, W.L.; Husband, A.J. Immunity, vaccination and the avian intestinal tract. Dev. Comp. Immunol. 2000 ,24,
+325–342. [CrossRef] [PubMed]
+70. Lillehoj, H.S.; Trout, J.M. Avian gut-associated lymphoid tissues and intestinal immune responses to Eimeria parasites. Clin.
+Microbiol. Rev. 1996 ,9, 349–360. [CrossRef] [PubMed]
+71. Temperley, N.D.; Berlin, S.; Paton, I.R.; Grifﬁn, D.K.; Burt, D.W. Evolution of the chicken Toll-like receptor gene family: A story of
+gene gain and gene loss. BMC Genom. 2008 ,9, 62. [CrossRef]
+72. Werling, D.; Hope, J.C.; Howard, C.J.; Jungi, T.W. Differential production of cytokines, reactive oxygen and nitrogen by bovine
+macrophages and dendritic cells stimulated with Toll-like receptor agonists. Immunology 2004 ,111, 41–52. [CrossRef] [PubMed]
+73. Okamura, M.; Matsumoto, W.; Seike, F.; Tanaka, Y.; Teratani, C.; Tozuka, M.; Kashimoto, T.; Takehara, K.; Nakamura, M.;
+Yoshikawa, Y. Efﬁcacy of soluble recombinant FliC protein from Salmonella enterica serovar Enteritidis as a potential vaccine
+candidate against homologous challenge in chickens. Avian Dis. 2012 ,56, 354–358. [CrossRef]
+74. Khan, S.; Chousalkar, K.K. Transcriptome proﬁling analysis of caeca in chicks challenged with Salmonella Typhimurium reveals
+differential expression of genes involved in host mucosal immune response. Appl. Microbiol. Biotechnol. 2020 ,104, 9327–9342.
+[CrossRef]
+75. MacKinnon, K.M.; He, H.; Nerren, J.R.; Swaggerty, C.L.; Genovese, K.J.; Kogut, M.H. Expression proﬁle of toll-like receptors
+within the gastrointestinal tract of 2-day-old Salmonella enteriditis-infected broiler chickens. Vet. Microbiol. 2009 ,137, 313–319.
+[CrossRef]
+76. Genovese, K.J.; He, H.; Swaggerty, C.L.; Kogut, M.H. The avian heterophil. Dev. Comp. Immunol. 2013 ,41, 334–340. [CrossRef]
+Microorganisms 2023 ,11, 2814 22 of 27
+77. Ferro, P .J.; Swaggerty, C.L.; Kaiser, P .; Pevzner, I.Y.; Kogut, M.H. Heterophils isolated from chickens resistant to extra-intestinal
+Salmonella enteritidis infection express higher levels of pro-inﬂammatory cytokine mRNA following infection than heterophils
+from susceptible chickens. Epidemiol. Infect. 2004 ,132, 1029–1037. [CrossRef]
+78. Kogut, M.H.; Iqbal, M.; He, H.; Philbin, V .; Kaiser, P .; Smith, A. Expression and function of Toll-like receptors in chicken
+heterophils. Dev. Comp. Immunol. 2005 ,29, 791–807. [CrossRef]
+79. Kogut, M.H.; Chiang, H.; Swaggerty, C.L.; Pevzner, I.Y.; Zhou, H. Gene expression analysis of Toll-like receptor pathways in
+heterophils from genetic chicken lines that differ in their susceptibility to Salmonella enteritidis. Front. Genet. 2012 ,3, 121.
+[CrossRef] [PubMed]
+80. Jie, W.; Zhang, Q.; S ánchez, A.L.B.; Bo, Z.; Qiao, W.; Zheng, M.; Li, Q.; Cui, H.; Jie, W.; Zhao, G. Transcriptome analysis of the
+spleen of heterophils to lymphocytes ratio-selected chickens revealed their mechanism of differential resistance to Salmonella. J.
+Integr. Agric. 2022 ,21, 2372–2383.
+81. Thiam, M.; Barreto S ánchez, A.L.; Zhang, J.; Zheng, M.; Wen, J.; Zhao, G.; Wang, Q. Association of heterophil/lymphocyte
+ratio with intestinal barrier function and immune response to salmonella enteritidis infection in chicken. Animals 2021 ,11, 3498.
+[CrossRef] [PubMed]
+82. Withanage, G.; Wigley, P .; Kaiser, P .; Mastroeni, P .; Brooks, H.; Powers, C.; Beal, R.; Barrow, P .; Maskell, D.; McConnell, I. Cytokine
+and chemokine responses associated with clearance of a primary Salmonella enterica serovar Typhimurium infection in the
+chicken and in protective immunity to rechallenge. Infect. Immun. 2005 ,73, 5173–5182. [CrossRef]
+83. Withanage, G.; Sasai, K.; Fukata, T.; Miyamoto, T.; Lillehoj, H.S.; Baba, E. Increased lymphocyte subpopulations and macrophages
+in the ovaries and oviducts of laying hens infected with Salmonella enterica serovar Enteritidis. Avian Pathol. 2003 ,32, 583–590.
+[CrossRef]
+84. Sáenz, L.; Guzm án, M.; Vidal, S.; Caruffo, M.; Siel, D.; Zayas, C.; Paredes, R.; Valenzuela, C.; Hidalgo, H.; P érez, O. Efﬁcacy of
+multivalent, cochleate-based vaccine against Salmonella Infantis, S.Enteritidis and S.Typhimurium in laying hens. Vaccines 2022 ,
+10, 226. [CrossRef] [PubMed]
+85. Schokker, D.; Peters, T.; Hoekman, A.; Rebel, J.; Smits, M.A. Differences in the early response of hatchlings of different chicken
+breeding lines to Salmonella enterica serovar Enteritidis infection. Poult. Sci. 2012 ,91, 346–353. [CrossRef]
+86. Meijerink, N.; Van den Biggelaar, R.H.; Van Haarlem, D.A.; Stegeman, J.A.; Rutten, V .P .; Jansen, C.A. A detailed analysis of innate
+and adaptive immune responsiveness upon infection with Salmonella enterica serotype Enteritidis in young broiler chickens. Vet.
+Res. 2021 ,52, 1–21. [CrossRef]
+87. Sutton, K.M.; Morris, K.M.; Borowska, D.; Sang, H.; Kaiser, P .; Balic, A.; Vervelde, L. Characterization of conventional dendritic
+cells and macrophages in the spleen using the CSF1R-reporter transgenic chickens. Front. Immunol. 2021 ,12, 636436. [CrossRef]
+88. Shanmugasundaram, R.; Kogut, M.H.; Arsenault, R.J.; Swaggerty, C.L.; Cole, K.; Reddish, J.M.; Selvaraj, R.K. Effect of Salmonella
+infection on cecal tonsil regulatory T cell properties in chickens. Poult. Sci. 2015 ,94, 1828–1835. [CrossRef]
+89. Shanmugasundaram, R.; Acevedo, K.; Mortada, M.; Akerele, G.; Applegate, T.J.; Kogut, M.H.; Selvaraj, R.K. Effects of Salmonella
+enterica ser. Enteritidis and Heidelberg on host CD4 CD25 regulatory T cell suppressive immune responses in chickens. PLoS
+ONE 2021 ,16, e0260280. [CrossRef]
+90. Penha Filho, R.A.C.; Moura, B.S.; de Almeida, A.M.; Montassier, H.J.; Barrow, P .A.; Junior, A.B. Humoral and cellular immune
+response generated by different vaccine programs before and after Salmonella Enteritidis challenge in chickens. Vaccine 2012 ,30,
+7637–7643. [CrossRef]
+91. Chauss é, A.; Gr épinet, O.; Bottreau, E.; Robert, V .; Hennequet-Antier, C.; Lalmanach, A.; Lecardonnel, J.; Beaumont, C.; Velge, P .
+Susceptibility to Salmonella carrier-state: A possible Th2 response in susceptible chicks. Vet. Immunol. Immunopathol. 2014 ,159,
+16–28. [CrossRef] [PubMed]
+92. Cheeseman, J.H. Avian Immunology, Immunogenetics, and Host Immune Response to Salmonella Enterica Serovar Enteritidis Infection in
+Chickens ; Iowa State University: Ames, IA, USA, 2007.
+93. Beal, R.K.; Wigley, P .; Powers, C.; Hulme, S.D.; Barrow, P .A.; Smith, A.L. Age at primary infection with Salmonella enterica
+serovar Typhimurium in the chicken inﬂuences persistence of infection and subsequent immunity to re-challenge. Vet. Immunol.
+Immunopathol. 2004 ,100, 151–164. [CrossRef] [PubMed]
+94. Withanage, G.; Sasai, K.; Fukata, T.; Miyamoto, T.; Baba, E.; Lillehoj, H.S. T lymphocytes, B lymphocytes, and macrophages in the
+ovaries and oviducts of laying hens experimentally infected with Salmonella enteritidis. Vet. Immunol. Immunopathol. 1998 ,66,
+173–184. [CrossRef] [PubMed]
+95. Okamura, M.; Lillehoj, H.S.; Raybourne, R.B.; Babu, U.S.; Heckert, R.A. Cell-mediated immune responses to a killed Salmonella
+enteritidis vaccine: Lymphocyte proliferation, T-cell changes and interleukin-6 (IL-6), IL-1, IL-2, and IFN- production. Comp.
+Immunol. Microbiol. Infect. Dis. 2004 ,27, 255–272. [CrossRef]
+96. Xu, S.; Cao, X. Interleukin-17 and its expanding biological functions. Cell. Mol. Immunol. 2010 ,7, 164–174. [CrossRef]
+97. Restif, O.; Goh, Y.S.; Palayret, M.; Grant, A.J.; McKinley, T.J.; Clark, M.R.; Mastroeni, P . Quantiﬁcation of the effects of antibodies
+on the extra-and intracellular dynamics of Salmonella enterica. J. R. Soc. Interface 2013 ,10, 20120866. [CrossRef] [PubMed]
+98. Männe, C.; Takaya, A.; Yamasaki, Y.; Mursell, M.; Hojyo, S.; Wu, T.; Sarkander, J.; McGrath, M.A.; Cornelis, R.; Hahne, S.
+Salmonella SiiE prevents an efﬁcient humoral immune memory by interfering with IgG plasma cell persistence in the bone
+marrow. Proc. Natl. Acad. Sci. USA 2019 ,116, 7425–7430. [CrossRef]
+Microorganisms 2023 ,11, 2814 23 of 27
+99. Dar, M.A.; Urwat, U.; Ahmad, S.M.; Ahmad, R.; Kashoo, Z.A.; Dar, T.A.; Bhat, S.A.; Mumtaz, P .T.; Shabir, N.; Shah, R.A. Gene
+expression and antibody response in chicken against Salmonella Typhimurium challenge. Poult. Sci. 2019 ,98, 2008–2013.
+[CrossRef]
+100. Arnold, J.W.; Holt, P .S. Response to Salmonella enteritidis infection by the immunocompromised avian host. Poult. Sci. 1995 ,74,
+656–665. [CrossRef] [PubMed]
+101. Beal, R.K.; Powers, C.; Davison, T.F.; Barrow, P .A.; Smith, A.L. Clearance of enteric Salmonella enterica serovar Typhimurium in
+chickens is independent of B-cell function. Infect. Immun. 2006 ,74, 1442–1444. [CrossRef] [PubMed]
+102. Fraser, R.W.; Williams, N.T.; Powell, L.F.; Cook, A. Reducing Campylobacter and salmonella infection: Two studies of the
+economic cost and attitude to adoption of on-farm biosecurity measures. Zoonoses Public Health 2010 ,57, e109–e115. [CrossRef]
+[PubMed]
+103. Gosling, R.J.; Martelli, F.; Wintrip, A.; Sayers, A.R.; Wheeler, K.; Davies, R.H. Assessment of producers’ response to Salmonella
+biosecurity issues and uptake of advice on laying hen farms in England and Wales. Br. Poult. Sci. 2014 ,55, 559–568. [CrossRef]
+104. Sylejmani, D.; Musliu, A.; Ramadani, N.; Sparagano, O.; Hamidi, A. Associations between the level of biosecurity and occurrence
+of Dermanyssus gallinae and Salmonella spp. in layer farms. Avian Dis. 2016 ,60, 454–459. [CrossRef]
+105. Volkova, V .V .; Wills, R.W.; Hubbard, S.A.; Magee, D.L.; Byrd, J.A.; Bailey, R.H. Risk factors associated with detection of Salmonella
+in broiler litter at the time of new ﬂock placement. Zoonoses Public Health 2011 ,58, 158–168. [CrossRef]
+106. Eid, S.; Hassan, H.M.; Al-Atfeehy, N.M.; Selim, K.M.; El Oksh, A.S. Composting: A biosecurity measure to maximize the beneﬁt
+of broilers’ litter. Anim. Res. 2023 ,10, 458–468. [CrossRef]
+107. Abdulghaffar, T.A.; El Bahgy, H.E. Effect of some disinfectants on some pathogenic microorganisms isolated from poultry farm.
+Benha Vet. Med. J. 2016 ,31, 154–158.
+108. Meher, M.M.; Sharif, M.A.; Al Bayazid, A. Seroprevalence of Salmonella spp. infection in different types of poultry and biosecurity
+measures associated with Salmonellosis. Int. J. Agric. Environ. Food Sci. 2022 ,6, 557–567. [CrossRef]
+109. Alagawany, M.; Abd El-Hack, M.E.; Farag, M.R.; Sachan, S.; Karthik, K.; Dhama, K. The use of probiotics as eco-friendly
+alternatives for antibiotics in poultry nutrition. Environ. Sci. Pollut. Res. 2018 ,25, 10611–10618. [CrossRef] [PubMed]
+110. Marshall, B.M.; Levy, S.B. Food animals and antimicrobials: Impacts on human health. Clin. Microbiol. Rev. 2011 ,24, 718–733.
+[CrossRef] [PubMed]
+111. Eckert, N.H.; Lee, J.T.; Hyatt, D.; Stevens, S.M.; Anderson, S.; Anderson, P .N.; Beltran, R.; Schatzmayr, G.; Mohnl, M.; Caldwell, D.J.
+Inﬂuence of probiotic administration by feed or water on growth parameters of broilers reared on medicated and nonmedicated
+diets. J. Appl. Poult. Res. 2010 ,19, 59–67. [CrossRef]
+112. Karon, A.E.; Archer, J.R.; Sotir, M.J.; Monson, T.A.; Kazmierczak, J.J. Human multidrug-resistant Salmonella newport infections,
+Wisconsin, 2003–2005. Emerg. Infect. Dis. 2007 ,13, 1777. [CrossRef] [PubMed]
+113. Palamidi, I.; Fegeros, K.; Mohnl, M.; Abdelrahman, W.; Schatzmayr, G.; Theodoropoulos, G.; Mountzouris, K.C. Probiotic form
+effects on growth performance, digestive function, and immune related biomarkers in broilers. Poult. Sci. 2016 ,95, 1598–1608.
+[CrossRef]
+114. Gibson, G.R.; Hutkins, R.; Sanders, M.E.; Prescott, S.L.; Reimer, R.A.; Salminen, S.J.; Scott, K.; Stanton, C.; Swanson, K.S.; Cani, P .D.
+Expert consensus document: The International Scientiﬁc Association for Probiotics and Prebiotics (ISAPP) consensus statement
+on the deﬁnition and scope of prebiotics. Nat. Rev. Gastroenterol. Hepatol. 2017 ,14, 491–502. [CrossRef] [PubMed]
+115. Pineiro, M.; Asp, N.; Reid, G.; Macfarlane, S.; Morelli, L.; Brunser, O.; Tuohy, K. FAO Technical meeting on prebiotics. J. Clin.
+Gastroenterol. 2008 ,42, S156–S159. [CrossRef]
+116. Ricke, S.C.; Lee, S.I.; Kim, S.A.; Park, S.H.; Shi, Z. Prebiotics and the poultry gastrointestinal tract microbiome. Poult. Sci. 2020 ,99,
+670–677. [CrossRef]
+117. Hajati, H.; Rezaei, M. The application of prebiotics in poultry production. Int. J. Poult. Sci. 2010 ,9, 298–304. [CrossRef]
+118. Bogusławska-Tryk, M.; Piotrowska, A.; Burlikowska, K. Dietary fructans and their potential beneﬁcial inﬂuence on health and
+performance parametrs in broiler chickens. J. Cent. Eur. Agric. 2012 ,13. Available online: https://hrcak.srce.hr/83284 (accessed
+on 10 November 2023). [CrossRef]
+119. Fomentini, M.; Haese, D.; Kill, J.L.; Sobreiro, R.P .; Puppo, D.D.; Haddade, I.R.; Lima, A.L.; Saraiva, A. Prebiotic and antimicrobials
+on performance, carcass characteristics, and antibody production in broilers. Ciência Rural 2016 ,46, 1070–1075. [CrossRef]
+120. Adhikari, P .A.; Kim, W.K. Overview of prebiotics and probiotics: Focus on performance, gut health and immunity—A review.
+Ann. Anim. Sci. 2017 ,17, 949–966. [CrossRef]
+121. Pourabedin, M.; Guan, L.; Zhao, X. Xylo-oligosaccharides and virginiamycin differentially modulate gut microbial composition
+in chickens. Microbiome 2015 ,3, 15. [CrossRef] [PubMed]
+122. Fathima, S.; Shanmugasundaram, R.; Sifri, M.; Selvaraj, R. Yeasts and Yeast-based Products in Poultry Nutrition. J. Appl. Poult.
+Res. 2023 ,32, 100345. [CrossRef]
+123. Markazi, A.D.; Perez, V .; Sifri, M.; Shanmugasundaram, R.; Selvaraj, R.K. Effect of whole yeast cell product supplementation
+(CitriStim®) on immune responses and cecal microﬂora species in pullet and layer chickens during an experimental coccidial
+challenge. Poult. Sci. 2017 ,96, 2049–2056. [CrossRef] [PubMed]
+124. Shanmugasundaram, R.; Selvaraj, R.K. Effect of killed whole yeast cell prebiotic supplementation on broiler performance and
+intestinal immune cell parameters. Poult. Sci. 2012 ,91, 107–111. [CrossRef]
+Microorganisms 2023 ,11, 2814 24 of 27
+125. Kim, G.; Seo, Y.M.; Kim, C.H.; Paik, I.K. Effect of dietary prebiotic supplementation on the performance, intestinal microﬂora, and
+immune response of broilers. Poult. Sci. 2011 ,90, 75–82. [CrossRef]
+126. Adhikari, P .; Cosby, D.E.; Cox, N.A.; Franca, M.S.; Williams, S.M.; Gogal, R.M., Jr.; Ritz, C.W.; Kim, W.K. Effect of dietary
+fructooligosaccharide supplementation on internal organs Salmonella colonization, immune response, ileal morphology, and ileal
+immunohistochemistry in laying hens challenged with Salmonella enteritidis. Poult. Sci. 2018 ,97, 2525–2533. [CrossRef]
+127. Wu, Y.; Yang, W.; Wu, Y.S.; Chen, J.; Chen, Y. Modulations of growth performance, gut microbiota, and inﬂammatory cytokines by
+trehalose on Salmonella Typhimurium-challenged broilers. Poult. Sci. 2020 ,99, 4034–4043. [CrossRef]
+128. Morelli, L.; Capurso, L. FAO/WHO guidelines on probiotics: 10 years later. J. Clin. Gastroenterol. 2012 ,46, S1–S2. [CrossRef]
+129. Lilly, D.M.; Stillwell, R.H. Probiotics: Growth-promoting factors produced by microorganisms. Science 1965 ,147, 747–748.
+[CrossRef]
+130. Sánchez, B.; Delgado, S.; Blanco-M íguez, A.; Lourenço, A.; Gueimonde, M.; Margolles, A. Probiotics, gut microbiota, and their
+inﬂuence on host health and disease. Mol. Nutr. Food Res. 2017 ,61, 1600240. [CrossRef]
+131. Fathima, S.; Shanmugasundaram, R.; Adams, D.; Selvaraj, R.K. Gastrointestinal microbiota and their manipulation for improved
+growth and performance in chickens. Foods 2022 ,11, 1401. [CrossRef] [PubMed]
+132. Simon, O.; Jadamus, A.; Vahjen, W. Probiotic feed additives-effectiveness and expected modes of action. J. Anim. Feed. Sci. 2001 ,
+10, 51–68. [CrossRef]
+133. Kabir, S.L.; Rahman, M.M.; Rahman, M.B.; Rahman, M.M.; Ahmed, S.U. The dynamics of probiotics on growth performance and
+immune response in broilers. Int. J. Poult. Sci. 2004 ,3, 361–364.
+134. Krysiak, K.; Konkol, D.; Korczy ´ nski, M. Overview of the use of probiotics in poultry production. Animals 2021 ,11, 1620. [CrossRef]
+135. Menconi, A.; Kallapura, G.; Latorre, J.D.; Morgan, M.J.; Pumford, N.R.; Hargis, B.M.; Tellez, G. Identiﬁcation and characterization
+of lactic acid bacteria in a commercial probiotic culture. Biosci. Microbiota Food Health 2014 ,33, 25–30. [CrossRef] [PubMed]
+136. Oh, J.K.; Pajarillo, E.A.B.; Chae, J.P .; Kim, I.H.; Kang, D. Protective effects of Bacillus subtilis against Salmonella infection in the
+microbiome of Hy-Line Brown layers. Asian-Australas. J. Anim. Sci. 2017 ,30, 1332. [CrossRef]
+137. Bai, S.P .; Wu, A.M.; Ding, X.M.; Lei, Y.; Bai, J.; Zhang, K.Y.; Chio, J.S. Effects of probiotic-supplemented diets on growth
+performance and intestinal immune characteristics of broiler chickens. Poult. Sci. 2013 ,92, 663–670. [CrossRef]
+138. Khan, S.; Chousalkar, K.K. Salmonella Typhimurium infection disrupts but continuous feeding of Bacillus based probiotic restores
+gut microbiota in infected hens. J. Anim. Sci. Biotechnol. 2020 ,11, 29. [CrossRef]
+139. Shanmugasundaram, R.; Applegate, T.J.; Selvaraj, R.K. Effect of Bacillus subtilis and Bacillus licheniformis probiotic supplementa-
+tion on cecal Salmonella load in broilers challenged with salmonella. J. Appl. Poult. Res. 2020 ,29, 808–816. [CrossRef]
+140. El-Sharkawy, H.; Tahoun, A.; Rizk, A.M.; Suzuki, T.; Elmonir, W.; Nassef, E.; Shukry, M.; Germoush, M.O.; Farrag, F.; Bin-Jumah,
+M. Evaluation of Biﬁdobacteria and Lactobacillus probiotics as alternative therapy for Salmonella typhimurium infection in
+broiler chickens. Animals 2020 ,10, 1023. [CrossRef]
+141. Menconi, A.; Bielke, L.R.; Hargis, B.M.; Tellez, G. Immuno-modulation and anti-inﬂammatory effects of antibiotic growth
+promoters versus probiotics in the intestinal tract. J. Microbiol. Res. Rev. 2014 ,2, 62–67.
+142. El-Shall, N.A.; Awad, A.M.; El-Hack, M.E.A.; Naiel, M.A.; Othman, S.I.; Allam, A.A.; Sedeik, M.E. The simultaneous administra-
+tion of a probiotic or prebiotic with live Salmonella vaccine improves growth performance and reduces fecal shedding of the
+bacterium in Salmonella-challenged broilers. Animals 2019 ,10, 70. [CrossRef]
+143. Dianawati, D.; Mishra, V .; Shah, N.P . Effect of drying methods of microencapsulated Lactobacillus acidophilus and Lactococcus
+lactis ssp. cremoris on secondary protein structure and glass transition temperature as studied by Fourier transform infrared and
+differential scanning calorimetry. J. Dairy Sci. 2013 ,96, 1419–1430. [CrossRef]
+144. Gibson, G.R.; Roberfroid, M.B. Dietary modulation of the human colonic microbiota: Introducing the concept of prebiotics. J.
+Nutr. 1995 ,125, 1401–1412. [CrossRef] [PubMed]
+145. Khomayezi, R.; Adewole, D. Probiotics, prebiotics, and synbiotics: An overview of their delivery routes and effects on growth
+and health of broiler chickens. Worlds Poult. Sci. J. 2022 ,78, 57–81. [CrossRef]
+146. Yadav, A.S.; Kolluri, G.; Gopi, M.; Karthik, K.; Singh, Y. Exploring alternatives to antibiotics as health promoting agents in
+poultry—A review. J. Exp. Biol. 2016 ,4, 368–383.
+147. Mohammed, A.A.; Jacobs, J.A.; Murugesan, G.R.; Cheng, H.W. Effect of dietary synbiotic supplement on behavioral patterns and
+growth performance of broiler chickens reared under heat stress. Poult. Sci. 2018 ,97, 1101–1108. [CrossRef]
+148. ´Sli˙zewska, K.; Markowiak-Kope´ c, P .; ˙Zbikowski, A.; Szeleszczuk, P . The effect of synbiotic preparations on the intestinal
+microbiota and her metabolism in broiler chickens. Sci. Rep. 2020 ,10, 4281. [CrossRef]
+149. Luoma, A.; Markazi, A.; Shanmugasundaram, R.; Murugesan, G.R.; Mohnl, M.; Selvaraj, R. Effect of synbiotic supplementation
+on layer production and cecal Salmonella load during a Salmonella challenge. Poult. Sci. 2017 ,96, 4208–4216. [CrossRef]
+150. Villagr án-de la Mora, Z.; V ázquez-Paulino, O.; Avalos, H.; Ascencio, F.; Nuño, K.; Villarruel-L ópez, A. Effect of a synbiotic mix on
+lymphoid organs of broilers infected with salmonella typhimurium and clostridium perfringens. Animals 2020 ,10, 886. [CrossRef]
+151. Aguilar-Toal á, J.E.; Garcia-Varela, R.; Garcia, H.S.; Mata-Haro, V .; Gonz ález-C órdova, A.F.; Vallejo-Cordoba, B.; Hern ández-
+Mendoza, A. Postbiotics: An evolving term within the functional foods ﬁeld. Trends Food Sci. Technol. 2018 ,75, 105–114.
+[CrossRef]
+152. Abd El-Ghany, W.A. Paraprobiotics and postbiotics: Contemporary and promising natural antibiotics alternatives and their
+applications in the poultry ﬁeld. Open Vet. J. 2020 ,10, 323–330. [CrossRef]
+Microorganisms 2023 ,11, 2814 25 of 27
+153. Van Thu, T.; Foo, H.L.; Loh, T.C.; Bejo, M.H. Inhibitory activity and organic acid concentrations of metabolite combinations
+produced by various strains of Lactobacillus plantarum. Afr. J. Biotechnol. 2011 ,10, 1359–1363.
+154. Humam, A.M.; Loh, T.C.; Foo, H.L.; Izuddin, W.I.; Zulkiﬂi, I.; Samsudin, A.A.; Mustapha, N.M. Supplementation of postbiotic
+RI11 improves antioxidant enzyme activity, upregulated gut barrier genes, and reduced cytokine, acute phase protein, and heat
+shock protein 70 gene expression levels in heat-stressed broilers. Poult. Sci. 2021 ,100, 100908. [CrossRef]
+155. Humam, A.M.; Loh, T.C.; Foo, H.L.; Samsudin, A.A.; Mustapha, N.M.; Zulkiﬂi, I.; Izuddin, W.I. Effects of feeding different
+postbiotics produced by Lactobacillus plantarum on growth performance, carcass yield, intestinal morphology, gut microbiota
+composition, immune status, and growth gene expression in broilers under heat stress. Animals 2019 ,9, 644. [CrossRef]
+156. Kareem, K.Y.; Loh, T.C.; Foo, H.L.; Asmara, S.A.; Akit, H. Inﬂuence of postbiotic RG14 and inulin combination on cecal microbiota,
+organic acid concentration, and cytokine expression in broiler chickens. Poult. Sci. 2017 ,96, 966–975. [CrossRef] [PubMed]
+157. Choe, D.W.; Loh, T.C.; Foo, H.L.; Hair-Bejo, M.; Awis, Q.S. Egg production, faecal pH and microbial population, small intestine
+morphology, and plasma and yolk cholesterol in laying hens given liquid metabolites produced by Lactobacillus plantarum
+strains. Br. Poult. Sci. 2012 ,53, 106–115. [CrossRef] [PubMed]
+158. Chaney, W.E.; Naqvi, S.A.; Gutierrez, M.; Gernat, A.; Johnson, T.J.; Petry, D. Dietary Inclusion of a Saccharomyces cerevisiae-
+Derived Postbiotic Is Associated with Lower Salmonella enterica Burden in Broiler Chickens on a Commercial Farm in Honduras.
+Microorganisms 2022 ,10, 544. [CrossRef] [PubMed]
+159. Chaney, W.E.; McBride, H.; Girgis, G. Effect of a Saccharomyces cerevisiae Postbiotic Feed Additive on Salmonella Enteritidis
+Colonization of Cecal and Ovarian Tissues in Directly Challenged and Horizontally Exposed Layer Pullets. Animals 2023 ,13,
+1186. [CrossRef]
+160. Yang, C.; Chowdhury, M.K.; Hou, Y.; Gong, J. Phytogenic compounds as alternatives to in-feed antibiotics: Potentials and
+challenges in application. Pathogens 2015 ,4, 137–156. [CrossRef] [PubMed]
+161. Arain, M.A.; Nabi, F.; Shah, Q.A.; Alagawany, M.; Fazlani, S.A.; Khalid, M.; Soomro, F.; Khand, F.M.; Farag, M.R. The role of
+early feeding in improving performance and health of poultry: Herbs and their derivatives. Worlds Poult. Sci. J. 2022 ,78, 499–513.
+[CrossRef]
+162. Mohammadi Gheisar, M.; Kim, I.H. Phytobiotics in poultry and swine nutrition—A review. Ital. J. Anim. Sci. 2018 ,17, 92–99.
+[CrossRef]
+163. Pourali, M.; Mirghelenj, S.A.; Kermanshahi, H. Effects of garlic powder on productive performance and immune response of
+broiler chickens challenged with Newcastle Disease Virus. Glob. Vet. 2010 ,4, 616–621.
+164. Chalghoumi, R.; Belgacem, A.; Trabelsi, I.; Bouatour, Y.; Bergaoui, R. Effect of dietary supplementation with probiotic or essential
+oils on growth performance of broiler chickens. Int. J. Poult. Sci. 2013 ,12, 538–544. [CrossRef]
+165. Asadi, N.; Husseini, S.D.; Tohidian, M.; Abdali, N.; Mimandipoure, A.; Raﬁeian-Kopaei, M.; Bahmani, M. Performance of broilers
+supplemented with peppermint ( Mentha piperita L.) powder. J. Evid. Based Complement. Altern. Med. 2017 ,22, 703–706. [CrossRef]
+[PubMed]
+166. Mohamed, A.B.; Al-Rubaee, M.A.; Jalil, A.G. Effect of Ginger ( Zingiber ofﬁcinale ) on Performance and. Int. J. Poult. Sci. 2012 ,11,
+143–146. [CrossRef]
+167. Ghosh, T.; Kumar, A.; Sati, A.; Mondal, B.C.; Singh, S.K.; Kumar, R. Effect of dietary supplementation of herbal feed additives
+(black cumin, garlic and turmeric) in combination with linseed oil on production performance of white leghorn laying chickens. J.
+Entomol. Zool. Stud. 2020 ,8, 478–482.
+168. El-Ghany, A. Phytobiotics in poultry industry as growth promoters, antimicrobials and immunomodulators—A review. J. World’s
+Poult. Res. 2020 ,10, 571–579. [CrossRef]
+169. Laptev, G.Y.; Filippova, V .A.; Kochish, I.I.; Yildirim, E.A.; Ilina, L.A.; Dubrovin, A.V .; Brazhnik, E.A.; Novikova, N.I.; Novikova,
+O.B.; Dmitrieva, M.E. Examination of the expression of immunity genes and bacterial proﬁles in the caecum of growing chickens
+infected with Salmonella Enteritidis and fed a phytobiotic. Animals 2019 ,9, 615. [CrossRef]
+170. Xu, Z.; Wang, C.; Li, C.; Wang, M.; Chen, W.; Zhou, C.; Wei, P . The effect of oregano essential oil on the prevention and treatment
+of Salmonella pullorum and Salmonella gallinarum infections in commercial Yellow-chicken breeders. Front. Vet. Sci. 2022 ,9,
+1058844. [CrossRef]
+171. Salem, W.M.; El-Hamed, D.M.S.; Sayed, W.F.; Elamary, R.B. Alterations in virulence and antibiotic resistant genes of multidrug-
+resistant Salmonella serovars isolated from poultry: The bactericidal efﬁcacy of Allium sativum. Microb. Pathog. 2017 ,108, 91–100.
+[CrossRef]
+172. Kollanoor-Johny, A.; Mattson, T.; Baskaran, S.A.; Amalaradjou, M.A.; Babapoor, S.; March, B.; Valipe, S.; Darre, M.; Hoagland, T.;
+Schreiber, D. Reduction of Salmonella enterica serovar Enteritidis colonization in 20-day-old broiler chickens by the plant-derived
+compounds trans-cinnamaldehyde and eugenol. Appl. Environ. Microbiol. 2012 ,78, 2981–2987. [CrossRef]
+173. Vicente, J.L.; Lopez, C.; Avila, E.; Morales, E.; Hargis, B.M.; Tellez, G. Effect of dietary natural capsaicin on experimental
+Salmonella enteritidis infection and yolk pigmentation in laying hens. Int. J. Poult. Sci. 2007 ,6, 393–396. [CrossRef]
+174. Voyles, B.A. The Biology of Viruses ; Mosby-Year Book. Inc.: St. Louis, MO, USA, 1993.
+175. Iqbal, A.; Hasni, S.; Sajjad-ur-Rahman; Aslam, R.; Khan, K. Preparation and evaluation of bacteriophage lysate speciﬁc for
+Salmonella typhimurium .Int. J. Curr. Microbiol. Appl. Sci. 2016 ,5, 828–835. [CrossRef]
+176. Higgins, J.P .; Higgins, S.E.; Guenther, K.L.; Huff, W.; Donoghue, A.M.; Donoghue, D.J.; Hargis, B.M. Use of a speciﬁc bacteriophage
+treatment to reduce Salmonella in poultry products. Poult. Sci. 2005 ,84, 1141–1145. [CrossRef]
+Microorganisms 2023 ,11, 2814 26 of 27
+177. Henriques, A.; Sereno, R.; Almeida, A. Reducing Salmonella horizontal transmission during egg incubation by phage therapy.
+Foodborne Pathog. Dis. 2013 ,10, 718–722. [CrossRef] [PubMed]
+178. Bardina, C.; Spricigo, D.A.; Cort és, P .; Llagostera, M. Signiﬁcance of the bacteriophage treatment schedule in reducing Salmonella
+colonization of poultry. Appl. Environ. Microbiol. 2012 ,78, 6600–6607. [CrossRef] [PubMed]
+179. Kimminau, E.A.; Russo, K.N.; Karnezos, T.P .; Oh, H.G.; Lee, J.J.; Tate, C.C.; Baxter, J.A.; Berghaus, R.D.; Hofacre, C.L. Bacteriophage
+in-feed application: A novel approach to preventing Salmonella Enteritidis colonization in chicks fed experimentally contaminated
+feed. J. Appl. Poult. Res. 2020 ,29, 930–936. [CrossRef]
+180. Li, M.; Lin, H.; Jing, Y.; Wang, J. Broad-host-range Salmonella bacteriophage STP4-a and its potential application evaluation in
+poultry industry. Poult. Sci. 2020 ,99, 3643–3654. [CrossRef] [PubMed]
+181. Nabil, N.M.; Tawakol, M.M.; Hassan, H.M. Assessing the impact of bacteriophages in the treatment of Salmonella in broiler
+chickens. Infect. Ecol. Epidemiol. 2018 ,8, 1539056. [CrossRef] [PubMed]
+182. Hao, G.; Li, P .; Huang, J.; Cui, K.; Liang, L.; Lin, F.; Lu, Z.; Sun, S. Research Note: Therapeutic effect of a Salmonella phage
+combination on chicks infected with Salmonella Typhimurium. Poult. Sci. 2023 ,102, 102715. [CrossRef]
+183. Malik, D.J. Bacteriophage encapsulation using spray drying for phage therapy. Curr. Issues Mol. Biol. 2021 ,40, 303–316. [CrossRef]
+184. Luong, T.; Salabarria, A.; Roach, D.R. Phage therapy in the resistance era: Where do we stand and where are we going? Clin. Ther.
+2020 ,42, 1659–1680. [CrossRef]
+185. Jia, S.; McWhorter, A.R.; Andrews, D.M.; Underwood, G.J.; Chousalkar, K.K. Challenges in vaccinating layer hens against
+Salmonella typhimurium. Vaccines 2020 ,8, 696. [CrossRef]
+186. Tennant, S.M.; Levine, M.M. Live attenuated vaccines for invasive Salmonella infections. Vaccine 2015 ,33, C36–C41. [CrossRef]
+[PubMed]
+187. Van Immerseel, F.; Methner, U.; Rychlik, I.; Nagy, B.; Velge, P .; Martin, G.; Foster, N.; Ducatelle, R.; Barrow, P .A. Vaccination and
+early protection against non-host-speciﬁc Salmonella serotypes in poultry: Exploitation of innate immunity and microbial activity.
+Epidemiol. Infect. 2005 ,133, 959–978. [CrossRef] [PubMed]
+188. Lin, C.; Lu, T.; Chen, Y.; Yu, H.; Wu, C.; Yang, W. Safety of bivalent live attenuated Salmonella vaccine and its protection against
+bacterial shedding and tissue invasion in layers challenged with Salmonella. Poult. Sci. 2022 ,101, 101943. [CrossRef]
+189. Groves, P .J.; Sharpe, S.M.; Muir, W.I.; Pavic, A.; Cox, J.M. Live and inactivated vaccine regimens against caecal Salmonella
+Typhimurium colonisation in laying hens. Aust. Vet. J. 2016 ,94, 387–393. [CrossRef]
+190. Tan, S.; Gyles, C.L.; Wilkie, B.N. Evaluation of an aroA mutant Salmonella typhimurium vaccine in chickens using modiﬁed
+semisolid Rappaport Vassiliadis medium to monitor faecal shedding. Vet. Microbiol. 1997 ,54, 247–254. [CrossRef]
+191. Senevirathne, A.; Hewawaduge, C.; Park, S.; Park, J.; Kirthika, P .; Lee, J.H. O-antigen-deﬁcient, live, attenuated Salmonella
+typhimurium confers efﬁcient uptake, reduced cytotoxicity, and rapid clearance in chicken macrophages and lymphoid organs
+and induces signiﬁcantly high protective immune responses that protect chickens against Salmonella infection. Dev. Comp.
+Immunol. 2020 ,111, 103745. [PubMed]
+192. Eeckhaut, V .; Haesebrouck, F.; Ducatelle, R.; Van Immerseel, F. Oral vaccination with a live Salmonella Enteritidis/Typhimurium
+bivalent vaccine in layers induces cross-protection against caecal and internal organ colonization by a Salmonella Infantis strain.
+Vet. Microbiol. 2018 ,218, 7–12. [CrossRef] [PubMed]
+193. Kang, X.; Huang, T.; Shen, H.; Meng, C.; Jiao, X.; Pan, Z. Salmonella Enteritidis Subunit Vaccine Candidate Based on SseB Protein
+Co-Delivered with Simvastatin as Adjuvant. Pathogens 2022 ,11, 443. [CrossRef]
+194. Crouch, C.F.; Nell, T.; Reijnders, M.; Donkers, T.; Pugh, C.; Patel, A.; Davis, P .; van Hulten, M.C.; de Vries, S.P . Safety and efﬁcacy
+of a novel inactivated trivalent Salmonella enterica vaccine in chickens. Vaccine 2020 ,38, 6741–6750. [CrossRef] [PubMed]
+195. Rabie, N.S.; Amin Girh, Z. Bacterial vaccines in poultry. Bull. Natl. Res. Cent. 2020 ,44, 15. [CrossRef]
+196. Singh, B.R. Salmonella vaccines for animals and birds and their future perspective. Open Vaccine J. 2009 ,2, 100–112. [CrossRef]
+197. Deguchi, K.; Yokoyama, E.; Honda, T.; Mizuno, K. Efﬁcacy of a novel trivalent inactivated vaccine against the shedding of
+Salmonella in a chicken challenge model. Avian Dis. 2009 ,53, 281–286. [CrossRef]
+198. Acevedo-Villanueva, K.Y.; Akerele, G.O.; Al Hakeem, W.G.; Renu, S.; Shanmugasundaram, R.; Selvaraj, R.K. A Novel approach
+against Salmonella: A review of polymeric nanoparticle vaccines for broilers and layers. Vaccines 2021 ,9, 1041. [CrossRef]
+199. Huberman, Y.D.; Caballero-Garc ía, M.; Rojas, R.; Ascanio, S.; Olmos, L.H.; Malena, R.; Lom ónaco, J.; Nievas, P .; Chero, P .;
+Lévano-Grac ía, J. The efﬁcacy of a trivalent inactivated salmonella vaccine combined with the live s. gallinarum 9R vaccine in
+young layers after experimental infections with s. enteritidis, s. typhimurium, and s. infantis. Vaccines 2022 ,10, 1113. [CrossRef]
+200. Marouf, S.; Ibrahim, H.M.; El-Naggar, M.S.; Swelum, A.A.; Alqhtani, A.H.; El-Saadony, M.T.; El-Tarabily, K.A.; Salem, H.M.
+Inactivated pentavalent vaccine against mycoplasmosis and salmonellosis for chickens. Poult. Sci. 2022 ,101, 102139. [CrossRef]
+201. Acevedo-Villanueva, K.Y.; Renu, S.; Shanmugasundaram, R.; Akerele, G.O.; Gourapura, R.J.; Selvaraj, R.K. Salmonella chitosan
+nanoparticle vaccine administration is protective against Salmonella Enteritidis in broiler birds. PLoS ONE 2021 ,16, e0259334.
+[CrossRef] [PubMed]
+202. Acevedo-Villanueva, K.; Akerele, G.; Al-Hakeem, W.; Adams, D.; Gourapura, R.; Selvaraj, R. Immunization of broiler chickens
+with a killed chitosan nanoparticle Salmonella vaccine decreases Salmonella enterica serovar enteritidis load. Front. Physiol. 2022 ,
+13, 920777. [CrossRef]
+Microorganisms 2023 ,11, 2814 27 of 27
+203. Desin, T.S.; Wisner, A.L.S.; Lam, P .S.; Berberov, E.; Mickael, C.S.; Potter, A.A.; Köster, W. Evaluation of Salmonella enterica serovar
+Enteritidis pathogenicity island-1 proteins as vaccine candidates against S. Enteritidis challenge in chickens. Vet. Microbiol. 2011 ,
+148, 298–307. [CrossRef]
+204. Renu, S.; Markazi, A.D.; Dhakal, S.; Lakshmanappa, Y.S.; Shanmugasundaram, R.; Selvaraj, R.K.; Renukaradhya, G.J. Oral
+Deliverable Mucoadhesive Chitosan-Salmonella Subunit Nanovaccine for Layer Chickens. Int. J. Nanomed. 2020 ,15, 761–777.
+[CrossRef] [PubMed]
+205. Vinod, N.; Oh, S.; Kim, S.; Choi, C.W.; Kim, S.C.; Jung, C. Chemically induced Salmonella enteritidis ghosts as a novel vaccine
+candidate against virulent challenge in a rat model. Vaccine 2014 ,32, 3249–3255. [CrossRef] [PubMed]
+206. Jalava, K.; Hensel, A.; Szostak, M.; Resch, S.; Lubitz, W. Bacterial ghosts as vaccine candidates for veterinary applications. J.
+Control. Release 2002 ,85, 17–25. [CrossRef]
+207. Haidinger, W.; Szostak, M.P .; Jechlinger, W.; Lubitz, W. Online monitoring of Escherichia coli ghost production. Appl. Environ.
+Microbiol. 2003 ,69, 468–474. [CrossRef]
+208. Jawale, C.V .; Lee, J.H. Comparative evaluation of Salmonella Enteritidis ghost vaccines with a commercial vaccine for protection
+against internal egg contamination with Salmonella. Vaccine 2014 ,32, 5925–5930. [CrossRef]
+209. Senevirathne, A.; Hewawaduge, C.; Lee, J.H. Immunization of chicken with ﬂagellin adjuvanted Salmonella enteritidis bacterial
+ghosts confers complete protection against chicken salmonellosis. Poult. Sci. 2021 ,100, 101205. [CrossRef]
+210. Jazayeri, S.D.; Poh, C.L. Recent advances in delivery of veterinary DNA vaccines against avian pathogens. Vet. Res. 2019 ,50, 78.
+[CrossRef]
+211. Gao, X.; Xu, K.; Yang, G.; Shi, C.; Huang, H.; Wang, J.; Yang, W.; Liu, J.; Liu, Q.; Kang, Y. Construction of a novel DNA vaccine
+candidate targeting F gene of genotype VII Newcastle disease virus and chicken IL-18 delivered by Salmonella. J. Appl. Microbiol.
+2019 ,126, 1362–1372. [CrossRef]
+212. Yu, X.; Jia, R.; Huang, J.; Shu, B.; Zhu, D.; Liu, Q.; Gao, X.; Lin, M.; Yin, Z.; Wang, M. Attenuated Salmonella typhimurium
+delivering DNA vaccine encoding duck enteritis virus UL24 induced systemic and mucosal immune responses and conferred
+good protection against challenge. Vet. Res. 2012 ,43, 56. [CrossRef] [PubMed]
+213. Oshop, G.L.; Elankumaran, S.; Heckert, R.A. DNA vaccination in the avian. Vet. Immunol. Immunopathol. 2002 ,89, 1–12. [CrossRef]
+[PubMed]
+214. Li, J.; Jiang, Y.; Zhao, S.; Chang, X.; Liu, J.; Zeng, X.; Li, Y.; Chen, H. Protective efﬁcacy of an H5N1 DNA vaccine against challenge
+with a lethal H5N1 virus in quail. Avian Dis. 2012 ,56, 937–939. [CrossRef] [PubMed]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
