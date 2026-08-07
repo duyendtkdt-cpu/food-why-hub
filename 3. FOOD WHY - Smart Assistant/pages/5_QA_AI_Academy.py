@@ -1,118 +1,184 @@
 import streamlit as st
 import firebase_utils
 
-# Đồng bộ dữ liệu từ Cloud khi khởi chạy (chỉ chạy 1 lần mỗi session)
+# ── Firebase sync (chỉ 1 lần/session) ──
 if "firebase_synced" not in st.session_state:
-    with st.spinner("🔄 Đang kết nối và đồng bộ dữ liệu từ Firebase..."):
+    with st.spinner("🔄 Đang kết nối Firebase..."):
         firebase_utils.init_sync_from_firebase()
         st.session_state.firebase_synced = True
-import json
-import os
-import re
-import time
+
+import json, os, re, time, io, base64
 import PyPDF2
 import pandas as pd
 from datetime import datetime
+import streamlit.components.v1 as components
 
-# ── Cấu hình trang ──
 st.set_page_config(page_title="QA AI Academy", page_icon="🎓", layout="wide")
 
-# ── CSS chuyên nghiệp tông Cam FOOD WHY ──
+# ═══════════════════════════════════════════════════════════════════
+# CSS — LMS Style + FOOD WHY Orange Theme
+# ═══════════════════════════════════════════════════════════════════
 st.markdown("""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
-* { font-family: 'Inter', sans-serif; }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+* { font-family: 'Inter', sans-serif; box-sizing: border-box; }
 
-.academy-hero {
-    background: linear-gradient(135deg, #f97316 0%, #ea580c 50%, #c2410c 100%);
-    color: white; padding: 35px 40px; border-radius: 20px;
-    text-align: center; margin-bottom: 30px;
-    box-shadow: 0 12px 30px -8px rgba(249,115,22,0.5);
-    position: relative; overflow: hidden;
-}
-.academy-hero::before {
-    content: ''; position: absolute; top: -50%; right: -20%;
-    width: 300px; height: 300px; border-radius: 50%;
-    background: rgba(255,255,255,0.08);
-}
-.academy-hero h1 { font-size: 2.2rem; font-weight: 900; margin: 0 0 5px 0; letter-spacing: 1px; }
-.academy-hero p { font-size: 1rem; opacity: 0.9; margin: 0; }
-
-.unit-card {
-    background: white; border: 2px solid #fed7aa; border-radius: 16px;
-    padding: 22px 18px; text-align: center; cursor: pointer;
+/* ── Course Grid ── */
+.course-card {
+    background: white; border-radius: 18px; overflow: hidden;
+    border: 1.5px solid #f0ede9;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
     transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04); height: 100%;
 }
-.unit-card:hover {
-    border-color: #f97316; transform: translateY(-6px);
-    box-shadow: 0 12px 24px -6px rgba(249,115,22,0.25);
+.course-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 40px rgba(249,115,22,0.18);
+    border-color: #f97316;
 }
-.unit-card .icon { font-size: 2.8rem; margin-bottom: 10px; }
-.unit-card .title {
-    font-size: 0.95rem; font-weight: 700; color: #c2410c;
-    margin-bottom: 6px; line-height: 1.3;
-}
-.unit-card .desc { font-size: 0.78rem; color: #78716c; line-height: 1.4; }
-
-.unit-badge {
-    display: inline-block; background: #f97316; color: white;
-    font-size: 0.7rem; font-weight: 700; padding: 3px 10px;
-    border-radius: 20px; margin-bottom: 8px;
-}
-
-.access-box {
+.course-cover {
+    height: 130px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 3.8rem; position: relative;
     background: linear-gradient(135deg, #fff7ed, #ffedd5);
-    border: 2px solid #fdba74; border-radius: 14px;
-    padding: 20px; margin-bottom: 20px;
 }
-.access-box h4 { color: #c2410c; margin: 0 0 8px 0; }
+.course-badge {
+    position: absolute; top: 10px; right: 10px;
+    background: #f97316; color: white;
+    font-size: 0.62rem; font-weight: 700;
+    padding: 3px 9px; border-radius: 20px;
+    letter-spacing: 0.5px;
+}
+.course-badge.custom { background: #6366f1; }
+.course-body { padding: 14px 16px 16px; }
+.course-category { font-size: 0.65rem; color: #f97316; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; margin-bottom: 5px; }
+.course-title { font-size: 0.92rem; font-weight: 700; color: #1c1917; margin-bottom: 5px; line-height: 1.35; }
+.course-desc { font-size: 0.75rem; color: #78716c; line-height: 1.5; margin-bottom: 10px; }
+.course-meta { font-size: 0.7rem; color: #a8a29e; display: flex; align-items: center; gap: 6px; }
 
-.ref-chip {
-    display: inline-block; background: #fff7ed; border: 1px solid #fed7aa;
-    color: #9a3412; font-size: 0.75rem; padding: 4px 10px;
-    border-radius: 8px; margin: 3px 2px; font-weight: 600;
+/* ── Sidebar Session Menu ── */
+.sidebar-unit-hdr {
+    background: linear-gradient(135deg, #f97316, #ea580c);
+    color: white; padding: 14px 16px; border-radius: 12px; margin-bottom: 10px;
+}
+.sidebar-unit-hdr small { font-size: 0.7rem; opacity: 0.82; display: block; }
+.sidebar-unit-hdr h4 { margin: 4px 0 0; font-size: 0.92rem; font-weight: 800; line-height: 1.3; }
+
+.sess-item {
+    display: flex; align-items: center; gap: 9px;
+    padding: 9px 11px; border-radius: 10px; margin-bottom: 4px;
+    border: 1.5px solid transparent; transition: all 0.2s;
+}
+.sess-item:hover { background: #fff7ed; border-color: #fed7aa; }
+.sess-item.active { background: #fff7ed; border-color: #f97316; }
+.sess-dot {
+    width: 28px; height: 28px; border-radius: 50%;
+    background: #e7e5e4; color: #78716c;
+    font-size: 0.72rem; font-weight: 700;
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.sess-dot.active { background: #f97316; color: white; }
+.sess-dot.done { background: #16a34a; color: white; }
+.sess-text small { font-size: 0.62rem; color: #a8a29e; }
+.sess-text span { font-size: 0.78rem; font-weight: 600; color: #44403c; display: block; line-height: 1.3; }
+
+/* ── Academy Hero ── */
+.acad-hero {
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 50%, #c2410c 100%);
+    color: white; padding: 28px 36px; border-radius: 20px;
+    margin-bottom: 24px; position: relative; overflow: hidden;
+    box-shadow: 0 10px 28px -6px rgba(249,115,22,0.45);
+}
+.acad-hero::before {
+    content: ''; position: absolute; top: -60%; right: -10%;
+    width: 280px; height: 280px; border-radius: 50%;
+    background: rgba(255,255,255,0.07);
+}
+.acad-hero h1 { font-size: 1.7rem; font-weight: 900; margin: 0 0 4px; }
+.acad-hero p { font-size: 0.9rem; opacity: 0.88; margin: 0; }
+
+/* ── Session Content ── */
+.step-hdr {
+    display: flex; align-items: center; gap: 12px;
+    padding: 14px 18px; border-radius: 12px;
+    background: linear-gradient(135deg, #fff7ed, #ffedd5);
+    border-left: 4px solid #f97316; margin-bottom: 16px;
+}
+.step-num {
+    width: 34px; height: 34px; background: #f97316;
+    color: white; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 800; font-size: 0.95rem; flex-shrink: 0;
+}
+.step-label { font-size: 0.68rem; color: #a8a29e; margin: 0; }
+.step-title { font-size: 0.95rem; font-weight: 700; color: #c2410c; margin: 2px 0 0; }
+
+.content-box {
+    background: white; border: 1.5px solid #f0ede9;
+    border-radius: 14px; padding: 22px;
+    line-height: 1.8; color: #292524; font-size: 0.9rem;
 }
 
-.knowledge-block {
-    background: #fffbeb; border-left: 4px solid #f97316;
-    padding: 14px 18px; border-radius: 0 10px 10px 0;
-    margin-bottom: 10px; font-size: 0.88rem; color: #44403c;
-}
+/* ── Progress Bar ── */
+.prog-bar-wrap { background: #f5f5f4; border-radius: 99px; height: 8px; margin: 12px 0 4px; }
+.prog-bar-fill { height: 100%; border-radius: 99px; background: linear-gradient(90deg, #f97316, #ea580c); transition: width 0.5s; }
 
+/* ── Stats Pills ── */
 .stat-pill {
-    background: white; border: 2px solid #fed7aa; border-radius: 12px;
+    background: white; border: 1.5px solid #fed7aa; border-radius: 12px;
     padding: 12px 16px; text-align: center;
 }
 .stat-pill .num { font-size: 1.6rem; font-weight: 900; color: #f97316; }
-.stat-pill .label { font-size: 0.75rem; color: #78716c; }
+.stat-pill .lbl { font-size: 0.72rem; color: #78716c; margin-top: 2px; }
 
-.sidebar-brand {
-    background: linear-gradient(135deg, #f97316, #ea580c);
-    color: white; padding: 18px; border-radius: 12px; margin-bottom: 15px;
-    box-shadow: 0 8px 16px -4px rgba(249,115,22,0.4);
+/* ── Access Box ── */
+.access-box {
+    background: linear-gradient(135deg, #fff7ed, #ffedd5);
+    border: 1.5px solid #fdba74; border-radius: 12px;
+    padding: 15px; margin-bottom: 14px;
 }
-.sidebar-brand h3 { margin: 0; font-weight: 900; font-size: 1.3rem; }
-.sidebar-brand p { margin: 4px 0 0 0; font-size: 0.8rem; opacity: 0.85; }
+.access-box h4 { color: #c2410c; margin: 0 0 6px; font-size: 0.88rem; }
+
+/* ── Ref chips ── */
+.ref-chip {
+    display: inline-block; background: #fff7ed; border: 1px solid #fed7aa;
+    color: #9a3412; font-size: 0.72rem; padding: 3px 9px;
+    border-radius: 8px; margin: 2px; font-weight: 600;
+}
+
+/* Nav button styling */
+div[data-testid="stButton"] button[kind="secondary"] {
+    border: 1.5px solid #f97316 !important;
+    color: #f97316 !important;
+    border-radius: 10px !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
-# ── Dữ liệu Unit (10 cố định + custom từ Leader) ──
+# ═══════════════════════════════════════════════════════════════════
+# DATA LAYER
+# ═══════════════════════════════════════════════════════════════════
 UNITS_BASE = {
-    "unit_1":  {"icon": "🐷", "short": "Thịt Heo & Gà", "desc": "PSE, DFD, phúc lợi động vật, cảm quan thịt tươi"},
-    "unit_2":  {"icon": "🦠", "short": "Vi Sinh Vật", "desc": "Salmonella, Listeria, E.coli, Biofilm"},
-    "unit_3":  {"icon": "💧", "short": "Nước & Nước Đá", "desc": "QCVN, Clo hoạt tính, nước chiller"},
-    "unit_4":  {"icon": "❄️", "short": "Chuỗi Lạnh", "desc": "Cấp đông, rã đông, drip loss"},
-    "unit_5":  {"icon": "🧂", "short": "Phụ Gia Thịt", "desc": "Nitrite, Phosphate, Ascorbic acid"},
-    "unit_6":  {"icon": "📦", "short": "Đóng Gói", "desc": "MAP, Vacuum, màng co PA/PE"},
-    "unit_7":  {"icon": "🚧", "short": "Lây Nhiễm Chéo", "desc": "Raw vs Cooked, Allergen, phân vùng"},
-    "unit_8":  {"icon": "🔍", "short": "Dị Vật", "desc": "Xương, kim loại, X-ray, dò kim loại"},
-    "unit_9":  {"icon": "🧹", "short": "SSOP", "desc": "7 bước vệ sinh, hóa chất, Swab test"},
-    "unit_10": {"icon": "📜", "short": "Pháp Chế & Thú Y", "desc": "Luật ATTP, truy xuất, thu hồi"},
+    "unit_1":  {"icon": "🐷", "short": "Thịt Heo & Gà",     "desc": "PSE, DFD, phúc lợi động vật, cảm quan thịt tươi"},
+    "unit_2":  {"icon": "🦠", "short": "Vi Sinh Vật",        "desc": "Salmonella, Listeria, E.coli, Biofilm"},
+    "unit_3":  {"icon": "💧", "short": "Nước & Nước Đá",    "desc": "QCVN, Clo hoạt tính, nước chiller"},
+    "unit_4":  {"icon": "❄️", "short": "Chuỗi Lạnh",        "desc": "Cấp đông, rã đông, drip loss"},
+    "unit_5":  {"icon": "🧂", "short": "Phụ Gia Thịt",      "desc": "Nitrite, Phosphate, Ascorbic acid"},
+    "unit_6":  {"icon": "📦", "short": "Đóng Gói",          "desc": "MAP, Vacuum, màng co PA/PE"},
+    "unit_7":  {"icon": "🚧", "short": "Lây Nhiễm Chéo",   "desc": "Raw vs Cooked, Allergen, phân vùng"},
+    "unit_8":  {"icon": "🔍", "short": "Dị Vật",            "desc": "Xương, kim loại, X-ray, dò kim loại"},
+    "unit_9":  {"icon": "🧹", "short": "SSOP",              "desc": "7 bước vệ sinh, hóa chất, Swab test"},
+    "unit_10": {"icon": "📜", "short": "Pháp Chế & Thú Y",  "desc": "Luật ATTP, truy xuất, thu hồi"},
 }
 
-KNOWLEDGE_DIR_EARLY = os.path.join(os.path.dirname(__file__), "..", "knowledge")
-CUSTOM_UNITS_FILE = os.path.join(KNOWLEDGE_DIR_EARLY, "custom_units.json")
+KNOWLEDGE_DIR = os.path.join(os.path.dirname(__file__), "..", "knowledge")
+DATA_DIR      = os.path.join(os.path.dirname(__file__), "..", "data")
+CUSTOM_UNITS_FILE  = os.path.join(KNOWLEDGE_DIR, "custom_units.json")
+CASE_STUDIES_FILE  = os.path.join(DATA_DIR, "case_studies.json")
+EXAM_FILE          = os.path.join(DATA_DIR, "monthly_exam.json")
+RESULTS_FILE       = os.path.join(DATA_DIR, "exam_results.json")
+RESEARCH_TASK_FILE = os.path.join(DATA_DIR, "research_tasks.json")
+RESEARCH_SUB_FILE  = os.path.join(DATA_DIR, "research_submissions.json")
+os.makedirs(DATA_DIR, exist_ok=True)
 
 def load_custom_units():
     if os.path.exists(CUSTOM_UNITS_FILE):
@@ -130,22 +196,33 @@ def get_all_units():
     merged.update(load_custom_units())
     return merged
 
-UNITS = get_all_units()
-
-# ── Load Knowledge Base (Tầng 1: JSON gốc + Tầng 2: Tài liệu Sếp đã lưu vĩnh viễn) ──
-KNOWLEDGE_DIR = os.path.join(os.path.dirname(__file__), "..", "knowledge")
+def get_next_custom_unit_key():
+    cu = load_custom_units()
+    if not cu: return "unit_11"
+    nums = [int(k.split("_")[1]) for k in cu if k.startswith("unit_")]
+    return f"unit_{max(nums)+1}" if nums else "unit_11"
 
 @st.cache_data
 def load_knowledge():
     kb_path = os.path.join(KNOWLEDGE_DIR, "knowledge_base.json")
     try:
-        with open(kb_path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except:
-        return {}
+        with open(kb_path, "r", encoding="utf-8") as f: return json.load(f)
+    except: return {}
+
+def reload_knowledge():
+    st.cache_data.clear()
+    kb_path = os.path.join(KNOWLEDGE_DIR, "knowledge_base.json")
+    try:
+        with open(kb_path, "r", encoding="utf-8") as f: return json.load(f)
+    except: return {}
+
+def save_knowledge(kb):
+    kb_path = os.path.join(KNOWLEDGE_DIR, "knowledge_base.json")
+    with open(kb_path, "w", encoding="utf-8") as f:
+        json.dump(kb, f, ensure_ascii=False, indent=2)
+    st.cache_data.clear()
 
 def load_saved_docs(unit_key):
-    """Đọc tất cả file .txt đã lưu vĩnh viễn trong thư mục knowledge/unit_X/"""
     unit_dir = os.path.join(KNOWLEDGE_DIR, unit_key)
     combined = ""
     if os.path.isdir(unit_dir):
@@ -155,1034 +232,1308 @@ def load_saved_docs(unit_key):
                 try:
                     with open(fpath, "r", encoding="utf-8") as f:
                         combined += f"\n--- [{fname}] ---\n" + f.read()
-                except:
-                    pass
+                except: pass
     return combined
 
 def save_doc_permanently(unit_key, filename, content):
-    """Lưu tài liệu vĩnh viễn vào thư mục knowledge/unit_X/ và Firebase"""
     unit_dir = os.path.join(KNOWLEDGE_DIR, unit_key)
     os.makedirs(unit_dir, exist_ok=True)
     safe_name = re.sub(r'[^\w\-.]', '_', filename)
-    if not safe_name.endswith(".txt"):
-        safe_name += ".txt"
+    if not safe_name.endswith(".txt"): safe_name += ".txt"
     fpath = os.path.join(unit_dir, safe_name)
-    with open(fpath, "w", encoding="utf-8") as f:
-        f.write(content)
-    
-    # Đồng bộ văn bản lên mây vĩnh viễn
+    with open(fpath, "w", encoding="utf-8") as f: f.write(content)
     firebase_utils.save_knowledge_text(unit_key, safe_name, content)
-    
     return safe_name
 
-knowledge = load_knowledge()
+def load_json(path, default):
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f: return json.load(f)
+    return default
 
-# ── Research Master Data (Lưu vĩnh viễn) ──
-DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
-os.makedirs(DATA_DIR, exist_ok=True)
-RESEARCH_TASK_FILE = os.path.join(DATA_DIR, "research_tasks.json")
-RESEARCH_SUB_FILE  = os.path.join(DATA_DIR, "research_submissions.json")
-
-def load_research_tasks():
-    if os.path.exists(RESEARCH_TASK_FILE):
-        with open(RESEARCH_TASK_FILE, "r", encoding="utf-8") as f: return json.load(f)
-    return []
-def save_research_tasks(d):
-    with open(RESEARCH_TASK_FILE, "w", encoding="utf-8") as f: json.dump(d, f, ensure_ascii=False)
-    firebase_utils.sync_all_to_firebase()
-def load_research_subs():
-    if os.path.exists(RESEARCH_SUB_FILE):
-        with open(RESEARCH_SUB_FILE, "r", encoding="utf-8") as f: return json.load(f)
-    return []
-def append_research_sub(sub):
-    subs = load_research_subs()
-    subs.append(sub)
-    with open(RESEARCH_SUB_FILE, "w", encoding="utf-8") as f: json.dump(subs, f, ensure_ascii=False)
+def save_json(path, data):
+    with open(path, "w", encoding="utf-8") as f: json.dump(data, f, ensure_ascii=False)
     firebase_utils.sync_all_to_firebase()
 
-def get_next_custom_unit_key():
-    """Tính key tiếp theo: unit_11, unit_12..."""
-    cu = load_custom_units()
-    if not cu: return "unit_11"
-    nums = [int(k.split("_")[1]) for k in cu if k.startswith("unit_")]
-    return f"unit_{max(nums)+1}" if nums else "unit_11"
-
-# ── Quản lý Dữ liệu Kỳ thi ──
-DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
-os.makedirs(DATA_DIR, exist_ok=True)
-
-EXAM_FILE = os.path.join(DATA_DIR, "monthly_exam.json")
-RESULTS_FILE = os.path.join(DATA_DIR, "exam_results.json")
-
-def load_exam():
-    if os.path.exists(EXAM_FILE):
-        with open(EXAM_FILE, "r", encoding="utf-8") as f: return json.load(f)
-    return {"active": False, "question": "", "month": "", "created_at": 0}
-
-def save_exam(exam_data):
-    with open(EXAM_FILE, "w", encoding="utf-8") as f: json.dump(exam_data, f, ensure_ascii=False)
-    firebase_utils.sync_all_to_firebase()
-
-def load_results():
-    if os.path.exists(RESULTS_FILE):
-        with open(RESULTS_FILE, "r", encoding="utf-8") as f: return json.load(f)
-    return []
-
-def save_result(result):
-    results = load_results()
-    # Kiểm tra nếu người này đã thi tháng này chưa (tránh thi nhiều lần)
-    for r in results:
-        if r["name"] == result["name"] and r["month"] == result["month"]:
-            return False # Đã thi rồi
-    results.append(result)
-    with open(RESULTS_FILE, "w", encoding="utf-8") as f: json.dump(results, f, ensure_ascii=False)
-    firebase_utils.sync_all_to_firebase()
-    return True
-
-CASE_STUDIES_FILE = os.path.join(DATA_DIR, "case_studies.json")
-def load_case_studies():
-    if os.path.exists(CASE_STUDIES_FILE):
-        with open(CASE_STUDIES_FILE, "r", encoding="utf-8") as f: return json.load(f)
-    return {}
-def save_case_studies(d):
-    with open(CASE_STUDIES_FILE, "w", encoding="utf-8") as f: json.dump(d, f, ensure_ascii=False)
-    firebase_utils.sync_all_to_firebase()
-
-# ── Cấu hình API & Xác thực ──
-def get_api_key_and_model():
-    """Trả về (api_key, source) dựa trên quyền truy cập."""
-    # 1. Nội bộ đã phân quyền (Admin, QM, QA)
+# ── API Key Logic ──
+def get_api_key():
     if st.session_state.get("user_role") and st.session_state.get("active_api_key"):
         return st.session_state.active_api_key, "internal"
-        
-    # Giữ fallback cho internal_unlocked cũ
     if st.session_state.get("internal_unlocked"):
-        try:
-            key = st.secrets["TRAINING_API_KEY"]
-            if key: return key, "internal"
-        except: pass
-        try:
-            key = st.secrets["GEMINI_API_KEY"]
-            if key: return key, "internal"
-        except: pass
-    # 2. Người dùng tự nhập Key
+        for k in ["TRAINING_API_KEY", "GEMINI_API_KEY"]:
+            try:
+                v = st.secrets[k]
+                if v: return v, "internal"
+            except: pass
     user_key = (st.session_state.get("user_api_key") or "").strip()
-    if user_key:
-        return user_key, "user_key"
-    # 3. Public miễn phí (giới hạn 3 câu/ngày)
-    try:
-        key = st.secrets["TRAINING_API_KEY"]
-        if key: return key, "public_free"
-    except: pass
-    try:
-        key = st.secrets["GEMINI_API_KEY"]
-        if key: return key, "public_free"
-    except: pass
+    if user_key: return user_key, "user_key"
+    for k in ["TRAINING_API_KEY", "GEMINI_API_KEY"]:
+        try:
+            v = st.secrets[k]
+            if v: return v, "public_free"
+        except: pass
     return None, None
 
-# ── Session State khởi tạo ──
-for key in ["user_role", "active_api_key", "internal_unlocked", "selected_unit", "unit_chat_history",
-            "daily_question_count", "user_api_key", "uploaded_docs_text"]:
-    if key not in st.session_state:
-        if key == "internal_unlocked":
-            st.session_state[key] = False
-        elif key == "daily_question_count":
-            st.session_state[key] = 0
-        elif key in ("unit_chat_history", "uploaded_docs_text"):
-            st.session_state[key] = {}
-        else:
-            st.session_state[key] = None
+MAX_FREE_Q = 3
 
-MAX_FREE_QUESTIONS = 3
+# ── Session State Init ──
+_defaults = {
+    "user_role": None, "active_api_key": None, "internal_unlocked": False,
+    "selected_unit": None, "selected_session": None,
+    "daily_question_count": 0, "user_api_key": None, "uploaded_docs_text": {},
+    "unit_chat_history": {}, "quiz_answered": {}, "challenge_feedback": {}
+}
+for k, v in _defaults.items():
+    if k not in st.session_state: st.session_state[k] = v
 
-# ── SIDEBAR ──
+knowledge = load_knowledge()
+UNITS = get_all_units()
+
+# ═══════════════════════════════════════════════════════════════════
+# SIDEBAR
+# ═══════════════════════════════════════════════════════════════════
 with st.sidebar:
-    st.markdown("""
-    <div class="sidebar-brand">
-        <h3>🎓 QA AI Academy</h3>
-        <p>Trường Đào Tạo QA Ngành Thịt</p>
-    </div>
-    """, unsafe_allow_html=True)
+    sel_unit = st.session_state.selected_unit
+    sel_sess = st.session_state.selected_session
 
-    # Cổng bảo vệ nội bộ
+    if sel_unit:
+        # ── Session navigation ──
+        unit_info = UNITS.get(sel_unit, {"icon": "📄", "short": sel_unit})
+        kb_unit   = knowledge.get(sel_unit, {})
+        sessions  = kb_unit.get("sessions", [])
+
+        st.markdown(f"""
+        <div class="sidebar-unit-hdr">
+            <small>{unit_info['icon']} ĐANG HỌC</small>
+            <h4>{unit_info['short']}</h4>
+        </div>
+        """, unsafe_allow_html=True)
+
+        if st.button("← Quay lại danh sách khóa học", use_container_width=True):
+            st.session_state.selected_unit = None
+            st.session_state.selected_session = None
+            st.rerun()
+
+        st.markdown("**📚 Danh sách bài học:**")
+        if sessions:
+            completed = st.session_state.get("completed_sessions", {}).get(sel_unit, [])
+            for s in sessions:
+                is_active = (sel_sess == s["id"])
+                is_done   = s["id"] in completed
+                dot_cls   = "active" if is_active else ("done" if is_done else "")
+                dot_icon  = "✓" if is_done else s.get("week", "?")
+                st.markdown(f"""
+                <div class="sess-item {'active' if is_active else ''}">
+                    <div class="sess-dot {dot_cls}">{dot_icon}</div>
+                    <div class="sess-text">
+                        <small>Tuần {s.get('week','?')}</small>
+                        <span>{s['title']}</span>
+                    </div>
+                </div>
+                """, unsafe_allow_html=True)
+                if st.button(f"Vào bài →", key=f"sess_nav_{s['id']}", use_container_width=True):
+                    st.session_state.selected_session = s["id"]
+                    st.rerun()
+        else:
+            st.info("⏳ Chưa có bài học. Admin hãy dùng Auto-Content Engine để tạo!")
+
+        # Progress
+        if sessions:
+            completed = st.session_state.get("completed_sessions", {}).get(sel_unit, [])
+            pct = int(len(completed) / len(sessions) * 100) if sessions else 0
+            st.markdown(f"""
+            <div style="margin-top:12px;">
+                <small style="color:#78716c;">Tiến độ học tập: {pct}%</small>
+                <div class="prog-bar-wrap">
+                    <div class="prog-bar-fill" style="width:{pct}%"></div>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+
+        st.divider()
+
+    else:
+        # ── Default sidebar: brand + login ──
+        st.markdown("""
+        <div style="background:linear-gradient(135deg,#f97316,#ea580c);color:white;
+                    padding:16px;border-radius:12px;margin-bottom:14px;
+                    box-shadow:0 6px 16px -4px rgba(249,115,22,0.4);">
+            <div style="font-size:1.2rem;font-weight:900;">🎓 QA AI ACADEMY</div>
+            <div style="font-size:0.78rem;opacity:0.85;margin-top:3px;">Trường Đào Tạo Thực Chiến Ngành Thịt</div>
+        </div>
+        """, unsafe_allow_html=True)
+
+    # ── Auth block (always shown) ──
     st.markdown('<div class="access-box"><h4>🔐 Truy cập Nội bộ</h4></div>', unsafe_allow_html=True)
     if st.session_state.get("user_role"):
         roles = {"admin": "Admin (Sếp)", "qm": "Quản lý (QM)", "qa": "Nhân viên (QA)"}
-        role_name = roles.get(st.session_state.user_role, "")
-        st.success(f"✅ Đã đăng nhập: **{role_name}**")
+        st.success(f"✅ **{roles.get(st.session_state.user_role, '')}**")
         if st.button("🔒 Đăng xuất", use_container_width=True):
-            st.session_state.user_role = None
-            st.session_state.active_api_key = None
-            st.session_state.internal_unlocked = False
+            st.session_state.update({"user_role": None, "active_api_key": None, "internal_unlocked": False})
             st.rerun()
     else:
         pw = st.text_input("Nhập mật khẩu nội bộ:", type="password", key="pw_input")
         if st.button("Đăng nhập", use_container_width=True):
-            # 1. Sếp (Admin)
             try: admin_pw = st.secrets["INTERNAL_PASSWORD"]
-            except: admin_pw = "LeaderFoodWhy2024"
-            
+            except: admin_pw = "LeaderFoodWhy"
             if pw == admin_pw:
-                st.session_state.user_role = "admin"
-                try: admin_key = st.secrets["TRAINING_API_KEY"]
-                except: admin_key = st.secrets.get("GEMINI_API_KEY", "")
-                st.session_state.active_api_key = admin_key
-                st.session_state.internal_unlocked = True
+                st.session_state.update({"user_role": "admin", "internal_unlocked": True})
+                try: st.session_state.active_api_key = st.secrets["TRAINING_API_KEY"]
+                except:
+                    try: st.session_state.active_api_key = st.secrets["GEMINI_API_KEY"]
+                    except: pass
                 st.rerun()
-            # 2. QM (Quản lý)
             elif pw == "QMMML8386":
-                st.session_state.user_role = "qm"
-                st.session_state.active_api_key = "AIzaSyDMq0csYYjhP2ZK2wHlzDx8d_UOTcQXGDc"
-                st.session_state.internal_unlocked = True
+                st.session_state.update({"user_role": "qm", "internal_unlocked": True})
+                try: st.session_state.active_api_key = st.secrets.get("QM_API_KEY", st.secrets.get("GEMINI_API_KEY", ""))
+                except: pass
                 st.rerun()
-            # 3. QA (Nhân viên)
             elif pw == "LeaderQA2026":
-                st.session_state.user_role = "qa"
-                st.session_state.active_api_key = "AIzaSyCfnxehpZ7daLMLh6J5bwQrzoBOIcWQqYQ"
-                st.session_state.internal_unlocked = True
+                st.session_state.update({"user_role": "qa", "internal_unlocked": True})
+                try: st.session_state.active_api_key = st.secrets.get("QA_API_KEY", st.secrets.get("GEMINI_API_KEY", ""))
+                except: pass
                 st.rerun()
             else:
                 st.error("❌ Sai mật khẩu!")
 
-    st.divider()
-
-    # Thống kê
-    remaining = max(0, MAX_FREE_QUESTIONS - st.session_state.daily_question_count)
+    # Free questions counter
+    api_key, source = get_api_key()
     if not st.session_state.get("user_role") and not st.session_state.get("user_api_key"):
-        st.markdown("Câu hỏi miễn phí còn lại")
-        st.markdown(f"<h1 style='color:#44403c; margin:0;'>{remaining}/{MAX_FREE_QUESTIONS}</h1>", unsafe_allow_html=True)
-        # Nhập API Key cá nhân (cho cộng đồng)
-        st.markdown("**🔑 Hoặc nhập API Key cá nhân:**")
-        st.caption("Lấy Key miễn phí tại [Google AI Studio](https://aistudio.google.com/apikey)")
-        user_key_input = st.text_input("API Key của bạn:", type="password", key="api_key_input")
-        if user_key_input:
-            st.session_state.user_api_key = user_key_input
-            st.success("✅ Đã nhận Key — Không giới hạn câu hỏi!")
+        remaining = max(0, MAX_FREE_Q - st.session_state.daily_question_count)
         st.divider()
+        st.markdown(f"**Câu hỏi miễn phí còn lại:** `{remaining}/{MAX_FREE_Q}`")
+        st.caption("Hoặc nhập API Key cá nhân:")
+        ukey = st.text_input("API Key:", type="password", key="api_key_input")
+        if ukey:
+            st.session_state.user_api_key = ukey
+            st.success("✅ Đã nhận Key!")
 
     st.divider()
     st.caption("© 2026 FOOD WHY Studio")
 
-# ── TRANG CHÍNH ──
-# Hero
-st.markdown("""
-<div class="academy-hero">
-    <h1>🎓 QA AI ACADEMY</h1>
-    <p>Trường Đào Tạo Thực Chiến — Chuyên Ngành Giết Mổ & Chế Biến Thịt</p>
-</div>
-""", unsafe_allow_html=True)
+# ═══════════════════════════════════════════════════════════════════
+# MAIN TABS
+# ═══════════════════════════════════════════════════════════════════
+knowledge = load_knowledge()
+UNITS     = get_all_units()
 
-# Thống kê nhanh
-all_units_now = get_all_units()
-c1, c2, c3, c4 = st.columns(4)
-with c1:
-    st.markdown(f'<div class="stat-pill"><div class="num">{len(all_units_now)}</div><div class="label">Chuyên Đề</div></div>', unsafe_allow_html=True)
-with c2:
-    st.markdown('<div class="stat-pill"><div class="num">🤖</div><div class="label">AI Mentor</div></div>', unsafe_allow_html=True)
-with c3:
-    st.markdown('<div class="stat-pill"><div class="num">📝</div><div class="label">Bài Tập Tình Huống</div></div>', unsafe_allow_html=True)
-with c4:
-    cloud_subs_header = firebase_utils.get_research_submissions()
-    subs_count = len(cloud_subs_header) if cloud_subs_header else 0
-    st.markdown(f'<div class="stat-pill"><div class="num">{subs_count}</div><div class="label">Bài Nghiên Cứu</div></div>', unsafe_allow_html=True)
+tab_academy, tab_ask, tab_arena, tab_research, tab_admin = st.tabs([
+    "  📖 Học Tập  ", "  💬 Hỏi AI Mentor  ",
+    "  🏆 Đấu Trường QA  ", "  ⚔️ Nghiên Cứu Leader  ",
+    "  🤖 Auto-Content Engine  "
+])
 
-st.write("")
-
-# ── Top-level tabs: Học Tập vs Nghiên Cứu ──
-tab_academy, tab_research = st.tabs(["  📖 Học Tập   ", "  ⚔️ Nghiên Cứu Leader   "])
-
-# ================== TAB HỌc TẬP ==================
+# ═══════════════════════════════════════════════════════════════════
+# TAB 1: HỌC TẬP
+# ═══════════════════════════════════════════════════════════════════
 with tab_academy:
-  UNITS = get_all_units()  # reload để bắt được unit mới nhất
-  if st.session_state.selected_unit is None:
-    st.subheader("📖 Chọn Chuyên Đề Học Tập")
-    unit_keys = list(UNITS.keys())
-    for row_start in range(0, len(unit_keys), 5):
-        cols = st.columns(5)
-        for i, col in enumerate(cols):
-            idx = row_start + i
-            if idx >= len(unit_keys): break
-            unit_key = unit_keys[idx]
-            unit_num = unit_key.split("_")[1]
-            unit = UNITS[unit_key]
-            badge_color = "#4338ca" if unit.get("custom") else "#f97316"
-            with col:
-                st.markdown(f"""
-                <div class="unit-card">
-                    <div class="unit-badge" style="background:{badge_color}">{'⚔️ ' if unit.get('custom') else ''}Unit {unit_num}</div>
-                    <div class="icon">{unit["icon"]}</div>
-                    <div class="title">{unit["short"]}</div>
-                    <div class="desc">{unit["desc"]}</div>
+    sel_unit = st.session_state.selected_unit
+    sel_sess = st.session_state.selected_session
+
+    # ── VIEW 1: Course Grid ──
+    if not sel_unit:
+        st.markdown("""
+        <div class="acad-hero">
+            <h1>🎓 QA AI ACADEMY</h1>
+            <p>Trường Đào Tạo Thực Chiến — Chuyên Ngành Giết Mổ & Chế Biến Thịt</p>
+        </div>
+        """, unsafe_allow_html=True)
+
+        # Stats row
+        all_units_now = get_all_units()
+        kb_now = load_knowledge()
+        total_sessions = sum(len(kb_now.get(uk, {}).get("sessions", [])) for uk in all_units_now)
+        c1, c2, c3, c4 = st.columns(4)
+        for col, num, lbl in [
+            (c1, len(all_units_now), "Khóa Học"),
+            (c2, total_sessions, "Bài Học"),
+            (c3, "🤖", "AI Mentor"),
+            (c4, "🏆", "Thi Tháng"),
+        ]:
+            col.markdown(f'<div class="stat-pill"><div class="num">{num}</div><div class="lbl">{lbl}</div></div>', unsafe_allow_html=True)
+
+        st.write("")
+        st.subheader("📚 Chọn Khóa Học")
+
+        unit_keys = list(all_units_now.keys())
+        for row_start in range(0, len(unit_keys), 5):
+            cols = st.columns(5)
+            for i, col in enumerate(cols):
+                idx = row_start + i
+                if idx >= len(unit_keys): break
+                uk   = unit_keys[idx]
+                unit = all_units_now[uk]
+                unum = uk.split("_")[1]
+                is_custom = unit.get("custom", False)
+                unit_kb = kb_now.get(uk, {})
+                n_sess = len(unit_kb.get("sessions", []))
+                badge_cls = "custom" if is_custom else ""
+                badge_lbl = f"⚔️ Custom" if is_custom else f"Unit {unum}"
+
+                with col:
+                    st.markdown(f"""
+                    <div class="course-card">
+                        <div class="course-cover">
+                            {unit['icon']}
+                            <div class="course-badge {badge_cls}">{badge_lbl}</div>
+                        </div>
+                        <div class="course-body">
+                            <div class="course-category">🏭 QA NGÀNH THỊT</div>
+                            <div class="course-title">{unit['short']}</div>
+                            <div class="course-desc">{unit['desc']}</div>
+                            <div class="course-meta">📘 {n_sess} bài học</div>
+                        </div>
+                    </div>
+                    """, unsafe_allow_html=True)
+                    if st.button("Vào học →", key=f"go_{uk}", use_container_width=True,
+                                 type="primary" if n_sess > 0 else "secondary"):
+                        st.session_state.selected_unit = uk
+                        st.session_state.selected_session = None
+                        st.rerun()
+
+    # ── VIEW 2: Unit → Session Content ──
+    else:
+        knowledge = load_knowledge()
+        unit_info = UNITS.get(sel_unit, {"icon": "📄", "short": sel_unit, "desc": ""})
+        kb_unit   = knowledge.get(sel_unit, {})
+        sessions  = kb_unit.get("sessions", [])
+
+        # Find session object
+        current_session = None
+        current_idx     = 0
+        if sel_sess:
+            for i, s in enumerate(sessions):
+                if s["id"] == sel_sess:
+                    current_session = s
+                    current_idx = i
+                    break
+
+        if not current_session:
+            # ── Unit overview ──
+            st.markdown(f"""
+            <div class="acad-hero" style="padding:22px 30px;">
+                <h1 style="font-size:1.4rem;">{unit_info['icon']} {unit_info['short']}</h1>
+                <p>{kb_unit.get('title', unit_info['desc'])}</p>
+            </div>
+            """, unsafe_allow_html=True)
+            
+            # Hiển thị Kiến thức cốt lõi & Tài liệu tham khảo
+            core = kb_unit.get("core_knowledge", [])
+            refs = kb_unit.get("references", [])
+            
+            if core:
+                st.markdown("### 🧠 Kiến Thức Trọng Tâm")
+                for item in core:
+                    st.markdown(f"""
+                    <div style="background-color:#fffbeb; border-left:4px solid #f59e0b; padding:12px 18px; border-radius:6px; margin-bottom:10px; font-size:0.9rem; line-height:1.6; color:#451a03;">
+                        {item}
+                    </div>
+                    """, unsafe_allow_html=True)
+                    
+            if refs:
+                st.markdown("### 📚 Nguồn Tài Liệu Tham Khảo")
+                chips = "".join([f'<span class="ref-chip" style="margin-right:8px; margin-bottom:8px;">📗 {r}</span>' for r in refs])
+                st.markdown(f'<div style="margin-bottom:20px;">{chips}</div>', unsafe_allow_html=True)
+            
+            st.divider()
+            
+            if sessions:
+                st.info(f"👈 Chọn bài học từ menu bên trái để bắt đầu học. Khóa này có **{len(sessions)} bài** tương ứng **{len(sessions)} tuần** học.")
+            else:
+                st.warning("⏳ Khóa học này chưa có bài học chi tiết theo tuần. Admin có thể mở tab **🤖 Auto-Content Engine** để tạo tự động bằng AI!")
+        else:
+            # ── Session 5-step content ──
+            s = current_session
+            # Header
+            st.markdown(f"""
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;">
+                <div style="font-size:2rem;">{unit_info['icon']}</div>
+                <div>
+                    <div style="font-size:0.72rem;color:#a8a29e;font-weight:600;letter-spacing:1px;text-transform:uppercase;">
+                        {unit_info['short']} · Tuần {s.get('week','?')}
+                    </div>
+                    <div style="font-size:1.25rem;font-weight:800;color:#1c1917;">{s['title']}</div>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+
+            # ─── STEP 1: Pre-Question ───────────────────────────
+            st.markdown("""
+            <div class="step-hdr">
+                <div class="step-num">1</div>
+                <div><p class="step-label">KHỞI ĐỘNG</p><p class="step-title">Câu hỏi gợi mở trước bài học</p></div>
+            </div>
+            """, unsafe_allow_html=True)
+
+            pq = s.get("pre_question", {})
+            if pq:
+                quiz_key = f"quiz_{sel_unit}_{sel_sess}"
+                answered = st.session_state.quiz_answered.get(quiz_key)
+
+                st.markdown(f"**{pq.get('question', '')}**")
+                opts = pq.get("options", [])
+                correct_idx = pq.get("correct", 0)
+
+                if answered is None:
+                    for idx, opt in enumerate(opts):
+                        if st.button(opt, key=f"qopt_{quiz_key}_{idx}", use_container_width=True):
+                            st.session_state.quiz_answered[quiz_key] = idx
+                            st.rerun()
+                else:
+                    for idx, opt in enumerate(opts):
+                        if idx == correct_idx:
+                            st.success(f"✅ {opt}")
+                        elif idx == answered and answered != correct_idx:
+                            st.error(f"❌ {opt}")
+                        else:
+                            st.markdown(f"<div style='padding:9px 14px;border-radius:8px;border:1.5px solid #e7e5e4;margin:5px 0;font-size:0.88rem;color:#78716c;'>{opt}</div>", unsafe_allow_html=True)
+
+                    exp = pq.get("explanation", "")
+                    if exp:
+                        st.info(f"📖 **Giải thích:** {exp}")
+            else:
+                st.info("❓ Câu hỏi gợi mở chưa được thiết lập cho bài học này.")
+
+            st.divider()
+
+            # ─── STEP 2: Video ───────────────────────────────────
+            st.markdown("""
+            <div class="step-hdr">
+                <div class="step-num">2</div>
+                <div><p class="step-label">VIDEO BÀI GIẢNG</p><p class="step-title">Xem video minh họa trực quan</p></div>
+            </div>
+            """, unsafe_allow_html=True)
+
+            video_url = s.get("video_url", "")
+            if video_url and "youtube.com/embed/" in video_url:
+                components.html(
+                    f'<iframe width="100%" height="380" src="{video_url}?rel=0" '
+                    f'frameborder="0" allow="accelerometer; autoplay; clipboard-write; '
+                    f'encrypted-media; gyroscope; picture-in-picture" allowfullscreen '
+                    f'style="border-radius:14px;"></iframe>',
+                    height=390
+                )
+            elif video_url:
+                st.video(video_url)
+            else:
+                st.markdown("""
+                <div style="background:#f5f5f4;border-radius:14px;height:200px;
+                            display:flex;align-items:center;justify-content:center;
+                            color:#a8a29e;font-size:1rem;">
+                    🎬 Video bài giảng đang được sản xuất — Sắp ra mắt!
                 </div>
                 """, unsafe_allow_html=True)
-                if st.button(f"Vào học →", key=f"btn_{unit_key}", use_container_width=True):
-                    st.session_state.selected_unit = unit_key
+
+            if st.session_state.get("user_role") == "admin":
+                new_url = st.text_input("🔧 Admin: Cập nhật link video YouTube (embed URL):", key=f"vid_input_{sel_unit}_{sel_sess}")
+                if st.button("💾 Lưu link video", key=f"vid_save_{sel_unit}_{sel_sess}"):
+                    kb = load_knowledge()
+                    for sess in kb.get(sel_unit, {}).get("sessions", []):
+                        if sess["id"] == sel_sess:
+                            sess["video_url"] = new_url; break
+                    save_knowledge(kb)
+                    st.success("✅ Đã lưu link video!")
                     st.rerun()
 
-  # ── Bên trong Unit ──
-  else:
-    unit_key = st.session_state.selected_unit
-    unit_num = unit_key.split("_")[1]
-    UNITS = get_all_units()
-    unit_info = UNITS.get(unit_key, {"icon": "📄", "short": unit_key, "desc": ""})
-    kb = knowledge.get(unit_key, {})
+            st.divider()
 
-    # Nút quay lại
-    if st.button("← Quay lại danh sách chuyên đề"):
-        st.session_state.selected_unit = None
-        st.rerun()
+            # ─── STEP 3: Nội dung ────────────────────────────────
+            st.markdown("""
+            <div class="step-hdr">
+                <div class="step-num">3</div>
+                <div><p class="step-label">NỘI DUNG BÀI HỌC</p><p class="step-title">Kiến thức chuyên sâu & Khoa học</p></div>
+            </div>
+            """, unsafe_allow_html=True)
 
-    # Header Unit
-    st.markdown(f"""
-    <div class="academy-hero" style="padding: 25px 30px; text-align: left;">
-        <h1>{unit_info["icon"]} Unit {unit_num}: {unit_info["short"]}</h1>
-        <p>{kb.get("title", unit_info["desc"])}</p>
-    </div>
-    """, unsafe_allow_html=True)
+            content = s.get("content", "")
+            if content:
+                with st.container():
+                    st.markdown(f'<div class="content-box">', unsafe_allow_html=True)
+                    st.markdown(content)
+                    st.markdown('</div>', unsafe_allow_html=True)
+            else:
+                st.info("📝 Nội dung bài học chưa được tạo. Admin hãy dùng Auto-Content Engine!")
 
-    # Tabs chính
-    tab_learn, tab_ask, tab_exam, tab_arena, tab_docs = st.tabs([
-        "📖 Kiến Thức Cốt Lõi", "💬 Hỏi AI Mentor", "📝 Bài Tập Tình Huống", "🏆 Đấu Trường QA (Tháng)", "📁 Tài Liệu Bổ Sung"
-    ])
+            # Tài liệu bổ sung của QM
+            saved_docs = load_saved_docs(sel_unit)
+            if saved_docs:
+                with st.expander("📁 Xem tài liệu bổ sung từ QM"):
+                    st.markdown(f"<div style='font-size:0.83rem;max-height:300px;overflow-y:auto;'>{saved_docs[:5000]}</div>", unsafe_allow_html=True)
 
-    # ── TAB 1: Kiến thức ──
-    with tab_learn:
-        st.markdown("### 📚 Nguồn Tài Liệu Tham Khảo")
-        refs = kb.get("references", [])
-        if refs:
-            chips_html = "".join([f'<span class="ref-chip">📗 {r}</span>' for r in refs])
-            st.markdown(chips_html, unsafe_allow_html=True)
-        else:
-            st.info("Chưa có tài liệu tham khảo.")
+            st.divider()
 
-        st.markdown("### 🧠 Kiến Thức Trọng Tâm")
-        core = kb.get("core_knowledge", [])
-        if core:
-            for item in core:
-                st.markdown(f'<div class="knowledge-block">{item}</div>', unsafe_allow_html=True)
-        else:
-            st.info("Kiến thức đang được cập nhật.")
+            # ─── STEP 4: Flashcards ──────────────────────────────
+            st.markdown("""
+            <div class="step-hdr">
+                <div class="step-num">4</div>
+                <div><p class="step-label">FLASHCARDS</p><p class="step-title">3 Key Takeaways — Lật thẻ để xem đáp án</p></div>
+            </div>
+            """, unsafe_allow_html=True)
 
-        # Hiện tài liệu bổ sung nếu đã upload
-        extra = st.session_state.uploaded_docs_text.get(unit_key, "")
-        if extra:
-            st.markdown("### 📄 Kiến Thức Bổ Sung (Tạm thời)")
-            st.markdown(f'<div class="knowledge-block">{extra[:2000]}...</div>' if len(extra) > 2000 
-                       else f'<div class="knowledge-block">{extra}</div>', unsafe_allow_html=True)
+            flashcards = s.get("flashcards", [])
+            if flashcards:
+                fc_html = """
+                <style>
+                .fc-wrap { display:flex; gap:14px; margin:10px 0; flex-wrap:wrap; }
+                .fc { width:31%; min-width:200px; height:170px; perspective:900px; cursor:pointer; }
+                .fc-inner { position:relative; width:100%; height:100%;
+                             transition:transform 0.55s; transform-style:preserve-3d; }
+                .fc.flipped .fc-inner { transform:rotateY(180deg); }
+                .fc-f, .fc-b {
+                    position:absolute; width:100%; height:100%;
+                    backface-visibility:hidden; border-radius:14px;
+                    display:flex; flex-direction:column; align-items:center;
+                    justify-content:center; padding:18px; text-align:center;
+                    box-sizing:border-box;
+                }
+                .fc-f {
+                    background:linear-gradient(135deg,#f97316,#ea580c);
+                    color:white; font-weight:700; font-size:0.92rem; line-height:1.4;
+                }
+                .fc-b {
+                    background:white; border:2px solid #f97316; color:#44403c;
+                    font-size:0.83rem; transform:rotateY(180deg); line-height:1.5;
+                }
+                .tap-hint { font-size:0.6rem; opacity:0.7; margin-top:8px; }
+                </style>
+                <div class="fc-wrap">
+                """
+                for i, fc in enumerate(flashcards[:3]):
+                    front = fc.get("front", "").replace('\n', '<br>')
+                    back  = fc.get("back", "").replace('\n', '<br>')
+                    fc_html += f"""
+                    <div class="fc" id="fc{i}" onclick="this.classList.toggle('flipped')">
+                        <div class="fc-inner">
+                            <div class="fc-f">{front}<span class="tap-hint">👆 Nhấn để lật</span></div>
+                            <div class="fc-b">{back}</div>
+                        </div>
+                    </div>"""
+                fc_html += "</div>"
+                components.html(fc_html, height=200)
+            else:
+                st.info("🃏 Flashcards chưa được tạo cho bài học này.")
 
-    # ── TAB 2: Hỏi AI ──
-    with tab_ask:
+            st.divider()
+
+            # ─── STEP 5: Challenge ────────────────────────────────
+            st.markdown("""
+            <div class="step-hdr">
+                <div class="step-num">5</div>
+                <div><p class="step-label">BÀI TẬP THỬ THÁCH</p><p class="step-title">Tình huống thực tế tại nhà máy — AI chấm điểm</p></div>
+            </div>
+            """, unsafe_allow_html=True)
+
+            challenge = s.get("challenge", "")
+            if challenge:
+                st.markdown(f'<div class="content-box" style="border-left:4px solid #f97316;">{challenge}</div>', unsafe_allow_html=True)
+                st.write("")
+                answer_key = f"challenge_ans_{sel_unit}_{sel_sess}"
+                user_answer = st.text_area("✍️ Câu trả lời của bạn:", height=160, key=answer_key,
+                                           placeholder="Viết phân tích và giải pháp xử lý của bạn tại đây...")
+                col_btn1, col_btn2 = st.columns([1, 3])
+                with col_btn1:
+                    submit_ch = st.button("🤖 Nhờ AI chấm điểm", type="primary", use_container_width=True,
+                                          key=f"ch_submit_{sel_unit}_{sel_sess}")
+                if submit_ch:
+                    api_key, source = get_api_key()
+                    if user_answer.strip() and api_key:
+                        with st.spinner("AI đang chấm bài..."):
+                            try:
+                                import google.generativeai as genai
+                                genai.configure(api_key=api_key, transport="rest")
+                                m = genai.GenerativeModel("gemini-2.5-flash")
+                                core_kb = "\n".join(kb_unit.get("core_knowledge", []))
+                                grade_p = f"""Bạn là Giám khảo chuyên ngành An toàn Thực phẩm (ngành Thịt) của FOOD WHY Academy.
+
+BÀI HỌC: {s['title']}
+TÌNH HUỐNG BÀI TẬP:
+{challenge}
+
+BÀI LÀM CỦA HỌC VIÊN:
+{user_answer}
+
+KIẾN THỨC CHUẨN:
+{core_kb}
+{s.get('content','')[:2000]}
+
+Hãy chấm điểm trên thang 10 điểm và phản hồi theo format:
+## 🎯 Điểm số: X/10
+### ✅ Điểm đúng & tốt:
+[liệt kê]
+### ⚠️ Điểm cần bổ sung hoặc sai:
+[liệt kê]
+### 💡 Đáp án tham khảo đầy đủ:
+[đáp án chuẩn ngắn gọn]
+
+Phản hồi bằng tiếng Việt, thực tiễn, khích lệ học viên."""
+                                resp = m.generate_content(grade_p)
+                                st.session_state.challenge_feedback[f"{sel_unit}_{sel_sess}"] = resp.text
+                                if source == "public_free":
+                                    st.session_state.daily_question_count += 1
+                            except Exception as e:
+                                st.error(f"Lỗi AI: {e}")
+                    elif not api_key:
+                        st.warning("⚠️ Cần API Key để AI chấm bài!")
+                    else:
+                        st.warning("✍️ Vui lòng viết câu trả lời trước!")
+
+                fb = st.session_state.challenge_feedback.get(f"{sel_unit}_{sel_sess}")
+                if fb:
+                    st.markdown("---")
+                    st.markdown("### 📊 Kết quả chấm điểm của AI:")
+                    st.markdown(fb)
+
+                    # Mark as completed
+                    if "completed_sessions" not in st.session_state:
+                        st.session_state.completed_sessions = {}
+                    if sel_unit not in st.session_state.completed_sessions:
+                        st.session_state.completed_sessions[sel_unit] = []
+                    if sel_sess not in st.session_state.completed_sessions[sel_unit]:
+                        st.session_state.completed_sessions[sel_unit].append(sel_sess)
+            else:
+                st.info("💪 Bài tập thử thách chưa được tạo cho bài học này.")
+
+            st.divider()
+            # ─── Navigation buttons ──────────────────────────────
+            prev_idx = current_idx - 1
+            next_idx = current_idx + 1
+            col_p, col_space, col_n = st.columns([1, 2, 1])
+            with col_p:
+                if prev_idx >= 0:
+                    if st.button(f"← Bài trước", use_container_width=True):
+                        st.session_state.selected_session = sessions[prev_idx]["id"]
+                        st.rerun()
+            with col_n:
+                if next_idx < len(sessions):
+                    if st.button(f"Bài tiếp →", type="primary", use_container_width=True):
+                        st.session_state.selected_session = sessions[next_idx]["id"]
+                        st.rerun()
+                else:
+                    st.success("🎉 Bạn đã hoàn thành tất cả bài học của khóa này!")
+
+# ═══════════════════════════════════════════════════════════════════
+# TAB 2: HỎI AI MENTOR
+# ═══════════════════════════════════════════════════════════════════
+with tab_ask:
+    sel_unit = st.session_state.selected_unit
+    if not sel_unit:
+        st.info("👈 Hãy chọn một Khóa Học ở tab **📖 Học Tập** trước, sau đó quay lại đây để hỏi AI Mentor!")
+    else:
+        unit_info = UNITS.get(sel_unit, {"short": sel_unit})
+        kb_unit   = knowledge.get(sel_unit, {})
+        core      = kb_unit.get("core_knowledge", [])
+
         st.markdown(f"### 💬 Hỏi AI Mentor về **{unit_info['short']}**")
 
-        api_key, source = get_api_key_and_model()
+        api_key, source = get_api_key()
         can_ask = True
-
         if source == "public_free":
-            remaining = MAX_FREE_QUESTIONS - st.session_state.daily_question_count
-            if remaining <= 0:
-                can_ask = False
-                st.warning("⚠️ Bạn đã hết 3 câu hỏi miễn phí hôm nay! Nhập mật khẩu nội bộ hoặc API Key cá nhân ở thanh bên trái để tiếp tục.")
-            else:
-                st.info(f"🎁 Bạn còn **{remaining}** câu hỏi miễn phí hôm nay.")
-        elif source == "internal":
-            st.success("🔓 Chế độ Nội bộ — Không giới hạn câu hỏi!")
-        elif source == "user_key":
-            st.success("🔑 Đang dùng API Key cá nhân — Không giới hạn!")
-        elif api_key is None:
-            can_ask = False
-            st.error("⚠️ Chưa có API Key. Vui lòng nhập mật khẩu nội bộ hoặc API Key cá nhân.")
+            remaining = MAX_FREE_Q - st.session_state.daily_question_count
+            if remaining <= 0: can_ask = False; st.warning("⚠️ Hết lượt miễn phí! Nhập mật khẩu hoặc API Key cá nhân.")
+            else: st.info(f"🎁 Còn **{remaining}** câu hỏi miễn phí hôm nay.")
+        elif source == "internal": st.success("🔓 Chế độ Nội bộ — Không giới hạn!")
+        elif source == "user_key": st.success("🔑 API Key cá nhân — Không giới hạn!")
+        elif not api_key: can_ask = False; st.error("⚠️ Chưa có API Key!")
 
-        # Chat history cho unit này
-        chat_key = f"chat_{unit_key}"
-        if chat_key not in st.session_state:
-            st.session_state[chat_key] = []
+        chat_key = f"chat_{sel_unit}"
+        if chat_key not in st.session_state: st.session_state[chat_key] = []
 
         for msg in st.session_state[chat_key]:
-            with st.chat_message(msg["role"]):
-                st.markdown(msg["content"])
+            with st.chat_message(msg["role"]): st.markdown(msg["content"])
 
-        question = st.chat_input(f"Hỏi về {unit_info['short']}..." if can_ask else "Hết lượt hỏi miễn phí...", disabled=not can_ask)
-
+        question = st.chat_input(f"Hỏi về {unit_info['short']}..." if can_ask else "Hết lượt...", disabled=not can_ask)
         if question and can_ask and api_key:
             st.session_state[chat_key].append({"role": "user", "content": question})
-            with st.chat_message("user"):
-                st.markdown(question)
+            with st.chat_message("user"): st.markdown(question)
 
-            # Xây context từ: Tầng 1 (JSON gốc) + Tầng 2 (Tài liệu lưu vĩnh viễn) + Tầng 3 (Upload tạm)
             context_parts = []
-            if core:
-                context_parts.append("KIẾN THỨC NỀN TẢNG (Nguồn: FAO, Codex, USDA, WHO):\n" + "\n".join(core))
-            saved_docs = load_saved_docs(unit_key)
-            if saved_docs:
-                context_parts.append("TÀI LIỆU CHUYÊN SÂU (Đã được Quản lý lưu trữ):\n" + saved_docs[:5000])
-            extra_doc = st.session_state.uploaded_docs_text.get(unit_key, "")
-            if extra_doc:
-                context_parts.append("TÀI LIỆU BỔ SUNG TẠM THỜI (Người dùng upload):\n" + extra_doc[:3000])
+            if core: context_parts.append("KIẾN THỨC NỀN TẢNG:\n" + "\n".join(core))
+            saved = load_saved_docs(sel_unit)
+            if saved: context_parts.append("TÀI LIỆU CHUYÊN SÂU:\n" + saved[:5000])
             context = "\n\n".join(context_parts)
 
-            system = f"""Bạn là AI Mentor CHUYÊN GIA ngành Giết mổ & Chế biến Thịt, thuộc hệ thống FOOD WHY Academy.
-Bạn đang hỗ trợ học viên về chuyên đề: {unit_info['short']}.
+            # Also add session contents
+            sessions = kb_unit.get("sessions", [])
+            sel_sess = st.session_state.selected_session
+            if sel_sess:
+                for sess in sessions:
+                    if sess["id"] == sel_sess:
+                        context += f"\n\nNỘI DUNG BÀI HỌC HIỆN TẠI ({sess['title']}):\n{sess.get('content','')[:3000]}"
+                        break
 
-Dưới đây là tài liệu tham khảo NỘI BỘ được cung cấp:
+            system = f"""Bạn là AI Mentor CHUYÊN GIA ngành Giết mổ & Chế biến Thịt của FOOD WHY Academy.
+Chuyên đề: {unit_info['short']}.
 
 {context}
 
-Quy tắc trả lời:
-- BẮT BUỘC trả lời bằng tiếng Việt, rõ ràng, có ví dụ thực tế từ nhà máy giết mổ/chế biến thịt.
-- ƯU TIÊN dùng kiến thức từ tài liệu nội bộ ở trên. Nếu tài liệu nội bộ chưa đủ chi tiết, bạn ĐƯỢC PHÉP bổ sung thêm kiến thức chuyên ngành của bạn (khoa học thực phẩm, an toàn thực phẩm, công nghệ chế biến thịt) để trả lời đầy đủ hơn.
-- Khi dùng kiến thức bổ sung, hãy ghi rõ nguồn (ví dụ: "Theo tiêu chuẩn BRCGS...", "Theo nghiên cứu của...").
-- Nếu câu hỏi hoàn toàn nằm ngoài lĩnh vực thực phẩm, nhắc nhở học viên.
-- Trình bày bằng Markdown, có tiêu đề phụ và bullet points."""
+Quy tắc:
+- Trả lời bằng tiếng Việt, rõ ràng, có ví dụ thực tế từ nhà máy thịt.
+- Ưu tiên kiến thức từ tài liệu nội bộ. Có thể bổ sung từ kiến thức chuyên ngành.
+- Trình bày bằng Markdown với tiêu đề và bullet points."""
 
             with st.chat_message("assistant"):
                 with st.spinner("AI đang suy nghĩ..."):
                     try:
                         import google.generativeai as genai
                         genai.configure(api_key=api_key, transport="rest")
-                        m = genai.GenerativeModel('gemini-2.5-flash')
+                        m = genai.GenerativeModel("gemini-2.5-flash")
                         resp = m.generate_content(system + "\n\nCÂU HỎI: " + question)
                         answer = resp.text
                         st.markdown(answer)
                         st.session_state[chat_key].append({"role": "assistant", "content": answer})
-                        if source == "public_free":
-                            st.session_state.daily_question_count += 1
+                        if source == "public_free": st.session_state.daily_question_count += 1
                     except Exception as e:
                         st.error(f"Lỗi: {e}")
 
-    # ── TAB 3: Bài tập tình huống ──
-    with tab_exam:
-        st.markdown(f"### 📝 Bài Tập Tình Huống — Unit {unit_num}: {unit_info['short']}")
+# ═══════════════════════════════════════════════════════════════════
+# TAB 3: ĐẤU TRƯỜNG QA
+# ═══════════════════════════════════════════════════════════════════
+EXAM_DURATION = 300  # 5 phút = 300 giây
 
-        api_key, source = get_api_key_and_model()
-        case_studies = load_case_studies()
-        active_scenario = case_studies.get(unit_key)
+with tab_arena:
+    user_role   = st.session_state.get("user_role")
+    is_qm_admin = user_role in ["admin", "qm"]
+    exam_data   = load_json(EXAM_FILE, {"active": False, "question": "", "month": "", "created_at": 0})
 
-        col_qm, col_qa = st.columns(2)
+    st.markdown("### 🏆 Đấu Trường QA — Kỳ Thi Tháng")
 
-        with col_qm:
-            st.markdown("""
-            <div class="access-box">
-                <h4>👨‍💼 Khu vực QM (Ra đề)</h4>
-            </div>
-            """, unsafe_allow_html=True)
-            if active_scenario:
-                st.success("✅ Đang có bài tập được giao cho QA.")
-                st.info(f"**Nội dung:** {active_scenario}")
-                with st.popover("🔒 Đóng bài tập"):
-                    close_pw = st.text_input("Mật khẩu nội bộ:", type="password", key=f"close_pw_{unit_key}")
-                    if st.button("Xác nhận Đóng", type="primary", key=f"close_btn_{unit_key}"):
-                        try: cpw = st.secrets["INTERNAL_PASSWORD"]
-                        except: cpw = "LeaderFoodWhy2024"
-                        if close_pw == cpw:
-                            del case_studies[unit_key]
-                            save_case_studies(case_studies)
-                            st.success("Đã đóng bài tập!")
-                            st.rerun()
-                        else:
-                            st.error("Sai mật khẩu!")
-            else:
-                exam_key = f"exam_scenario_{unit_key}"
-                scenario = st.text_area(
-                    "Nhập tình huống / số liệu thực tế:",
-                    placeholder=f"Ví dụ: Kết quả Swab test bề mặt thớt cắt sau vệ sinh: TPC = 850 CFU/cm². Yêu cầu nội bộ < 100 CFU/cm². Hãy phân tích...",
-                    height=200, key=exam_key
-                )
-                if st.button("📤 Giao bài cho QA", key=f"submit_exam_{unit_key}", use_container_width=True):
-                    if scenario:
-                        case_studies[unit_key] = scenario
-                        save_case_studies(case_studies)
-                        st.success("✅ Đã giao bài! QA hãy chuyển sang ô bên phải để làm bài.")
-                        st.rerun()
-                    else:
-                        st.warning("Vui lòng nhập tình huống trước!")
+    if is_qm_admin:
+        is_active_now = exam_data.get("active", False)
+        default_month = exam_data.get("month", "") if is_active_now else datetime.now().strftime("Tháng %m/%Y")
+        default_q = exam_data.get("question", "") if is_active_now else ""
+        btn_label = "🔄 CẬP NHẬT KỲ THI" if is_active_now else "🚀 KÍCH HOẠT KỲ THI"
 
-        with col_qa:
-            st.markdown("""
-            <div class="access-box">
-                <h4>👩‍🔬 Khu vực QA (Làm bài)</h4>
-            </div>
-            """, unsafe_allow_html=True)
-            if active_scenario:
-                st.info(f"📋 **Đề bài:** {active_scenario}")
-                answer_key = f"qa_answer_{unit_key}"
-                qa_answer = st.text_area("Viết câu trả lời của bạn:", height=200, key=answer_key)
-                if st.button("🤖 Nhờ AI chấm điểm", key=f"grade_{unit_key}", use_container_width=True):
-                    if qa_answer and api_key:
-                        with st.spinner("AI đang chấm bài..."):
-                            try:
-                                import google.generativeai as genai
-                                genai.configure(api_key=api_key, transport="rest")
-                                m = genai.GenerativeModel('gemini-2.5-flash')
-                                grade_prompt = f"""Bạn là Giám khảo chuyên ngành An toàn Thực phẩm (ngành Thịt).
-Chấm điểm bài làm của QA dựa trên thang 10 điểm.
+        with st.expander("👨‍💼 Bảng Điều Khiển Kỳ Thi (QM Only)", expanded=not is_active_now):
+            new_month = st.text_input("Kỳ thi tháng:", value=default_month)
+            new_q = st.text_area("Đề thi chung:", value=default_q, placeholder="Nhập tình huống hóc búa nhất tháng này...\n(Xuống dòng tự do — format sẽ được giữ nguyên khi hiển thị)", height=200)
+            cb1, cb2 = st.columns(2)
+            if cb1.button(btn_label, type="primary", use_container_width=True):
+                if new_q and new_month:
+                    save_json(EXAM_FILE, {"active": True, "question": new_q, "month": new_month, "created_at": time.time()})
+                    st.success("✅ Đã kích hoạt / cập nhật!"); st.rerun()
+            if cb2.button("🚫 KẾT THÚC KỲ THI", use_container_width=True):
+                exam_data["active"] = False
+                save_json(EXAM_FILE, exam_data); st.rerun()
 
-TÌNH HUỐNG: {active_scenario}
+    st.markdown("---")
+    if not exam_data["active"]:
+        st.info("🏁 Không có kỳ thi đang diễn ra. Chờ QM kích hoạt!")
+    else:
+        st.markdown(f"#### 📅 Kỳ thi: <span style='color:#f97316'>{exam_data['month']}</span>", unsafe_allow_html=True)
+        arena_key = "arena_global"
 
-BÀI LÀM CỦA QA: {qa_answer}
+        # ── Hàm chấm bài & lưu kết quả (dùng chung cho nộp sớm + hết giờ) ──
+        def grade_and_save(answer_text, time_taken_sec):
+            """Chấm bài bằng AI, lưu kết quả kèm thời gian làm bài."""
+            api_key, _ = get_api_key()
+            if not api_key:
+                st.error("⚠️ Không có API Key để chấm bài!")
+                return
+            nm = st.session_state.get(f"qa_real_name_{arena_key}", "Unknown")
+            results = load_json(RESULTS_FILE, [])
+            already = any(r["name"] == nm and r["month"] == exam_data["month"] for r in results)
+            if already:
+                st.warning(f"⚠️ {nm} đã nộp bài tháng này rồi!")
+                if f"exam_started_{arena_key}" in st.session_state:
+                    del st.session_state[f"exam_started_{arena_key}"]
+                return
 
-KIẾN THỨC CHUẨN: {chr(10).join(core)}
+            if not answer_text or not answer_text.strip():
+                answer_text = "(Thí sinh không trả lời hoặc hết giờ mà chưa viết gì.)"
 
-Hãy:
-1. Cho điểm (X/10) và nhận xét tổng quan.
-2. Chỉ ra điểm ĐÚNG và điểm SAI/THIẾU SÓT.
-3. Đưa ra đáp án mẫu ngắn gọn.
-Trình bày bằng Markdown, tiếng Việt."""
-                                resp = m.generate_content(grade_prompt)
-                                st.markdown(resp.text)
-                                if source == "public_free":
-                                    st.session_state.daily_question_count += 1
-                            except Exception as e:
-                                st.error(f"Lỗi: {e}")
-                    elif not api_key:
-                        st.error("Cần API Key để chấm bài!")
-            else:
-                st.info("⏳ Chưa có bài tập. Chờ QM ra đề ở ô bên trái.")
+            with st.spinner("🤖 AI đang chấm bài..."):
+                try:
+                    import google.generativeai as genai
+                    genai.configure(api_key=api_key, transport="rest")
+                    m = genai.GenerativeModel("gemini-2.5-flash")
+                    gp = f"""Bạn là Giám khảo chuyên gia của Kỳ thi Tháng QA — FOOD WHY Academy (Ngành Giết mổ & Chế biến Thịt).
+Chấm điểm bài làm trên thang 10. Dòng đầu tiên PHẢI là: [DIEM: X/10]
 
-    # ── TAB 4: Đấu trường QA (Tháng) ──
-    with tab_arena:
-        st.markdown(f"### 🏆 Đấu Trường QA — Kỳ Thi Tháng")
-        
-        user_role = st.session_state.get("user_role")
-        is_qm_admin = user_role in ["admin", "qm"]
-        exam_data = load_exam()
-        
-        # 1. GIAO DIỆN CHO QUẢN LÝ (QM)
-        if is_qm_admin:
-            with st.expander("👨‍💼 Bảng Điều Khiển Kỳ Thi (QM Only)", expanded=not exam_data["active"]):
-                st.write("Sếp hãy đặt đề bài cho kỳ thi tháng này. Khi bấm 'Kích hoạt', tất cả nhân viên sẽ nhận được đề.")
-                new_month = st.text_input("Kỳ thi tháng (Vd: Tháng 05/2024):", value=datetime.now().strftime("Tháng %m/%Y"))
-                new_q = st.text_area("Đề thi chung:", placeholder="Nhập tình huống hóc búa nhất tháng này...")
-                
-                c_btn1, c_btn2 = st.columns(2)
-                if c_btn1.button("🚀 KÍCH HOẠT KỲ THI", use_container_width=True, type="primary"):
-                    if new_q and new_month:
-                        exam_data = {"active": True, "question": new_q, "month": new_month, "created_at": time.time()}
-                        save_exam(exam_data)
-                        st.success("✅ Đã kích hoạt kỳ thi! Nhân viên có thể bắt đầu thi.")
-                        st.rerun()
-                
-                if c_btn2.button("🚫 KẾT THÚC KỲ THI", use_container_width=True):
-                    exam_data["active"] = False
-                    save_exam(exam_data)
-                    st.warning("Đã đóng kỳ thi. Nhân viên không thể nộp bài mới.")
+ĐỀ THI:
+{exam_data['question']}
+
+BÀI LÀM CỦA THÍ SINH:
+{answer_text}
+
+Hãy chấm công bằng, chi tiết và phản hồi bằng tiếng Việt ĐÚNG theo format sau:
+
+## 🎯 Điểm số: X/10
+
+### ✅ Những điểm thí sinh làm tốt:
+(Liệt kê cụ thể các ý đúng, kiến thức chính xác mà thí sinh đã nêu)
+
+### ⚠️ Những điểm cần cải thiện:
+(Liệt kê cụ thể các ý còn thiếu, sai hoặc chưa đầy đủ)
+
+### 📝 ĐÁP ÁN ĐÚNG & GIẢI THÍCH CHI TIẾT:
+(Đưa ra đáp án mẫu hoàn chỉnh, đầy đủ cho đề bài trên. Giải thích rõ ràng tại sao đây là đáp án đúng, viện dẫn kiến thức chuyên ngành cụ thể. Phần này phải đủ chi tiết để thí sinh đọc xong hiểu được vấn đề và học hỏi được kiến thức mới.)
+
+### 🎓 Lời khuyên cho thí sinh:
+(1-2 câu ngắn gọn khuyến khích và gợi ý hướng học tập thêm)"""
+                    resp = m.generate_content(gp)
+                    full = resp.text
+                    sm = re.search(r'\[DIEM:\s*(\d+\.?\d*)/10\]', full)
+                    score = float(sm.group(1)) if sm else 5.0
+
+                    # Format thời gian
+                    t_mins = int(time_taken_sec) // 60
+                    t_secs = int(time_taken_sec) % 60
+                    time_display = f"{t_mins} phút {t_secs:02d} giây"
+
+                    results.append({
+                        "name": nm,
+                        "month": exam_data["month"],
+                        "score": score,
+                        "time_taken": round(time_taken_sec, 1),
+                        "time_display": time_display,
+                        "feedback": full,
+                        "date": datetime.now().strftime("%Y-%m-%d %H:%M")
+                    })
+                    save_json(RESULTS_FILE, results)
+                    st.balloons()
+                    st.success(f"🎉 **{nm}**: **{score}/10** điểm — Hoàn thành trong **{time_display}**!")
+                    st.markdown(full)
+                    if f"exam_started_{arena_key}" in st.session_state:
+                        del st.session_state[f"exam_started_{arena_key}"]
+                except Exception as e:
+                    st.error(f"Lỗi kết nối AI: {e}. Hệ thống sẽ lưu tạm bài thi của bạn.")
+                    # Lưu kết quả dự phòng để không bị kẹt
+                    t_mins = int(time_taken_sec) // 60
+                    t_secs = int(time_taken_sec) % 60
+                    time_display = f"{t_mins} phút {t_secs:02d} giây"
+                    
+                    results.append({
+                        "name": nm,
+                        "month": exam_data["month"],
+                        "score": 0.0,
+                        "time_taken": round(time_taken_sec, 1),
+                        "time_display": time_display,
+                        "feedback": "⚠️ LỖI CHẤM TỰ ĐỘNG: Hệ thống AI bị quá tải trong lúc chấm. Bài thi đã được ghi nhận thời gian. Vui lòng báo Admin để chấm điểm tay.",
+                        "date": datetime.now().strftime("%Y-%m-%d %H:%M")
+                    })
+                    save_json(RESULTS_FILE, results)
+                    if f"exam_started_{arena_key}" in st.session_state:
+                        del st.session_state[f"exam_started_{arena_key}"]
                     st.rerun()
 
-        # 2. GIAO DIỆN CHO NHÂN VIÊN (QA)
-        st.markdown("---")
-        if not exam_data["active"]:
-            st.info("🏁 Hiện tại không có kỳ thi nào đang diễn ra. Chờ QM kích hoạt đề thi mới!")
+        # ── Giao diện thi ──
+        if f"exam_started_{arena_key}" not in st.session_state:
+            st.markdown("""
+            <div style="background:#fffbeb;border:1.5px solid #fde68a;border-radius:12px;padding:18px;margin-bottom:16px;">
+                <h4 style="color:#92400e;margin:0 0 8px;">📋 Quy tắc Kỳ Thi</h4>
+                <ul style="color:#78350f;font-size:0.88rem;line-height:1.7;margin:0;padding-left:18px;">
+                    <li>⏱️ Thời gian làm bài: <b>5 phút</b> (đồng hồ đếm ngược)</li>
+                    <li>📝 Nộp sớm sẽ được ghi nhận thời gian thực tế</li>
+                    <li>⏰ Hết giờ hệ thống <b>tự động thu bài</b></li>
+                    <li>🏆 Xếp hạng: <b>Điểm cao nhất</b> → nếu bằng điểm thì <b>thời gian ngắn nhất</b> lên top</li>
+                    <li>🚫 Mỗi người chỉ được thi <b>1 lần/tháng</b></li>
+                </ul>
+            </div>
+            """, unsafe_allow_html=True)
+            qa_name = st.text_input("👤 Nhập Họ và Tên để bắt đầu:", key=f"qa_name_arena")
+            if st.button("🔥 BẮT ĐẦU LÀM BÀI", type="primary", use_container_width=True):
+                if qa_name.strip():
+                    st.session_state[f"exam_started_{arena_key}"] = True
+                    st.session_state[f"exam_start_time_{arena_key}"] = time.time()
+                    st.session_state[f"qa_real_name_{arena_key}"] = qa_name.strip()
+                    st.session_state[f"auto_submitted_{arena_key}"] = False
+                    st.rerun()
+                else:
+                    st.error("Vui lòng nhập tên!")
         else:
-            st.markdown(f"#### 📅 Kỳ thi: <span style='color:#f97316'>{exam_data['month']}</span>", unsafe_allow_html=True)
-            
-            # Form bắt đầu thi
-            if f"exam_started_{unit_key}" not in st.session_state:
-                st.write("🔔 **Quy tắc:** Sếp cho bạn đúng **5 phút** để hoàn thành bài thi này. AI sẽ chấm điểm và xếp hạng ngay lập tức!")
-                qa_name = st.text_input("Nhập Họ và Tên của bạn để bắt đầu:", key=f"qa_name_input_{unit_key}")
-                if st.button("🔥 BẮT ĐẦU LÀM BÀI (5 PHÚT)", key=f"start_exam_{unit_key}", type="primary"):
-                    if qa_name.strip():
-                        st.session_state[f"exam_started_{unit_key}"] = True
-                        st.session_state[f"exam_start_time_{unit_key}"] = time.time()
-                        st.session_state[f"qa_real_name_{unit_key}"] = qa_name.strip()
+            start_time = st.session_state[f"exam_start_time_{arena_key}"]
+            elapsed    = time.time() - start_time
+            remain_sec = max(0, EXAM_DURATION - int(elapsed))
+            time_taken = min(elapsed, EXAM_DURATION)
+            mins, secs = divmod(remain_sec, 60)
+
+            # ── Đồng hồ đếm ngược realtime bằng JavaScript ──
+            timer_color = "#16a34a" if remain_sec > 120 else ("#f97316" if remain_sec > 60 else "#ef4444")
+            components.html(f"""
+            <div id="timer-box" style="text-align:center;padding:14px;border-radius:14px;
+                background:{timer_color};color:white;margin-bottom:16px;
+                box-shadow:0 4px 12px -2px rgba(0,0,0,0.15);">
+                <div style="font-size:0.75rem;opacity:0.85;letter-spacing:1px;">⏳ THỜI GIAN CÒN LẠI</div>
+                <div id="timer-display" style="font-size:2.5rem;font-weight:900;letter-spacing:2px;margin:4px 0;">
+                    {mins:02d}:{secs:02d}
+                </div>
+                <div style="font-size:0.7rem;opacity:0.7;">Hệ thống tự động thu bài khi hết giờ</div>
+            </div>
+            <script>
+                let remaining = {remain_sec};
+                const display = document.getElementById('timer-display');
+                const box = document.getElementById('timer-box');
+                const interval = setInterval(() => {{
+                    remaining--;
+                    if (remaining <= 0) {{
+                        clearInterval(interval);
+                        display.textContent = "HẾT GIỜ!";
+                        display.style.fontSize = "1.8rem";
+                        box.style.background = "#dc2626";
+                    }} else {{
+                        const m = Math.floor(remaining / 60);
+                        const s = remaining % 60;
+                        display.textContent = String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+                        if (remaining <= 60) box.style.background = '#ef4444';
+                        else if (remaining <= 120) box.style.background = '#f97316';
+                    }}
+                }}, 1000);
+            </script>
+            """, height=110)
+
+            # ── Hết giờ → Tự động thu bài ──
+            if remain_sec <= 0:
+                auto_done = st.session_state.get(f"auto_submitted_{arena_key}", False)
+                if not auto_done:
+                    st.session_state[f"auto_submitted_{arena_key}"] = True
+                    st.warning("⏰ **HẾT GIỜ!** Hệ thống đang tự động thu bài và chấm điểm...")
+                    ans = st.session_state.get("arena_ans", "")
+                    grade_and_save(ans, EXAM_DURATION)
+                else:
+                    st.info("📋 Bài thi đã được thu và chấm. Xem kết quả ở Bảng Xếp Hạng bên dưới.")
+                    if st.button("🔄 Quay lại", use_container_width=True):
+                        for k in [f"exam_started_{arena_key}", f"auto_submitted_{arena_key}"]:
+                            if k in st.session_state: del st.session_state[k]
                         st.rerun()
-                    else:
-                        st.error("Vui lòng nhập tên trước khi thi!")
-            
-            # Màn hình đang thi
             else:
-                elapsed = time.time() - st.session_state[f"exam_start_time_{unit_key}"]
-                remaining_sec = max(0, 300 - int(elapsed)) # 5 phút = 300 giây
-                
-                # Hiển thị đồng hồ
-                mins, secs = divmod(remaining_sec, 60)
-                timer_color = "#f97316" if remaining_sec > 60 else "#ef4444"
+                # ── Hiển thị đề thi — GIỮ NGUYÊN FORMAT XUỐNG DÒNG ──
+                st.markdown("#### 📝 ĐỀ BÀI:")
+                question_html = exam_data['question'].replace('\n', '<br>')
                 st.markdown(f"""
-                <div style="text-align:center; padding:10px; border-radius:10px; background:{timer_color}; color:white; margin-bottom:20px;">
-                    <span style="font-size:14px;">⏳ Thời gian còn lại:</span><br>
-                    <span style="font-size:32px; font-weight:900;">{mins:02d}:{secs:02d}</span>
+                <div style="background:white;border:1.5px solid #e5e7eb;border-radius:12px;
+                            padding:20px 24px;margin-bottom:16px;line-height:1.8;
+                            font-size:0.92rem;color:#1f2937;white-space:pre-wrap;">
+                    {question_html}
                 </div>
                 """, unsafe_allow_html=True)
-                
-                if remaining_sec <= 0:
-                    st.error("⌛ HẾT GIỜ! Bạn không thể nộp bài nữa.")
-                    if st.button("Quay lại"): 
-                        del st.session_state[f"exam_started_{unit_key}"]
-                        st.rerun()
-                else:
-                    st.markdown(f"**ĐỀ BÀI:**\n> {exam_data['question']}")
-                    qa_ans = st.text_area("Câu trả lời của bạn:", height=250, key=f"arena_ans_{unit_key}")
-                    
-                    if st.button("✅ NỘP BÀI & CHẤM ĐIỂM", key=f"submit_arena_{unit_key}", use_container_width=True):
+
+                qa_ans = st.text_area("✍️ Câu trả lời của bạn:", height=250, key="arena_ans",
+                                      placeholder="Viết phân tích và giải pháp xử lý của bạn tại đây...")
+
+                col_submit, col_time_info = st.columns([1, 1])
+                with col_submit:
+                    if st.button("✅ NỘP BÀI & CHẤM ĐIỂM", type="primary", use_container_width=True):
                         if qa_ans.strip():
-                            with st.spinner("AI đang chấm điểm bài thi của bạn..."):
-                                try:
-                                    api_key, _ = get_api_key_and_model()
-                                    import google.generativeai as genai
-                                    genai.configure(api_key=api_key, transport="rest")
-                                    m = genai.GenerativeModel('gemini-2.5-flash')
-                                    
-                                    grade_prompt = f"""Bạn là Giám khảo Kỳ thi Tháng QA.
-ĐỀ THI: {exam_data['question']}
-BÀI LÀM: {qa_ans}
-Hãy chấm điểm cực kỳ nghiêm túc trên thang 10. Trả lời đúng 1 số điểm duy nhất ở dòng đầu tiên, sau đó là nhận xét ngắn gọn.
-Định dạng dòng 1: [DIEM: X/10]"""
-                                    resp = m.generate_content(grade_prompt)
-                                    full_resp = resp.text
-                                    
-                                    # Trích xuất điểm
-                                    score_match = re.search(r'\[DIEM:\s*(\d+\.?\d*)/10\]', full_resp)
-                                    score = float(score_match.group(1)) if score_match else 5.0
-                                    
-                                    # Lưu kết quả vĩnh viễn
-                                    new_res = {
-                                        "name": st.session_state[f"qa_real_name_{unit_key}"],
-                                        "month": exam_data["month"],
-                                        "score": score,
-                                        "answer": qa_ans,
-                                        "feedback": full_resp,
-                                        "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                                    }
-                                    if save_result(new_res):
-                                        st.balloons()
-                                        st.success(f"🎉 Chúc mừng {new_res['name']}! AI đã chấm bạn: **{score}/10** điểm.")
-                                        st.markdown(full_resp)
-                                        # Reset trạng thái thi
-                                        del st.session_state[f"exam_started_{unit_key}"]
-                                    else:
-                                        st.warning("Bạn đã nộp bài thi cho tháng này rồi, không thể nộp thêm!")
-                                except Exception as e:
-                                    st.error(f"Lỗi AI: {e}")
+                            actual_time = time.time() - start_time
+                            grade_and_save(qa_ans, actual_time)
+                            st.rerun()
                         else:
-                            st.warning("Vui lòng viết câu trả lời!")
+                            st.warning("✍️ Vui lòng viết câu trả lời trước khi nộp!")
+                with col_time_info:
+                    done_mins = int(elapsed) // 60
+                    done_secs = int(elapsed) % 60
+                    st.caption(f"⏱️ Đã làm: {done_mins} phút {done_secs:02d} giây")
 
-        # 3. BẢNG XẾP HẠNG (LEADERBOARD)
-        st.markdown("---")
-        st.markdown("### 📊 Bảng Xếp Hạng Team QA")
-        all_results = load_results()
-        if not all_results:
-            st.info("Chưa có kết quả thi nào.")
+    # ══════════════════════════════════════
+    # LEADERBOARD — Xếp hạng: Điểm cao → Thời gian ngắn
+    # ══════════════════════════════════════
+    st.markdown("---")
+    st.markdown("### 📊 Bảng Xếp Hạng Team QA")
+    all_results = load_json(RESULTS_FILE, [])
+    if not all_results:
+        st.info("Chưa có kết quả thi nào.")
+    else:
+        # Lọc theo tháng nếu kỳ thi đang active
+        filtered = all_results
+        if exam_data.get("active"):
+            filtered = [r for r in all_results if r.get("month") == exam_data.get("month", "")]
+
+        if not filtered:
+            st.info("Chưa có kết quả thi tháng này.")
         else:
-            df = pd.DataFrame(all_results)
-            # Chỉ lọc kết quả của tháng hiện tại
-            if exam_data["active"]:
-                df = df[df["month"] == exam_data["month"]]
-            
-            if not df.empty:
-                df = df.sort_values(by="score", ascending=False).reset_index(drop=True)
-                df.index += 1 # Xếp hạng từ 1
-                
-                # Hiển thị bảng đẹp
-                st.dataframe(
-                    df[["name", "score", "date"]].rename(columns={"name": "Họ Tên", "score": "Điểm AI", "date": "Ngày thi"}),
-                    use_container_width=True
-                )
-                
-                # QM có quyền xóa kết quả hoặc xuất file
-                if user_role in ["admin", "qm"]:
-                    if st.button("🗑️ Xóa toàn bộ kết quả (Cẩn thận!)"):
-                        with open(RESULTS_FILE, "w", encoding="utf-8") as f: json.dump([], f)
-                        firebase_utils.sync_all_to_firebase()
-                        st.rerun()
+            # Đảm bảo tương thích dữ liệu cũ
+            for r in filtered:
+                if "time_taken" not in r: r["time_taken"] = 300.0
+                if "time_display" not in r: r["time_display"] = f"{int(r['time_taken'])//60}p {int(r['time_taken'])%60:02d}s"
+
+            # Xếp hạng: Điểm CAO → Thời gian NGẮN
+            filtered.sort(key=lambda x: (-x["score"], x["time_taken"]))
+
+            rank_icons = {1: "🥇", 2: "🥈", 3: "🥉"}
+
+            # Header row
+            if is_qm_admin:
+                hc = st.columns([0.6, 2.5, 0.8, 1, 2, 0.6])
+                headers = ["🏆", "Họ Tên", "Điểm", "Thời Gian", "Ngày Thi", "Xóa"]
             else:
-                st.info("Tháng này chưa có ai nộp bài.")
+                hc = st.columns([0.6, 3, 0.8, 1, 2])
+                headers = ["🏆", "Họ Tên", "Điểm", "Thời Gian", "Ngày Thi"]
+            for col, h in zip(hc, headers):
+                col.markdown(f"**{h}**")
 
-    # ── TAB 5: Tài liệu bổ sung ──
-    with tab_docs:
-        st.markdown(f"### 📁 Tải Tài Liệu Bổ Sung cho Unit {unit_num}")
+            st.markdown("<hr style='margin:4px 0;border-color:#e5e7eb;'>", unsafe_allow_html=True)
 
-        user_role = st.session_state.get("user_role")
-        is_qm_admin = user_role in ["admin", "qm"]
+            # Data rows
+            to_delete = None
+            for rank_idx, r in enumerate(filtered):
+                rank_num = rank_idx + 1
+                icon = rank_icons.get(rank_num, f"#{rank_num}")
 
-        if is_qm_admin:
-            st.success("🔓 **Chế độ Quản lý:** Tài liệu bạn upload sẽ được LƯU VĨNH VIỄN vào hệ thống. Tất cả người dùng khác đều sẽ được hưởng lợi từ tài liệu này.")
-        else:
-            st.info("📌 **Chế độ Học viên:** Tài liệu bạn upload chỉ lưu TẠM THỜI trong phiên làm việc này. Khi đóng trình duyệt, tài liệu sẽ không còn.")
-
-        uploaded = st.file_uploader(
-            "Chọn file (PDF/TXT):", type=["pdf", "txt"],
-            accept_multiple_files=True, key=f"upload_{unit_key}"
-        )
-        if uploaded:
-            combined = ""
-            saved_names = []
-            for f in uploaded:
-                try:
-                    raw_bytes = f.getvalue()
-                    if f.name.endswith(".pdf"):
-                        import io
-                        import PyPDF2
-                        reader = PyPDF2.PdfReader(io.BytesIO(raw_bytes))
-                        file_text = ""
-                        for page in reader.pages:
-                            file_text += (page.extract_text() or "") + "\n"
-                        # QM/Admin -> lưu PDF gốc + txt cho AI
-                        if is_qm_admin:
-                            # Lưu PDF gốc
-                            udir = os.path.join(KNOWLEDGE_DIR, unit_key)
-                            os.makedirs(udir, exist_ok=True)
-                            import re
-                            pdf_safe = re.sub(r'[^\w\-.]', '_', f.name)
-                            with open(os.path.join(udir, pdf_safe), "wb") as pf:
-                                pf.write(raw_bytes)
-                            # Lưu txt cho AI đọc
-                            if file_text.strip():
-                                sname = save_doc_permanently(unit_key, f.name, file_text)
-                                saved_names.append(pdf_safe)
-                    else:
-                        file_text = raw_bytes.decode("utf-8")
-                        if is_qm_admin and file_text.strip():
-                            sname = save_doc_permanently(unit_key, f.name, file_text)
-                            saved_names.append(sname)
-                    combined += file_text + "\n"
-                except Exception as e:
-                    st.warning(f"Lỗi đọc {f.name}: {e}")
-
-            if combined.strip():
-                st.session_state.uploaded_docs_text[unit_key] = combined
-                if is_qm_admin and saved_names:
-                    st.success(f"✅ Đã LƯU VĨNH VIỄN {len(saved_names)} file vào kho tri thức Unit {unit_num}: {', '.join(saved_names)}")
-                    st.cache_data.clear()
+                if is_qm_admin:
+                    rc = st.columns([0.6, 2.5, 0.8, 1, 2, 0.6])
                 else:
-                    st.success(f"✅ Đã nạp TẠM THỜI {len(uploaded)} file. AI sẽ dùng tài liệu này trong phiên làm việc hiện tại.")
+                    rc = st.columns([0.6, 3, 0.8, 1, 2])
 
-        # Hiện danh sách tài liệu đã lưu vĩnh viễn
-        unit_dir = os.path.join(KNOWLEDGE_DIR, unit_key)
-        if os.path.isdir(unit_dir):
-            all_files = [fn for fn in sorted(os.listdir(unit_dir)) if fn.endswith((".pdf",".txt"))]
-            if all_files:
-                st.markdown("---")
-                st.markdown("### 📚 Tài Liệu Đã Lưu Vĩnh Viễn")
-                for fname in all_files:
-                    fpath = os.path.join(unit_dir, fname)
-                    if fname.endswith(".pdf"):
-                        with st.expander(f"📕 {fname} ({os.path.getsize(fpath)//1024} KB)"):
-                            with open(fpath, "rb") as pf:
-                                pdf_data = pf.read()
-                            
-                            c1, c2 = st.columns([4, 1])
-                            with c1:
-                                st.download_button(
-                                    label=f"⬇️ Tải về PDF: {fname}",
-                                    data=pdf_data, file_name=fname,
-                                    mime="application/pdf",
-                                    key=f"dl_pdf_{unit_key}_{fname}"
-                                )
-                            with c2:
-                                if is_qm_admin:
-                                    with st.popover("🗑️ Xóa file"):
-                                        del_pw = st.text_input("Nhập mật khẩu nội bộ:", type="password", key=f"del_pw_pdf_{unit_key}_{fname}")
-                                        if st.button("Xác nhận Xóa", type="primary", key=f"del_btn_pdf_{unit_key}_{fname}"):
-                                            try: cpw = st.secrets["INTERNAL_PASSWORD"]
-                                            except: cpw = "LeaderFoodWhy2024"
-                                            if del_pw == cpw or del_pw == "QMMML8386":
-                                                # Xóa file local
-                                                os.remove(fpath)
-                                                companion_txt = fname + ".txt"
-                                                companion_path = os.path.join(unit_dir, companion_txt)
-                                                
-                                                # Xóa trên Firebase Cloud (cho AI học)
-                                                firebase_utils.delete_knowledge_text(unit_key, companion_txt)
-                                                
-                                                if os.path.exists(companion_path): os.remove(companion_path)
-                                                
-                                                st.success("✅ Đã xóa file vĩnh viễn trên cả Cloud!")
-                                                st.rerun()
-                                            else:
-                                                st.error("Sai mật khẩu!")
-                            # Embed PDF để đọc trực tiếp trên app
-                            import base64
-                            b64_pdf = base64.b64encode(pdf_data).decode('utf-8')
-                            pdf_display = f'<iframe src="data:application/pdf;base64,{b64_pdf}#toolbar=0" width="100%" height="600px" style="border:1px solid #ccc; border-radius: 8px; margin-top: 10px;"></iframe>'
-                            st.markdown(pdf_display, unsafe_allow_html=True)
-                            
-                            # Hiển thị text trích xuất nếu có file .txt kèm theo
-                            companion_txt = fname + ".txt"
-                            companion_path = os.path.join(unit_dir, companion_txt)
-                            if os.path.exists(companion_path):
-                                with open(companion_path, "r", encoding="utf-8") as tf:
-                                    txt_preview = tf.read()
-                                st.markdown("**📖 AI đã trích xuất nội dung sau từ PDF để học:**")
-                                st.markdown(f"<div style='max-height:200px;overflow-y:auto;padding:12px;background:#f9fafb;border-radius:8px;font-size:0.85rem;line-height:1.6;white-space:pre-wrap;'>{txt_preview[:3000]}...</div>", unsafe_allow_html=True)
-                    elif fname.endswith(".txt") and not fname.endswith(".pdf.txt"):
-                        # File txt thuần (không phải companion của PDF)
-                        with st.expander(f"📄 {fname}"):
-                            try:
-                                with open(fpath, "r", encoding="utf-8") as rf:
-                                    fcontent = rf.read()
-                            except: fcontent = "(Không đọc được)"
-                            
-                            c1, c2 = st.columns([4, 1])
-                            with c1:
-                                st.download_button(
-                                    label="⬇️ Tải về file",
-                                    data=fcontent.encode("utf-8"),
-                                    file_name=fname, mime="text/plain",
-                                    key=f"dl_txt_{unit_key}_{fname}"
-                                )
-                            with c2:
-                                if is_qm_admin:
-                                    with st.popover("🗑️ Xóa file"):
-                                        del_pw = st.text_input("Nhập mật khẩu nội bộ:", type="password", key=f"del_pw_txt_{unit_key}_{fname}")
-                                        if st.button("Xác nhận Xóa", type="primary", key=f"del_btn_txt_{unit_key}_{fname}"):
-                                            try: cpw = st.secrets["INTERNAL_PASSWORD"]
-                                            except: cpw = "LeaderFoodWhy2024"
-                                            if del_pw == cpw or del_pw == "QMMML8386":
-                                                os.remove(fpath)
-                                                firebase_utils.sync_all_to_firebase()
-                                                st.success("✅ Đã xóa file!")
-                                                st.rerun()
-                                            else:
-                                                st.error("Sai mật khẩu!")
-                                            
-                            st.markdown(f"<div style='max-height:400px;overflow-y:auto;padding:12px;background:#f9fafb;border-radius:8px;font-size:0.85rem;line-height:1.6;white-space:pre-wrap;'>{fcontent[:8000]}</div>", unsafe_allow_html=True)
+                rc[0].markdown(f"**{icon}**")
+                rc[1].markdown(r["name"])
+                rc[2].markdown(f"**{r['score']}**/10")
+                rc[3].markdown(r.get("time_display", "—"))
+                rc[4].markdown(r.get("date", "—"))
 
-# ================== TAB NGHIÊN CỨU LEADER ==================
+                if is_qm_admin:
+                    if rc[5].button("🗑️", key=f"del_result_{rank_idx}_{r['name']}_{r.get('date','')}"):
+                        to_delete = r
+
+                # Nút xem phản hồi AI (ai cũng xem được bài của mình / admin xem tất cả)
+                feedback = r.get("feedback", "")
+                if feedback:
+                    with st.expander(f"📋 Xem phản hồi AI — {r['name']} ({r['score']}/10)", expanded=False):
+                        st.markdown(feedback)
+
+            # Xử lý xóa sau khi render xong
+            if to_delete is not None:
+                all_results_updated = [
+                    r for r in all_results
+                    if not (r["name"] == to_delete["name"]
+                            and r.get("month") == to_delete.get("month")
+                            and r.get("date") == to_delete.get("date"))
+                ]
+                save_json(RESULTS_FILE, all_results_updated)
+                st.rerun()
+
+        if is_qm_admin and st.button("🗑️ Xóa toàn bộ kết quả", use_container_width=False):
+            save_json(RESULTS_FILE, []); st.rerun()
+
+# ═══════════════════════════════════════════════════════════════════
+# TAB 4: NGHIÊN CỨU LEADER
+# ═══════════════════════════════════════════════════════════════════
 with tab_research:
-    user_role = st.session_state.get("user_role")
+    user_role   = st.session_state.get("user_role")
     is_qm_admin = user_role in ["admin", "qm"]
-    ICONS_LIST = ["🔬","🧬","🌡️","⚗️","🦷","🩺","🥼","📊","🧪","🏭","🌾","🐄","🫁","🧫","💉"]
+    ICONS_LIST  = ["🔬","🧬","🌡️","⚗️","🦷","🩺","🥼","📊","🧪","🏭","🌾","🐄","🫁","🧫","💉"]
 
-    # ── QM Giao Nhiệm Vụ ──
     if is_qm_admin:
         with st.expander("👨‍💼 GIAO NHIỆM VỤ NGHIÊN CỨU (QM)", expanded=True):
             with st.form("research_assign"):
-                topic_type = st.radio("Loại chuyên đề:", ["✅ Có sẵn (Unit 1–10+)", "🆕 Chuyên đề MỚI"], horizontal=True)
-
-                # ── Luôn khai báo hết các widget (tránh NameError) ──
+                topic_type = st.radio("Loại:", ["✅ Có sẵn (Unit 1–10+)", "🆕 Chuyên đề MỚI"], horizontal=True)
                 all_u = get_all_units()
                 unit_options = [f"{v['short']} ({k})" for k, v in all_u.items()]
-                sel_unit = st.selectbox("Chọn Unit có sẵn:", unit_options)
-                topic_name_new = st.text_input("— Hoặc — Tên chuyên đề mới:", placeholder="Unit 11 — Kiểm soát Aflatoxin...")
-                new_icon = st.selectbox("Icon cho chuyên đề mới:", ICONS_LIST)
-                new_desc = st.text_input("Mô tả ngắn chuyên đề mới:", placeholder="Giới hạn, phương pháp kiểm nghiệm...")
-
-                description = st.text_area("Yêu cầu cụ thể cho Leader:", height=80)
-                assigned_to = st.text_input("Giao cho Leader:", placeholder="Để trống = tất cả")
+                sel_u_opt = st.selectbox("Chọn Unit có sẵn:", unit_options)
+                tnew = st.text_input("— Hoặc — Tên chuyên đề mới:", placeholder="Unit 11 — Kiểm soát Aflatoxin...")
+                new_icon = st.selectbox("Icon:", ICONS_LIST)
+                new_desc = st.text_input("Mô tả ngắn:")
+                desc_req = st.text_area("Yêu cầu cụ thể:", height=70)
+                assigned = st.text_input("Giao cho:", placeholder="Để trống = tất cả")
                 deadline = st.date_input("Deadline:")
-
                 if st.form_submit_button("🚀 GIAO NHIỆM VỤ", type="primary"):
+                    all_u2 = get_all_units()
+                    u_keys = list(all_u2.keys())
                     if "Có sẵn" in topic_type:
-                        # Xác định đúng unit_key từ selectbox
-                        unit_keys_list = list(all_u.keys())
-                        sel_idx = unit_options.index(sel_unit)
-                        final_unit_key = unit_keys_list[sel_idx]
-                        final_topic_name = all_u[final_unit_key]["short"]
+                        idx2 = unit_options.index(sel_u_opt)
+                        final_key = u_keys[idx2]
+                        final_topic = all_u2[final_key]["short"]
                         is_new = False
                     else:
-                        # Tạo unit mới NGAY BÂY GIờ khi QM giao bài
-                        if not topic_name_new.strip():
-                            st.error("❗ Vui lòng nhập tên chuyên đề mới!")
-                            st.stop()
-                        final_unit_key = get_next_custom_unit_key()
-                        final_topic_name = topic_name_new.strip()
-                        save_custom_unit(final_unit_key, new_icon, final_topic_name, new_desc)
+                        if not tnew.strip(): st.error("Nhập tên chuyên đề!"); st.stop()
+                        final_key = get_next_custom_unit_key()
+                        final_topic = tnew.strip()
+                        save_custom_unit(final_key, new_icon, final_topic, new_desc)
                         is_new = True
+                    tasks = load_json(RESEARCH_TASK_FILE, [])
+                    tasks.append({"id": int(time.time()), "topic_name": final_topic, "unit_key": final_key,
+                                  "is_new_unit": is_new, "description": desc_req, "assigned_to": assigned or "Tất cả Leader",
+                                  "deadline": str(deadline), "month": datetime.now().strftime("Tháng %m/%Y"),
+                                  "created_at": datetime.now().strftime("%Y-%m-%d %H:%M"), "active": True})
+                    save_json(RESEARCH_TASK_FILE, tasks)
+                    st.success(f"✅ Đã giao nhiệm vụ '{final_topic}'!"); st.rerun()
 
-                    task = {
-                        "id": int(time.time()),
-                        "topic_name": final_topic_name,
-                        "unit_key": final_unit_key,   # ✅ luôn có đúng unit_key
-                        "is_new_unit": is_new,
-                        "description": description,
-                        "assigned_to": assigned_to or "Tất cả Leader",
-                        "deadline": str(deadline),
-                        "month": datetime.now().strftime("Tháng %m/%Y"),
-                        "created_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
-                        "active": True
-                    }
-                    tasks = load_research_tasks()
-                    tasks.append(task)
-                    save_research_tasks(tasks)
-                    if is_new:
-                        st.success(f"✅ Đã tạo chuyên đề mới **{final_unit_key}** và giao cho {task['assigned_to']}!")
-                    else:
-                        st.success(f"✅ Đã giao nghiên cứu '{final_topic_name}' ({final_unit_key}) cho {task['assigned_to']}!")
-                    st.rerun()
-
-        # Danh sách nhiệm vụ đang chạy
-        tasks = load_research_tasks()
-        active_tasks = [t for t in tasks if t.get("active")]
-        if active_tasks:
+        tasks = load_json(RESEARCH_TASK_FILE, [])
+        active = [t for t in tasks if t.get("active")]
+        if active:
             st.markdown("**📌 Nhiệm vụ đang hoạt động:**")
-            for t in active_tasks:
-                col_t, col_b = st.columns([4,1])
-                col_t.markdown(f"🔬 **{t['topic_name']}** → {t['assigned_to']} | Deadline: {t['deadline']}")
-                if col_b.button("Đóng", key=f"close_{t['id']}"):
+            for t in active:
+                ct, cb = st.columns([4,1])
+                ct.markdown(f"🔬 **{t['topic_name']}** → {t['assigned_to']} | Deadline: {t['deadline']}")
+                if cb.button("Đóng", key=f"close_{t['id']}"):
                     for task in tasks:
                         if task["id"] == t["id"]: task["active"] = False
-                    save_research_tasks(tasks)
-                    st.rerun()
+                    save_json(RESEARCH_TASK_FILE, tasks); st.rerun()
 
-    # ── Leader Nhận & Nghiên Cứu ──
     st.markdown("---")
     st.markdown("### 🔬 Khu Vực Leader — Làm Bài Nghiên Cứu")
-    tasks = load_research_tasks()
-    active_tasks = [t for t in tasks if t.get("active")]
-    if not active_tasks:
+    tasks = load_json(RESEARCH_TASK_FILE, [])
+    active = [t for t in tasks if t.get("active")]
+    if not active:
         st.info("⏳ Chưa có nhiệm vụ nghiên cứu. Chờ QM giao bài!")
     else:
-        task = st.selectbox("Chọn nhiệm vụ:", active_tasks, format_func=lambda x: f"{x['topic_name']} (Deadline: {x['deadline']})")
+        task = st.selectbox("Chọn nhiệm vụ:", active, format_func=lambda x: f"{x['topic_name']} (Deadline: {x['deadline']})")
         topic = task["topic_name"]
-        desc = task.get("description","")
-        st.info(f"📋 **Chuyên đề:** {topic} | **Yêu cầu:** {desc or 'Theo 4 bước hướng dẫn.'} | ⏰ **Deadline:** {task['deadline']}")
+        desc  = task.get("description","")
+        st.info(f"📋 **Chuyên đề:** {topic} | **Yêu cầu:** {desc or 'Theo 4 bước.'} | ⏰ **Deadline:** {task['deadline']}")
 
         STEPS = [
             {"num":1,"title":"Thu thập Dữ liệu & Lập Đề cương","tool":"🤖 Gemini","link":"https://gemini.google.com",
-             "color":"#f0fdf4","border":"#86efac",
-             "action":"Mở Gemini → Copy prompt → Lưu lại các URL nguồn Gemini cung cấp.",
-             "prompt":f"""Tôi đang nghiên cứu về [{topic}]. {f'Yêu cầu: {desc}' if desc else ''}
-1. Liệt kê quy định hiện hành từ Codex, FDA, EFSA, Bộ Y tế VN (kèm số hiệu, năm ban hành).
-2. Lập đề cương 6 mục: Tổng quan, Cơ chế tác động, Giới hạn cho phép, Phương pháp kiểm nghiệm, Rủi ro thực tế, Giải pháp kiểm soát.
-3. Gợi ý 5 từ khóa tiếng Anh để tìm trên Google Scholar."""},
+             "color":"#f0fdf4","border":"#86efac","action":"Mở Gemini → Copy prompt bên dưới → Lưu kết quả.",
+             "prompt":f"""Nghiên cứu về [{topic}]. {f'Yêu cầu: {desc}' if desc else ''}
+1. Liệt kê quy định hiện hành từ Codex, FDA, EFSA, Bộ Y tế VN (kèm số hiệu, năm).
+2. Lập đề cương 6 mục: Tổng quan, Cơ chế, Giới hạn cho phép, Phương pháp kiểm nghiệm, Rủi ro, Giải pháp.
+3. Gợi ý 5 từ khóa tiếng Anh tìm trên Google Scholar."""},
             {"num":2,"title":"Thẩm định & Trích dẫn Khoa học","tool":"📚 NotebookLM","link":"https://notebooklm.google.com",
-             "color":"#eff6ff","border":"#93c5fd",
-             "action":"Tải PDF từ Google Scholar → Upload lên NotebookLM → Dùng prompt bên dưới.",
+             "color":"#eff6ff","border":"#93c5fd","action":"Upload PDF từ Google Scholar → Dùng prompt bên dưới.",
              "prompt":f"""Dựa trên tài liệu đã upload về [{topic}]:
-1. Các thông số kỹ thuật quan trọng (số liệu, ngưỡng, nhiệt độ...)? Kèm tên tài liệu và số trang.
+1. Các thông số kỹ thuật quan trọng (số liệu, ngưỡng...)? Kèm tên tài liệu và số trang.
 2. Khác biệt giữa tiêu chuẩn quốc tế và Việt Nam?
-3. Phương pháp kiểm nghiệm/kiểm soát được khuyến nghị? Kèm trích dẫn.
-BẮT BUỘC kèm tên tài liệu và số trang."""},
-            {"num":3,"title":"Soạn thảo Báo cáo Chuyên nghiệp","tool":"🤖 Gemini","link":"https://gemini.google.com",
-             "color":"#fefce8","border":"#fde047",
-             "action":"Copy toàn bộ kết quả từ NotebookLM → Paste vào Gemini cùng prompt.",
-             "prompt":f"""Dưới đây là dữ liệu đã xác thực về [{topic}]:
+3. Phương pháp kiểm nghiệm/kiểm soát được khuyến nghị? Kèm trích dẫn."""},
+            {"num":3,"title":"Soạn thảo Báo cáo","tool":"🤖 Gemini","link":"https://gemini.google.com",
+             "color":"#fefce8","border":"#fde047","action":"Copy kết quả NotebookLM → Paste cùng prompt vào Gemini.",
+             "prompt":f"""Dữ liệu đã xác thực về [{topic}]:
 [PASTE NỘI DUNG NOTEBOOKLM VÀO ĐÂY]
-Viết Báo cáo Kỹ thuật gồm: (1) Tóm tắt, (2) Tổng quan, (3) Kết quả nghiên cứu (giữ nguyên trích dẫn), (4) Áp dụng thực tiễn tại nhà máy thịt, (5) Kết luận & Kiến nghị, (6) Tài liệu tham khảo (chuẩn APA)."""},
+Viết Báo cáo: (1)Tóm tắt, (2)Tổng quan, (3)Kết quả (giữ trích dẫn), (4)Áp dụng tại nhà máy thịt, (5)Kết luận, (6)Tài liệu tham khảo APA."""},
             {"num":4,"title":"Xuất PDF & Nộp Bài","tool":"📄 Google Docs","link":"https://docs.google.com",
-             "color":"#fff7ed","border":"#fdba74",
-             "action":"Gemini → Chia sẻ & Xuất → Export to Docs → Google Docs → Tải xuống PDF → Nộp bài bên dưới ↓","prompt":""},
+             "color":"#fff7ed","border":"#fdba74","action":"Gemini → Chia sẻ & Xuất → Export to Docs → Tải PDF → Nộp bài ↓","prompt":""},
         ]
         for step in STEPS:
-            st.markdown(f"""<div style="border-radius:14px;padding:16px;margin:10px 0;background:{step['color']};border:2px solid {step['border']};">
+            st.markdown(f"""<div style="border-radius:12px;padding:14px;margin:8px 0;background:{step['color']};border:1.5px solid {step['border']};">
 <b>Bước {step['num']}: {step['title']}</b> &nbsp;|&nbsp; 🛠️ <a href="{step['link']}" target="_blank">{step['tool']}</a><br>
 ⚡ {step['action']}</div>""", unsafe_allow_html=True)
-            if step["prompt"]:
-                st.code(step["prompt"], language="text")
+            if step["prompt"]: st.code(step["prompt"], language="text")
 
         st.markdown("---")
         st.markdown("### 📤 Nộp Bài & Lưu Vào Knowledge Base")
-        leader_name = st.text_input("Họ và Tên Leader:", key="leader_name_r")
+        leader_name  = st.text_input("Họ và Tên Leader:", key="leader_name_r")
         uploaded_pdf = st.file_uploader("Upload file PDF báo cáo:", type=["pdf"], key="research_pdf")
-
         if st.button("🏁 NỘP BÀI & CHỜ DUYỆT", type="primary", use_container_width=True):
             if leader_name and uploaded_pdf:
-                # Đọc bytes PDF
                 pdf_bytes = uploaded_pdf.getvalue()
-
-                # Trích xuất text từ PDF (để QM duyệt sau này)
                 try:
-                    import io
-                    import PyPDF2
-                    reader = PyPDF2.PdfReader(io.BytesIO(pdf_bytes))
+                    reader   = PyPDF2.PdfReader(io.BytesIO(pdf_bytes))
                     pdf_text = "\n".join(p.extract_text() or "" for p in reader.pages)
                 except: pdf_text = ""
-
-                target_key = task.get("unit_key")
-                if not target_key:
-                    st.error("❌ Nhiệm vụ này thiếu thông tin unit_key. Vui lòng nhờ QM giao lại!")
-                    st.stop()
-                
-                # Lưu toàn bộ bài nộp lên Firebase (kèm Base64 PDF)
-                sub_data = {
-                    "task_id": task["id"], "topic": topic, "leader": leader_name,
-                    "unit_key": target_key, "filename": uploaded_pdf.name,
-                    "text_content": pdf_text, "approved": False,
-                    "month": task["month"], "submitted_at": datetime.now().strftime("%Y-%m-%d %H:%M")
-                }
-                with st.spinner("Đang đẩy bài nghiên cứu lên Cloud..."):
+                sub_data = {"task_id": task["id"], "topic": topic, "leader": leader_name,
+                            "unit_key": task.get("unit_key"), "filename": uploaded_pdf.name,
+                            "text_content": pdf_text, "approved": False,
+                            "month": task["month"], "submitted_at": datetime.now().strftime("%Y-%m-%d %H:%M")}
+                with st.spinner("Đang đẩy lên Cloud..."):
                     firebase_utils.save_research_submission(sub_data, pdf_bytes)
-                
                 st.balloons()
-                st.success(f"✅ Đã nộp bài thành công! QM sẽ duyệt bài của {leader_name} trước khi đưa vào kho tri thức đào tạo.")
-                st.cache_data.clear()
-            else:
-                st.warning("Vui lòng nhập tên và upload file PDF!")
+                st.success(f"✅ Đã nộp! QM sẽ duyệt bài của {leader_name}.")
+            else: st.warning("Vui lòng nhập tên và upload PDF!")
 
-    # ── Dashboard ──
+    # Dashboard
     st.markdown("---")
     st.markdown("### 📊 Dashboard Tiến Độ & Duyệt Bài")
-    
-    # Lấy dữ liệu từ Firebase
     cloud_subs = firebase_utils.get_research_submissions()
-    subs_list = []
+    subs_list  = []
     if cloud_subs:
         if isinstance(cloud_subs, dict):
             for sid, sdata in cloud_subs.items():
-                if isinstance(sdata, dict):
-                    sdata["id"] = sid
-                    subs_list.append(sdata)
+                if isinstance(sdata, dict): sdata["id"] = sid; subs_list.append(sdata)
         elif isinstance(cloud_subs, list):
             for i, sdata in enumerate(cloud_subs):
-                if isinstance(sdata, dict):
-                    sdata["id"] = str(i)
-                    subs_list.append(sdata)
-    
-    cur_month = datetime.now().strftime("Tháng %m/%Y")
-    tasks = load_research_tasks()
-    active_tasks = [t for t in tasks if t.get("active")]
+                if isinstance(sdata, dict): sdata["id"] = str(i); subs_list.append(sdata)
+    cur_month  = datetime.now().strftime("Tháng %m/%Y")
+    all_tasks  = load_json(RESEARCH_TASK_FILE, [])
+    act_tasks  = [t for t in all_tasks if t.get("active")]
     month_subs = [s for s in subs_list if s.get("month") == cur_month]
-    
-    c1,c2,c3 = st.columns(3)
-    c1.metric("Nhiệm vụ đang giao", len(active_tasks))
+    c1, c2, c3 = st.columns(3)
+    c1.metric("Nhiệm vụ đang giao", len(act_tasks))
     c2.metric("Đã nộp tháng này", len(month_subs))
-    c3.metric("Chưa nộp", max(0, len(active_tasks)-len(month_subs)))
-    
-    if month_subs:
-        for s in sorted(month_subs, key=lambda x: x["submitted_at"], reverse=True):
-            status_icon = "✅" if s.get("approved") else "⏳"
-            with st.expander(f"{status_icon} **{s['leader']}** — *{s['topic']}* — `{s['submitted_at']}`"):
-                c1, c2, c3 = st.columns([2, 1, 1])
-                with c1:
-                    st.caption(f"📌 Unit: `{s.get('unit_key','?')}` | File: {s['filename']}")
-                
-                with c2:
-                    # Nút tải PDF từ Base64
-                    try:
-                        pdf_data = base64.b64decode(s["pdf_base64"])
-                        st.download_button(
-                            label="📥 Tải PDF bài nộp",
-                            data=pdf_data,
-                            file_name=f"Report_{s['leader']}_{s['unit_key']}.pdf",
-                            mime="application/pdf",
-                            key=f"dl_res_{s['id']}"
-                        )
-                    except:
-                        st.error("Lỗi file PDF")
-
-                with c3:
-                    if is_qm_admin:
-                        if not s.get("approved"):
-                            if st.button("🌟 DUYỆT & NẠP AI", key=f"appr_{s['id']}", type="primary"):
-                                with st.spinner("Đang nạp kiến thức vào Academy..."):
-                                    firebase_utils.approve_research_submission(
-                                        s["id"], s["unit_key"], 
-                                        f"{s['leader']}_approved_{s['id']}.txt", 
-                                        s.get("text_content", "")
-                                    )
-                                    st.success("Đã phê duyệt và nạp kiến thức!")
-                                    st.rerun()
-                        
-                        with st.popover("🗑️ Xóa"):
-                            del_pw = st.text_input("Mật khẩu nội bộ:", type="password", key=f"del_pw_rs_{s['id']}")
-                            if st.button("Xác nhận Xóa", type="primary", key=f"del_btn_rs_{s['id']}"):
-                                try: cpw = st.secrets["INTERNAL_PASSWORD"]
-                                except: cpw = "LeaderFoodWhy2024"
-                                if del_pw == cpw:
-                                    firebase_utils.delete_research_submission(s["id"])
-                                    st.success("✅ Đã xóa bài nộp!")
-                                    st.rerun()
-                                else:
-                                    st.error("Sai mật khẩu!")
-
-                # Preview PDF trực tiếp từ Base64
+    c3.metric("Chưa nộp", max(0, len(act_tasks) - len(month_subs)))
+    for s in sorted(month_subs, key=lambda x: x.get("submitted_at",""), reverse=True):
+        icon = "✅" if s.get("approved") else "⏳"
+        with st.expander(f"{icon} **{s['leader']}** — {s['topic']} — `{s.get('submitted_at','')}`"):
+            cc1, cc2, cc3 = st.columns([2,1,1])
+            with cc1: st.caption(f"Unit: `{s.get('unit_key','?')}`")
+            with cc2:
                 try:
-                    if s.get("pdf_base64"):
-                        pdf_display = f'<iframe src="data:application/pdf;base64,{s["pdf_base64"]}#toolbar=0" width="100%" height="600px" style="border:1px solid #ccc; border-radius: 8px; margin-top: 10px;"></iframe>'
-                        st.markdown(pdf_display, unsafe_allow_html=True)
-                except:
-                    st.warning("Không thể hiển thị bản xem trước file này.")
-                
-                # Hiển thị nội dung text AI đã trích xuất
-                if s.get("text_content"):
-                    with st.expander("🔍 Xem nội dung văn bản AI trích xuất (Sẽ được nạp vào kho kiến thức)"):
-                        st.markdown(f"<div style='font-size:0.85rem; padding:10px; background:#f9fafb; border-radius:5px;'>{s['text_content'][:2000]}...</div>", unsafe_allow_html=True)
+                    pdf_d = base64.b64decode(s["pdf_base64"])
+                    st.download_button("📥 Tải PDF", pdf_d, f"Report_{s['leader']}.pdf", "application/pdf", key=f"dl_{s['id']}")
+                except: st.caption("(Không có PDF)")
+            with cc3:
+                if is_qm_admin and not s.get("approved"):
+                    if st.button("🌟 DUYỆT & NẠP AI", key=f"appr_{s['id']}", type="primary"):
+                        with st.spinner("Đang nạp kiến thức..."):
+                            firebase_utils.approve_research_submission(s["id"], s["unit_key"],
+                                f"{s['leader']}_approved_{s['id']}.txt", s.get("text_content",""))
+                            st.success("✅ Đã phê duyệt!"); st.rerun()
 
+# ═══════════════════════════════════════════════════════════════════
+# TAB 5: AUTO-CONTENT ENGINE (Admin only)
+# ═══════════════════════════════════════════════════════════════════
+with tab_admin:
+    user_role = st.session_state.get("user_role")
+    if user_role != "admin":
+        st.warning("🔐 Chức năng này chỉ dành cho **Admin (Sếp)**. Vui lòng đăng nhập ở thanh bên trái.")
+        st.stop()
+
+    st.markdown("""
+    <div class="acad-hero">
+        <h1>🤖 Auto-Content Engine</h1>
+        <p>AI tự động tạo nội dung khóa học — Sếp chỉ cần ra lệnh & duyệt!</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    api_key, _ = get_api_key()
+    if not api_key:
+        st.error("⚠️ Cần API Key để sử dụng tính năng này!"); st.stop()
+
+    col_l, col_r = st.columns([1, 1])
+
+    with col_l:
+        st.markdown("### 🎯 Cài đặt Tạo Nội Dung")
+
+        all_units_e = get_all_units()
+        unit_options_e = [f"{v['icon']} {v['short']} ({k})" for k, v in all_units_e.items()]
+        sel_unit_e = st.selectbox("Chọn khóa học cần tạo bài:", unit_options_e, key="auto_unit_sel")
+        unit_key_e = list(all_units_e.keys())[unit_options_e.index(sel_unit_e)]
+        unit_info_e = all_units_e[unit_key_e]
+
+        st.markdown("---")
+        st.markdown("**Hoặc tạo Khóa học HOÀN TOÀN MỚI:**")
+        new_unit_topic = st.text_input("Chủ đề mới:", placeholder="VD: Chứng nhận FSSC 22000 phiên bản 6")
+        new_unit_icon  = st.text_input("Icon:", value="🆕", max_chars=5)
+        new_unit_desc  = st.text_input("Mô tả ngắn:", placeholder="Yêu cầu, điều kiện, điểm mới...")
+
+        st.markdown("---")
+        st.markdown("**Thông tin bổ sung cho AI:**")
+        extra_context = st.text_area("Nội dung tài liệu (paste từ NotebookLM/Google):", height=180,
+                                     placeholder="Paste nội dung tài liệu đào tạo của bạn vào đây. AI sẽ dùng làm nguồn kiến thức chính...")
+        youtube_link = st.text_input("Link Video YouTube của FOOD WHY (tùy chọn):", placeholder="https://www.youtube.com/watch?v=...")
+        n_sessions   = st.slider("Số Sessions cần tạo:", 1, 6, 4)
+
+        generate_btn = st.button("⚡ TẠO NỘI DUNG TỰ ĐỘNG", type="primary", use_container_width=True)
+
+    with col_r:
+        st.markdown("### 📊 Trạng thái & Kết quả")
+
+        if generate_btn:
+            # Determine unit
+            if new_unit_topic.strip():
+                final_unit_key  = get_next_custom_unit_key()
+                final_unit_name = new_unit_topic.strip()
+                save_custom_unit(final_unit_key, new_unit_icon or "🆕", final_unit_name, new_unit_desc)
+            else:
+                final_unit_key  = unit_key_e
+                final_unit_name = unit_info_e["short"]
+
+            # Build YouTube embed
+            yt_embed = ""
+            if youtube_link:
+                yt_id = ""
+                if "v=" in youtube_link:
+                    yt_id = youtube_link.split("v=")[1].split("&")[0]
+                elif "youtu.be/" in youtube_link:
+                    yt_id = youtube_link.split("youtu.be/")[1].split("?")[0]
+                if yt_id: yt_embed = f"https://www.youtube.com/embed/{yt_id}"
+
+            progress_bar = st.progress(0, text="Đang chuẩn bị...")
+            status_area  = st.empty()
+
+            try:
+                import google.generativeai as genai
+                genai.configure(api_key=api_key, transport="rest")
+                m = genai.GenerativeModel("gemini-2.5-flash")
+
+                knowledge_curr = load_knowledge()
+                all_sessions   = []
+
+                for sess_i in range(1, n_sessions + 1):
+                    progress_bar.progress(int((sess_i - 1) / n_sessions * 90), text=f"⚡ Đang tạo Session {sess_i}/{n_sessions}...")
+                    status_area.info(f"🔄 Session {sess_i}: AI đang nghiên cứu và soạn thảo...")
+
+                    prompt = f"""Bạn là chuyên gia đào tạo ngành An toàn Thực phẩm (Giết mổ & Chế biến Thịt) của FOOD WHY Academy.
+
+Chủ đề khóa học: {final_unit_name}
+Session số: {sess_i}/{n_sessions}
+
+{"Tài liệu tham khảo:" + extra_context[:4000] if extra_context else ""}
+
+Hãy tạo nội dung đầy đủ cho Session {sess_i} theo định dạng JSON sau (trả về JSON thuần túy, không có markdown code block):
+{{
+  "id": "session_{sess_i}",
+  "title": "Tên bài học ngắn gọn, hấp dẫn (tối đa 8 từ)",
+  "week": {sess_i},
+  "video_url": "",
+  "pre_question": {{
+    "question": "Câu hỏi tình huống gợi mở liên quan đến vibe FOOD WHY (Sasa, Ran, Rento). Thực tế, gây tò mò.",
+    "options": ["A. ...", "B. ...", "C. ...", "D. ..."],
+    "correct": 0,
+    "explanation": "Giải thích khoa học ngắn gọn tại sao đáp án đúng (2-3 câu)"
+  }},
+  "content": "Nội dung bài học chi tiết 400-600 từ dùng Markdown. Có tiêu đề ##, bullet, bảng so sánh nếu phù hợp. Thực tiễn, ứng dụng ngay tại nhà máy.",
+  "flashcards": [
+    {{"front": "Thuật ngữ/câu hỏi ngắn", "back": "Định nghĩa/đáp án ngắn gọn có icon emoji"}},
+    {{"front": "...", "back": "..."}},
+    {{"front": "...", "back": "..."}}
+  ],
+  "challenge": "Tình huống thực tế tại nhà máy giết mổ/chế biến thịt chi tiết. Yêu cầu QA phân tích và đề xuất giải pháp cụ thể."
+}}
+
+QUAN TRỌNG: Chỉ trả về JSON hợp lệ, không thêm text ngoài JSON."""
+
+                    resp = m.generate_content(prompt)
+                    raw  = resp.text.strip()
+
+                    # Clean JSON
+                    if raw.startswith("```"):
+                        raw = raw.split("```")[1]
+                        if raw.startswith("json"): raw = raw[4:]
+                    raw = raw.strip().rstrip("```").strip()
+
+                    sess_data = json.loads(raw)
+                    if yt_embed and sess_i == 1:
+                        sess_data["video_url"] = yt_embed
+                    all_sessions.append(sess_data)
+                    status_area.success(f"✅ Session {sess_i}: **{sess_data.get('title','')}** — Hoàn thành!")
+
+                # Save to knowledge_base
+                progress_bar.progress(95, text="Đang lưu vào hệ thống...")
+                kb = load_knowledge()
+                if final_unit_key not in kb:
+                    kb[final_unit_key] = {"title": final_unit_name, "references": [], "core_knowledge": [], "sessions": []}
+                kb[final_unit_key]["sessions"] = all_sessions
+                save_knowledge(kb)
+                firebase_utils.sync_all_to_firebase()
+
+                progress_bar.progress(100, text="✅ Hoàn thành!")
+                st.success(f"""🎉 **Tạo xong {n_sessions} Sessions cho khóa '{final_unit_name}'!**
+                
+Hãy chuyển sang tab **📖 Học Tập** để xem kết quả!""")
+                st.balloons()
+
+            except json.JSONDecodeError as e:
+                st.error(f"❌ AI trả về dữ liệu không đúng format JSON: {e}")
+                st.code(raw[:2000] if 'raw' in dir() else "Không có dữ liệu")
+            except Exception as e:
+                st.error(f"❌ Lỗi: {e}")
+
+        else:
+            st.markdown("""
+            <div style="background:#f9fafb;border-radius:14px;padding:24px;text-align:center;color:#78716c;margin-top:20px;">
+                <div style="font-size:3rem;">🤖</div>
+                <h4 style="color:#44403c;margin:12px 0 8px;">Sẵn sàng tạo nội dung</h4>
+                <p style="font-size:0.85rem;line-height:1.6;">
+                    Chọn khóa học hoặc nhập chủ đề mới ở cột bên trái.<br>
+                    AI sẽ tự động tạo: <b>Câu hỏi gợi mở → Nội dung → Flashcards → Bài tập thử thách</b><br>
+                    cho mỗi Session trong vài giây!
+                </p>
+            </div>
+            """, unsafe_allow_html=True)
+
+        st.markdown("---")
+        # Manage existing sessions
+        st.markdown("### 📋 Quản lý Sessions Hiện Tại")
+        kb_now2 = load_knowledge()
+        all_u2  = get_all_units()
+        for uk, udata in kb_now2.items():
+            sessions_now = udata.get("sessions", [])
+            if sessions_now:
+                uinfo = all_u2.get(uk, {"short": uk, "icon": "📄"})
+                with st.expander(f"{uinfo.get('icon','')} {uinfo['short']} — {len(sessions_now)} Sessions"):
+                    for s in sessions_now:
+                        sc1, sc2 = st.columns([4,1])
+                        sc1.markdown(f"**Tuần {s.get('week','?')}: {s['title']}**")
+                        if sc2.button("🗑️", key=f"del_sess_{uk}_{s['id']}", help="Xóa session"):
+                            kb2 = load_knowledge()
+                            kb2[uk]["sessions"] = [x for x in kb2[uk]["sessions"] if x["id"] != s["id"]]
+                            save_knowledge(kb2)
+                            st.rerun()
